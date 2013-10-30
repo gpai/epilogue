@@ -1,0 +1,5 @@
+<?php
+/* Redirect browser */
+include "home.phtml";
+exit;
+?>
