@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Epilogue/tiles/header.phtml&apos; to &apos;home.phtml&apos;" description="Rename resource &apos;header.phtml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="tiles/header.phtml" name="home.phtml" stamp="1383261777331" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Epilogue/tiles/home.phtml&apos; to &apos;header.phtml&apos;" description="Rename resource &apos;home.phtml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="tiles/home.phtml" name="header.phtml" stamp="1383261800705" updateReferences="true"/>
+</session>

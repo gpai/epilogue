@@ -18,3 +18,13 @@
 [29-Oct-2013 14:12:00] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/j/includes/config.php on line 74
 [29-Oct-2013 14:12:00] CSRF state token does not match one provided.
 [29-Oct-2013 14:12:01] CSRF state token does not match one provided.
+[06-Nov-2013 19:23:14 UTC] PHP Warning:  require_once(../../fb/base_facebook.phpcebook.php): failed to open stream: No such file or directory in C:\Users\Grace\Documents\GitHub\epilogue\sandbox\jed\facebookLogin\includes\lib\fb\facebook.php on line 18
+[06-Nov-2013 19:23:14 UTC] PHP Stack trace:
+[06-Nov-2013 19:23:14 UTC] PHP   1. {main}() C:\Users\Grace\Documents\GitHub\epilogue\sandbox\jed\facebookLogin\login.php:0
+[06-Nov-2013 19:23:14 UTC] PHP   2. require_once() C:\Users\Grace\Documents\GitHub\epilogue\sandbox\jed\facebookLogin\login.php:3
+[06-Nov-2013 19:23:14 UTC] PHP   3. require_once() C:\Users\Grace\Documents\GitHub\epilogue\sandbox\jed\facebookLogin\includes\config.php:28
+[06-Nov-2013 19:23:14 UTC] PHP Fatal error:  require_once(): Failed opening required '../../fb/base_facebook.phpcebook.php' (include_path='.;C:\php\pear') in C:\Users\Grace\Documents\GitHub\epilogue\sandbox\jed\facebookLogin\includes\lib\fb\facebook.php on line 18
+[06-Nov-2013 19:23:14 UTC] PHP Stack trace:
+[06-Nov-2013 19:23:14 UTC] PHP   1. {main}() C:\Users\Grace\Documents\GitHub\epilogue\sandbox\jed\facebookLogin\login.php:0
+[06-Nov-2013 19:23:14 UTC] PHP   2. require_once() C:\Users\Grace\Documents\GitHub\epilogue\sandbox\jed\facebookLogin\login.php:3
+[06-Nov-2013 19:23:14 UTC] PHP   3. require_once() C:\Users\Grace\Documents\GitHub\epilogue\sandbox\jed\facebookLogin\includes\config.php:28
