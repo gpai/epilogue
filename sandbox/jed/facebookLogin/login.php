@@ -1,28 +1,6 @@
 <?php
 
 require_once "includes/config.php";
-
-?>
-<!doctype html>
-<html>
-  <head>
-    <title>php-sdk</title>
-    <style>
-      body {
-        font-family: 'Lucida Grande', Verdana, Arial, sans-serif;
-      }
-      h1 a {
-        text-decoration: none;
-        color: #3b5998;
-      }
-      h1 a:hover {
-        text-decoration: underline;
-      }
-    </style>
-  </head>
-  <body>
-
-<?php 
     
     // If not logged in, we need to process them!
     if (!Login::isLoggedIn()) {
@@ -32,7 +10,3 @@ require_once "includes/config.php";
     }
     
 ?>
-
-  
-  </body>
-</html>
