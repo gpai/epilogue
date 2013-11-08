@@ -1,0 +1,236 @@
+html, body { 
+	background-color: #FFFFFF;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6, p, a{
+	font-family: helvetica;;
+}
+
+#container{
+   width: 96%;
+   margin-left: 2%;
+   margin-right: 2%;
+   margin-top: 2%;
+   
+   
+}
+		
+/* Beginning of CSS for the Epilogue logo*/		
+#header-login { 
+	position: relative;
+	height: 200px;
+	line-height: 200px;
+	max-width: 100%;
+	border-bottom: 1px solid #000000;
+}
+	
+#header-forms { 
+	position: relative;
+	height: 112px;
+	line-height: 112px;
+	max-width: 100%;
+	border-bottom: 1px solid #000000;
+}
+#header { 
+	position: relative;
+	height: 78px;
+	line-height: 78px;
+	width: 100%;
+}
+#logo{
+	float: left;
+}
+	
+	
+/* End of CSS for logo & address*/	
+/* Beginning of CSS for menu bar & submenus*/
+#menuBar{
+	height:20px;
+	max-width: 100%;
+}
+
+#menu a{
+	display:block;
+	float:right;
+	text-decoration: none;
+	color: #000000;
+}
+/* End of CSS for menu bar and submenus */
+
+
+
+/* Beginning of CSS for Box/content*/
+#box {
+/*properties for the box */
+	width: 100%;
+}
+		
+#content{
+/*properties for the content in the box*/
+	max-width: 100%;
+	max-height: 98%;
+	padding-top: 1%;
+}
+#signinpicture{
+/*home page */
+	float: left;
+	width: 50%;
+	margin:0;
+	text-align: center;
+}
+#signinbox{
+/*home page */
+	float: right;
+	width: 50%;
+	margin: 0;
+	font-size:150%;
+	
+}
+#signinbox p {
+/*home page */
+	margin-left: 20%;
+}
+
+#signin{
+/*home page */
+	margin-right: 20%;
+	text-align: right;
+}
+
+#signintext{
+/*home page */
+	text-align: left;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border:solid 1px black;
+	padding:10px;
+	width:70%;
+}
+
+#signinbutton{
+/*home page */
+	text-align: center;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border:solid 1px black;
+	padding:10px;
+	width: 30%;
+}
+
+#message{
+/*message page*/
+	max-width: 100%;
+	display:block;
+	text-align: center;
+}
+
+#memorialInfoBox{
+/*memorial info page*/
+	max-width:100%;
+	border: 1px #969696;
+}
+#memorialCategories{
+	color:#2C3539;
+}
+
+#memorialinfoquestion{
+		float:left;
+	font-size: 200%;
+}
+#memorialinfoanswer{
+	/*memorial info page */
+	float:right;
+	text-align: left;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border:solid 1px black;
+	padding:10px;
+	width:50%;
+}
+
+#memorialCategoryBox{
+/*memorial info page*/
+	margin-left: 22%;
+	margin-top: 60px;
+	border: 1px #969696;
+}
+
+#memorialCategory{
+/*memorial info page*/
+	position: inherit;
+	max-width: 100%;
+}
+#question1{
+	position:inherit;
+	max-width: 100%;
+	height: 50px;
+}
+
+#question2{
+	position:inherit;
+	max-width: 100%;
+	height: 50px;
+}
+
+#question3{
+	position:inherit;
+	max-width: 100%;
+	height: 50px;
+}
+
+
+/*memorial css*/
+#memorial_profilebox{
+	max-width: 90%;
+	height: 200px;
+	display: block;
+}
+
+#profile{
+	width: 25%;
+	margin-left: 3%;
+	display: block;
+	float:left;
+}
+#name_DOD{
+	width: 72%;
+	float:right;
+	text-align:left;
+}
+#memorial_picturesbox{
+	position: inherit;
+	border-top: 1px solid #000000; 
+	border-bottom: 1px solid #000000;
+	max-width: 100%;
+	display:block;
+	text-align: center;
+	margin-left:2%;
+	margin-top: 2%;
+
+}
+#memorial_box{
+	width: 100%;
+}
+#memorial_sections_box{
+	width: 45%;
+	margin-left: 5%;
+	float: left;
+		
+}
+#memorial_stories_box{
+	width: 45%;
+	margin-left: 5%;
+	margin-top: 3%;
+	float: right;
+}
+#memorial_stories{
+	border: 1px solid #000000;
+	width: 100%;
+	height: 430px
+}
+
+/*End of CSS for the conent in the box */
+
+

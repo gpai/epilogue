@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;BootstraphTest&apos; to &apos;BootstrapTest&apos;" description="Rename resource &apos;BootstraphTest&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/BootstraphTest" name="BootstrapTest" stamp="1383168532180" updateReferences="true"/>&#x0A;<refactoring comment="Delete resource &apos;BootstrapTest/test.php&apos;" deleteContents="false" description="Delete resource &apos;BootstrapTest/test.php&apos;" element1="/BootstrapTest/test.php" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1383169036360"/>
-</session>

@@ -1,7 +1,0 @@
-<?php
-/* Redirect browser */
-include "home.phtml";
-
-$name = "Bob";
-exit;
-?>

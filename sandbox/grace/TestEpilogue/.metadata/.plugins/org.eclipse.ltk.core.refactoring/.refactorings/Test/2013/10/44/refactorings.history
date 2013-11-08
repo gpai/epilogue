@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;Test/home.phtml.txt&apos; to &apos;home.phtml&apos;" description="Rename resource &apos;home.phtml.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="home.phtml.txt" name="home.phtml" stamp="1383170744141" updateReferences="true"/>
-</session>

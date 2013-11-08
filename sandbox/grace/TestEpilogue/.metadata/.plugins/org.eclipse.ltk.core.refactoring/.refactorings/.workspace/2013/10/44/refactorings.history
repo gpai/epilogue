@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete 2 resources" deleteContents="false" description="Delete 2 resources" element1="/Epilogue/css/jumbotron.css" element2="/Epilogue/css/signin.css" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1383261397038"/>
-</session>
