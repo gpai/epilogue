@@ -1,0 +1,13 @@
+{
+	"authors" : [{
+			"name" : "Jed Brubaker",
+			"email" : "jedbrubaker@gmail.com",
+			"homepage" : "www.jedbrubaker.com"
+		}
+	],
+	"require" : {
+		"phpunit/phpunit" : "dev-master",
+		"swiftmailer/swiftmailer" : "dev-master",
+		"psr/log" : "dev-master"
+	}
+}

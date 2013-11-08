@@ -1,0 +1,10 @@
+Grace get on this.
+
+<?php
+    // If not logged in, we need to process them!
+    if (!$loggedIn) {
+    	echo 	'<a href="'. $loginUrl .'"><button class="btn btn-primary btn-large"><i class="icon-facebook"></i>Login with Facebook</button></a>';
+    } elseif ($loggedIn) {
+    	echo '<a href="'. $logoutUrl .'">Logout</a>';
+    }
+?>
