@@ -1,0 +1,10 @@
+.navbar-brand{
+	padding-top: 10px;
+	padding-bottom: 0;
+}
+
+.navbar,
+.navbar-inverse{
+	width: 100%;
+	border-radius: 0px;
+}

@@ -1,0 +1,33 @@
+body{
+	background-color: #FFFFFF;
+}
+.jumbotron{
+	margin: 5% auto 1% auto;
+	width: 90%;
+	height: 100%;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	padding: 5% 3% 5% 10%;
+	overflow: hidden;
+}
+
+#fb_button{
+	padding-left: 22%;
+	border-left: 15%;
+}
+
+#fb_logo{
+	margin-right: 8%;
+}
+
+.col-lg-12{
+	text-align: right;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.btn,
+.btn-primary,
+.btn-lg{
+	padding-right: 4%;
+}
