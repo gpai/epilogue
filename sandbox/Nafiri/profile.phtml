@@ -1,1 +1,33 @@
-PROFILE FOR GRAAACE
+<?php 
+
+echo "<html> <a href='createDeadInfo.php'>Create New</a> 
+	<a href='invitations.php'>Invitations</a>
+	<a href='pastMemorials.php'>Past Memorials</a>
+	<a href='finalizeDaysLeft.php'>Finalize</a></html>";
+ 	
+?>
+
+
+Profile consists of 3 parts:
+-Projects
+	-Create New: redirect to createDeadInfo.phtml
+	-Exiting Memorials:
+		-Edit
+			-Redirect to defaultMemorial.phtml
+		-Collaborators
+			-Users can add or delete collaborators in this memorial:
+				-Add: Need a owner's friends list. (Marie)
+				-Delete
+		-Finalize
+			-Redirect to finalizeDaysLeft.phtml
+		-Discard
+			-Pop-up box "are you sure?"
+			-Hide/delete the memorial from the profile.
+-Invitations
+	-List of memorials they've been invited to.
+		-Pop-up "Do you want to join the memorial?"
+-Past Memorials
+	-List of past memorials they've made or have been a part of
+		-Redirect to finalizeDownload.phtml
+		
+		
