@@ -31,5 +31,16 @@ Profile consists of 3 parts:
 -Past Memorials
 	-List of past memorials they've made or have been a part of
 		-Redirect to finalizeDownload.phtml
-		
-		
+<?php	
+echo "<br />";echo "<br />";
+foreach ($memorials as $memorial) {
+	echo "MEMORIAL ID: ".$memorial['id'];
+	echo "<br />";
+	echo "Menu: ";
+	echo "<a href='discard.php?memorial_id=".$memorial['id'].">Discard</a>";
+	echo "<br />";
+	echo "<br />";
+
+}
+
+?>
