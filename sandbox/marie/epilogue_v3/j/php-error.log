@@ -1,0 +1,43 @@
+[29-Oct-2013 10:55:03] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/j/includes/config.php on line 74
+[29-Oct-2013 10:55:03] CSRF state token does not match one provided.
+[29-Oct-2013 10:55:03] PHP Notice:  Undefined variable: facebook in /hsphere/local/home/vixen/duidesign.com/j/includes/classes/Login.php on line 70
+[29-Oct-2013 10:55:03] PHP Fatal error:  Call to a member function api() on a non-object in /hsphere/local/home/vixen/duidesign.com/j/includes/classes/Login.php on line 70
+[29-Oct-2013 10:55:37] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/j/includes/config.php on line 74
+[29-Oct-2013 10:55:37] CSRF state token does not match one provided.
+[29-Oct-2013 10:56:23] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/j/includes/config.php on line 74
+[29-Oct-2013 10:56:23] CSRF state token does not match one provided.
+[29-Oct-2013 10:56:24] CSRF state token does not match one provided.
+[29-Oct-2013 10:56:33] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/j/includes/config.php on line 74
+[29-Oct-2013 10:56:34] PHP Warning:  mysql_close(): 9 is not a valid MySQL-Link resource in /hsphere/local/home/vixen/duidesign.com/j/includes/classes/Db.php on line 71
+[29-Oct-2013 11:04:29] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/j/includes/config.php on line 74
+[29-Oct-2013 11:04:47] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/j/includes/config.php on line 74
+[29-Oct-2013 11:06:16] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/j/includes/config.php on line 74
+[29-Oct-2013 11:06:28] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/j/includes/config.php on line 74
+[29-Oct-2013 11:06:30] CSRF state token does not match one provided.
+[29-Oct-2013 14:10:13] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/j/includes/config.php on line 74
+[29-Oct-2013 14:12:00] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/j/includes/config.php on line 74
+[29-Oct-2013 14:12:00] CSRF state token does not match one provided.
+[29-Oct-2013 14:12:01] CSRF state token does not match one provided.
+[30-Oct-2013 20:12:31] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/j/includes/config.php on line 74
+[30-Oct-2013 20:12:35] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/j/includes/config.php on line 74
+[30-Oct-2013 20:12:40] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/j/includes/config.php on line 74
+[30-Oct-2013 20:12:41] CSRF state token does not match one provided.
+[30-Oct-2013 20:12:50] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/j/includes/config.php on line 74
+[30-Oct-2013 20:12:50] PHP Warning:  mysql_close(): 9 is not a valid MySQL-Link resource in /hsphere/local/home/vixen/duidesign.com/j/includes/classes/Db.php on line 71
+[30-Oct-2013 20:13:18] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/j/includes/config.php on line 74
+[30-Oct-2013 20:13:21] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/j/includes/config.php on line 74
+[30-Oct-2013 20:13:38] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/j/includes/config.php on line 74
+[30-Oct-2013 20:13:39] CSRF state token does not match one provided.
+[30-Oct-2013 20:14:04] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/j/includes/config.php on line 74
+[01-Nov-2013 10:26:11] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[01-Nov-2013 10:27:05] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[01-Nov-2013 10:27:06] PHP Fatal error:  Call to undefined function  file_get_html() in /hsphere/local/home/vixen/duidesign.com/working/j/samplepage.php on line 20
+[01-Nov-2013 10:28:11] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 13:56:18] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 13:57:35] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 13:59:31] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 16:18:58] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 75
+[02-Nov-2013 16:19:01] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 75
+[02-Nov-2013 16:21:16] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 75
+[02-Nov-2013 16:21:23] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 75
+[02-Nov-2013 16:21:27] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 75
