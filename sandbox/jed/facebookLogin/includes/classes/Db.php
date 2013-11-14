@@ -11,17 +11,19 @@ class Db {
 	private $_sql_db = '';
 	private $_sql_user = '';
 	private $_sql_pass = '';
+	private $_sql_host = '';
 
 	private $_sql = '';
 	
 	private $_queries = 0;
 
-	function __construct($user, $pass, $db) {
+	function __construct($user, $pass, $db, $host="localhost") {
 		$this->_sql_db = $db;
 		$this->_sql_user = $user;
 		$this->_sql_pass = $pass;
+		$this->_sql_host = $host;
 
-		$this->_sql = mysql_connect("localhost", $this->_sql_user, $this->_sql_pass);
+		$this->_sql = mysql_connect($this->_sql_host, $this->_sql_user, $this->_sql_pass);
 
 		mysql_select_db($this->_sql_db, $this->_sql);
 	}

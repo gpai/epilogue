@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="org.eclipse.dltk.core.index:5.0.0.201306112303"/>
+		<item value="org.eclipse.dltk.core:5.0.0.201306112303"/>
+		<item value="org.eclipse.draw2d:3.9.0.201212170307"/>
+		<item value="org.eclipse.emf.common.ui:2.7.0.v20130125-0826"/>
+		<item value="org.eclipse.emf.common:2.8.0.v20130125-0546"/>
+		<item value="org.eclipse.emf.ecore.edit:2.8.0.v20130125-0826"/>
+		<item value="org.eclipse.emf.ecore:2.8.3.v20130125-0546"/>
+		<item value="org.eclipse.emf.edit.ui:2.8.0.v20130125-0826"/>
+		<item value="org.eclipse.emf.edit:2.8.0.v20130125-0826"/>
+		<item value="org.eclipse.gef:3.9.0.201212170307"/>
+		<item value="org.eclipse.help:1.4.1.v20120912-145617-8R7xFOXFLWUl7PpMEeZNIGkb4"/>
+		<item value="org.eclipse.platform:3.8.1.v20130118-180812-9jF7oIBFG8eU2pim-VbIlTuQjY0RWWK3x-bv4I"/>
+		<item value="org.eclipse.rcp:3.8.2.v20130118-180157-96BuGOZFxwOAeG8Ofmqicz0tPK"/>
+		<item value="org.eclipse.wst.common.fproj:3.4.0.v201202292300-377F8N8s735555393B7B"/>
+		<item value="org.eclipse.xsd.edit:2.7.0.v20130125-0826"/>
+		<item value="org.eclipse.xsd:2.8.1.v20130125-0826"/>
+		<item value="org.zend.php.common:1.0.0.201306211118-7C-0773593F75555J"/>
+	</list>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="251" key="DIALOG_Y_ORIGIN"/>
+		<item value="498" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="BasicNewProjectResourceWizard">
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="com.zend.php.ui.project.wizard.existingphp" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+</section>

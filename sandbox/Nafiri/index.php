@@ -14,6 +14,8 @@ require_once "includes/config.php";
     $loginUrl = Login::getLoginUrl();
     $logoutUrl = Login::getLogoutUrl();
     
+    //Marie obtains their public Facebook information after logging in.
+    
 include "index.phtml";
     
 ?>

@@ -1,0 +1,25 @@
+
+<html>
+	<a href="profile.php">Account</a>
+</html>
+This is the page where users can edit their collaborators: (on both cases, users will stay on the same page after making additions or deletions)
+-Add
+	-Need friends list (Marie).
+	-A message is sent to the friend through Facebook. (maybe an alert telling the user that a message has been sent.)
+-Delete
+	-Select collaborator and deletes.
+	
+	
+<?php	
+echo "<br />";echo "<br />";
+foreach ($friends as $friends) {
+	echo "MEMORIAL ID: ".$friends['id'];
+	echo "<br />";
+	echo "Menu: ";
+	echo "<a href='profileCollaborators.php?friends_id=".$friends['id']."'>Collaborators</a>";
+	echo "<br />";
+	echo "<br />";
+
+}
+
+?>
