@@ -43,10 +43,8 @@ require_once 'classes/Session.php';
 $config = array();
 
 $config['session']['name'] = "epi";
-$config['session']['host'] = ".duidesign.com";
+$config['session']['host'] = "localhost";
 $config['session']['dbtable'] = "session";
-
-
 
 $config['fb']['appId'] = '665113106856066';
 $config['fb']['secret'] = '2d230b0ad9a39b85f68d4aa235d8d8ee';
@@ -74,7 +72,7 @@ session_name($config['session']['name']);
 session_set_cookie_params(0, '/', $config['session']['host']);
 session_start();
 
-// Baldwin Foo
+// Connect to the database
 $db = new Db($config['db']['user'], $config['db']['password'], $config['db']['schema'], $config['db']['host']);
 $epilogue = new Epilogue($db, $facebook);
 $epilogue->fbCheck();
