@@ -1973,3 +1973,380 @@ Stack trace:
 [13-Nov-2013 23:27:47 UTC] PHP Stack trace:
 [13-Nov-2013 23:27:47 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
 [13-Nov-2013 23:27:47 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:13
+[14-Nov-2013 02:18:39 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 02:18:40 UTC] PHP Stack trace:
+[14-Nov-2013 02:18:40 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[14-Nov-2013 02:18:40 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:2
+[14-Nov-2013 02:18:40 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 02:18:40 UTC] PHP Notice:  Undefined index: id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.phtml on line 37
+[14-Nov-2013 02:18:40 UTC] PHP Stack trace:
+[14-Nov-2013 02:18:40 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[14-Nov-2013 02:18:40 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:13
+[14-Nov-2013 02:18:40 UTC] PHP Notice:  Undefined index: id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.phtml on line 40
+[14-Nov-2013 02:18:40 UTC] PHP Stack trace:
+[14-Nov-2013 02:18:40 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[14-Nov-2013 02:18:40 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:13
+[14-Nov-2013 02:19:37 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 02:19:37 UTC] PHP Stack trace:
+[14-Nov-2013 02:19:37 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\discard.php:0
+[14-Nov-2013 02:19:37 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\discard.php:2
+[14-Nov-2013 02:19:37 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:22:28 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:22:28 UTC] PHP Stack trace:
+[14-Nov-2013 04:22:28 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[14-Nov-2013 04:22:28 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:2
+[14-Nov-2013 04:22:28 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:22:28 UTC] PHP Notice:  Undefined index: id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.phtml on line 37
+[14-Nov-2013 04:22:28 UTC] PHP Stack trace:
+[14-Nov-2013 04:22:28 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[14-Nov-2013 04:22:28 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:13
+[14-Nov-2013 04:22:28 UTC] PHP Notice:  Undefined index: id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.phtml on line 40
+[14-Nov-2013 04:22:28 UTC] PHP Stack trace:
+[14-Nov-2013 04:22:28 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[14-Nov-2013 04:22:28 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:13
+[14-Nov-2013 04:22:30 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:22:30 UTC] PHP Stack trace:
+[14-Nov-2013 04:22:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[14-Nov-2013 04:22:30 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:2
+[14-Nov-2013 04:22:30 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:22:30 UTC] PHP Notice:  Undefined index: id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.phtml on line 37
+[14-Nov-2013 04:22:30 UTC] PHP Stack trace:
+[14-Nov-2013 04:22:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[14-Nov-2013 04:22:30 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:13
+[14-Nov-2013 04:22:30 UTC] PHP Notice:  Undefined index: id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.phtml on line 40
+[14-Nov-2013 04:22:30 UTC] PHP Stack trace:
+[14-Nov-2013 04:22:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[14-Nov-2013 04:22:30 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:13
+[14-Nov-2013 04:22:33 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:22:33 UTC] PHP Stack trace:
+[14-Nov-2013 04:22:33 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[14-Nov-2013 04:22:33 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:2
+[14-Nov-2013 04:22:33 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:22:33 UTC] PHP Notice:  Undefined index: id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.phtml on line 37
+[14-Nov-2013 04:22:33 UTC] PHP Stack trace:
+[14-Nov-2013 04:22:33 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[14-Nov-2013 04:22:33 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:13
+[14-Nov-2013 04:22:33 UTC] PHP Notice:  Undefined index: id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.phtml on line 40
+[14-Nov-2013 04:22:33 UTC] PHP Stack trace:
+[14-Nov-2013 04:22:33 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[14-Nov-2013 04:22:33 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:13
+[14-Nov-2013 04:22:34 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:22:34 UTC] PHP Stack trace:
+[14-Nov-2013 04:22:34 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[14-Nov-2013 04:22:34 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:2
+[14-Nov-2013 04:22:34 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:22:34 UTC] PHP Notice:  Undefined index: id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.phtml on line 37
+[14-Nov-2013 04:22:34 UTC] PHP Stack trace:
+[14-Nov-2013 04:22:34 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[14-Nov-2013 04:22:34 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:13
+[14-Nov-2013 04:22:34 UTC] PHP Notice:  Undefined index: id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.phtml on line 40
+[14-Nov-2013 04:22:34 UTC] PHP Stack trace:
+[14-Nov-2013 04:22:34 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[14-Nov-2013 04:22:34 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:13
+[14-Nov-2013 04:22:34 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:22:34 UTC] PHP Stack trace:
+[14-Nov-2013 04:22:34 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:22:34 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:22:34 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:22:34 UTC] PHP Notice:  Undefined index: id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.phtml on line 16
+[14-Nov-2013 04:22:34 UTC] PHP Stack trace:
+[14-Nov-2013 04:22:34 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:22:34 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:42
+[14-Nov-2013 04:22:34 UTC] PHP Notice:  Undefined index: id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.phtml on line 19
+[14-Nov-2013 04:22:34 UTC] PHP Stack trace:
+[14-Nov-2013 04:22:34 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:22:34 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:42
+[14-Nov-2013 04:23:35 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:23:35 UTC] PHP Stack trace:
+[14-Nov-2013 04:23:35 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:23:35 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:23:35 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:23:35 UTC] PHP Notice:  Undefined index: id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.phtml on line 16
+[14-Nov-2013 04:23:35 UTC] PHP Stack trace:
+[14-Nov-2013 04:23:35 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:23:35 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:43
+[14-Nov-2013 04:23:35 UTC] PHP Notice:  Undefined index: id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.phtml on line 19
+[14-Nov-2013 04:23:35 UTC] PHP Stack trace:
+[14-Nov-2013 04:23:35 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:23:35 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:43
+[14-Nov-2013 04:23:43 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:23:43 UTC] PHP Stack trace:
+[14-Nov-2013 04:23:43 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:23:43 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:23:43 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:23:43 UTC] PHP Notice:  Undefined index: id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.phtml on line 16
+[14-Nov-2013 04:23:43 UTC] PHP Stack trace:
+[14-Nov-2013 04:23:43 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:23:43 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:43
+[14-Nov-2013 04:23:43 UTC] PHP Notice:  Undefined index: id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.phtml on line 19
+[14-Nov-2013 04:23:43 UTC] PHP Stack trace:
+[14-Nov-2013 04:23:43 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:23:43 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:43
+[14-Nov-2013 04:23:56 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:23:56 UTC] PHP Stack trace:
+[14-Nov-2013 04:23:56 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:23:56 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:23:56 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:23:56 UTC] PHP Notice:  Undefined index: id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.phtml on line 16
+[14-Nov-2013 04:23:56 UTC] PHP Stack trace:
+[14-Nov-2013 04:23:56 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:23:56 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:43
+[14-Nov-2013 04:23:56 UTC] PHP Notice:  Undefined index: id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.phtml on line 19
+[14-Nov-2013 04:23:56 UTC] PHP Stack trace:
+[14-Nov-2013 04:23:56 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:23:56 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:43
+[14-Nov-2013 04:24:51 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:24:51 UTC] PHP Stack trace:
+[14-Nov-2013 04:24:51 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:24:51 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:24:51 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:24:51 UTC] PHP Notice:  Undefined index: id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.phtml on line 16
+[14-Nov-2013 04:24:51 UTC] PHP Stack trace:
+[14-Nov-2013 04:24:51 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:24:51 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:43
+[14-Nov-2013 04:24:51 UTC] PHP Notice:  Undefined index: id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.phtml on line 19
+[14-Nov-2013 04:24:51 UTC] PHP Stack trace:
+[14-Nov-2013 04:24:51 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:24:51 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:43
+[14-Nov-2013 04:26:41 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:26:41 UTC] PHP Stack trace:
+[14-Nov-2013 04:26:41 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:26:41 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:26:41 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:26:41 UTC] PHP Notice:  Undefined index: id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.phtml on line 16
+[14-Nov-2013 04:26:41 UTC] PHP Stack trace:
+[14-Nov-2013 04:26:41 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:26:41 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:43
+[14-Nov-2013 04:26:41 UTC] PHP Notice:  Undefined index: id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.phtml on line 19
+[14-Nov-2013 04:26:41 UTC] PHP Stack trace:
+[14-Nov-2013 04:26:41 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:26:41 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:43
+[14-Nov-2013 04:26:42 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:26:42 UTC] PHP Stack trace:
+[14-Nov-2013 04:26:42 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:26:42 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:26:42 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:26:42 UTC] PHP Notice:  Undefined index: id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.phtml on line 16
+[14-Nov-2013 04:26:42 UTC] PHP Stack trace:
+[14-Nov-2013 04:26:42 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:26:42 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:43
+[14-Nov-2013 04:26:42 UTC] PHP Notice:  Undefined index: id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.phtml on line 19
+[14-Nov-2013 04:26:42 UTC] PHP Stack trace:
+[14-Nov-2013 04:26:42 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:26:42 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:43
+[14-Nov-2013 04:28:02 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:28:02 UTC] PHP Stack trace:
+[14-Nov-2013 04:28:02 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:28:02 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:28:02 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:28:02 UTC] PHP Notice:  Undefined index: id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.phtml on line 16
+[14-Nov-2013 04:28:02 UTC] PHP Stack trace:
+[14-Nov-2013 04:28:02 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:28:02 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:43
+[14-Nov-2013 04:28:02 UTC] PHP Notice:  Undefined index: id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.phtml on line 19
+[14-Nov-2013 04:28:02 UTC] PHP Stack trace:
+[14-Nov-2013 04:28:02 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:28:02 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:43
+[14-Nov-2013 04:30:37 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:30:37 UTC] PHP Stack trace:
+[14-Nov-2013 04:30:37 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:30:37 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:30:37 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:32:25 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:32:25 UTC] PHP Stack trace:
+[14-Nov-2013 04:32:25 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:32:25 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:32:25 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:33:38 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:33:38 UTC] PHP Stack trace:
+[14-Nov-2013 04:33:38 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:33:38 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:33:38 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:34:02 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:34:02 UTC] PHP Stack trace:
+[14-Nov-2013 04:34:02 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:34:02 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:34:02 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:34:10 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:34:10 UTC] PHP Stack trace:
+[14-Nov-2013 04:34:10 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:34:10 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:34:10 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:34:11 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:34:11 UTC] PHP Stack trace:
+[14-Nov-2013 04:34:11 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:34:11 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:34:11 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:35:24 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:35:24 UTC] PHP Stack trace:
+[14-Nov-2013 04:35:24 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:35:24 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:35:24 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:35:31 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:35:31 UTC] PHP Stack trace:
+[14-Nov-2013 04:35:31 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:35:31 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:35:31 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:38:54 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:38:54 UTC] PHP Stack trace:
+[14-Nov-2013 04:38:54 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:38:54 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:38:54 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:38:55 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:38:55 UTC] PHP Stack trace:
+[14-Nov-2013 04:38:55 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:38:55 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:38:55 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:38:55 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:38:55 UTC] PHP Stack trace:
+[14-Nov-2013 04:38:55 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:38:55 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:38:55 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:38:56 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:38:56 UTC] PHP Stack trace:
+[14-Nov-2013 04:38:56 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:38:56 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:38:56 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:38:56 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:38:56 UTC] PHP Stack trace:
+[14-Nov-2013 04:38:56 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:38:56 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:38:56 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:38:56 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:38:56 UTC] PHP Stack trace:
+[14-Nov-2013 04:38:56 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:38:56 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:38:56 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:38:56 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:38:56 UTC] PHP Stack trace:
+[14-Nov-2013 04:38:56 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:38:56 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:38:56 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:38:56 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:38:56 UTC] PHP Stack trace:
+[14-Nov-2013 04:38:56 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:38:56 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:38:56 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:38:56 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:38:56 UTC] PHP Stack trace:
+[14-Nov-2013 04:38:56 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:38:56 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:38:56 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:38:57 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:38:57 UTC] PHP Stack trace:
+[14-Nov-2013 04:38:57 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:38:57 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:38:57 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:38:57 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:38:57 UTC] PHP Stack trace:
+[14-Nov-2013 04:38:57 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:38:57 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:38:57 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:38:57 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:38:57 UTC] PHP Stack trace:
+[14-Nov-2013 04:38:57 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:38:57 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:38:57 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:38:57 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:38:57 UTC] PHP Stack trace:
+[14-Nov-2013 04:38:57 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:38:57 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:38:57 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:38:57 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:38:57 UTC] PHP Stack trace:
+[14-Nov-2013 04:38:57 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:38:57 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:38:57 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:41:06 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:41:06 UTC] PHP Stack trace:
+[14-Nov-2013 04:41:06 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:41:06 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:41:06 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:41:45 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:41:45 UTC] PHP Stack trace:
+[14-Nov-2013 04:41:45 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:41:45 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:41:45 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:41:57 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:41:57 UTC] PHP Stack trace:
+[14-Nov-2013 04:41:57 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:41:57 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:41:57 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:54:16 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:54:16 UTC] PHP Stack trace:
+[14-Nov-2013 04:54:16 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:54:16 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:54:16 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:54:37 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:54:37 UTC] PHP Stack trace:
+[14-Nov-2013 04:54:37 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:54:37 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:54:37 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:55:23 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:55:23 UTC] PHP Stack trace:
+[14-Nov-2013 04:55:23 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:55:23 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:55:23 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:55:25 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:55:25 UTC] PHP Stack trace:
+[14-Nov-2013 04:55:25 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:55:25 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:55:25 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:55:26 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:55:26 UTC] PHP Stack trace:
+[14-Nov-2013 04:55:26 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:55:26 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:55:26 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:55:26 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:55:26 UTC] PHP Stack trace:
+[14-Nov-2013 04:55:26 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:55:26 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:55:26 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:55:27 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:55:27 UTC] PHP Stack trace:
+[14-Nov-2013 04:55:27 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:55:27 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:55:27 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:55:37 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:55:37 UTC] PHP Stack trace:
+[14-Nov-2013 04:55:37 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:55:37 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:55:37 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:55:38 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:55:38 UTC] PHP Stack trace:
+[14-Nov-2013 04:55:38 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:55:38 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:55:38 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:55:54 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:55:54 UTC] PHP Stack trace:
+[14-Nov-2013 04:55:54 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:55:54 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:55:54 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:55:55 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:55:55 UTC] PHP Stack trace:
+[14-Nov-2013 04:55:55 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:55:55 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:55:55 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 04:56:16 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 04:56:16 UTC] PHP Stack trace:
+[14-Nov-2013 04:56:16 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 04:56:16 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 04:56:16 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 05:00:33 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 05:00:33 UTC] PHP Stack trace:
+[14-Nov-2013 05:00:33 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 05:00:33 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 05:00:33 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[14-Nov-2013 05:00:33 UTC] PHP Notice:  Undefined index: id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.phtml on line 16
+[14-Nov-2013 05:00:33 UTC] PHP Stack trace:
+[14-Nov-2013 05:00:33 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 05:00:33 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:53
+[14-Nov-2013 05:00:33 UTC] PHP Notice:  Undefined index: id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.phtml on line 19
+[14-Nov-2013 05:00:33 UTC] PHP Stack trace:
+[14-Nov-2013 05:00:33 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 05:00:33 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:53
+[14-Nov-2013 05:07:23 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[14-Nov-2013 05:07:23 UTC] PHP Stack trace:
+[14-Nov-2013 05:07:23 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:0
+[14-Nov-2013 05:07:23 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profileCollaborators.php:2
+[14-Nov-2013 05:07:23 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
