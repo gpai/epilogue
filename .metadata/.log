@@ -1,0 +1,52 @@
+!SESSION 2013-11-14 13:25:22.396 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/sarahhuffman/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -data /Users/sarahhuffman/epilogue -keyring /Users/sarahhuffman/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-11-14 13:25:40.384
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2013-11-14 13:25:56.066
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-11-14 13:25:56.066
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@181d405,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@86b4d5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.jface 2 0 2013-11-14 13:30:17.061
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-11-14 13:30:17.061
+!MESSAGE A conflict occurred for CTRL+/:
+Binding(CTRL+/,
+	ParameterizedCommand(Command(net.sourceforge.phpeclipse.phpeditor.toggle.comment,Toggle Comment,
+		Toggle comment the selected lines,
+		Category(net.sourceforge.phpeclipse.ui.category.source,PHP Source,PHP Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1cf437c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	net.sourceforge.phpdt.ui.phpEditorScope,,,system)
+Binding(CTRL+/,
+	ParameterizedCommand(Command(net.sourceforge.phpeclipse.phpeditor.toggle.comment,Toggle Comment,
+		Toggle comment the selected lines,
+		Category(net.sourceforge.phpeclipse.ui.category.source,PHP Source,PHP Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1cf437c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	net.sourceforge.phpdt.ui.phpEditorScope,,cocoa,system)
