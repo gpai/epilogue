@@ -42,7 +42,6 @@ class Epilogue {
 
 	public function isLoggedIn() {
 		if ($this->_id && isset($_SESSION['epi_id'])) { // Check if user has a current ID...
-			echo "Has ID";
 			if (!$this->hasAccount($this->_id)) {
 				$this->makeAccount($this->_id);
 			}
