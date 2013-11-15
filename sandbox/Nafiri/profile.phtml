@@ -33,11 +33,12 @@ Profile consists of 3 parts:
 		-Redirect to finalizeDownload.phtml
 <?php	
 echo "<br />";echo "<br />";
-foreach ($memorials as $memorial) {
-	echo "MEMORIAL ID: ".$memorial['id'];
+foreach ($memorials as $mId=>$mName) {
+	echo "MEMORIAL ID: ".$mId;
 	echo "<br />";
-	echo "Menu: ";
-	echo "<a href='discard.php?memorial_id=".$memorial['id'].">Discard</a>";
+	echo "Name: ".$mName['name'];
+	echo "<br />";
+	echo "<a href='discard.php?memorial_id=".$mId."'>Discard</a>";
 	echo "<br />";
 	echo "<br />";
 

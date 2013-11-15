@@ -7,11 +7,13 @@ require_once "includes/config.php";
 // - Memorial id
 // - User id
 
+//Needs a list of collaborators based on the memorial id. (get list from Marie)
+
 echo "Only debug code should be echoed in a controller.";
 echo "My memorial ID is: ".$_GET['memorial_id'];
 echo "My user id is: ";
 
-//var_dump($_GET);
+var_dump($_GET);
 
 include "discard.phtml";
 ?>
