@@ -6,7 +6,7 @@ $selected_memorial_id = '688307710';
 $selected_epilogue_id = "100005789522071";
 
 function GetMemorialId($selected_epilogue_id){
-	global $sql;
+	global $db;
 
 	$query = "SELECT memorial_id FROM memorial_id WHERE epilogue_user_id = '$selected_epilogue_id' ";
 	$result = $sql->query($query);
@@ -33,21 +33,21 @@ function GetMemorialId($selected_epilogue_id){
 	}
 
 	// Go on secondary data
-	foreach ($resultSet as $key => $result) {
+//	foreach ($resultSet as $key => $result) {
 		//	$SQL1 = "SELECT deceased_name FROM deceased_profile WHERE memorial_id = '$selected_memorial_id'" ;
 		//	$result1 = mysql_query($SQL1, $link);
 
 		// Run this query
 		// Fetch the result and assign it to $value
 
-		$resultSet[$key]['deceased_name'] = "TBD"; //$value
+//		$resultSet[$key]['deceased_name'] = "TBD"; //$value
 
-	}
+//	}
 
 	return $resultSet;
 
 }
 
-GetMemorialId($selected_memorial_id,$selected_epilogue_id);
+
 
 ?>

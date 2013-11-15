@@ -1,5 +1,5 @@
 <?php
-require_once "j/includes/config.php";
+require_once "includes/config.php";
 //require_once "common.php";
 // This is on hold until we hear from Nafiri : )
 
@@ -59,11 +59,7 @@ function UpdateInviteStatus() {
 
 	$update_this = "UPDATE `Vixen_test`.`user_friend_list` SET invited = 'Y' WHERE facebook_user_id = '$invite_this_friend' AND epilogue_user_id = '$epilogue_user_id'";
 	mysql_query($update_this, $link);
-
-
 }
-
-
 
 
 ?>

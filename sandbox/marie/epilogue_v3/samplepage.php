@@ -1,6 +1,6 @@
 <?php
-require_once "j/includes/config.php";
-require_once "common.php";
+require_once "includes/config.php";
+//require_once "common.php";
 
 if (Login::isLoggedIn()): ?>
 

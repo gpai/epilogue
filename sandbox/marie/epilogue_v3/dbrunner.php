@@ -1,7 +1,7 @@
 <?php
 
 
-include 'include/config.php';
+include 'includes/config.php';
 
 // This is a list of the files I need to include to make things work.
 include 'get_memorial_id.php';
@@ -19,3 +19,4 @@ GetMemorialId($userId);
 // GetFooBar
 //...
 
+?>

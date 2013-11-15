@@ -1,5 +1,5 @@
 <?php
-require_once "j/includes/config.php";
+require_once "includes/config.php";
 // This is where the deceased profile data for the memorial site will get pulled and put in the db
 // $deceased_facebook_user_id;
 // $deceased_name;
