@@ -1,0 +1,187 @@
+[02-Nov-2013 14:05:45] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 14:07:07] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 14:07:49] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 14:08:07] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 14:18:57] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 14:45:08] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 14:45:57] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 14:45:57] PHP Warning:  array_walk_recursive(): The argument should be an array in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 28
+[02-Nov-2013 14:46:09] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 14:46:10] PHP Warning:  array_walk_recursive(): The argument should be an array in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 28
+[02-Nov-2013 14:46:48] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 14:46:49] PHP Warning:  array_walk_recursive(): The argument should be an array in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 30
+[02-Nov-2013 14:47:22] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 14:47:47] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 14:48:20] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 14:49:34] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 15:03:08] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 15:06:06] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 15:30:45] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 15:31:56] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 15:33:33] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 15:34:05] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 15:37:51] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 15:37:52] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:37:52] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:37:52] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:37:52] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:37:52] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:37:52] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:37:52] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:37:52] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:37:52] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:37:52] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:37:52] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:37:52] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:37:52] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:37:52] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:37:52] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:37:52] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:37:52] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:03] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 15:39:04] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:04] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:04] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:04] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:04] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:04] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:04] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:04] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:04] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:04] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:04] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:04] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:04] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:04] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:04] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:04] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:04] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:14] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 15:39:15] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:15] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:15] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:15] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:15] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:15] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:15] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:15] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:15] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:15] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:15] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:15] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:15] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:15] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:15] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:15] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:39:15] PHP Notice:  Undefined variable: temp in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 39
+[02-Nov-2013 15:40:19] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 15:58:43] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 16:00:30] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 16:00:43] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 16:02:17] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 16:03:22] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 16:07:06] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 16:08:00] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 16:08:39] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 16:11:43] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 16:12:38] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 74
+[02-Nov-2013 16:18:48] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 75
+[02-Nov-2013 16:18:49] PHP Notice:  Undefined variable: user_profile in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 21
+[02-Nov-2013 16:18:49] PHP Warning:  array_values(): The argument should be an array in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 21
+[02-Nov-2013 16:18:49] PHP Warning:  array_walk_recursive(): The argument should be an array in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 44
+[02-Nov-2013 16:19:39] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 75
+[02-Nov-2013 16:19:39] PHP Notice:  Undefined variable: user_profile in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 21
+[02-Nov-2013 16:19:39] PHP Warning:  array_values(): The argument should be an array in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 21
+[02-Nov-2013 16:19:39] PHP Warning:  array_walk_recursive(): The argument should be an array in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 44
+[02-Nov-2013 16:20:27] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 75
+[02-Nov-2013 16:20:28] PHP Notice:  Undefined variable: user_profile in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 21
+[02-Nov-2013 16:20:28] PHP Warning:  array_values(): The argument should be an array in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 21
+[02-Nov-2013 16:20:28] PHP Warning:  array_walk_recursive(): The argument should be an array in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 44
+[02-Nov-2013 16:20:55] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 75
+[02-Nov-2013 16:20:55] PHP Notice:  Undefined variable: user_profile in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 21
+[02-Nov-2013 16:20:55] PHP Warning:  array_values(): The argument should be an array in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 21
+[02-Nov-2013 16:20:55] PHP Warning:  array_walk_recursive(): The argument should be an array in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 44
+[02-Nov-2013 16:26:38] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 75
+[04-Nov-2013 11:25:18] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 75
+[04-Nov-2013 11:25:18] PHP Notice:  Undefined variable: user_profile in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 21
+[04-Nov-2013 11:25:18] PHP Warning:  array_values(): The argument should be an array in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 21
+[04-Nov-2013 11:25:18] PHP Warning:  array_walk_recursive(): The argument should be an array in /hsphere/local/home/vixen/duidesign.com/working/samplepage.php on line 44
+[04-Nov-2013 11:25:41] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 75
+[04-Nov-2013 11:43:21] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 75
+[04-Nov-2013 11:44:32] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 75
+[04-Nov-2013 11:46:13] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 75
+[04-Nov-2013 12:03:13] PHP Notice:  A session had already been started - ignoring session_start() in /hsphere/local/home/vixen/duidesign.com/working/j/includes/config.php on line 75
+[15-Nov-2013 21:27:16 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/config.php on line 75
+[15-Nov-2013 21:27:16 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 24
+[15-Nov-2013 21:27:16 Europe/Berlin] PHP Warning:  mysql_connect(): Access denied for user 'Vixen_VixGrace'@'localhost' (using password: YES) in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 24
+[15-Nov-2013 21:27:16 Europe/Berlin] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 26
+[15-Nov-2013 21:27:16 Europe/Berlin] PHP Notice:  Undefined variable: facebook_get in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/friend_list.php on line 58
+[15-Nov-2013 21:27:16 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/friend_list.php on line 58
+[15-Nov-2013 21:27:18 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/config.php on line 75
+[15-Nov-2013 21:27:18 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 24
+[15-Nov-2013 21:27:18 Europe/Berlin] PHP Warning:  mysql_connect(): Access denied for user 'Vixen_VixGrace'@'localhost' (using password: YES) in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 24
+[15-Nov-2013 21:27:18 Europe/Berlin] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 26
+[15-Nov-2013 21:27:47 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/config.php on line 75
+[15-Nov-2013 21:27:47 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 24
+[15-Nov-2013 21:27:47 Europe/Berlin] PHP Warning:  mysql_connect(): Access denied for user 'Vixen_VixGrace'@'localhost' (using password: YES) in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 24
+[15-Nov-2013 21:27:47 Europe/Berlin] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 26
+[15-Nov-2013 21:27:47 Europe/Berlin] PHP Notice:  Undefined variable: facebook_get in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/friend_list.php on line 58
+[15-Nov-2013 21:27:47 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/friend_list.php on line 58
+[15-Nov-2013 21:27:50 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/config.php on line 75
+[15-Nov-2013 21:27:50 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 24
+[15-Nov-2013 21:27:50 Europe/Berlin] PHP Warning:  mysql_connect(): Access denied for user 'Vixen_VixGrace'@'localhost' (using password: YES) in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 24
+[15-Nov-2013 21:27:50 Europe/Berlin] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 26
+[15-Nov-2013 21:27:50 Europe/Berlin] PHP Notice:  Undefined variable: facebook_get in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/friend_list.php on line 58
+[15-Nov-2013 21:27:50 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/friend_list.php on line 58
+[15-Nov-2013 21:27:54 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/config.php on line 75
+[15-Nov-2013 21:27:54 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 24
+[15-Nov-2013 21:27:54 Europe/Berlin] PHP Warning:  mysql_connect(): Access denied for user 'Vixen_VixGrace'@'localhost' (using password: YES) in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 24
+[15-Nov-2013 21:27:54 Europe/Berlin] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 26
+[15-Nov-2013 21:27:54 Europe/Berlin] PHP Notice:  Undefined variable: facebook_get in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/friend_list.php on line 58
+[15-Nov-2013 21:27:54 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/friend_list.php on line 58
+[15-Nov-2013 21:29:18 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/config.php on line 75
+[15-Nov-2013 21:29:18 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 24
+[15-Nov-2013 21:29:18 Europe/Berlin] PHP Warning:  mysql_connect(): Access denied for user 'Vixen_VixGrace'@'localhost' (using password: YES) in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 24
+[15-Nov-2013 21:29:18 Europe/Berlin] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 26
+[15-Nov-2013 21:29:18 Europe/Berlin] PHP Notice:  Undefined variable: facebook_get in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/friend_list.php on line 58
+[15-Nov-2013 21:29:18 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/friend_list.php on line 58
+[15-Nov-2013 21:29:32 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/config.php on line 75
+[15-Nov-2013 21:29:32 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 24
+[15-Nov-2013 21:29:32 Europe/Berlin] PHP Warning:  mysql_connect(): Access denied for user 'Vixen_VixGrace'@'localhost' (using password: YES) in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 24
+[15-Nov-2013 21:29:32 Europe/Berlin] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 26
+[15-Nov-2013 21:29:32 Europe/Berlin] PHP Notice:  Undefined variable: facebook_get in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/friend_list.php on line 58
+[15-Nov-2013 21:29:32 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/friend_list.php on line 58
+[15-Nov-2013 21:29:36 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/config.php on line 75
+[15-Nov-2013 21:29:36 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 24
+[15-Nov-2013 21:29:36 Europe/Berlin] PHP Warning:  mysql_connect(): Access denied for user 'Vixen_VixGrace'@'localhost' (using password: YES) in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 24
+[15-Nov-2013 21:29:36 Europe/Berlin] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 26
+[15-Nov-2013 21:29:50 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/config.php on line 75
+[15-Nov-2013 21:29:50 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 24
+[15-Nov-2013 21:29:50 Europe/Berlin] PHP Warning:  mysql_connect(): Access denied for user 'Vixen_VixGrace'@'localhost' (using password: YES) in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 24
+[15-Nov-2013 21:29:50 Europe/Berlin] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 26
+[15-Nov-2013 21:29:50 Europe/Berlin] PHP Notice:  Undefined variable: facebook_get in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/friend_list.php on line 58
+[15-Nov-2013 21:29:50 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/friend_list.php on line 58
+[15-Nov-2013 23:08:31 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/config.php on line 75
+[15-Nov-2013 23:08:31 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 24
+[15-Nov-2013 23:08:31 Europe/Berlin] PHP Warning:  mysql_connect(): Access denied for user 'Vixen_VixGrace'@'localhost' (using password: YES) in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 24
+[15-Nov-2013 23:08:31 Europe/Berlin] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 26
+[15-Nov-2013 23:08:31 Europe/Berlin] PHP Notice:  Undefined variable: facebook_get in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/friend_list.php on line 58
+[15-Nov-2013 23:08:31 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/friend_list.php on line 58
+[15-Nov-2013 23:09:44 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/config.php on line 75
+[15-Nov-2013 23:09:44 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 24
+[15-Nov-2013 23:09:44 Europe/Berlin] PHP Warning:  mysql_connect(): Access denied for user 'Vixen_VixGrace'@'localhost' (using password: YES) in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 24
+[15-Nov-2013 23:09:44 Europe/Berlin] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 26
+[15-Nov-2013 23:09:44 Europe/Berlin] PHP Notice:  Undefined variable: facebook_get in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/friend_list.php on line 58
+[15-Nov-2013 23:09:44 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/friend_list.php on line 58
+[15-Nov-2013 23:13:21 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/config.php on line 75
+[15-Nov-2013 23:13:21 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 24
+[15-Nov-2013 23:13:21 Europe/Berlin] PHP Warning:  mysql_connect(): Access denied for user 'Vixen_VixGrace'@'localhost' (using password: YES) in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 24
+[15-Nov-2013 23:13:21 Europe/Berlin] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 26
+[15-Nov-2013 23:13:21 Europe/Berlin] PHP Notice:  Undefined variable: facebook_get in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/friend_list.php on line 58
+[15-Nov-2013 23:13:21 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/friend_list.php on line 58
+[15-Nov-2013 23:13:37 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/config.php on line 75
+[15-Nov-2013 23:13:37 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 24
+[15-Nov-2013 23:13:37 Europe/Berlin] PHP Warning:  mysql_connect(): Access denied for user 'Vixen_VixGrace'@'localhost' (using password: YES) in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 24
+[15-Nov-2013 23:13:37 Europe/Berlin] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/j/includes/classes/Db.php on line 26
+[15-Nov-2013 23:13:37 Europe/Berlin] PHP Notice:  Undefined variable: facebook_get in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/friend_list.php on line 58
+[15-Nov-2013 23:13:37 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/sarahhuffman/epilogue/sandbox/marie/epilogue_v1dui/friend_list.php on line 58

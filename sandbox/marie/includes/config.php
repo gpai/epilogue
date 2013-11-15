@@ -16,8 +16,8 @@ Nithin J.
 /**
  * CONFIGURE PHP ENVIORNMENT
  */
-// ini_set('display_errors', 'On');
-ini_set("error_log", "php-error.log");
+ ini_set('display_errors', 'On');
+//ini_set("error_log", "php-error.log");
 error_reporting(E_ALL);
 
 /**

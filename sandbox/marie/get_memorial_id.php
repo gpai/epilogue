@@ -9,7 +9,7 @@ function GetMemorialId($selected_epilogue_id){
 	global $db;
 
 	$query = "SELECT memorial_id FROM memorial_id WHERE epilogue_user_id = '$selected_epilogue_id' ";
-	$result = $sql->query($query);
+	$result = $db->query($query);
 
 	if(! $result){
 		die('Could not get data: ' . mysql_error());
@@ -46,7 +46,7 @@ function GetMemorialId($selected_epilogue_id){
 
 	return $resultSet;
 
-}
+//}
 
 
 
