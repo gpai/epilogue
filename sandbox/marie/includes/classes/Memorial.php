@@ -5,8 +5,8 @@
  * To change the template for this generated file go to
  * Window - Preferences - PHPeclipse - PHP - Code Templates
  */
-include includes/config.php;
-require_once ("includes/classes/Db.php");
+
+//require_once ("includes/classes/Db.php");
  
  class Memorial{
  	

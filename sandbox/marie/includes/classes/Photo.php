@@ -4,8 +4,7 @@
  *
  * KISS it baby. Let's get the photo party started
  */
-include includes/config.php;
- 
+
  class Photo{
  
  	private $_name;

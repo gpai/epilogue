@@ -5,10 +5,9 @@
  *
  */
 
-require_once "j/includes/config.php";
-require_once "dbrunner.php"
+//require_once "dbrunner.php"
 
-class FriendList
+class FacebookFriend
 	{
 	public function getFriendsFromFacebook()
 		{
