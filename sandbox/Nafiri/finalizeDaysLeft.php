@@ -1,5 +1,8 @@
 <?php
 require_once "includes/config.php";
+require_once "includes/classes/Session.php";
+
+var_dump($_COOKIE);
 
 //Get session time from Session.php from Marie
 //Calculate how many days are left in the session.
