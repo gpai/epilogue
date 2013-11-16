@@ -28,6 +28,7 @@ error_reporting(E_ALL);
 require_once "lib/fb/facebook.php";
 
 // Epilogue Code
+require_once 'classes/Registry.php';
 require_once "classes/Epilogue.php";
 require_once "classes/Db.php";
 require_once "classes/User.php";
@@ -73,9 +74,17 @@ session_set_cookie_params(0, '/', $config['session']['host']);
 session_start();
 
 // Connect to the database
-$db = new Db($config['db']['user'], $config['db']['password'], $config['db']['schema'], $config['db']['host']);
+$database = new Database($config['db']['user'], $config['db']['password'], $config['db']['schema'], $config['db']['host']);
 $epilogue = new Epilogue($db, $facebook);
 $epilogue->fbCheck();
+
+/**
+ * Registry -- store everything here.
+ */
+
+Registry::getInstance()->set("config", $config);
+Registry::getInstance()->set("fb", $facebook);
+Registry::getInstance()->set("db", $database);
 
 // Login check, and User init
 // if ($epilogue->isLoggedIn()) {
