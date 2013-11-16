@@ -1,6 +1,8 @@
 <?php
 require_once "includes/config.php";
 
+//Have Marie give me a function to add a new memorial id/space for user. When "Create New" is clicked.
+
 //Will get list of memorials from DB/Marie
 $memorials = array(
 	99=>array('name'=>'Bob')

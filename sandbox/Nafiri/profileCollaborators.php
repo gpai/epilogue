@@ -9,8 +9,7 @@ $friends=array(
 
 var_dump($friends);
 //$friends = array("Misty","Brock");
-// $friends[]['id']=56;
-// $friends[]['name']="Misty";
+
 
 //Need to get a list of collaborators on the project
 $collab=array(
@@ -19,10 +18,7 @@ $collab=array(
 );
 var_dump($collab);
 //$collab=array("Ash","Misty");
-// $collab[]['id']=88;
-// $collab[]['name']="Ash";
-// $collab[]['id']=56;
-// $collab[]['name']="Misty";
+
 
 
 //list of whether or not friends are already collaborators.
@@ -67,6 +63,8 @@ foreach($friends as $fid => $fname)
 //sends Facebook invitation.
 
 //Collaborators page will be edited with the new collaborator added onto the list.
+
+//If the person says no to the invitation, have Grace remove that memorial from their invitation list.
 
 
 //var_dump($friends);
