@@ -6,7 +6,7 @@
 
 */
 
-class Db {
+class Database {
 
 	private $_sql_db = '';
 	private $_sql_user = '';

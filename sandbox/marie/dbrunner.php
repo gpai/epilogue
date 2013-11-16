@@ -2,7 +2,7 @@
 
 // This is a list of the files I need to include to make things work.
 //include 'get_memorial_id.php';
-//include 'includes/classes/Db.php';
+//include 'includes/classes/Database.php';
 include 'includes/config.php';
 
 
