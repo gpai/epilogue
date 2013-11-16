@@ -33,8 +33,8 @@
 
 		while($row = mysql_fetch_assoc($result)){
 //			echo "<br>Memorial ID : {$row['memorial_id']} <br> ".
-//			 	"Epilogue User ID:  {$row['epilogue_user_id']} <br>".
-//			 	"Deceased Name:{$row['deceased_name']} <br>".
+//			 	"Epilogue User ID :  {$row['epilogue_user_id']} <br>".
+//			 	"Deceased Name : {$row['deceased_name']} <br>".
 //			 	"--------------------------------- <br>";
 		 $r = array();
 		 $r['memorial_id'] 		= $row['memorial_id'];
