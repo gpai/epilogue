@@ -9,38 +9,27 @@ include 'includes/classes/Db.php';
 // The following are a series of calls for anything I will ever do. Comptuers are fast, it can just do all of them. kthxbai.
 
 
-// GetMemorialID
+// listMemorialId
 echo "GET MEMORIAL ID - WTF!!";
+echo "<br>";
+// Memorial class - has 1 method so far... it takes the user id and returns an array
+// the array looks like this Array ( [0] => Array ( [memorial_id] => 1 [epilogue_user_id] => 100005789522071 [deceased_name] => Grace Pai ) )
+$epilogue_user_id = "100005789522071";
+require_once ('includes/classes/Memorial.php');
+$objMem = new Memorial();
+$objMem->listMemorialId($epilogue_user_id);
 
-// -- Just as a sample, let's set our test variable
-//$userId = "100005789522071";
-//GetMemorialId($userId);
 
-//$selected_memorial_id = '688307710';
-
-// inserts new epilogue user's facebook friends into db
-//include 'includes/config.php';
-//include 'common_sql.php';
-//$facebook_user_id= '688307710';// grace's id'
-//$facebook_user_name= 'Grace Pai';
-//InsertFriendList($facebook_user_id,$facebook_user_name); 
-// GetFooBar
-//...
 
 echo "<br>";
 
 
 // Photo Stuff - does nothing so far
-require_once ('includes/classes/Photo.php');
-$objPhoto = new Photo("Jack");
-$objPhoto->sayHello();
+//require_once ('includes/classes/Photo.php');
+//$objPhoto = new Photo("Jack");
+//$objPhoto->sayHello();
 
-echo "<br>";
-// Memorial class - does nothing so far
-$epilogue_user_id = "100005789522071";
-require_once ('includes/classes/Memorial.php');
-$objMem = new Memorial();
-$objMem->listMemorialId($epilogue_user_id);
+
 
 
 ?>
