@@ -1,15 +1,12 @@
 <?php
-
+include 'includes/config.php';
 // This is for controller to get the list of memorial ids for the epilogue user
 
-$selected_memorial_id = '688307710';
-$selected_epilogue_id = "100005789522071";
 
 function GetMemorialId($selected_epilogue_id){
-	global $db;
 
 	$query = "SELECT memorial_id FROM memorial_id WHERE epilogue_user_id = '$selected_epilogue_id' ";
-	$result = $db->query($query);
+	$result = $Db->query($query);
 
 	if(! $result){
 		die('Could not get data: ' . mysql_error());
@@ -18,18 +15,15 @@ function GetMemorialId($selected_epilogue_id){
 	$resultSet = array();
 
 	// Populate primary data
-	while($row = mysql_fetch_assoc($result )){
+	while($row = mysql_fetch_assoc($result)){
 		echo "<br>Memorial ID : {$row['memorial_id']} <br> ".
 			 "Epilogue User ID:$selected_epilogue_id<br>".
 //			 "Deceased Name:{$row['deceased_name']} <br>".
 			 "--------------------------------- <br>";
-
 		 $r = array();
 		 $r['memorial_id'] 		= $row['memorial_id'];
 		 $r['epilogue_user_id'] = $row['epilogue_user_id'];
-
-
-		$resultSet[] = $r; // Same as: array_push($r, $resultSet);
+		 $resultSet[] = $r; // Same as: array_push($r, $resultSet);
 	}
 
 	// Go on secondary data
@@ -43,11 +37,7 @@ function GetMemorialId($selected_epilogue_id){
 //		$resultSet[$key]['deceased_name'] = "TBD"; //$value
 
 //	}
-
+	vardump($resultSet);
 	return $resultSet;
-
-//}
-
-
 
 ?>
