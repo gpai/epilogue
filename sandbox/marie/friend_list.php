@@ -30,6 +30,12 @@ else:
       echo 'You are not Connected. Click <a href="login.php">here</a> to login.';
 endif;
 
+
+
+
+
+mysql_select_db('Vixen_test');
+
 // I want to create an array of the user's friend list
 //$friend_list = array($epilogue_user_id, $facebook_user_id, $facebook_user_name );
 
@@ -49,28 +55,20 @@ foreach ($facebook_get["friends"]["data"] as $value)
 
   echo "$facebook_user_id is the ID for $facebook_user_name<br>";
 
-  InsertFriendList();
+  InsertFriendList($facebook_user_id,$facebook_user_name);
 
   }
 
   echo "<br>";
 
-function InsertFriendList() {
+function InsertFriendList($facebook_user_id,$facebook_user_name) {
+	global $epilogue_user_id;
 	$link = mysql_connect('mysql2.speedypuppy.net:3306', 'Vixen_VixGrace', 'cutie', 'Vixen_test');
-     global $facebook_user_id;
-     global $facebook_user_name;
-     global $facebook_get;
-     $epilogue_user_id = $facebook_get["id"];
-
-
-	if (!$link) {
-		die('Could not connect: ' . mysql_error());
-	}
-
-	mysql_select_db('Vixen_test');
+		if (!$link) {
+			die('Could not connect: ' . mysql_error());
+		}
 	$insert_please = "INSERT INTO  `Vixen_test`.`user_friend_list` VALUES (
 '$epilogue_user_id',  '$facebook_user_id', '$facebook_user_name', 'N', 0, 0)";
-
 	mysql_query($insert_please, $link);
 }
 
