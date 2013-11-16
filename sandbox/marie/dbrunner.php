@@ -27,12 +27,20 @@ echo "GET MEMORIAL ID - WTF!!";
 // GetFooBar
 //...
 
+echo "<br>";
 
 
 // Photo Stuff - does nothing so far
 require_once ('includes/classes/Photo.php');
 $objPhoto = new Photo("Jack");
 $objPhoto->sayHello();
+
+echo "<br>";
+// Memorial class - does nothing so far
+$epilogue_user_id = "100005789522071";
+require_once ('includes/classes/Memorial.php');
+$objMem = new Memorial();
+$objMem->listMemorialId($epilogue_user_id);
 
 
 ?>

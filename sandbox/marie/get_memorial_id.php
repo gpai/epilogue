@@ -18,11 +18,12 @@ function GetMemorialId($selected_epilogue_id){
 	while($row = mysql_fetch_assoc($result)){
 		echo "<br>Memorial ID : {$row['memorial_id']} <br> ".
 			 "Epilogue User ID:$selected_epilogue_id<br>".
-//			 "Deceased Name:{$row['deceased_name']} <br>".
+			 "Deceased Name:{$row['deceased_name']} <br>".
 			 "--------------------------------- <br>";
 		 $r = array();
 		 $r['memorial_id'] 		= $row['memorial_id'];
 		 $r['epilogue_user_id'] = $row['epilogue_user_id'];
+		 $r['deceased_name'] = $row['deceased_name'];
 		 $resultSet[] = $r; // Same as: array_push($r, $resultSet);
 	}
 
