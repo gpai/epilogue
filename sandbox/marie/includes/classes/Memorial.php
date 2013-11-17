@@ -36,10 +36,7 @@ class Memorial {
 
 
 $result = $db;
-$result->query($query) {
-		return mysql_fetch_array($this->raw_query($query));
-	}
-
+$result->query($query); 
 
 
 
