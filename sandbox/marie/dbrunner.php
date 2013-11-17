@@ -4,8 +4,8 @@
 //include 'get_memorial_id.php';
 require_once ('includes/classes/Database.php');
 require_once ('includes/classes/FacebookFriend.php');
-//require_once ('includes/classes/Memorial.php');
-//require_once ('includes/classes/Photo.php');
+require_once ('includes/classes/Memorial.php');
+require_once ('includes/classes/Photo.php');
 include 'includes/config.php';
 
 
@@ -18,19 +18,24 @@ echo "<br>";
 // Memorial class - has 1 method so far... it takes the user id and returns an array
 // the array looks like this Array ( [0] => Array ( [memorial_id] => 1 [epilogue_user_id] => 100005789522071 [deceased_name] => Grace Pai ) )
 //--------------------
-//$epilogue_user_id = "100005789522071";
+$epilogue_user_id = "100005789522071";
 //$objMem = new Memorial();
 //$var_duh = $objMem->listMemorialId($epilogue_user_id);
 //print_r(array_values($var_duh));
 
 echo "Photo class";
 // Photo Stuff - does nothing so far
-$whosphoto = "688307710";
-$photo_id = "need to get one";
+$whosphoto = "688307710"; 
+$photo_id = "0981";
+$vote = 1;
 $memorial_id = 1;
-$objPhoto = new Photo("$whosphoto");
-$photo_vote = $objPhoto->votePhoto($photo_id, $memorial_id, $vote);
+$objPhoto = new Photo($whosphoto);
+//$photo_vote = $objPhoto->getPhotoVote($photo_id, $memorial_id);
 echo "<br>";
+//$objPhoto->upPhotoVote($photo_id, $memorial_id, $vote);
+$objPhoto->getPhotos($whosphoto);
+echo "<br>";
+
 
 echo "FacebookFriends class";
 // FacebookFriends class
@@ -41,7 +46,7 @@ $objFF = new FacebookFriend();
 $objFF->insertFriendList($facebook_user_id, $facebook_user_name, $epilogue_user_id);
 //$array_of_friends = $objFF->getFriendsFromFacebook($epilogue_user_id);
 //$objFF->insertFriendsIntoDatabase($epilogue_user_id);
-//$objFF->insertFriendList($facebook_user_id, $facebook_user_name, $epilogue_user_id);
+
 echo "<br>";
 echo "-------------------------";
 //$status = "Y"; // Y = invited, (A)ccepted invite
