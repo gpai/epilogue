@@ -5,69 +5,45 @@
  *
  */
 
-//require_once "dbrunner.php"
 
-class FacebookFriend
-	{
-	public function getFriendsFromFacebook()
-		{
-			$epilogue_user_id = "/me";
+
+class FacebookFriend{
+		
+	public function getFriendsFromFacebook($epilogue_user_id){
 			$user = $facebook->getUser();
-
      		echo "<h3>Your User Object (".$epilogue_user_id." = /me)</h3>";
-			echo "<h6>The Epilogue user has these Facebook Friends</h6>";
-
+			echo "<h4>The Epilogue user has these Facebook Friends</h4>";
       		$facebook_get_friends = $facebook->api($epilogue_user_id .'?fields=friends');
-
 			return $facebook_get_friends;
-
-		}
-	public function insertFriendsIntoDatabase()
-		{
-			foreach ($facebook_get_friends["friends"]["data"] as $value)
-  				{
-  				global $facebook_user_id;
-  				global $facebook_user_name;
-
+	}
+		
+	public function insertFriendsIntoDatabase($epilogue_user_id){
+			$facebook_get_friends = getFriendsFromFacebook($epilogue_user_id);
+			foreach ($facebook_get_friends["friends"]["data"] as $value){
   				$facebook_user_id =  ($value["id"]);
   				$facebook_user_name = ($value["name"]);
-
   				echo "$facebook_user_id is the ID for $facebook_user_name<br>";
 
-  				InsertFriendList();
+  				insertFriendList($facebook_user_id, $facebook_user_name, $epilogue_user_id);
 
   				}
 
-  			echo "<br>";
-
-function InsertFriendList() {
-	$link = mysql_connect('mysql2.speedypuppy.net:3306', 'Vixen_VixGrace', 'cutie', 'Vixen_test');
-     global $facebook_user_id;
-     global $facebook_user_name;
-     global $facebook_get;
-     $epilogue_user_id = $facebook_get["id"];
-
-
-	if (!$link) {
-		die('Could not connect: ' . mysql_error());
 	}
 
-	mysql_select_db('Vixen_test');
+function insertFriendList($facebook_user_id, $facebook_user_name, $epilogue_user_id) {
+	$db = Registry::getInstance()->get('db');	
 	$insert_please = "INSERT INTO  `Vixen_test`.`user_friend_list` VALUES (
-'$epilogue_user_id',  '$facebook_user_id', '$facebook_user_name', 'N', 0, 0)";
+'$epilogue_user_id',  '$facebook_user_id', '$facebook_user_name', 'N', 0, 0)";	
+	$db->raw_query($insert_please);
+	return;
+}
 
-	mysql_query($insert_please, $link);
+
+
 
 }
 
-		}
 
-
-	}
-
-$m = new Memorial;
-
-var_dump($m);
 
 
 ?>
