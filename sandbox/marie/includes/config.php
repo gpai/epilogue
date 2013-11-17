@@ -70,7 +70,7 @@ $facebook = new Facebook($config['fb']);
 
 // Connect to the database
 $database = new Database($config['db']['user'], $config['db']['password'], $config['db']['schema'], $config['db']['host']);
-$epilogue = new Epilogue($db, $facebook);
+$epilogue = new Epilogue($database, $facebook);
 $epilogue->fbCheck();
 
 /**
