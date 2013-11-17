@@ -7,13 +7,14 @@
 
  class Photo{
  
- 	private $_name;
+ 	private $_whosphoto;
+  	$db = Registry::getInstance()->get('db');	
   	
- 	public function __construct($name){
- 		$this->name = $name;
+ 	public function __construct($_whosphoto){
+ 		$this->whosphoto = $whosphoto;
  	}
  		
- 	public function sayHello(){
+ 	public function getPhotos(){
  		print "Hello $this->name!"; 		
  	}
  			

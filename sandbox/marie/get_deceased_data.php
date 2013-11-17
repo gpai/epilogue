@@ -1,5 +1,5 @@
 <?php
-require_once "j/includes/config.php";
+require_once "includes/config.php";
 //require_once "common.php";
 // This page gets the data of the deceased from Facebook and INSERTS them in the db
 
