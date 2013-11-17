@@ -18,7 +18,7 @@ $epilogue_user_id = "100005789522071";
 require_once ('includes/classes/Memorial.php');
 $objMem = new Memorial();
 $objMem->listMemorialId($epilogue_user_id);
-
+print_r(array_values($objMem));
 
 
 echo "<br>";

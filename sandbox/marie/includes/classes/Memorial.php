@@ -11,16 +11,12 @@ class Memorial {
 		$db = Registry::getInstance()->get('db');
 		// End Jed
 		
-		
 		print "This will return an array of the memorials of this user id : '$epilogue_user_id'";
 
-
 		$query = "SELECT memorial_id, deceased_name, epilogue_user_id FROM memorial_id WHERE epilogue_user_id = '$epilogue_user_id' ";
+		$result = $db->fetchAll($query); 
+		return $result;
 
-
-$result = $db->fetchAll($query); 
-
-		print_r(array_values($result));
 
  	}
  }
