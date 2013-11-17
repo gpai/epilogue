@@ -3,7 +3,7 @@
 class Registry {
 	
 	private static $obj;
-	private $objects;
+	private $objects = array();
 	
 	public static function getInstance() {
 		if (!isset(self::$obj)) {
