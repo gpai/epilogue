@@ -6,6 +6,11 @@
 include 'includes/config.php';
 
 
+
+
+
+
+
 // The following are a series of calls for anything I will ever do. Comptuers are fast, it can just do all of them. kthxbai.
 
 
@@ -36,7 +41,8 @@ $epilogue_user_id = "100005789522071";
 $objFF = new FacebookFriend();
 //$objFF->insertFriendList($facebook_user_id, $facebook_user_name, $epilogue_user_id);
 echo "-------------------------";
-$objFF->getCollaborators($epilogue_user_id);
+$status = "Y"; // Y = invited, (A)ccepted invite
+$objFF->getCollaborators($epilogue_user_id, $status, $memorial_id);
 
 
 ?>
