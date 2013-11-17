@@ -14,7 +14,7 @@ echo "GET MEMORIAL ID - WTF!!";
 echo "<br>";
 // Memorial class - has 1 method so far... it takes the user id and returns an array
 // the array looks like this Array ( [0] => Array ( [memorial_id] => 1 [epilogue_user_id] => 100005789522071 [deceased_name] => Grace Pai ) )
-//----------------------------
+//--------------------
 //$epilogue_user_id = "100005789522071";
 //require_once ('includes/classes/Memorial.php');
 //$objMem = new Memorial();
@@ -30,10 +30,13 @@ echo "<br>";
 echo "FacebookFriends class";
 // FacebookFriends class
 require_once ('includes/classes/FacebookFriend.php');
-$facebook_user_id = "12345678";
-$facebook_user_name = "Mr. Whiskers";
+//$facebook_user_id = "12345678";
+//$facebook_user_name = "Mr. Whiskers";
 $epilogue_user_id = "100005789522071";
 $objFF = new FacebookFriend();
-$objFF->insertFriendList($facebook_user_id, $facebook_user_name, $epilogue_user_id);
+//$objFF->insertFriendList($facebook_user_id, $facebook_user_name, $epilogue_user_id);
+echo "-------------------------";
+$objFF->getCollaborators($epilogue_user_id);
+
 
 ?>

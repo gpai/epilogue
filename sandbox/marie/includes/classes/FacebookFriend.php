@@ -30,14 +30,21 @@ class FacebookFriend{
 
 	}
 
-function insertFriendList($facebook_user_id, $facebook_user_name, $epilogue_user_id) {
+	public function insertFriendList($facebook_user_id, $facebook_user_name, $epilogue_user_id) {
 	$db = Registry::getInstance()->get('db');	
 	$insert_please = "INSERT INTO  `Vixen_test`.`user_friend_list` VALUES (
 '$epilogue_user_id',  '$facebook_user_id', '$facebook_user_name', 'N', 0, 0)";	
 	$db->raw_query($insert_please);
-	return;
-}
 
+}
+	public function getCollaborators($epilogue_user_id){
+		$db = Registry::getInstance()->get('db');
+		$query = 'SELECT epilogue_user_id, facebook_user_id, facebook_name, invited, deceased FROM user_friend_list';		
+		$result = $db->fetchAll($query); 
+		print_r(array_values($result));
+		return $result;
+		
+	}
 
 
 
