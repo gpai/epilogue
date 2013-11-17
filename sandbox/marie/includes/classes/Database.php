@@ -1,10 +1,4 @@
 <?php
-/*
-	class.sql.php
-	
-	author: Baldwin Chang (baldwin@baldwinc.com)
-
-*/
 
 class Database {
 

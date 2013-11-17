@@ -1,10 +1,4 @@
 <?php
-/*
-	class.sql.php
-	
-	author: Baldwin Chang (baldwin@baldwinc.com)
-
-*/
 
 class Database {
 
@@ -34,8 +28,20 @@ class Database {
 	}
 
 	public function query($query) {
-// 			echo $query;
-			return mysql_fetch_array($this->raw_query($query));
+		return mysql_fetch_array($this->raw_query($query));
+	}
+	
+	public function fetchOne($query) {
+		return $this->query($query);
+	}
+	
+	public function fetchAll($query) {
+		$result = $this->raw_query($query);
+		$resultSet = array();
+		while ($row = mysql_fetch_assoc($result)){
+			$resultSet[] = $row;
+		}
+		return $resultSet;
 	}
 
 	public function session_add($id, $key) {
