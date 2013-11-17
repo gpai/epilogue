@@ -75,7 +75,7 @@ session_set_cookie_params(0, '/', $config['session']['host']);
 session_start();
 
 // Baldwin Foo
-$db = new Db($config['db']['user'], $config['db']['password'], $config['db']['schema'], $config['db']['host']);
+$db = new Database($config['db']['user'], $config['db']['password'], $config['db']['schema'], $config['db']['host']);
 $epilogue = new Epilogue($db, $facebook);
 $epilogue->fbCheck();
 
