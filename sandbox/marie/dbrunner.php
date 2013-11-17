@@ -28,7 +28,7 @@ echo "<br>";
 //$var_duh = $objMem->listMemorialId($epilogue_user_id);
 //print_r(array_values($var_duh));
 
-
+echo "Photo class";
 // Photo Stuff - does nothing so far
 //$objPhoto = new Photo("Jack");
 //$objPhoto->sayHello();

@@ -6,9 +6,8 @@
  */
 
 
-
 class FacebookFriend{
-	$db = Registry::getInstance()->get('db');	
+	private $db = Registry::getInstance()->get('db');	
 			
 	public function getFriendsFromFacebook($epilogue_user_id){
 			// call to facebook for the array of friends of the epilogue owner
