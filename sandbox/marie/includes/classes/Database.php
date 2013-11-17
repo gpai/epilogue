@@ -39,7 +39,8 @@ class Database {
 	
 	public function fetchAll($query) {
 		$resultSet = array();
-		foreach ($this->conn->query($query) as $row){
+		$stmt = $this->conn->query($query);
+		while($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
 			$resultSet[] = $row;
 		}
 		return $resultSet;
