@@ -29,8 +29,8 @@ class Database {
 	}
 
 	public function query($query) {
-		$r = $this->raw_query($query);
-		return $r[0];
+		$stmt = $this->conn->query($query);
+		return $stmt->fetch(PDO::FETCH_ASSOC);
 	}
 	
 	public function fetchOne($query) {
