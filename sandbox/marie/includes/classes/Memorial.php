@@ -22,28 +22,43 @@ class Memorial {
 //		}
 		
 //		mysql_select_db ( 'Vixen_test' );
-//		$query = "SELECT memorial_id, deceased_name, epilogue_user_id FROM memorial_id WHERE epilogue_user_id = '$epilogue_user_id' ";
-		$result = mysql_query ( $query, $db );
-		
-		if (! $result) {
-			die ( 'Could not get data: ' . mysql_error () );
-		}
-		
-		$resultSet = array ();
 
 
-		while($row = mysql_fetch_assoc($result)){
+		$query = "SELECT memorial_id, deceased_name, epilogue_user_id FROM memorial_id WHERE epilogue_user_id = '$epilogue_user_id' ";
+
+
+//		$result = mysql_query ( $query, $db );		
+//		if (! $result) {
+//			die ( 'Could not get data: ' . mysql_error () );
+//		}
+
+
+
+
+$result = $db;
+$result->query($query) {
+		return mysql_fetch_array($this->raw_query($query));
+	}
+
+
+
+
+		
+//		$resultSet = array ();
+
+
+//		while($row = mysql_fetch_assoc($result)){
 //			echo "<br>Memorial ID : {$row['memorial_id']} <br> ".
 //			 	"Epilogue User ID :  {$row['epilogue_user_id']} <br>".
 //			 	"Deceased Name : {$row['deceased_name']} <br>".
 //			 	"--------------------------------- <br>";
-		 $r = array();
-		 $r['memorial_id'] 		= $row['memorial_id'];
-		 $r['epilogue_user_id'] = $row['epilogue_user_id'];
-		 $r['deceased_name'] = $row['deceased_name'];
-		 $resultSet[] = $r;			
- 		}
-		print_r(array_values($resultSet));
+//		 $r = array();
+//		 $r['memorial_id'] 		= $row['memorial_id'];
+//		 $r['epilogue_user_id'] = $row['epilogue_user_id'];
+//		 $r['deceased_name'] = $row['deceased_name'];
+//		 $resultSet[] = $r;			
+// 		}
+		print_r(array_values($result));
 
  	}
  }
