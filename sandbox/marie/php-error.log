@@ -123,3 +123,7 @@
 [17-Nov-2013 01:12:20 Europe/Berlin] PHP Fatal error:  Class 'Database' not found in /Users/sarahhuffman/epilogue/sandbox/marie/includes/config.php on line 72
 [17-Nov-2013 01:12:23 Europe/Berlin] PHP Fatal error:  Class 'Database' not found in /Users/sarahhuffman/epilogue/sandbox/marie/includes/config.php on line 72
 [17-Nov-2013 01:12:57 Europe/Berlin] PHP Fatal error:  Class 'Database' not found in /Users/sarahhuffman/epilogue/sandbox/marie/includes/config.php on line 72
+[17-Nov-2013 01:16:06 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /Users/sarahhuffman/epilogue/sandbox/marie/includes/classes/Database.php on line 26
+[17-Nov-2013 01:16:15 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /Users/sarahhuffman/epilogue/sandbox/marie/includes/classes/Database.php on line 26
+[17-Nov-2013 01:16:15 Europe/Berlin] PHP Notice:  Undefined variable: query in /Users/sarahhuffman/epilogue/sandbox/marie/includes/classes/Memorial.php on line 26
+[17-Nov-2013 01:16:15 Europe/Berlin] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /Users/sarahhuffman/epilogue/sandbox/marie/includes/classes/Memorial.php on line 26
