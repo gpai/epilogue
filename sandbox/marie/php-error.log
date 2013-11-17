@@ -147,3 +147,6 @@
 [17-Nov-2013 01:56:40 Europe/Berlin] PHP Parse error:  syntax error, unexpected '{' in /Users/sarahhuffman/epilogue/sandbox/marie/includes/classes/Memorial.php on line 33
 [17-Nov-2013 02:01:58 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /Users/sarahhuffman/epilogue/sandbox/marie/includes/classes/Database.php on line 20
 [17-Nov-2013 02:01:58 Europe/Berlin] PHP Warning:  array_values() expects parameter 1 to be array, object given in /Users/sarahhuffman/epilogue/sandbox/marie/includes/classes/Memorial.php on line 58
+[17-Nov-2013 02:03:54 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /Users/sarahhuffman/epilogue/sandbox/marie/includes/classes/Database.php on line 20
+[17-Nov-2013 02:03:54 Europe/Berlin] PHP Warning:  array_values() expects parameter 1 to be array, object given in /Users/sarahhuffman/epilogue/sandbox/marie/includes/classes/Memorial.php on line 53
+[17-Nov-2013 02:06:25 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /Users/sarahhuffman/epilogue/sandbox/marie/includes/classes/Database.php on line 20

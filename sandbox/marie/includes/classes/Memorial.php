@@ -32,18 +32,11 @@ class Memorial {
 //			die ( 'Could not get data: ' . mysql_error () );
 //		}
 
-
-
-
-$result = $db;
-$result->query($query); 
-
+$result = $db->fetchAll($query); 
 
 
 		
 //		$resultSet = array ();
-
-
 //		while($row = mysql_fetch_assoc($result)){
 //			echo "<br>Memorial ID : {$row['memorial_id']} <br> ".
 //			 	"Epilogue User ID :  {$row['epilogue_user_id']} <br>".
@@ -55,6 +48,7 @@ $result->query($query);
 //		 $r['deceased_name'] = $row['deceased_name'];
 //		 $resultSet[] = $r;			
 // 		}
+
 		print_r(array_values($result));
 
  	}
