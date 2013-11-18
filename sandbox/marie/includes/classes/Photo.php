@@ -50,6 +50,7 @@
  	}
 
 	public function sortPhotos ($arr_of_photos){
+		// This function prints the facebook array into the lower level parts associated with the photo
 		foreach ($arr_of_photos["data"] as $value){
  			$photo_id =  ($value["id"]);
   			$caption = ($value["name"]);
@@ -91,7 +92,11 @@
   			echo "*********** The url $photo_url <br>";
 		} 
 	}
-
+	public function insertDeceasedPhotos ($arr_of_sorted_photos, $memorial_id){
+		// okay so this one need the sort above to return that data
+		// this one needs to stick it in the photo table with the associated memorial id
+		echo " The array of sorted photos will be added to $memorial_id<br>";
+	}
  
  	
 // 	function sortPhotoArray($arr_of_photos){
