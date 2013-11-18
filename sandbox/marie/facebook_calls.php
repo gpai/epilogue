@@ -15,20 +15,33 @@ require_once ('includes/classes/Photo.php');
 include 'includes/config.php';
 require_once ("includes/classes/Photo.php");
 echo "-----start here    1 ------------<br>";
+
+
 $fb_user_id = "688307710";
-
-
 
 if (Login::isLoggedIn()):
 
 // Photo Stuff - does nothing so far
 
 $objPhoto = new Photo($fb_user_id);
-//$photo_vote = $objPhoto->getPhotoVote($photo_id, $memorial_id);
 echo "-----------------<br>";
-//$objPhoto->upPhotoVote($photo_id, $memorial_id, $vote);
-$array_of_photos = $objPhoto->getPhotos($fb_user_id);
-print_r(array_values($array_of_photos));
+$array_of_photos = $objPhoto->getPhotos($fb_user_id); 
+
+$objPhoto->sortPhotos($array_of_photos);
+
+?>
+<pre><?php print_r ($array_of_photos["data"]) ?> </pre>;
+
+<?php
+
+
+//foreach ($array_of_photos["data"] as $key => $value){
+//	print "key --- $key and value --- $value";	
+//}
+
+//$result = $objPhoto->displayPhotos($array_of_photos["data"], $indent='');
+//echo $result;
+
 echo "----2------------<br>";
 
  
