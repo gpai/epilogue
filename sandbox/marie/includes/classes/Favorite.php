@@ -19,11 +19,57 @@
 
         public function sortFavorites ($arr_of_favorites){
                 // This function prints the facebook array into the lower level parts associated with the photo
-                echo "<br>- Favorites : <br>"; 
+                echo "<br>- Favorites: <br>"; 
                 // Build loop for these types --- books,movies,music,television
-                foreach ($arr_of_favorites["music"]["data"] as $value){
-                	if(sizeof(($arr_of_favorites["music"]["data"])) > 1){
-                         	
+
+                if(sizeof(($arr_of_favorites["music"]["data"])) > 1){
+                	echo "Music : <br>"; 
+                	foreach ($arr_of_favorites["music"]["data"] as $value){                         	
+                                
+                         $fav_id =  ($value["id"]);
+                         $fav_title = ($value["name"]);
+                         $created = ($value["created_time"]);
+                         $category = ($value["category"]);
+
+		                echo "*Title : $fav_title <br>";
+                        echo "**Category: $category <br>";
+
+                	}
+                } 
+
+                if(sizeof(($arr_of_favorites["books"]["data"])) > 1){
+                	echo "Books : <br>"; 
+                	foreach ($arr_of_favorites["books"]["data"] as $value){                         	
+                                
+                         $fav_id =  ($value["id"]);
+                         $fav_title = ($value["name"]);
+                         $created = ($value["created_time"]);
+                         $category = ($value["category"]);
+
+		                echo "* Title : $fav_title <br>";
+                        echo "** Category: $category <br>";
+
+                	}
+                }
+ 
+
+                if(sizeof(($arr_of_favorites["movies"]["data"])) > 1){
+                	echo "Movies : <br>";
+                 	foreach ($arr_of_favorites["movies"]["data"] as $value){                               
+                         $fav_id =  ($value["id"]);
+                         $fav_title = ($value["name"]);
+                         $created = ($value["created_time"]);
+                         $category = ($value["category"]);
+
+		                echo "*********** Title : $fav_title <br>";
+                        echo "*********** Category: $category <br>";
+
+                	}
+                } 
+
+                if(sizeof(($arr_of_favorites["television"]["data"])) > 1){
+                 	echo "Television : <br>"; 
+                	foreach ($arr_of_favorites["television"]["data"] as $value){                        	
                                 
                          $fav_id =  ($value["id"]);
                          $fav_title = ($value["name"]);
@@ -35,6 +81,7 @@
 
                 	}
                 } 
+                 
         }
         public function insertDeceasedFavorites ($arr_of, $memorial_id){
                 // okay so this one need the sort above to return that data
