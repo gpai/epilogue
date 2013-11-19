@@ -72,6 +72,7 @@ require_once ('includes/classes/FacebookFriend.php');
 require_once ('includes/classes/Memorial.php');
 require_once ('includes/classes/Photo.php');
 require_once ('includes/classes/Post.php');
+require_once ('includes/classes/Favorite.php');
 include 'includes/config.php';
 
 echo "-----start here    1 ------------<br>";
@@ -83,14 +84,14 @@ if (Login::isLoggedIn()):
 
 // Photo Stuff - does nothing so far
 
-$objPhoto = new Post($fb_user_id);
+$objPhoto = new Favorite($fb_user_id);
 echo "-----------------<br>";
-$array_of = $objPhoto->getPosts($fb_user_id); 
+$array_of = $objPhoto->getFavorites($fb_user_id); 
 
-$objPhoto->sortPosts($array_of);
+$objPhoto->sortFavorites($array_of);
 
 ?>
-<pre><?php print_r ($array_of["data"]) ?> </pre>;
+<pre><?php print_r ($array_of) ?> </pre>;
 
 <?php
 
