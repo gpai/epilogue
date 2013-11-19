@@ -1,7 +1,15 @@
 <?php
+
 require_once "includes/config.php";
-require_once 'includes/classes/User.php';
-// validateHostName('myHostName');
+include("User.php");
+
+function getFriends()
+{
+	$user = new User();
+	$friendsList = $user->friends();
+	echo $friendsList;
+}
+
 //Have Marie give me a function to add a new memorial id/space for user. When "Create New" is clicked.
 
 //Will get list of memorials from DB/Marie

@@ -2794,3 +2794,83 @@ Stack trace:
 [16-Nov-2013 07:11:00 UTC] PHP Stack trace:
 [16-Nov-2013 07:11:00 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
 [16-Nov-2013 07:11:00 UTC] PHP   2. User->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:8
+[19-Nov-2013 17:33:10 UTC] PHP Warning:  require_once(classes/Database.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 32
+[19-Nov-2013 17:33:10 UTC] PHP Stack trace:
+[19-Nov-2013 17:33:10 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[19-Nov-2013 17:33:10 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[19-Nov-2013 17:33:10 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'classes/Database.php' (include_path='.;C:\php\pear') in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 32
+[19-Nov-2013 17:33:10 UTC] PHP Stack trace:
+[19-Nov-2013 17:33:10 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[19-Nov-2013 17:33:10 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[19-Nov-2013 17:33:38 UTC] PHP Warning:  require_once(classes/Database.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 32
+[19-Nov-2013 17:33:38 UTC] PHP Stack trace:
+[19-Nov-2013 17:33:38 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[19-Nov-2013 17:33:38 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[19-Nov-2013 17:33:38 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'classes/Database.php' (include_path='.;C:\php\pear') in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 32
+[19-Nov-2013 17:33:38 UTC] PHP Stack trace:
+[19-Nov-2013 17:33:38 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[19-Nov-2013 17:33:38 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[19-Nov-2013 17:33:39 UTC] PHP Warning:  require_once(classes/Database.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 32
+[19-Nov-2013 17:33:39 UTC] PHP Stack trace:
+[19-Nov-2013 17:33:39 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[19-Nov-2013 17:33:39 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[19-Nov-2013 17:33:39 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'classes/Database.php' (include_path='.;C:\php\pear') in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 32
+[19-Nov-2013 17:33:39 UTC] PHP Stack trace:
+[19-Nov-2013 17:33:39 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[19-Nov-2013 17:33:39 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[19-Nov-2013 17:33:40 UTC] PHP Warning:  require_once(classes/Database.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 32
+[19-Nov-2013 17:33:40 UTC] PHP Stack trace:
+[19-Nov-2013 17:33:40 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[19-Nov-2013 17:33:40 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[19-Nov-2013 17:33:40 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'classes/Database.php' (include_path='.;C:\php\pear') in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 32
+[19-Nov-2013 17:33:40 UTC] PHP Stack trace:
+[19-Nov-2013 17:33:40 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[19-Nov-2013 17:33:40 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[19-Nov-2013 17:33:40 UTC] PHP Warning:  require_once(classes/Database.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 32
+[19-Nov-2013 17:33:40 UTC] PHP Stack trace:
+[19-Nov-2013 17:33:40 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[19-Nov-2013 17:33:40 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[19-Nov-2013 17:33:40 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'classes/Database.php' (include_path='.;C:\php\pear') in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 32
+[19-Nov-2013 17:33:40 UTC] PHP Stack trace:
+[19-Nov-2013 17:33:40 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[19-Nov-2013 17:33:40 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[19-Nov-2013 17:33:40 UTC] PHP Warning:  require_once(classes/Database.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 32
+[19-Nov-2013 17:33:40 UTC] PHP Stack trace:
+[19-Nov-2013 17:33:40 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[19-Nov-2013 17:33:40 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[19-Nov-2013 17:33:40 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'classes/Database.php' (include_path='.;C:\php\pear') in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 32
+[19-Nov-2013 17:33:40 UTC] PHP Stack trace:
+[19-Nov-2013 17:33:40 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[19-Nov-2013 17:33:40 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[19-Nov-2013 17:33:40 UTC] PHP Warning:  require_once(classes/Database.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 32
+[19-Nov-2013 17:33:40 UTC] PHP Stack trace:
+[19-Nov-2013 17:33:40 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[19-Nov-2013 17:33:40 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[19-Nov-2013 17:33:40 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'classes/Database.php' (include_path='.;C:\php\pear') in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 32
+[19-Nov-2013 17:33:40 UTC] PHP Stack trace:
+[19-Nov-2013 17:33:40 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[19-Nov-2013 17:33:40 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[19-Nov-2013 17:34:18 UTC] PHP Warning:  require_once(classes/Database.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 32
+[19-Nov-2013 17:34:18 UTC] PHP Stack trace:
+[19-Nov-2013 17:34:18 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[19-Nov-2013 17:34:18 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[19-Nov-2013 17:34:18 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'classes/Database.php' (include_path='.;C:\php\pear') in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 32
+[19-Nov-2013 17:34:18 UTC] PHP Stack trace:
+[19-Nov-2013 17:34:18 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[19-Nov-2013 17:34:18 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[19-Nov-2013 17:34:50 UTC] PHP Warning:  require_once(classes/Database.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 32
+[19-Nov-2013 17:34:50 UTC] PHP Stack trace:
+[19-Nov-2013 17:34:50 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[19-Nov-2013 17:34:50 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[19-Nov-2013 17:34:50 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'classes/Database.php' (include_path='.;C:\php\pear') in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 32
+[19-Nov-2013 17:34:50 UTC] PHP Stack trace:
+[19-Nov-2013 17:34:50 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[19-Nov-2013 17:34:50 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[19-Nov-2013 17:35:10 UTC] PHP Warning:  require_once(classes/Database.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 32
+[19-Nov-2013 17:35:10 UTC] PHP Stack trace:
+[19-Nov-2013 17:35:10 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[19-Nov-2013 17:35:10 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[19-Nov-2013 17:35:10 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'classes/Database.php' (include_path='.;C:\php\pear') in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 32
+[19-Nov-2013 17:35:10 UTC] PHP Stack trace:
+[19-Nov-2013 17:35:10 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[19-Nov-2013 17:35:10 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3

@@ -1,6 +1,6 @@
 <?php
 require_once "includes/config.php";
-require_once "includes/classes/Session.php";
+include("Sessions.php");
 
 var_dump($_COOKIE);
 
