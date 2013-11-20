@@ -12,9 +12,7 @@ class FacebookFriend{
 	public function getFriendsFromFacebook($epilogue_user_id){
 			// call to facebook for the array of friends of the epilogue owner
 			$user = $facebook->getUser();
-     		echo "<h3>Your User Object (".$epilogue_user_id." = /me)</h3>";
-			echo "<h4>The Epilogue user has these Facebook Friends</h4>";
-      		$facebook_get_friends = $facebook->api($epilogue_user_id .'?fields=friends');
+       		$facebook_get_friends = $facebook->api($epilogue_user_id .'?fields=friends');
 			return $facebook_get_friends;
 	}
 		
@@ -23,7 +21,7 @@ class FacebookFriend{
 			foreach ($facebook_get_friends["friends"]["data"] as $value){
   				$facebook_user_id =  ($value["id"]);
   				$facebook_user_name = ($value["name"]);
-  				echo "$facebook_user_id is the ID for $facebook_user_name<br>";
+//  				echo "$facebook_user_id is the ID for $facebook_user_name<br>";
   				insertFriendList($facebook_user_id, $facebook_user_name, $epilogue_user_id);
   				}
 	}
@@ -43,7 +41,7 @@ class FacebookFriend{
 		$db = Registry::getInstance()->get('db');
 		$query = 'SELECT epilogue_user_id, facebook_user_id, facebook_name, invited, deceased FROM user_friend_list WHERE status = "$status" AND memorial_id = "$memorial_id"';		
 		$result = $db->fetchAll($query); 
-		print_r(array_values($result));
+//		print_r(array_values($result));
 		return $result;	
 	}
 

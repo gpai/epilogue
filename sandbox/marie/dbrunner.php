@@ -2,10 +2,15 @@
 
 // This is a list of the files I need to include to make things work.
 //include 'get_memorial_id.php';
+ 
+echo "-----start here------------<br>";
+//Registry::getInstance()->set("config", $config);
 require_once ('includes/classes/Database.php');
 require_once ('includes/classes/FacebookFriend.php');
 require_once ('includes/classes/Memorial.php');
 require_once ('includes/classes/Photo.php');
+require_once ('includes/classes/Post.php');
+require_once ('includes/classes/Favorite.php');
 include 'includes/config.php';
 
 
@@ -53,27 +58,14 @@ echo "-------------------------";
 //$objFF->getCollaborators($epilogue_user_id, $status, $memorial_id);
 //$objFF->updateInviteStatus($epilogue_user_id, $invite_this_friend, $status, $memorial_id);
 echo "<br>";
-?>
 
-
-
-<?php
 /*
  * facebook calls
  *
  * With a facebook user id... call facebook and pull a nice little array
  * use $epilogue_user_id (owner's facebook_id) OR $deceased_facebook_id OR $facebook_user_id(anyone)
  */
- 
-echo "-----start here------------<br>";
-//Registry::getInstance()->set("config", $config);
-require_once ('includes/classes/Database.php');
-require_once ('includes/classes/FacebookFriend.php');
-require_once ('includes/classes/Memorial.php');
-require_once ('includes/classes/Photo.php');
-require_once ('includes/classes/Post.php');
-require_once ('includes/classes/Favorite.php');
-include 'includes/config.php';
+
 
 echo "-----start here    1 ------------<br>";
 
