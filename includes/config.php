@@ -29,7 +29,7 @@ require_once "lib/fb/facebook.php";
 
 // Epilogue Code
 require_once 'classes/Registry.php';
-require_once "classes/Epilogue.php";
+require_once 'classes/Epilogue.php';
 require_once "classes/Database.php";
 require_once "classes/User.php";
 require_once "classes/Login.php";

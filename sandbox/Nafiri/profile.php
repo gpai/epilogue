@@ -1,14 +1,20 @@
 <?php
 
 require_once "includes/config.php";
-include("User.php");
+//include("User.php");
+include 'dbrunner.php';
 
-function getFriends()
-{
-	$user = new User();
-	$friendsList = $user->friends();
-	echo $friendsList;
-}
+echo $objFF;
+
+
+// function getFriends()
+// {
+// 	echo "onomatopoeia";
+// 	$user = new User();
+// 	$user->friends(new friendsList);
+// 	echo $friendsList;
+// }
+// echo "outside";
 
 //Have Marie give me a function to add a new memorial id/space for user. When "Create New" is clicked.
 
