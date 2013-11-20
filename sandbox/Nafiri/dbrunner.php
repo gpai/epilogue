@@ -2,10 +2,15 @@
 
 // This is a list of the files I need to include to make things work.
 //include 'get_memorial_id.php';
+ 
+echo "-----start here------------<br>";
+//Registry::getInstance()->set("config", $config);
 require_once ('includes/classes/Database.php');
 require_once ('includes/classes/FacebookFriend.php');
 require_once ('includes/classes/Memorial.php');
 require_once ('includes/classes/Photo.php');
+//require_once ('includes/classes/Post.php');
+//require_once ('includes/classes/Favorite.php');
 include 'includes/config.php';
 
 
@@ -31,7 +36,7 @@ $vote = 1;
 $memorial_id = 1;
 //$objPhoto = new Photo($whosphoto);
 //$photo_vote = $objPhoto->getPhotoVote($photo_id, $memorial_id);
-//echo "<br>";
+echo "<br>";
 //$objPhoto->upPhotoVote($photo_id, $memorial_id, $vote);
 //$objPhoto->getPhotos($whosphoto);
 echo "<br>";
@@ -46,7 +51,7 @@ $objFF = new FacebookFriend();
 //$objFF->insertFriendList($facebook_user_id, $facebook_user_name, $epilogue_user_id);
 $array_of_friends = $objFF->getFriendsFromFacebook($epilogue_user_id);
 print_r($array_of_friends);
-//$objFF->insertFriendsIntoDatabase($epilogue_user_id);
+// $objFF->insertFriendsIntoDatabase($epilogue_user_id);
 
 echo "<br>";
 echo "-------------------------";
@@ -54,5 +59,48 @@ echo "-------------------------";
 //$objFF->getCollaborators($epilogue_user_id, $status, $memorial_id);
 //$objFF->updateInviteStatus($epilogue_user_id, $invite_this_friend, $status, $memorial_id);
 echo "<br>";
+
+/*
+ * facebook calls
+ *
+ * With a facebook user id... call facebook and pull a nice little array
+ * use $epilogue_user_id (owner's facebook_id) OR $deceased_facebook_id OR $facebook_user_id(anyone)
+ */
+
+
+echo "-----start here    1 ------------<br>";
+
+
+$fb_user_id = "688307710";
+
+if (Login::isLoggedIn()):
+
+// Photo Stuff - does nothing so far
+
+$objPhoto = new Photo($fb_user_id);
+echo "-----------------<br>";
+//$array_of = $objPhoto->getFavorites($fb_user_id); 
+$photo_url = "https://scontent-b.xx.fbcdn.net/hphotos-prn1/s720x720/1204_10151701579772711_1432956917_n.jpg";
+
+$objPhoto->downloadPhoto($photo_url);
+
+
+?>
+<pre><?php //print_r ($array_of) ?> </pre>;
+
+<?php
+//foreach ($array_of_photos["data"] as $key => $value){
+//	print "key --- $key and value --- $value";	
+//}
+
+//$result = $objPhoto->displayPhotos($array_of_photos["data"], $indent='');
+//echo $result;
+
+echo "----2------------<br>";
+
+ 
+else:
+     echo ' You are not Connected. Click <a href="login.php">here</a> to login. ';
+endif
 
 ?>

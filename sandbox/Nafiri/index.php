@@ -17,7 +17,7 @@ require_once "includes/config.php";
     //Marie obtains their public Facebook information after logging in.
     
 include "index.phtml";
-    
+   
 ?>
 
   
