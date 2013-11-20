@@ -1,10 +1,8 @@
 <?php
 
 require_once "includes/config.php";
-//include("User.php");
-include 'dbrunner.php';
 
-echo $objFF;
+echo $whosphoto;
 
 
 // function getFriends()
@@ -32,4 +30,5 @@ echo $objFF;
 
 // Load the template
 include "profile.phtml";
+include_once "dbrunner.php";
 ?>

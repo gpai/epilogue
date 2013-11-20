@@ -29,11 +29,11 @@ $whosphoto = "688307710";
 $photo_id = "0981";
 $vote = 1;
 $memorial_id = 1;
-$objPhoto = new Photo($whosphoto);
+//$objPhoto = new Photo($whosphoto);
 //$photo_vote = $objPhoto->getPhotoVote($photo_id, $memorial_id);
-echo "<br>";
+//echo "<br>";
 //$objPhoto->upPhotoVote($photo_id, $memorial_id, $vote);
-$objPhoto->getPhotos($whosphoto);
+//$objPhoto->getPhotos($whosphoto);
 echo "<br>";
 
 
@@ -43,8 +43,9 @@ $facebook_user_id = "12345678";
 $facebook_user_name = "Mr. Whiskers";
 $epilogue_user_id = "100005789522071";
 $objFF = new FacebookFriend();
-$objFF->insertFriendList($facebook_user_id, $facebook_user_name, $epilogue_user_id);
-//$array_of_friends = $objFF->getFriendsFromFacebook($epilogue_user_id);
+//$objFF->insertFriendList($facebook_user_id, $facebook_user_name, $epilogue_user_id);
+$array_of_friends = $objFF->getFriendsFromFacebook($epilogue_user_id);
+print_r($array_of_friends);
 //$objFF->insertFriendsIntoDatabase($epilogue_user_id);
 
 echo "<br>";
