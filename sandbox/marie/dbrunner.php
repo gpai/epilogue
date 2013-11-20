@@ -49,7 +49,7 @@ echo "<br>";
 // Memorial class - has 1 method so far... it takes the user id and returns an array
 // the array looks like this Array ( [0] => Array ( [memorial_id] => 1 [epilogue_user_id] => 100005789522071 [deceased_name] => Grace Pai ) )
 //--------------------
-//$epilogue_user_id = "100005789522071";
+$epilogue_user_id = "100005789522071";
 //$objMem = new Memorial();
 //$var_duh = $objMem->listMemorialId($epilogue_user_id);
 //print_r(array_values($var_duh));
@@ -79,22 +79,26 @@ echo "FacebookFriends class";
 // FacebookFriends class
 //$facebook_user_id = "12345678";
 //$facebook_user_name = "Mr. Whiskers";
-$epilogue_user_id = "688307710";
+//$epilogue_user_id = "688307710";
 $objFF = new FacebookFriend();
 
+// --- in order to insert the friend list into our database
 //$objFF->insertFriendList($facebook_user_id, $facebook_user_name, $epilogue_user_id);
-$array_of_friends = $objFF->getFriendsFromFacebook($epilogue_user_id);
 echo "------what is the dealio";
 
-print_r($array_of_friends);
+//print_r($array_of_friends);
+
 //$objFF->insertFriendsIntoDatabase($epilogue_user_id);
 
 echo "<br>";
 echo "-------------------------";
-//$status = "Y"; // Y = invited, (A)ccepted invite
-//$objFF->getCollaborators($epilogue_user_id, $status, $memorial_id);
+$status = "N"; // Y = invited, (A)ccepted invite
+$memorial_id = "1";
+$array_of_peeps = $objFF->getCollaborators($epilogue_user_id, $status, $memorial_id);
+print_r($array_of_peeps);
+
 //$objFF->updateInviteStatus($epilogue_user_id, $invite_this_friend, $status, $memorial_id);
-echo "<br>";
+echo "--- <br>";
 
 
 
