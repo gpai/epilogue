@@ -81,9 +81,14 @@ echo "FacebookFriends class";
 //$facebook_user_name = "Mr. Whiskers";
 $epilogue_user_id = "688307710";
 $objFF = new FacebookFriend();
+
 //$objFF->insertFriendList($facebook_user_id, $facebook_user_name, $epilogue_user_id);
 $array_of_friends = $objFF->getFriendsFromFacebook($epilogue_user_id);
+echo "------what is the dealio";
+
+print_r($array_of_friends);
 //$objFF->insertFriendsIntoDatabase($epilogue_user_id);
+
 echo "<br>";
 echo "-------------------------";
 //$status = "Y"; // Y = invited, (A)ccepted invite
