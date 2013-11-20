@@ -1,57 +1,27 @@
 <?php
 /*
- * Created on Nov 16, 2013
+ * Created on Nov 19, 2013
  *
- * KISS it baby. Let's get the photo party started
+ * To change the template for this generated file go to
+ * Window - Preferences - PHPeclipse - PHP - Code Templates
  */
 
- class Photo{
+
+ class Video{
  
-         private $_photo_array = array();
+         private $_video_array = array();
          
-        public function addItem($obj, $key = null){
-                if ($key){
-                        if(isset($this->_photo_array[$key])){
-                                throw new KeyInUseException("Key\"$key\" already exists");
-                                }         else {$this->_photo_array[$key] = $obj;                                
-                                        }
-                        }        
-                        else {$this->_photo_array[] = $obj;
-                        }                
-        }
-        
-        public function keys(){
-                return array_keys($this->_photo_array);        
-        }
-        
-        public function exists($key){
-                return (isset($this->_photo_array[$key]));
-        }
-        
-        public function removeItem($key){
-                
-        }
-        
-        public function length(){
-                return sizeof($this->_photo_array);
-                        
-        }
-
-
-//        public function __construct($whosphoto){
-//                $this->whosphoto = $whosphoto;
-//         }
-                 
-         public function getPhotos($user_id){
+         
+         public function getVideo($user_id){
                  // get array of first 25 from facebook                
                  $fb = Registry::getInstance()->get("fb");        
               $user_profile = $fb->api($user_id .'/photos');
                  return $user_profile;
          }
 
-        public function sortPhotos ($arr_of_photos){
+        public function sortVideos ($arr_of){
                 // This function prints the facebook array into the lower level parts associated with the photo
-                foreach ($arr_of_photos["data"] as $value){
+                foreach ($arr_of["data"] as $value){
                          $photo_id =  ($value["id"]);
                           $caption = ($value["name"]);
                           $photo_url = ($value["source"]);
@@ -106,52 +76,26 @@
                           echo "*********** The url $photo_url <br>";
                 } 
         }
-        public function insertDeceasedPhotos ($arr_of_sorted_photos, $memorial_id){
+        public function insertDeceasedVideos ($arr_of, $memorial_id){
                 // okay so this one need the sort above to return that data
                 // this one needs to stick it in the photo table with the associated memorial id
                 echo " The array of sorted photos will be added to $memorial_id<br>";
         }
  
          
-//         function sortPhotoArray($arr_of_photos){
-//            $output = null;
-//            if (is_array($arrayIn)){
-//                foreach ($arrayIn as $key=>$val){
-//                    if (is_array($val)){
-//                       $output->{$key} = arrayFilter($val);
-//                    } 
-//                    else {
-//                        $output->{$key} = $this->sanitize($val);
-//                    }
-//                }
-//            } 
-//            else {
-//                $output->{$key} = $this->sanitize($val);
-//            }
-//    return $output;
-//        }
-
-
-//        function sanitize($val)
-//        {
-                
-    //insert your preferred data filter here
-//            return addslashes('filtered: '.$val);
-//        }
-
 
          
-         public function getDeceasedPhotos($deceased_facebook_user_id){
+         public function getDeceasedVideos($deceased_facebook_user_id){
                  // get all the deceased's photos from facebook - one time dealio?
                  $fb = Registry::getInstance()->get("fb");        
-              $deceased_user_photo  = $fb->api($deceased_facebook_user_id .'/photos');
+              $deceased_video  = $fb->api($deceased_facebook_user_id .'/photos');
                  print "Get photos for this guy --> $deceased_facebook_user_id";
-                 return $deceased_user_photo;
+                 return $deceased_video;
          }                
 
-        function displayPhotos($arr_of_photos, $indent='') {
-            if ($arr_of_photos) {
-                foreach ($arr_of_photos as $value) {
+        function displayVideos($arr_of, $indent='') {
+            if ($arr_of) {
+                foreach ($arr_of as $value) {
                     if (is_array($value)) {
                         $this->displayPhotos($value, $indent . '--');
                     } 
@@ -163,25 +107,25 @@
         }
 
 
-          public function getPhotoVote($photo_id, $memorial_id){
+          public function getVideoVote($video_id, $memorial_id){
                   // display the current vote for a photo_id
                   $db = Registry::getInstance()->get('db');        
-                  $query = 'SELECT vote, memorial_id FROM photo WHERE photo_id = "$photo_id" AND memorial_id = "$memorial_id"';                
+                  $query = 'SELECT vote, memorial_id FROM video WHERE video_id = "$video_id" AND memorial_id = "$memorial_id"';                
                   $current_vote = $db->raw_query($query);
                   echo "this is the current vote '$current_vote'";
           }
-                    public function upPhotoVote($photo_id, $memorial_id, $vote){
+                    public function upVideoVote($video_id, $memorial_id, $vote){
                   // upvote or downvote a photo to include in the memorial
                   $db = Registry::getInstance()->get('db');        
-                $update_this = "UPDATE `Vixen_test`.`photo` SET vote = '$status' WHERE facebook_user_id = '$invite_this_friend' AND memorial_id = '$memorial_id'";
+                $update_this = "UPDATE `Vixen_test`.`video` SET vote = '$status' WHERE video_id = $video_id AND memorial_id = '$memorial_id'";
                 $db->raw_query($update_this);
                   echo "hey '$vote' was added to the vote count";
           }
   
-  	 	public function downloadPhoto($photo_url){
+  	 	public function downloadVideo($video_url){
   	 		// at the moment this jsut displays the image... I need to make it download
-			echo " <img src=$photo_url>";
-			file_put_contents("/images/deceased", fopen("$photo_url", 'r'));
+			echo " <img src=$video_url>";
+			//file_put_contents("/images/deceased", fopen("$video_url", 'r'));
 
 		}
         

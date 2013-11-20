@@ -2,8 +2,9 @@
 
 require_once "includes/config.php";
 
-echo $whosphoto;
+echo $objFF;
 
+//Getting a list of friends 
 
 // function getFriends()
 // {
@@ -30,5 +31,5 @@ echo $whosphoto;
 
 // Load the template
 include "profile.phtml";
-include_once "dbrunner.php";
+//include_once "dbrunner.php";
 ?>
