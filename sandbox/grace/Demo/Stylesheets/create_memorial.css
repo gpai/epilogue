@@ -1,0 +1,56 @@
+body{
+	padding:0;
+}
+h1, h2, h3, h4 {
+	display: inline
+}
+
+.jumbotron{
+	margin: 5% auto 1% auto;
+	width: 90%;
+	height: 100%;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	padding: 5% 3% 5% 5%;
+	overflow: hidden;
+}
+
+#content{
+	width:55%;
+	display:inline-block;
+	float: left;
+}
+#image{
+	max-width:100%;
+	height: auto;
+	float: right;
+	padding-right: 20%;
+	padding-top: 0%;
+}
+.form-control{
+	width: auto;
+	display: inline;
+	margin: 3% auto;
+}
+
+.continue{
+	margin-left: 60%;
+	margin-top: 28%;
+	display:list-item;
+	width: 40%;
+}
+
+.cancel{
+	margin-left: 60%;
+	display:list-item;
+	width: 40%;
+}
+
+#category_continue{
+	margin-top: 0;	
+}
+
+.category{
+	margin-left:8%;
+	margin-top: 2%;
+}

@@ -31,3 +31,8 @@ body{
 .btn-lg{
 	padding-right: 4%;
 }
+
+img{
+	height: auto;
+	max-width: 100%;
+}

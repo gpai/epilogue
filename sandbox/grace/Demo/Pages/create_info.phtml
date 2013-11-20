@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="../Stylesheets/font-awesome.min.css">
 		<link rel="stylesheet" href="../Stylesheets/bootswatch.min.css">
 		<link rel="stylesheet" href="../Stylesheets/profile_style.css">
-		<link rel="stylesheet" href="../Stylesheets/memorial.css">
+		<link rel="stylesheet" href="../Stylesheets/create_memorial.css">
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
 		<script src="../bower_components/bootstrap/assets/js/html5shiv.js"></script>
@@ -47,19 +47,32 @@
 		</div><!-- /.navbar -->
 
 		<div class="jumbotron">
-			<div id="deceased_info">
-				<img src="../Images/profile.jpg">
-				<h2>In memory of Grace Yun-Ting Pai</h2>
-				<h2></h2>
+			<div id="content">
+				<h2>Name of the Deceased:
+				<input class="form-control" id="focusedInput" type="text" >
+				</h2></br>
+				<h2>Date of Death:
+				<input type="datetime" class="form-control" id="focusedInput" type="text" value="MM/DD/YYYY">
+				</h2> </br> <h2>Collaborate with others: <h4>
+				<select class= "form-control">
+					<option value="none">Please Select</option><option value="yes">Yes</option><option value="no">No, not at this time</option>
+				</select></h4></h2>
+				<br>
+				<h2>Beloved:
+				<input class="form-control" id="focusedInput" type="text" >
+				</h2></br><h6> Example: Beloved Mother and Wife.</h6>
+
 			</div>
-		</div>
-		
-		<div class="jumbotron">
-			jumbotron2
-		</div>
-		
-		<div class="jumbotron">
-			jumbotron3
+			<div id="image">
+				<img src= "../Images/anonymous.jpg">
+			</div>
+
+			<button onclick="location.href='create_categories.phtml'"type="button" class="btn btn-primary btn-lg continue">
+				Continue
+			</button>
+			<button onclick="location.href='profile.phtml'"type="button" class="btn btn-primary btn-lg cancel">
+				Cancel
+			</button>
 		</div>
 
 		<script src="../Scripts/jquery.min.js"></script>
