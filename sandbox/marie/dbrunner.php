@@ -84,18 +84,18 @@ if (Login::isLoggedIn()):
 
 // Photo Stuff - does nothing so far
 
-$objPhoto = new Favorite($fb_user_id);
+$objPhoto = new Photo($fb_user_id);
 echo "-----------------<br>";
-$array_of = $objPhoto->getFavorites($fb_user_id); 
+//$array_of = $objPhoto->getFavorites($fb_user_id); 
+$photo_url = "https://scontent-b.xx.fbcdn.net/hphotos-prn1/s720x720/1204_10151701579772711_1432956917_n.jpg";
 
-$objPhoto->sortFavorites($array_of);
+$objPhoto->downloadPhoto($photo_url);
+
 
 ?>
-<pre><?php print_r ($array_of) ?> </pre>;
+<pre><?php //print_r ($array_of) ?> </pre>;
 
 <?php
-
-
 //foreach ($array_of_photos["data"] as $key => $value){
 //	print "key --- $key and value --- $value";	
 //}

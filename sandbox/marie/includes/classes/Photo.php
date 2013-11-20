@@ -177,11 +177,19 @@
                 $db->raw_query($update_this);
                   echo "hey '$vote' was added to the vote count";
           }
-                                  
+  
+  	 	public function downloadPhoto($photo_url){
+  	 		// at the moment this jsut displays the image... I need to make it download
+			echo " <img src=$photo_url>";
+			file_put_contents("/images/deceased", fopen("$photo_url", 'r'));
 
+		}
         
   
  }
+ 
+ 
+ 
  
  
 ?>
