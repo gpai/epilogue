@@ -1,0 +1,58 @@
+
+.navbar-brand{
+	padding-top: 10px;
+	padding-bottom: 0;
+}
+
+.navbar,
+.navbar-inverse{
+	width: 100%;
+	border-radius: 0px;
+}
+
+.btn-primary{
+	margin-left: 5%;
+	margin-top: 2%;
+	background-image: linear-gradient(#46698E, #334C67 50%, #25374B);
+}
+
+.btn-block
+.bt-lg{
+	margin-left: 5%;
+	margin-top: 2%;
+	width: 90%;
+	text-align: left; 
+	padding-left: 1%;
+}
+
+.btn-group,
+.btn-group-justified{
+	width: 90%;
+	margin-left: 5%;
+	border-radius: 0px;
+}
+
+.btn-default{
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 3%;
+	text-align: center;
+}
+.active,
+.in,
+.tab-pane,
+.tab-content{
+	
+	border-radius: 5px;
+}
+
+.nav,
+.nav-tabs{
+	margin: 0;	
+}
+
+.bs-example{
+	width: 99%;
+	margin: 0 auto;
+	height: auto;
+}

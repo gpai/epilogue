@@ -1,0 +1,13 @@
+body{
+	width: auto;
+	height: auto;
+	padding: 0;
+}
+footer{
+	margin-top: 0%;
+}
+.col-lg-12{
+	text-align: right;
+	width: 90%;
+	margin: 0 auto;
+}

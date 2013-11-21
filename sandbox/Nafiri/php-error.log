@@ -3809,3 +3809,475 @@ Stack trace:
 [20-Nov-2013 20:20:07 UTC] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../grace/Demo' for inclusion (include_path='.;C:\php\pear') in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php on line 21
 [20-Nov-2013 20:20:07 UTC] PHP Stack trace:
 [20-Nov-2013 20:20:07 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[20-Nov-2013 20:46:09 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[20-Nov-2013 20:46:09 UTC] PHP Stack trace:
+[20-Nov-2013 20:46:09 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[20-Nov-2013 20:46:09 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[20-Nov-2013 20:46:09 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[20-Nov-2013 20:46:09 UTC] PHP Notice:  Undefined index: redirectLogin in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Login.php on line 24
+[20-Nov-2013 20:46:09 UTC] PHP Stack trace:
+[20-Nov-2013 20:46:09 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[20-Nov-2013 20:46:09 UTC] PHP   2. Login::getLoginUrl() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:14
+[20-Nov-2013 20:46:09 UTC] PHP Notice:  Undefined index: redirectLogout in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Login.php on line 47
+[20-Nov-2013 20:46:09 UTC] PHP Stack trace:
+[20-Nov-2013 20:46:09 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[20-Nov-2013 20:46:09 UTC] PHP   2. Login::getLogoutUrl() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:15
+[20-Nov-2013 20:46:17 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[20-Nov-2013 20:46:17 UTC] PHP Stack trace:
+[20-Nov-2013 20:46:17 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 20:46:17 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[20-Nov-2013 20:46:17 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[20-Nov-2013 20:46:17 UTC] PHP Fatal error:  Class 'FacebookFriend' not found in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 8
+[20-Nov-2013 20:46:17 UTC] PHP Stack trace:
+[20-Nov-2013 20:46:17 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 20:50:37 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[20-Nov-2013 20:50:37 UTC] PHP Stack trace:
+[20-Nov-2013 20:50:37 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 20:50:37 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[20-Nov-2013 20:50:37 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[20-Nov-2013 20:50:37 UTC] PHP Fatal error:  Class 'FacebookFriend' not found in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 8
+[20-Nov-2013 20:50:37 UTC] PHP Stack trace:
+[20-Nov-2013 20:50:37 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 20:53:02 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[20-Nov-2013 20:53:02 UTC] PHP Stack trace:
+[20-Nov-2013 20:53:02 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 20:53:02 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[20-Nov-2013 20:53:02 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[20-Nov-2013 20:53:02 UTC] PHP Fatal error:  Class 'FacebookFriend' not found in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 8
+[20-Nov-2013 20:53:02 UTC] PHP Stack trace:
+[20-Nov-2013 20:53:02 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:15:10 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[20-Nov-2013 21:15:10 UTC] PHP Stack trace:
+[20-Nov-2013 21:15:10 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:15:10 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[20-Nov-2013 21:15:10 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[20-Nov-2013 21:15:10 UTC] PHP Fatal error:  Class 'FacebookFriend' not found in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 9
+[20-Nov-2013 21:15:10 UTC] PHP Stack trace:
+[20-Nov-2013 21:15:10 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:15:11 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[20-Nov-2013 21:15:11 UTC] PHP Stack trace:
+[20-Nov-2013 21:15:11 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:15:11 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[20-Nov-2013 21:15:11 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[20-Nov-2013 21:15:11 UTC] PHP Fatal error:  Class 'FacebookFriend' not found in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 9
+[20-Nov-2013 21:15:11 UTC] PHP Stack trace:
+[20-Nov-2013 21:15:11 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:15:12 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[20-Nov-2013 21:15:12 UTC] PHP Stack trace:
+[20-Nov-2013 21:15:12 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:15:12 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[20-Nov-2013 21:15:12 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[20-Nov-2013 21:15:12 UTC] PHP Fatal error:  Class 'FacebookFriend' not found in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 9
+[20-Nov-2013 21:15:12 UTC] PHP Stack trace:
+[20-Nov-2013 21:15:12 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:15:12 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[20-Nov-2013 21:15:12 UTC] PHP Stack trace:
+[20-Nov-2013 21:15:12 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:15:12 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[20-Nov-2013 21:15:12 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[20-Nov-2013 21:15:12 UTC] PHP Fatal error:  Class 'FacebookFriend' not found in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 9
+[20-Nov-2013 21:15:12 UTC] PHP Stack trace:
+[20-Nov-2013 21:15:12 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:16:30 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[20-Nov-2013 21:16:30 UTC] PHP Stack trace:
+[20-Nov-2013 21:16:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:16:30 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[20-Nov-2013 21:16:30 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[20-Nov-2013 21:16:30 UTC] PHP Fatal error:  Class 'FacebookFriend' not found in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 9
+[20-Nov-2013 21:16:30 UTC] PHP Stack trace:
+[20-Nov-2013 21:16:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:17:53 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[20-Nov-2013 21:17:53 UTC] PHP Stack trace:
+[20-Nov-2013 21:17:53 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:17:53 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[20-Nov-2013 21:17:53 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[20-Nov-2013 21:17:53 UTC] PHP Warning:  require_once(includes/FacebookFriends.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 4
+[20-Nov-2013 21:17:53 UTC] PHP Stack trace:
+[20-Nov-2013 21:17:53 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:17:53 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'includes/FacebookFriends.php' (include_path='.;C:\php\pear') in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 4
+[20-Nov-2013 21:17:53 UTC] PHP Stack trace:
+[20-Nov-2013 21:17:53 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:18:55 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[20-Nov-2013 21:18:55 UTC] PHP Stack trace:
+[20-Nov-2013 21:18:55 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:18:55 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[20-Nov-2013 21:18:55 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[20-Nov-2013 21:18:55 UTC] PHP Warning:  require_once(../includes/FacebookFriends.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 4
+[20-Nov-2013 21:18:55 UTC] PHP Stack trace:
+[20-Nov-2013 21:18:55 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:18:55 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../includes/FacebookFriends.php' (include_path='.;C:\php\pear') in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 4
+[20-Nov-2013 21:18:55 UTC] PHP Stack trace:
+[20-Nov-2013 21:18:55 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:19:40 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[20-Nov-2013 21:19:40 UTC] PHP Stack trace:
+[20-Nov-2013 21:19:40 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:19:40 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[20-Nov-2013 21:19:40 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[20-Nov-2013 21:19:40 UTC] PHP Warning:  require_once(FacebookFriends.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 4
+[20-Nov-2013 21:19:40 UTC] PHP Stack trace:
+[20-Nov-2013 21:19:40 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:19:40 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'FacebookFriends.php' (include_path='.;C:\php\pear') in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 4
+[20-Nov-2013 21:19:40 UTC] PHP Stack trace:
+[20-Nov-2013 21:19:40 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:19:54 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[20-Nov-2013 21:19:54 UTC] PHP Stack trace:
+[20-Nov-2013 21:19:54 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:19:54 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[20-Nov-2013 21:19:54 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[20-Nov-2013 21:19:54 UTC] PHP Warning:  require_once(../includes/FacebookFriends.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 4
+[20-Nov-2013 21:19:54 UTC] PHP Stack trace:
+[20-Nov-2013 21:19:54 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:19:54 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../includes/FacebookFriends.php' (include_path='.;C:\php\pear') in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 4
+[20-Nov-2013 21:19:54 UTC] PHP Stack trace:
+[20-Nov-2013 21:19:54 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:21:21 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[20-Nov-2013 21:21:21 UTC] PHP Stack trace:
+[20-Nov-2013 21:21:21 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:21:21 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[20-Nov-2013 21:21:21 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[20-Nov-2013 21:21:21 UTC] PHP Warning:  require_once(../includes/classes/FacebookFriend.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 4
+[20-Nov-2013 21:21:21 UTC] PHP Stack trace:
+[20-Nov-2013 21:21:21 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:21:21 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../includes/classes/FacebookFriend.php' (include_path='.;C:\php\pear') in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 4
+[20-Nov-2013 21:21:21 UTC] PHP Stack trace:
+[20-Nov-2013 21:21:21 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:22:08 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[20-Nov-2013 21:22:08 UTC] PHP Stack trace:
+[20-Nov-2013 21:22:08 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:22:08 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[20-Nov-2013 21:22:08 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[20-Nov-2013 21:22:08 UTC] PHP Warning:  require_once(FacebookFriend.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 4
+[20-Nov-2013 21:22:08 UTC] PHP Stack trace:
+[20-Nov-2013 21:22:08 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:22:08 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'FacebookFriend.php' (include_path='.;C:\php\pear') in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 4
+[20-Nov-2013 21:22:08 UTC] PHP Stack trace:
+[20-Nov-2013 21:22:08 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:27:33 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[20-Nov-2013 21:27:33 UTC] PHP Stack trace:
+[20-Nov-2013 21:27:33 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:27:33 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[20-Nov-2013 21:27:33 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[20-Nov-2013 21:27:33 UTC] PHP Warning:  require_once(../includes/FacebookFriend.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 4
+[20-Nov-2013 21:27:33 UTC] PHP Stack trace:
+[20-Nov-2013 21:27:33 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:27:33 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../includes/FacebookFriend.php' (include_path='.;C:\php\pear') in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 4
+[20-Nov-2013 21:27:33 UTC] PHP Stack trace:
+[20-Nov-2013 21:27:33 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:28:01 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[20-Nov-2013 21:28:01 UTC] PHP Stack trace:
+[20-Nov-2013 21:28:01 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:28:01 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[20-Nov-2013 21:28:01 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[20-Nov-2013 21:28:01 UTC] PHP Warning:  require_once(includes/FacebookFriend.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 4
+[20-Nov-2013 21:28:01 UTC] PHP Stack trace:
+[20-Nov-2013 21:28:01 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:28:01 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'includes/FacebookFriend.php' (include_path='.;C:\php\pear') in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 4
+[20-Nov-2013 21:28:01 UTC] PHP Stack trace:
+[20-Nov-2013 21:28:01 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:28:40 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[20-Nov-2013 21:28:40 UTC] PHP Stack trace:
+[20-Nov-2013 21:28:40 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:28:40 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[20-Nov-2013 21:28:40 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[20-Nov-2013 21:28:40 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 10
+[20-Nov-2013 21:28:40 UTC] PHP Stack trace:
+[20-Nov-2013 21:28:40 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:28:40 UTC] PHP Notice:  Undefined variable: invited in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 10
+[20-Nov-2013 21:28:40 UTC] PHP Stack trace:
+[20-Nov-2013 21:28:40 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:28:40 UTC] PHP Notice:  Undefined variable: memorial_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 10
+[20-Nov-2013 21:28:40 UTC] PHP Stack trace:
+[20-Nov-2013 21:28:40 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:28:40 UTC] PHP Fatal error:  Class 'Registry' not found in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php on line 41
+[20-Nov-2013 21:28:40 UTC] PHP Stack trace:
+[20-Nov-2013 21:28:40 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:28:40 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:10
+[20-Nov-2013 21:31:02 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[20-Nov-2013 21:31:02 UTC] PHP Stack trace:
+[20-Nov-2013 21:31:02 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:31:02 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[20-Nov-2013 21:31:02 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[20-Nov-2013 21:31:02 UTC] PHP Fatal error:  Class 'Registry' not found in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php on line 41
+[20-Nov-2013 21:31:02 UTC] PHP Stack trace:
+[20-Nov-2013 21:31:02 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:31:02 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:14
+[20-Nov-2013 21:32:40 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[20-Nov-2013 21:32:40 UTC] PHP Stack trace:
+[20-Nov-2013 21:32:40 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:32:40 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[20-Nov-2013 21:32:40 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[20-Nov-2013 21:32:40 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php on line 43
+[20-Nov-2013 21:32:40 UTC] PHP Stack trace:
+[20-Nov-2013 21:32:40 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:32:40 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:15
+[20-Nov-2013 21:35:15 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[20-Nov-2013 21:35:15 UTC] PHP Stack trace:
+[20-Nov-2013 21:35:15 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:35:15 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[20-Nov-2013 21:35:15 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[20-Nov-2013 21:35:15 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php on line 43
+[20-Nov-2013 21:35:15 UTC] PHP Stack trace:
+[20-Nov-2013 21:35:15 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:35:15 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:15
+[20-Nov-2013 21:36:50 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[20-Nov-2013 21:36:50 UTC] PHP Stack trace:
+[20-Nov-2013 21:36:50 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:36:50 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[20-Nov-2013 21:36:50 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[20-Nov-2013 21:36:50 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php on line 42
+[20-Nov-2013 21:36:50 UTC] PHP Stack trace:
+[20-Nov-2013 21:36:50 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:36:50 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:15
+[20-Nov-2013 21:37:18 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[20-Nov-2013 21:37:18 UTC] PHP Stack trace:
+[20-Nov-2013 21:37:18 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:37:18 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[20-Nov-2013 21:37:18 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[20-Nov-2013 21:37:18 UTC] PHP Notice:  Undefined variable: memorials in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.phtml on line 36
+[20-Nov-2013 21:37:18 UTC] PHP Stack trace:
+[20-Nov-2013 21:37:18 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:37:18 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:44
+[20-Nov-2013 21:37:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.phtml on line 36
+[20-Nov-2013 21:37:18 UTC] PHP Stack trace:
+[20-Nov-2013 21:37:18 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:37:18 UTC] PHP   2. include() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:44
+[20-Nov-2013 21:38:22 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[20-Nov-2013 21:38:22 UTC] PHP Stack trace:
+[20-Nov-2013 21:38:22 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:38:22 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[20-Nov-2013 21:38:22 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[20-Nov-2013 21:41:39 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[20-Nov-2013 21:41:39 UTC] PHP Stack trace:
+[20-Nov-2013 21:41:39 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:41:39 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[20-Nov-2013 21:41:39 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[20-Nov-2013 21:41:39 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php on line 42
+[20-Nov-2013 21:41:39 UTC] PHP Stack trace:
+[20-Nov-2013 21:41:39 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 21:41:39 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:15
+[20-Nov-2013 23:10:18 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[20-Nov-2013 23:10:18 UTC] PHP Stack trace:
+[20-Nov-2013 23:10:18 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 23:10:18 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[20-Nov-2013 23:10:18 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[20-Nov-2013 23:10:18 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php on line 42
+[20-Nov-2013 23:10:18 UTC] PHP Stack trace:
+[20-Nov-2013 23:10:18 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 23:10:18 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:15
+[20-Nov-2013 23:16:10 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[20-Nov-2013 23:16:10 UTC] PHP Stack trace:
+[20-Nov-2013 23:16:10 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 23:16:10 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[20-Nov-2013 23:16:10 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[20-Nov-2013 23:16:10 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php on line 42
+[20-Nov-2013 23:16:10 UTC] PHP Stack trace:
+[20-Nov-2013 23:16:10 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[20-Nov-2013 23:16:10 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:15
+[21-Nov-2013 01:47:11 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[21-Nov-2013 01:47:11 UTC] PHP Stack trace:
+[21-Nov-2013 01:47:11 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 01:47:11 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[21-Nov-2013 01:47:11 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[21-Nov-2013 01:47:11 UTC] PHP Notice:  Undefined index: redirectLogin in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Login.php on line 25
+[21-Nov-2013 01:47:11 UTC] PHP Stack trace:
+[21-Nov-2013 01:47:11 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 01:47:11 UTC] PHP   2. Login::getLoginUrl() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:14
+[21-Nov-2013 01:47:11 UTC] PHP Notice:  Undefined index: redirectLogout in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Login.php on line 48
+[21-Nov-2013 01:47:11 UTC] PHP Stack trace:
+[21-Nov-2013 01:47:11 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 01:47:11 UTC] PHP   2. Login::getLogoutUrl() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:15
+[21-Nov-2013 01:48:02 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[21-Nov-2013 01:48:02 UTC] PHP Stack trace:
+[21-Nov-2013 01:48:02 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 01:48:02 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[21-Nov-2013 01:48:02 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[21-Nov-2013 01:48:02 UTC] PHP Notice:  Undefined index: redirectLogin in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Login.php on line 25
+[21-Nov-2013 01:48:02 UTC] PHP Stack trace:
+[21-Nov-2013 01:48:02 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 01:48:02 UTC] PHP   2. Login::getLoginUrl() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:14
+[21-Nov-2013 01:48:02 UTC] PHP Notice:  Undefined index: redirectLogout in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Login.php on line 48
+[21-Nov-2013 01:48:02 UTC] PHP Stack trace:
+[21-Nov-2013 01:48:02 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 01:48:02 UTC] PHP   2. Login::getLogoutUrl() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:15
+[21-Nov-2013 01:48:27 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[21-Nov-2013 01:48:27 UTC] PHP Stack trace:
+[21-Nov-2013 01:48:27 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 01:48:27 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[21-Nov-2013 01:48:27 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[21-Nov-2013 01:48:27 UTC] PHP Notice:  Undefined index: redirectLogin in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Login.php on line 25
+[21-Nov-2013 01:48:27 UTC] PHP Stack trace:
+[21-Nov-2013 01:48:27 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 01:48:27 UTC] PHP   2. Login::getLoginUrl() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:14
+[21-Nov-2013 01:48:27 UTC] PHP Notice:  Undefined index: redirectLogout in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Login.php on line 48
+[21-Nov-2013 01:48:27 UTC] PHP Stack trace:
+[21-Nov-2013 01:48:27 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 01:48:27 UTC] PHP   2. Login::getLogoutUrl() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:15
+[21-Nov-2013 01:50:07 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[21-Nov-2013 01:50:07 UTC] PHP Stack trace:
+[21-Nov-2013 01:50:07 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 01:50:07 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[21-Nov-2013 01:50:07 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[21-Nov-2013 01:50:07 UTC] PHP Notice:  Undefined index: redirectLogin in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Login.php on line 25
+[21-Nov-2013 01:50:07 UTC] PHP Stack trace:
+[21-Nov-2013 01:50:07 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 01:50:07 UTC] PHP   2. Login::getLoginUrl() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:15
+[21-Nov-2013 01:50:07 UTC] PHP Notice:  Undefined index: redirectLogout in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Login.php on line 48
+[21-Nov-2013 01:50:07 UTC] PHP Stack trace:
+[21-Nov-2013 01:50:07 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 01:50:07 UTC] PHP   2. Login::getLogoutUrl() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:16
+[21-Nov-2013 01:51:17 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[21-Nov-2013 01:51:17 UTC] PHP Stack trace:
+[21-Nov-2013 01:51:17 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 01:51:17 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[21-Nov-2013 01:51:17 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[21-Nov-2013 01:51:17 UTC] PHP Notice:  Undefined index: redirectLogin in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Login.php on line 25
+[21-Nov-2013 01:51:17 UTC] PHP Stack trace:
+[21-Nov-2013 01:51:17 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 01:51:17 UTC] PHP   2. Login::getLoginUrl() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:15
+[21-Nov-2013 01:51:17 UTC] PHP Notice:  Undefined index: redirectLogout in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Login.php on line 48
+[21-Nov-2013 01:51:17 UTC] PHP Stack trace:
+[21-Nov-2013 01:51:17 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 01:51:17 UTC] PHP   2. Login::getLogoutUrl() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:16
+[21-Nov-2013 01:54:05 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 74
+[21-Nov-2013 01:54:05 UTC] PHP Stack trace:
+[21-Nov-2013 01:54:05 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 01:54:05 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[21-Nov-2013 01:54:05 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:74
+[21-Nov-2013 02:02:11 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[21-Nov-2013 02:02:11 UTC] PHP Stack trace:
+[21-Nov-2013 02:02:11 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 02:02:11 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[21-Nov-2013 02:02:11 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[21-Nov-2013 02:02:13 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[21-Nov-2013 02:02:13 UTC] PHP Stack trace:
+[21-Nov-2013 02:02:13 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 02:02:13 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[21-Nov-2013 02:02:13 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[21-Nov-2013 02:02:19 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[21-Nov-2013 02:02:19 UTC] PHP Stack trace:
+[21-Nov-2013 02:02:19 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 02:02:19 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[21-Nov-2013 02:02:19 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[21-Nov-2013 02:02:54 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[21-Nov-2013 02:02:54 UTC] PHP Stack trace:
+[21-Nov-2013 02:02:54 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 02:02:54 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[21-Nov-2013 02:02:54 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[21-Nov-2013 02:02:55 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[21-Nov-2013 02:02:55 UTC] PHP Stack trace:
+[21-Nov-2013 02:02:55 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 02:02:55 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[21-Nov-2013 02:02:55 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[21-Nov-2013 02:02:57 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[21-Nov-2013 02:02:57 UTC] PHP Stack trace:
+[21-Nov-2013 02:02:57 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[21-Nov-2013 02:02:57 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[21-Nov-2013 02:02:57 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[21-Nov-2013 02:02:57 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php on line 42
+[21-Nov-2013 02:02:57 UTC] PHP Stack trace:
+[21-Nov-2013 02:02:57 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[21-Nov-2013 02:02:57 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:15
+[21-Nov-2013 02:03:42 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[21-Nov-2013 02:03:42 UTC] PHP Stack trace:
+[21-Nov-2013 02:03:42 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[21-Nov-2013 02:03:42 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[21-Nov-2013 02:03:42 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[21-Nov-2013 02:05:56 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[21-Nov-2013 02:05:56 UTC] PHP Stack trace:
+[21-Nov-2013 02:05:56 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 02:05:56 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[21-Nov-2013 02:05:56 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[21-Nov-2013 02:05:57 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[21-Nov-2013 02:05:57 UTC] PHP Stack trace:
+[21-Nov-2013 02:05:57 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 02:05:57 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[21-Nov-2013 02:05:57 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[21-Nov-2013 02:05:58 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[21-Nov-2013 02:05:58 UTC] PHP Stack trace:
+[21-Nov-2013 02:05:58 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 02:05:58 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[21-Nov-2013 02:05:58 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[21-Nov-2013 02:06:32 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[21-Nov-2013 02:06:32 UTC] PHP Stack trace:
+[21-Nov-2013 02:06:32 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 02:06:32 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[21-Nov-2013 02:06:32 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[21-Nov-2013 02:07:52 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[21-Nov-2013 02:07:52 UTC] PHP Stack trace:
+[21-Nov-2013 02:07:52 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 02:07:52 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[21-Nov-2013 02:07:52 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[21-Nov-2013 02:08:35 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[21-Nov-2013 02:08:35 UTC] PHP Stack trace:
+[21-Nov-2013 02:08:35 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 02:08:35 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[21-Nov-2013 02:08:35 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[21-Nov-2013 02:10:15 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[21-Nov-2013 02:10:15 UTC] PHP Stack trace:
+[21-Nov-2013 02:10:15 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 02:10:15 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[21-Nov-2013 02:10:15 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[21-Nov-2013 02:11:05 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[21-Nov-2013 02:11:05 UTC] PHP Stack trace:
+[21-Nov-2013 02:11:05 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 02:11:05 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[21-Nov-2013 02:11:05 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[21-Nov-2013 02:12:29 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[21-Nov-2013 02:12:29 UTC] PHP Stack trace:
+[21-Nov-2013 02:12:29 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 02:12:29 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[21-Nov-2013 02:12:29 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[21-Nov-2013 02:12:41 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[21-Nov-2013 02:12:41 UTC] PHP Stack trace:
+[21-Nov-2013 02:12:41 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[21-Nov-2013 02:12:41 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[21-Nov-2013 02:12:41 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[21-Nov-2013 02:14:30 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[21-Nov-2013 02:14:30 UTC] PHP Stack trace:
+[21-Nov-2013 02:14:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[21-Nov-2013 02:14:30 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[21-Nov-2013 02:14:30 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[21-Nov-2013 02:14:32 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[21-Nov-2013 02:14:32 UTC] PHP Stack trace:
+[21-Nov-2013 02:14:32 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\discard.php:0
+[21-Nov-2013 02:14:32 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\discard.php:2
+[21-Nov-2013 02:14:32 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[21-Nov-2013 02:14:32 UTC] PHP Notice:  Undefined index: memorial_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\discard.php on line 13
+[21-Nov-2013 02:14:32 UTC] PHP Stack trace:
+[21-Nov-2013 02:14:32 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\discard.php:0
+[21-Nov-2013 02:14:32 UTC] PHP Warning:  include(login.phtml) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\discard.php on line 18
+[21-Nov-2013 02:14:32 UTC] PHP Stack trace:
+[21-Nov-2013 02:14:32 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\discard.php:0
+[21-Nov-2013 02:14:32 UTC] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'login.phtml' for inclusion (include_path='.;C:\php\pear') in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\discard.php on line 18
+[21-Nov-2013 02:14:32 UTC] PHP Stack trace:
+[21-Nov-2013 02:14:32 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\discard.php:0
+[21-Nov-2013 02:15:12 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[21-Nov-2013 02:15:12 UTC] PHP Stack trace:
+[21-Nov-2013 02:15:12 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\discard.php:0
+[21-Nov-2013 02:15:12 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\discard.php:2
+[21-Nov-2013 02:15:12 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[21-Nov-2013 02:15:12 UTC] PHP Notice:  Undefined index: memorial_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\discard.php on line 13
+[21-Nov-2013 02:15:12 UTC] PHP Stack trace:
+[21-Nov-2013 02:15:12 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\discard.php:0
+[21-Nov-2013 02:15:30 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[21-Nov-2013 02:15:30 UTC] PHP Stack trace:
+[21-Nov-2013 02:15:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\discard.php:0
+[21-Nov-2013 02:15:30 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\discard.php:2
+[21-Nov-2013 02:15:30 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[21-Nov-2013 02:15:30 UTC] PHP Notice:  Undefined index: memorial_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\discard.php on line 13
+[21-Nov-2013 02:15:30 UTC] PHP Stack trace:
+[21-Nov-2013 02:15:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\discard.php:0
+[21-Nov-2013 07:05:35 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[21-Nov-2013 07:05:35 UTC] PHP Stack trace:
+[21-Nov-2013 07:05:35 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[21-Nov-2013 07:05:35 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[21-Nov-2013 07:05:35 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[21-Nov-2013 07:05:48 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[21-Nov-2013 07:05:48 UTC] PHP Stack trace:
+[21-Nov-2013 07:05:48 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[21-Nov-2013 07:05:48 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[21-Nov-2013 07:05:48 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[21-Nov-2013 07:05:48 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php on line 42
+[21-Nov-2013 07:05:48 UTC] PHP Stack trace:
+[21-Nov-2013 07:05:48 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[21-Nov-2013 07:05:48 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:15

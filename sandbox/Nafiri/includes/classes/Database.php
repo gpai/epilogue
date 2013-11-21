@@ -7,7 +7,7 @@ class Database {
 	private $_sql_pass = '';
 	private $_sql_host = '';
 
-	private $conn = '';
+	private $_sql = '';
 	
 	private $_queries = 0;
 
@@ -16,21 +16,19 @@ class Database {
 		$this->_sql_user = $user;
 		$this->_sql_pass = $pass;
 		$this->_sql_host = $host;
-		
-		$dsn = 'mysql:host='.$host.';dbname='.$db;
-		$options = array(
-				PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',
-		);
-		$this->conn = new PDO($dsn, $user, $pass, $options);		
+
+		$this->_sql = mysql_connect($this->_sql_host, $this->_sql_user, $this->_sql_pass);
+
+		mysql_select_db($this->_sql_db, $this->_sql);
 	}
 
 	public function raw_query($query) {
-		return $this->conn->query($query);
+		$this->_queries++;
+		return mysql_query($query, $this->_sql);
 	}
 
 	public function query($query) {
-		$stmt = $this->conn->query($query);
-		return $stmt->fetch(PDO::FETCH_ASSOC);
+		return mysql_fetch_array($this->raw_query($query));
 	}
 	
 	public function fetchOne($query) {
@@ -38,9 +36,9 @@ class Database {
 	}
 	
 	public function fetchAll($query) {
+		$result = $this->raw_query($query);
 		$resultSet = array();
-		$stmt = $this->conn->query($query);
-		while($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+		while ($row = mysql_fetch_assoc($result)){
 			$resultSet[] = $row;
 		}
 		return $resultSet;
@@ -78,7 +76,7 @@ class Database {
 	}
 
 	function __destruct() {
-// 		mysql_close($this->_sql);
+		mysql_close($this->_sql);
 		/*
 			echo 'queries: '. $this->_queries;
 			echo 'execution time: '. number_format((microtime(true)-$_SERVER["REQUEST_TIME_FLOAT"]), 5) .'s';

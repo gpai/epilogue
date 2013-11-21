@@ -15,6 +15,7 @@ class Login {
 		return self::checkFacebookPermissions();
 		
 	}
+
 	
 	public static function getLoginUrl() {
 		global $facebook, $config;
@@ -79,3 +80,4 @@ class Login {
 		return true;
 	}
 }
+?>

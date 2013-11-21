@@ -52,8 +52,9 @@ $config['fb']['appId'] = '665113106856066';
 $config['fb']['secret'] = '2d230b0ad9a39b85f68d4aa235d8d8ee';
 $config['fb']['fileUpload'] = false; // optional
 $config['fb']['scope'] = "read_stream, friends_likes, user_status";
-//$config['fb']['redirectLogin'] = "http://duidesign.com/j/login.php"; //"http://duidesign.com/j/login.php";
-//$config['fb']['redirectLogout'] = "http://duidesign.com/j/logout.php"; //"http://duidesign.com/j/login.php";
+//The redirectLogin and redirectLogout was commented out. I took them off in order to make errors go away.
+$config['fb']['redirectLogin'] = "http://duidesign.com/j/login.php"; //"http://duidesign.com/j/login.php";
+$config['fb']['redirectLogout'] = "http://duidesign.com/j/logout.php"; //"http://duidesign.com/j/login.php";
 $config['fb']['cookie'] = true; // optional
 
 $config['db']['user'] = 'Vixen_VixGrace'; 

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Epilogue </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../Stylesheets/bootstrap.css" media="screen">
+		<link rel="stylesheet" href="../Stylesheets/font-awesome.min.css">
+		<link rel="stylesheet" href="../Stylesheets/bootswatch.min.css">
+		<link rel="stylesheet" href="../Stylesheets/profile_style.css">
+		<link rel="stylesheet" href="../Stylesheets/create_memorial.css">
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		<script src="../bower_components/bootstrap/assets/js/html5shiv.js"></script>
+		<script src="../bower_components/bootstrap/assets/js/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<script src="../Scripts/bsa.js"></script>
+
+		<div class="navbar navbar-inverse">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="profile.phtml"><img src="../Images/logo.png"></a>
+			</div>
+			<div class="navbar-collapse collapse navbar-responsive-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="profile.phtml">Profile</a>
+							</li>
+							<li class="divider"></li>
+							<li>
+								<a href="#memorials">Memorials</a>
+							</li>
+							<li>
+								<a href="#invitations">Invitations</a>
+							</li>
+							<li>
+								<a href="#finalizedMemorials">Finalized Memorials</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div><!-- /.nav-collapse -->
+		</div><!-- /.navbar -->
+
+		<div class="jumbotron">
+			<h3> Please select the categories from your Facebook account you want Eplilogue to use in creating Grace Pai's Memorial. <br>
+				<h4>Note that once you create the memorial, you will not have the option to automatically add or remove anymore of these categories.</h4> 
+			</h3><br>
+			<form class="category">
+			<h3><input type="checkbox">  Posts</input></h3></br>
+			<h3><input type="checkbox">  Photos</input></h3></br>
+			<h3><input type="checkbox">  Favorites</input></h3></br>
+			<h3><input type="checkbox">  Videos</input></h3></br>
+			<h3><input type="checkbox">  Notes</input></h3>
+			</form>
+			
+
+			<button  id="category_continue" onclick="location.href='memorial.phtml'"type="button" class="btn btn-primary btn-lg continue">
+				Create Memorial
+			</button>
+			<button id="category_cancel" onclick="location.href='profile.phtml'"type="button" class="btn btn-primary btn-lg cancel">
+				Cancel
+			</button>
+			
+		</div>
+
+		<script src="../Scripts/jquery.min.js"></script>
+		<script src="../Scripts/bootstrap.min.js"></script>
+		<script src="../Scripts/bootswatch.js"></script>
+	</body>
+</html>

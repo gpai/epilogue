@@ -1,0 +1,1 @@
+Should the login page have "sign up with facebook " or "sign in with facebook".

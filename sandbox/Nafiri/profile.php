@@ -1,10 +1,21 @@
 <?php
 
 require_once "includes/config.php";
+require_once "includes/classes/FacebookFriend.php";
+require_once "includes/classes/Registry.php";
 
-echo $objFF;
 
-//Getting a list of friends 
+//Getting a list of friends (not just collaborators but their actual friends list)
+
+$facebookFriends = new FacebookFriend();
+$epilogue_user_id = "100005789522071";
+//Y=sent invitation, N=did not send invitation, A=accepted invitation
+$invited = "Y";
+$memorial_id="1";
+$collabs= $facebookFriends->getCollaborators($epilogue_user_id, $invited, $memorial_id);
+
+
+
 
 // function getFriends()
 // {
@@ -31,5 +42,5 @@ echo $objFF;
 
 // Load the template
 include "profile.phtml";
-//include_once "dbrunner.php";
+
 ?>
