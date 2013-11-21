@@ -1,0 +1,67 @@
+body{
+	padding:0;
+}
+h1, h2, h3, h4, h5{
+	display: inline
+}
+
+.jumbotron{
+	margin: 5% auto 1% auto;
+	max-width: 90%;
+	height: auto;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	padding: 5% 3% 5% 5%;
+	overflow: hidden;
+}
+
+.container{
+	max-width:60%;
+	margin: 0 auto;
+	
+}
+
+#image{
+	float: left;
+	max-width:100%;
+	height: auto;
+	padding-top: 2%;
+
+}
+
+#content{
+	width:auto;
+	display:inline-block;
+	padding-top:2%;
+	padding-left: 5%;
+}
+
+.form-control{
+	width: auto;
+	display: inline;
+	margin: 2% auto;
+}
+
+
+.continue{
+	//display: inline-block;
+	//float: right;
+	margin-left: 60%;
+	min-width: 200px;
+}
+
+.cancel{
+	//display: inline-block;
+	//float: right;
+	margin-left: 60%;
+	min-width:200px;
+}
+
+#category_continue{
+	margin-top: 0;	
+}
+
+.category{
+	margin-left:8%;
+	margin-top: 2%;
+}
