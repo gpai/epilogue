@@ -1,6 +1,7 @@
 body{
 	padding:0;
 }
+
 .jumbotron{
 	margin: 0;
 	width: 100%;
@@ -10,3 +11,22 @@ body{
 	overflow: hidden;
 }
 
+#deceased_info{
+	max-width:60%;
+	margin: 0 auto;
+	
+}
+
+#info_picture{
+	display:inline-block;
+	float: left;
+	max-width:100%;
+	height: auto;
+	padding-top: 2%;
+}
+
+#info_content{
+	display:inline-block;
+	width:auto;
+	padding-top:2%;
+	padding-left: 5%;

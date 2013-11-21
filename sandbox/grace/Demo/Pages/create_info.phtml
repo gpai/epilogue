@@ -45,36 +45,39 @@
 				</ul>
 			</div><!-- /.nav-collapse -->
 		</div><!-- /.navbar -->
-
 		<div class="jumbotron">
-			<div id="content">
-				<h2>Name of the Deceased:
-				<input class="form-control" id="focusedInput" type="text" >
-				</h2></br>
-				<h2>Date of Death:
-				<input type="datetime" class="form-control" id="focusedInput" type="text" value="MM/DD/YYYY">
-				</h2> </br> <h2>Collaborate with others: <h4>
-				<select class= "form-control">
-					<option value="none">Please Select</option><option value="yes">Yes</option><option value="no">No, not at this time</option>
-				</select></h4></h2>
-				<br>
-				<h2>Beloved:
-				<input class="form-control" id="focusedInput" type="text" >
-				</h2></br><h6> Example: Beloved Mother and Wife.</h6>
+			<div id="container">
+				<div id="image">
+					<img src= "../Images/anonymous.jpg">
+				</div>
+				<div id="content">
+					<h4>Name of the Deceased:
+					<input class="form-control" id="focusedInput" type="text" >
+					</h4></br>
 
-			</div>
-			<div id="image">
-				<img src= "../Images/anonymous.jpg">
-			</div>
+					<h4>Date of Death:
+					<input type="datetime" class="form-control" id="focusedInput" type="text" value="MM/DD/YYYY">
+					</h4> </br>
 
-			<button onclick="location.href='create_categories.phtml'"type="button" class="btn btn-primary btn-lg continue">
-				Continue
-			</button>
-			<button onclick="location.href='profile.phtml'"type="button" class="btn btn-primary btn-lg cancel">
-				Cancel
-			</button>
+					<h4>Collaborate with others: <h5>
+					<select class= "form-control">
+						<option value="none">Please Select</option><option value="yes">Yes</option><option value="no">No, not at this time</option>
+					</select></h5></h4></br>
+
+					<h4>Tagline:
+					<input class="form-control" id="focusedInput" type="text" >
+					</h4></br><h6> Example: Beloved mother and wife.</h6>
+				</div>
+			</div>
+			<div id="buttons">
+				<button onclick="location.href='create_categories.phtml'"type="button" class="btn btn-primary btn-lg continue">
+					Continue
+				</button>
+				<button onclick="location.href='profile.phtml'"type="button" class="btn btn-primary btn-lg cancel">
+					Cancel
+				</button>
+			</div>
 		</div>
-
 		<script src="../Scripts/jquery.min.js"></script>
 		<script src="../Scripts/bootstrap.min.js"></script>
 		<script src="../Scripts/bootswatch.js"></script>
