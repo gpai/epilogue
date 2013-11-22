@@ -4281,3 +4281,57 @@ Stack trace:
 [21-Nov-2013 07:05:48 UTC] PHP Stack trace:
 [21-Nov-2013 07:05:48 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
 [21-Nov-2013 07:05:48 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:15
+[22-Nov-2013 00:03:15 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[22-Nov-2013 00:03:15 UTC] PHP Stack trace:
+[22-Nov-2013 00:03:15 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[22-Nov-2013 00:03:15 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[22-Nov-2013 00:03:15 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[22-Nov-2013 00:03:15 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php on line 42
+[22-Nov-2013 00:03:15 UTC] PHP Stack trace:
+[22-Nov-2013 00:03:15 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[22-Nov-2013 00:03:15 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:15
+[22-Nov-2013 00:15:55 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[22-Nov-2013 00:15:55 UTC] PHP Stack trace:
+[22-Nov-2013 00:15:55 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[22-Nov-2013 00:15:55 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[22-Nov-2013 00:15:55 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[22-Nov-2013 00:15:55 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php on line 45
+[22-Nov-2013 00:15:55 UTC] PHP Stack trace:
+[22-Nov-2013 00:15:55 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[22-Nov-2013 00:15:55 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:15
+[22-Nov-2013 00:15:56 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[22-Nov-2013 00:15:56 UTC] PHP Stack trace:
+[22-Nov-2013 00:15:56 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[22-Nov-2013 00:15:56 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[22-Nov-2013 00:15:56 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[22-Nov-2013 00:15:56 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php on line 45
+[22-Nov-2013 00:15:56 UTC] PHP Stack trace:
+[22-Nov-2013 00:15:56 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[22-Nov-2013 00:15:56 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:15
+[22-Nov-2013 00:15:57 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[22-Nov-2013 00:15:57 UTC] PHP Stack trace:
+[22-Nov-2013 00:15:57 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[22-Nov-2013 00:15:57 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[22-Nov-2013 00:15:57 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[22-Nov-2013 00:15:57 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php on line 45
+[22-Nov-2013 00:15:57 UTC] PHP Stack trace:
+[22-Nov-2013 00:15:57 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[22-Nov-2013 00:15:57 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:15
+[22-Nov-2013 00:17:09 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[22-Nov-2013 00:17:09 UTC] PHP Stack trace:
+[22-Nov-2013 00:17:09 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[22-Nov-2013 00:17:09 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[22-Nov-2013 00:17:09 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[22-Nov-2013 00:17:09 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php on line 45
+[22-Nov-2013 00:17:09 UTC] PHP Stack trace:
+[22-Nov-2013 00:17:09 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[22-Nov-2013 00:17:09 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:15
+[22-Nov-2013 00:20:57 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[22-Nov-2013 00:20:57 UTC] PHP Stack trace:
+[22-Nov-2013 00:20:57 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[22-Nov-2013 00:20:57 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[22-Nov-2013 00:20:57 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[22-Nov-2013 00:20:57 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php on line 45
+[22-Nov-2013 00:20:57 UTC] PHP Stack trace:
+[22-Nov-2013 00:20:57 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[22-Nov-2013 00:20:57 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:24

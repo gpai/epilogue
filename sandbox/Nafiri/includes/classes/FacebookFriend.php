@@ -10,7 +10,7 @@ class FacebookFriend{
 			
 	public function getFriendsFromFacebook($epilogue_user_id){
 			// call to facebook for the array of friends of the epilogue owner
-			$user = $facebook->getUser();
+//			$user = $facebook->getUser();
        		$facebook_get_friends = $facebook->api($epilogue_user_id .'?fields=friends');
 			return $facebook_get_friends;
 	}
@@ -33,22 +33,24 @@ class FacebookFriend{
 	$db->raw_query($insert_please);
 	}
 	
-	public function getCollaborators($epilogue_user_id, $status, $memorial_id){
+	public function getCollaborators($epilogue_user_id, $invited, $memorial_id){
 		// returns array of those who have $status of N,Y,A
-		// N = facebook friend but not invited, 
-		// Y = invited OR (A)ccept invite to collaborate
+		// $status N = facebook friend but not invited, 
+		// $staus Y = invited OR $staus (A)ccepted invite to collaborate
 		$db = Registry::getInstance()->get('db');
-		$query = 'SELECT epilogue_user_id, facebook_user_id, facebook_name, invited, deceased FROM user_friend_list WHERE status = "$status" AND memorial_id = "$memorial_id"';		
+		
+		
+		$query = 'SELECT epilogue_user_id, facebook_user_id, facebook_name, invited, deceased FROM user_friend_list WHERE invited = "'.$invited.'" AND memorial_id = '.$memorial_id;		
+		echo "$query";
 		$result = $db->fetchAll($query); 
 //		print_r(array_values($result));
 		return $result;	
 	}
 
-
-	public function updateInviteStatus($epilogue_user_id, $invite_this_friend, $status, $memorial_id) {
+	public function updateInviteStatus($epilogue_user_id, $invite_this_friend, $invited, $memorial_id) {
 		// Flags a friend to be invited (Y) or (A)ccept to collaborate -- $status = N, Y or A only --
 		$db = Registry::getInstance()->get('db');
-		$update_this = "UPDATE `Vixen_test`.`user_friend_list` SET invited = '$status' WHERE facebook_user_id = '$invite_this_friend' AND epilogue_user_id = '$epilogue_user_id' AND memorial_id = '$memorial_id'";
+		$update_this = "UPDATE `Vixen_test`.`user_friend_list` SET invited = '.$invited.' WHERE facebook_user_id = '$invite_this_friend' AND epilogue_user_id = '$epilogue_user_id' AND memorial_id = '$memorial_id'";
 		$db->raw_query($update_this);
 	}	
 }
