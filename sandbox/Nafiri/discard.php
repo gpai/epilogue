@@ -17,3 +17,4 @@ var_dump($_GET);
 
 include "discard.phtml";
 ?>
+

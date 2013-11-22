@@ -28,7 +28,8 @@ error_reporting(E_ALL);
 require_once "lib/fb/facebook.php";
 
 // Epilogue Code
-require_once "classes/Epilogue.php";
+require_once 'classes/Registry.php';
+require_once 'classes/Epilogue.php';
 require_once "classes/Database.php";
 require_once "classes/User.php";
 require_once "classes/Login.php";
@@ -43,10 +44,8 @@ require_once 'classes/Session.php';
 $config = array();
 
 $config['session']['name'] = "epi";
-$config['session']['host'] = ".duidesign.com";
+$config['session']['host'] = "localhost";
 $config['session']['dbtable'] = "session";
-
-
 
 $config['fb']['appId'] = '665113106856066';
 $config['fb']['secret'] = '2d230b0ad9a39b85f68d4aa235d8d8ee';
@@ -60,6 +59,7 @@ $config['fb']['cookie'] = true; // optional
 $config['db']['user'] = 'Vixen_VixGrace'; 
 $config['db']['password'] = 'cutie';
 $config['db']['schema'] = 'Vixen_test';
+$config['db']['host'] = 'mysql2.speedypuppy.net';
 
 
 /**
@@ -74,10 +74,18 @@ session_name($config['session']['name']);
 session_set_cookie_params(0, '/', $config['session']['host']);
 session_start();
 
-// Baldwin Foo
-// $db = new Db($config['db']['user'], $config['db']['password'], $config['db']['schema']);
-// $epilogue = new Epilogue($db, $facebook);
-// $epilogue->fbCheck();
+// Connect to the database
+$database = new Database($config['db']['user'], $config['db']['password'], $config['db']['schema'], $config['db']['host']);
+$epilogue = new Epilogue($database, $facebook);
+$epilogue->fbCheck();
+
+/**
+ * Registry -- store everything here.
+ */
+
+Registry::getInstance()->set("config", $config);
+Registry::getInstance()->set("fb", $facebook);
+Registry::getInstance()->set("db", $database);
 
 // Login check, and User init
 // if ($epilogue->isLoggedIn()) {

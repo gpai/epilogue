@@ -4335,3 +4335,45 @@ Stack trace:
 [22-Nov-2013 00:20:57 UTC] PHP Stack trace:
 [22-Nov-2013 00:20:57 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
 [22-Nov-2013 00:20:57 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:24
+[22-Nov-2013 00:33:19 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[22-Nov-2013 00:33:19 UTC] PHP Stack trace:
+[22-Nov-2013 00:33:19 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[22-Nov-2013 00:33:19 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[22-Nov-2013 00:33:19 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[22-Nov-2013 00:33:19 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Premature end of data (mysqlnd_wireprotocol.c:553) in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[22-Nov-2013 00:33:19 UTC] PHP Stack trace:
+[22-Nov-2013 00:33:19 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[22-Nov-2013 00:33:19 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[22-Nov-2013 00:33:19 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[22-Nov-2013 00:33:19 UTC] PHP   4. mysql_connect() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[22-Nov-2013 00:33:19 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: OK packet 1 bytes shorter than expected in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[22-Nov-2013 00:33:19 UTC] PHP Stack trace:
+[22-Nov-2013 00:33:19 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[22-Nov-2013 00:33:19 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[22-Nov-2013 00:33:19 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[22-Nov-2013 00:33:19 UTC] PHP   4. mysql_connect() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[22-Nov-2013 00:33:19 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: mysqlnd cannot connect to MySQL 4.1+ using the old insecure authentication. Please use an administration tool to reset your password with the command SET PASSWORD = PASSWORD('your_existing_password'). This will store a new, and more secure, hash value in mysql.user. If this user is used in other scripts executed by PHP 5.2 or earlier you might need to remove the old-passwords flag from your my.cnf file in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[22-Nov-2013 00:33:19 UTC] PHP Stack trace:
+[22-Nov-2013 00:33:19 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[22-Nov-2013 00:33:19 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[22-Nov-2013 00:33:19 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[22-Nov-2013 00:33:19 UTC] PHP   4. mysql_connect() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[22-Nov-2013 00:33:19 UTC] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 22
+[22-Nov-2013 00:33:19 UTC] PHP Stack trace:
+[22-Nov-2013 00:33:19 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[22-Nov-2013 00:33:19 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[22-Nov-2013 00:33:19 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[22-Nov-2013 00:33:19 UTC] PHP   4. mysql_select_db() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:22
+[22-Nov-2013 00:33:19 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 27
+[22-Nov-2013 00:33:19 UTC] PHP Stack trace:
+[22-Nov-2013 00:33:19 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[22-Nov-2013 00:33:19 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:24
+[22-Nov-2013 00:33:19 UTC] PHP   3. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php:45
+[22-Nov-2013 00:33:19 UTC] PHP   4. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:39
+[22-Nov-2013 00:33:19 UTC] PHP   5. mysql_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:27
+[22-Nov-2013 00:33:19 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, null given in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 41
+[22-Nov-2013 00:33:19 UTC] PHP Stack trace:
+[22-Nov-2013 00:33:19 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[22-Nov-2013 00:33:19 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:24
+[22-Nov-2013 00:33:19 UTC] PHP   3. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php:45
+[22-Nov-2013 00:33:19 UTC] PHP   4. mysql_fetch_assoc() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
