@@ -6,12 +6,10 @@
 echo "-----start here------------<br>";
 //Registry::getInstance()->set("config", $config);
 require_once ('includes/classes/Database.php');
-echo "-----start here    1 ------------<br>";
 require_once ('includes/classes/FacebookFriend.php');
 
-echo "-----start here    1.1 ------------<br>";
 require_once ('includes/classes/Memorial.php');
-//require_once ('includes/classes/Photo.php');
+require_once ('includes/classes/Photo.php');
 //require_once ('includes/classes/Post.php');
 //require_once ('includes/classes/Favorite.php');
 require_once ('includes/classes/Login.php');
@@ -52,7 +50,6 @@ $epilogue_user_id = "100005789522071";
 //$objMem = new Memorial();
 //$var_duh = $objMem->listMemorialId($epilogue_user_id);
 //print_r(array_values($var_duh));
-
 echo "Photo class";
 // Photo Stuff - does nothing so far
 //$whosphoto = "688307710"; 
@@ -65,11 +62,14 @@ echo "<br>";
 //$objPhoto->upPhotoVote($photo_id, $memorial_id, $vote);
 //$objPhoto->getPhotos($whosphoto);
 echo "<br>";
-//$objPhoto = new Photo($fb_user_id);
+$objPhoto = new Photo($epilogue_user_id);
 echo "-----------------<br>";
 //$array_of = $objPhoto->getFavorites($fb_user_id); 
-//$photo_url = "https://scontent-b.xx.fbcdn.net/hphotos-prn1/s720x720/1204_10151701579772711_1432956917_n.jpg";
-//$objPhoto->downloadPhoto($photo_url);
+$photo_url = "https://scontent-b.xx.fbcdn.net/hphotos-prn2/s720x720/8667_10151501514847711_269651373_n.jpg";
+$objPhoto->downloadDeceasedPhotos($photo_url);
+
+echo "where is the damn photo";
+
 //print_r ($array_of) ?
 //$result = $objPhoto->displayPhotos($array_of_photos["data"], $indent='');
 //echo $result;

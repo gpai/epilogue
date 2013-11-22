@@ -93,7 +93,7 @@
                           
                           if (is_array($value["shares"])){
                           	if(sizeof(($value["shares"]["data"])) > 1){
-                          		  echo "<br>-These people shared this photo : <br>";
+  	                        		  echo "<br>-These people shared this photo : <br>";
                                   foreach ($value["shares"]["data"] as $value){
                                           $shares_user_id = ($value["id"]); 
                                           $shares_user_name = ($value["name"]); 
@@ -106,12 +106,27 @@
                           echo "*********** The url $photo_url <br>";
                 } 
         }
+     
         public function insertDeceasedPhotos ($arr_of_sorted_photos, $memorial_id){
                 // okay so this one need the sort above to return that data
                 // this one needs to stick it in the photo table with the associated memorial id
                 echo " The array of sorted photos will be added to $memorial_id<br>";
         }
- 
+         
+        public function downloadDeceasedPhotos ($url_to_download){
+        	// take the $url and save it to the images/deceased folder
+        	$url = $url_to_download;
+			$img = $this->basenamePhotoUrl($url);
+//			$img = "/Users/sarahhuffman/epilogue/sandbox/marie/images/deceased/8667_10151501514847711_269651373_n.jpg";
+			echo "url = $url and img = $img wawa";			
+			file_put_contents($img, file_get_contents($url));
+			echo "<br>---photo may be downloaded-!!???????????!!--<br>";
+        }
+
+ 		function basenamePhotoUrl($url){
+ 			// strips out the $url to just the file name & extension and tacks it on to the destination folder
+			return "/Users/sarahhuffman/epilogue/sandbox/marie/images/deceased/".basename($url);
+		}
          
 //         function sortPhotoArray($arr_of_photos){
 //            $output = null;
