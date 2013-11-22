@@ -140,13 +140,16 @@
 		
  		public function basenamePhotoUrl($url){
  			// strips out the $url to just the file name & extension and tacks it on to the destination folder
+			$parts = explode("?",$url); 
+			//break the string up around the "?" character in $mystring 
+			$url = $parts['0']; 
+			//grab the first part 
 			return "/Users/sarahhuffman/working_epilogue/sandbox/marie/images/deceased/".basename($url);
 		}
 
-		
 
         public function deceasedPhotosFromFacebookToFolder($deceased_facebook_user_id){
-        	echo "pretty please--?????---<br>";
+        	echo "pretty please-----<br>";
 
         	
         	// all the pieces to get all the deceased photos from facebook into the images folders

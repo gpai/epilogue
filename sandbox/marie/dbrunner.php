@@ -3,19 +3,7 @@
 // This is a list of the files I need to include to make things work.
 //include 'get_memorial_id.php';
 ob_start();
-session_start();
-
-
-
-
-
-
-
-
-
-
-
- 
+session_start(); 
 echo "-----start here------------<br>";
 //Registry::getInstance()->set("config", $config);
 require_once ('includes/classes/Database.php');
@@ -83,7 +71,8 @@ echo "---run this to get/download deceased photos into the folder-----------<br>
 $deceased_facebook_user_id = "688307710";
 $objPhoto = new Photo($deceased_facebook_user_id);
 $objPhoto->deceasedPhotosFromFacebookToFolder($deceased_facebook_user_id);
-echo "---- crossing fingers";
+
+echo "---- crossing fingers-----------";
 
 
 
