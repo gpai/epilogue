@@ -6,7 +6,10 @@
 echo "-----start here------------<br>";
 //Registry::getInstance()->set("config", $config);
 require_once ('includes/classes/Database.php');
+echo "-----start here    1 ------------<br>";
 require_once ('includes/classes/FacebookFriend.php');
+
+echo "-----start here    1.1 ------------<br>";
 require_once ('includes/classes/Memorial.php');
 //require_once ('includes/classes/Photo.php');
 //require_once ('includes/classes/Post.php');
@@ -25,7 +28,7 @@ include 'includes/config.php';
  */
 
 
-echo "-----start here    1 ------------<br>";
+echo "-----start here    2 ------------<br>";
 
 
 $fb_user_id = "688307710";
@@ -88,12 +91,12 @@ echo "------what is the dealio";
 
 echo "<br>";
 echo "-------------------------";
-$status = "N"; // Y = invited, (A)ccepted invite
+$invite = "N"; // Y = invited, (A)ccepted invite
 $memorial_id = "1";
 $array_of_peeps = $objFF->getCollaborators($epilogue_user_id, $invite, $memorial_id);
 print_r($array_of_peeps);
 
-//$objFF->updateInviteStatus($epilogue_user_id, $invite_this_friend, $status, $memorial_id);
+//$objFF->updateInviteStatus($epilogue_user_id, $invite_this_friend, $sivite, $memorial_id);
 echo "--- <br>";
 
 
