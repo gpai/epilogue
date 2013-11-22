@@ -2,6 +2,19 @@
 
 // This is a list of the files I need to include to make things work.
 //include 'get_memorial_id.php';
+ob_start();
+session_start();
+
+
+
+
+
+
+
+
+
+
+
  
 echo "-----start here------------<br>";
 //Registry::getInstance()->set("config", $config);
@@ -29,10 +42,10 @@ include 'includes/config.php';
 echo "-----start here    2 ------------<br>";
 
 
-$fb_user_id = "688307710";
 
 if (Login::isLoggedIn()):
-      $user_id = "688307710"; // Grace
+//      $user_id = "688307710"; // Grace
+      $user_id = "100005789522071";// Marie (memorial id #1 owner)
       $user_profile = $facebook->api($user_id);
  
 else:
@@ -46,7 +59,7 @@ echo "<br>";
 // Memorial class - has 1 method so far... it takes the user id and returns an array
 // the array looks like this Array ( [0] => Array ( [memorial_id] => 1 [epilogue_user_id] => 100005789522071 [deceased_name] => Grace Pai ) )
 //--------------------
-$epilogue_user_id = "100005789522071";
+//$epilogue_user_id = "100005789522071";
 //$objMem = new Memorial();
 //$var_duh = $objMem->listMemorialId($epilogue_user_id);
 //print_r(array_values($var_duh));
@@ -62,11 +75,15 @@ echo "<br>";
 //$objPhoto->upPhotoVote($photo_id, $memorial_id, $vote);
 //$objPhoto->getPhotos($whosphoto);
 echo "<br>";
-$objPhoto = new Photo($epilogue_user_id);
-echo "-----------------<br>";
-$photo_url = "https://scontent-b.xx.fbcdn.net/hphotos-prn2/s720x720/8667_10151501514847711_269651373_n.jpg";
-$objPhoto->downloadDeceasedPhotos($photo_url);
-echo "where is the damn photo";
+
+
+echo "---run this to get/download deceased photos into the folder-----------<br>";
+//$photo_url = "https://scontent-b.xx.fbcdn.net/hphotos-prn2/s720x720/8667_10151501514847711_269651373_n.jpg";
+//$objPhoto->downloadDeceasedPhotos($photo_url);
+$deceased_facebook_user_id = "688307710";
+$objPhoto = new Photo($deceased_facebook_user_id);
+$objPhoto->deceasedPhotosFromFacebookToFolder($deceased_facebook_user_id);
+echo "---- crossing fingers";
 
 
 
@@ -75,7 +92,7 @@ echo "FacebookFriends class";
 //$facebook_user_id = "12345678";
 //$facebook_user_name = "Mr. Whiskers";
 //$epilogue_user_id = "688307710";
-$objFF = new FacebookFriend();
+//$objFF = new FacebookFriend();
 
 // --- in order to insert the friend list into our database
 //$objFF->insertFriendList($facebook_user_id, $facebook_user_name, $epilogue_user_id);
@@ -85,15 +102,16 @@ echo "------what is the dealio";
 
 //$objFF->insertFriendsIntoDatabase($epilogue_user_id);
 
-echo "<br>";
-echo "-------------------------";
-$invite = "N"; // Y = invited, (A)ccepted invite
-$memorial_id = "1";
-$array_of_peeps = $objFF->getCollaborators($epilogue_user_id, $invite, $memorial_id);
-print_r($array_of_peeps);
+//echo "<br>";
+//echo "-------run to get list of collaborators for memorial id #1------------";
+//$invite = "N"; // Y = invited, (A)ccepted invite
+//$memorial_id = "1";
+//$array_of_peeps = $objFF->getCollaborators($epilogue_user_id, $invite, $memorial_id);
+//print_r($array_of_peeps);
 
-//$objFF->updateInviteStatus($epilogue_user_id, $invite_this_friend, $sivite, $memorial_id);
-echo "--- <br>";
+// echo "--- run to change the invite status"
+//$objFF->updateInviteStatus($epilogue_user_id, $invite_this_friend, $invite, $memorial_id);
+//echo "--- <br>";
 
 
 

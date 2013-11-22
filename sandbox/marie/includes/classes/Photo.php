@@ -113,57 +113,50 @@
                 echo " The array of sorted photos will be added to $memorial_id<br>";
         }
          
+         public function getDeceasedPhotos($deceased_facebook_user_id){
+         	// get all the deceased's photos from facebook - one time dealio?
+            	$fb = Registry::getInstance()->get("fb");        
+              	$deceased_user_photo  = $fb->api($deceased_facebook_user_id .'/photos');
+                 print "Get photos for this guy --> $deceased_facebook_user_id";
+                 return $deceased_user_photo;
+         }
+         
+//		function getPhotoURL ($arr_of_photo_data_from_facebook){
+//         	// this takes in the returned facebook array for a photo with all the goodies and returns just the source URL
+//                foreach ($arr_of_photos["data"] as $value){
+//			     $photo_url = ($value["source"]);
+			      			     
+//                }
+//         }
+
         public function downloadDeceasedPhotos ($url_to_download){
         	// take the $url and save it to the images/deceased folder
         	$url = $url_to_download;
 			$img = $this->basenamePhotoUrl($url);
-//			$img = "/Users/sarahhuffman/epilogue/sandbox/marie/images/deceased/8667_10151501514847711_269651373_n.jpg";
-			echo "url = $url and img = $img wawa";			
+			echo "<br> url = $url and the destination file name is $img <br>";
 			file_put_contents($img, file_get_contents($url));
-			echo "<br>---photo may be downloaded-!!???????????!!--<br>";
-        }
-
- 		function basenamePhotoUrl($url){
- 			// strips out the $url to just the file name & extension and tacks it on to the destination folder
-			return "/Users/sarahhuffman/epilogue/sandbox/marie/images/deceased/".basename($url);
 		}
-         
-//         function sortPhotoArray($arr_of_photos){
-//            $output = null;
-//            if (is_array($arrayIn)){
-//                foreach ($arrayIn as $key=>$val){
-//                    if (is_array($val)){
-//                       $output->{$key} = arrayFilter($val);
-//                    } 
-//                    else {
-//                        $output->{$key} = $this->sanitize($val);
-//                    }
-//                }
-//            } 
-//            else {
-//                $output->{$key} = $this->sanitize($val);
-//            }
-//    return $output;
-//        }
 
+		
+ 		public function basenamePhotoUrl($url){
+ 			// strips out the $url to just the file name & extension and tacks it on to the destination folder
+			return "/Users/sarahhuffman/working_epilogue/sandbox/marie/images/deceased/".basename($url);
+		}
 
-//        function sanitize($val)
-//        {
-                
-    //insert your preferred data filter here
-//            return addslashes('filtered: '.$val);
-//        }
+		
 
+        public function deceasedPhotosFromFacebookToFolder($deceased_facebook_user_id){
+        	echo "pretty please--?????---<br>";
 
-         
-         public function getDeceasedPhotos($deceased_facebook_user_id){
-                 // get all the deceased's photos from facebook - one time dealio?
-                 $fb = Registry::getInstance()->get("fb");        
-              $deceased_user_photo  = $fb->api($deceased_facebook_user_id .'/photos');
-                 print "Get photos for this guy --> $deceased_facebook_user_id";
-                 return $deceased_user_photo;
-         }                
-
+        	
+        	// all the pieces to get all the deceased photos from facebook into the images folders
+        	$array_of_photos = $this->getDeceasedPhotos($deceased_facebook_user_id);
+        	foreach ($array_of_photos["data"] as $value){
+			     $photo_url = ($value["source"]);
+			     $this->downloadDeceasedPhotos($photo_url);
+        	}	
+        } 
+              
         function displayPhotos($arr_of_photos, $indent='') {
             if ($arr_of_photos) {
                 foreach ($arr_of_photos as $value) {
