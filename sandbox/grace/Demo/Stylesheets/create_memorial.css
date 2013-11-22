@@ -6,8 +6,9 @@ h1, h2, h3, h4, h5{
 }
 
 .jumbotron{
-	margin: 5% auto 1% auto;
-	max-width: 90%;
+	margin-top: 5%;
+	margin-bottom: 1%;
+	max-width: 100%;
 	height: auto;
 	background-color: #FFFFFF;
 	border-radius: 10px;
@@ -15,13 +16,9 @@ h1, h2, h3, h4, h5{
 	overflow: hidden;
 }
 
-.container{
-	max-width:60%;
-	margin: 0 auto;
-	
-}
 
 #image{
+	margin-left:15%;
 	float: left;
 	max-width:100%;
 	height: auto;
@@ -44,16 +41,12 @@ h1, h2, h3, h4, h5{
 
 
 .continue{
-	//display: inline-block;
-	//float: right;
-	margin-left: 60%;
+	margin-left: 55%;
 	min-width: 200px;
 }
 
-.cancel{
-	//display: inline-block;
-	//float: right;
-	margin-left: 60%;
+.cancel{	
+	margin-left: 55%;
 	min-width:200px;
 }
 
