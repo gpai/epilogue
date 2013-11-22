@@ -2,19 +2,26 @@ body{
 	padding:0;
 }
 
+hr{
+	margin: 0;
+	width: 90%;
+	margin:0 auto;	
+}
+
+img{
+	max-width:100%;
+	height:auto;
+	margin: 0 auto;
+}
+
 .jumbotron{
 	margin: 0;
 	width: 100%;
 	height: 100%;
 	background-color: #FFFFFF;
+	//background-color: #0D7BDC;
 	padding: 5% 3% 5% 5%;
 	overflow: hidden;
-}
-
-#deceased_info{
-	max-width:60%;
-	margin: 0 auto;
-	
 }
 
 #info_picture{
