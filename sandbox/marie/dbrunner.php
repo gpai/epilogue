@@ -4,18 +4,17 @@
 //include 'get_memorial_id.php';
 ob_start();
 session_start(); 
-echo "-----start here------------<br>";
+echo "----- start here run the classes and config ------------<br>";
 //Registry::getInstance()->set("config", $config);
 require_once ('includes/classes/Database.php');
 require_once ('includes/classes/FacebookFriend.php');
-
 require_once ('includes/classes/Memorial.php');
 require_once ('includes/classes/Photo.php');
 //require_once ('includes/classes/Post.php');
 //require_once ('includes/classes/Favorite.php');
 require_once ('includes/classes/Login.php');
 include 'includes/config.php';
-
+echo "----- the classes look good ------------<br>";
 // The following are a series of calls for anything I will ever do. Comptuers are fast, it can just do all of them. kthxbai.
 
 
@@ -27,7 +26,7 @@ include 'includes/config.php';
  */
 
 
-echo "-----start here    2 ------------<br>";
+
 
 
 
@@ -40,75 +39,75 @@ else:
      echo ' You are not Connected. Click <a href="login.php">here</a> to login. ';
 endif;
 
+echo " ---------- the login to facebok went through fine ----------<br>";
 
-// listMemorialId
-echo "GET MEMORIAL ID - WTF!!";
-echo "<br>";
-// Memorial class - has 1 method so far... it takes the user id and returns an array
-// the array looks like this Array ( [0] => Array ( [memorial_id] => 1 [epilogue_user_id] => 100005789522071 [deceased_name] => Grace Pai ) )
-//--------------------
-$epilogue_user_id = "100005789522071";
-$deceased_facebook_user_id = 1066380068; 
-$deceased_name = "Katherine Lowe";
-$death_date = "2013-10-22"; 
-$memorial_tagline = "She rocks";
-$objMem = new Memorial();
+
+
+echo "-- MEMORIAL class code ran below --<br>";
+
+// Memorial class - has 2 methods so far... 
+// 1 - get all the memorial ids for a user
+// 2 - take the user data and auto-dec a new memorial id
+
+//-------------------- stub data
+//$epilogue_user_id = "100005789522071";
+//$deceased_facebook_user_id = 1066380068; 
+//$deceased_name = "Katherine Lowe";
+//$death_date = "2013-10-22"; 
+//$memorial_tagline = "She rocks";
+
+
+
+//$objMem = new Memorial();
 //$var_duh = $objMem->listMemorialId($epilogue_user_id);
 //print_r(array_values($var_duh));
-$objMem->insertNewMemorial($epilogue_user_id, $deceased_facebook_user_id, $deceased_name, $death_date, $memorial_tagline);
+//$objMem->insertNewMemorial($epilogue_user_id, $deceased_facebook_user_id, $deceased_name, $death_date, $memorial_tagline);
 
-echo "------new memorial created?-???-----";
+echo "<br>--Memorial class done -----<br>";
 
 
 
-echo "Photo class";
-// Photo Stuff - does nothing so far
-//$whosphoto = "688307710"; 
+echo "<br>-- PHOTO class below --<br>";
+// Photo Stuff - get array of photo info back from facebook and then do stuff with the array
+
+// -------------- stub data
+$whosphoto = "688307710"; 
 //$photo_id = "0981";
 //$vote = 1;
 //$memorial_id = 1;
-//$objPhoto = new Photo($whosphoto);
-//$objPhoto->getPhotos($whosphoto);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+$objPhoto = new Photo($whosphoto);
+$array_of = $objPhoto->getPhotos($whosphoto);
 //$objPhoto->sortPhotos ($array);
-echo "did it work??????";
-
-
-echo "<br>--";
+//echo "<br>--";
 //$objPhoto->upPhotoVote($photo_id, $memorial_id, $vote);
 //$objPhoto->getPhotos($whosphoto);
-echo "<br>--";
+// echo "<br>--";
 
 
-echo "---run this to get/download deceased photos into the folder-----------<br>";
-//$photo_url = "https://scontent-b.xx.fbcdn.net/hphotos-prn2/s720x720/8667_10151501514847711_269651373_n.jpg";
-//$objPhoto->downloadDeceasedPhotos($photo_url);
-//$deceased_facebook_user_id = "688307710";
+//echo "---run this to get/download deceased photos into the folder-----------<br>";
+
 //$objPhoto = new Photo($deceased_facebook_user_id);
 //$objPhoto->deceasedPhotosFromFacebookToFolder($deceased_facebook_user_id);
 
-echo "--------------";
+echo "<br>---- figure out how to paginate photos below ----";
+
+var_dump($array_of);
 
 
 
-echo "FacebookFriends class";
+
+
+
+
+
+
+echo "-- Photo class done-----------";
+
+
+
+echo "-- FacebookFriends class --";
 // FacebookFriends class
 //$facebook_user_id = "12345678";
 //$facebook_user_name = "Mr. Whiskers";
@@ -134,6 +133,6 @@ echo "------";
 //$objFF->updateInviteStatus($epilogue_user_id, $invite_this_friend, $invite, $memorial_id);
 //echo "--- <br>";
 
-
+echo "-- FacebookFriends class done --"
 
 ?>

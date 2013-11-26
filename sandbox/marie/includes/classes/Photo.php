@@ -16,9 +16,11 @@
          public function getPhotos($user_id, $next_call=''){
                  // get array of first 25 from facebook                
               $fb = Registry::getInstance()->get("fb");  
+              echo "<br>********************************<br>";
               echo $user_id.'/photos?limit=100';
               $call = $user_id.'/photos?limit=100'.$next_call;
               var_dump($call);
+              echo "<br>********************************<br>";
               $user_profile = $fb->api($call);
               echo "<br>---------- below this line --?????----<br>";
               
@@ -100,13 +102,6 @@
                  return $deceased_user_photo;
          }
          
-//		function getPhotoURL ($arr_of_photo_data_from_facebook){
-//         	// this takes in the returned facebook array for a photo with all the goodies and returns just the source URL
-//                foreach ($arr_of_photos["data"] as $value){
-//			     $photo_url = ($value["source"]);
-			      			     
-//                }
-//         }
 
         public function downloadDeceasedPhotos ($url_to_download){
         	// take the $url and save it to the images/deceased folder
@@ -120,7 +115,7 @@
  		public function basenamePhotoUrl($url){
  			// strips out the $url to just the file name & extension and tacks it on to the destination folder
 			$parts = explode("?",$url); 
-			//break the string up around the "?" character in $mystring 
+			//break the string up around the "?" character in $parts
 			$url = $parts['0']; 
 			//grab the first part 
 			return "/Users/sarahhuffman/working_epilogue/sandbox/marie/images/deceased/".basename($url);

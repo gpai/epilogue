@@ -10,11 +10,14 @@ class Memorial {
 		// JED: First things first, let's get some objects!
 		$db = Registry::getInstance()->get('db');
 		// End Jed	
-		print "This returns an array of the memorials of this user id : '$epilogue_user_id'";
+		// print "This returns an array of the memorials of this user id : '$epilogue_user_id'";
+		
 		$query = "SELECT memorial_id, deceased_name, epilogue_user_id FROM memorial_id WHERE epilogue_user_id = '$epilogue_user_id' ";
 		$result = $db->fetchAll($query); 
 		return $result;
  	}
+ 	
+
 
  	public function insertNewMemorial($epilogue_user_id, $deceased_facebook_user_id, $deceased_name, $death_date, $memorial_tagline){
  		// takes the user provided data and returns a newly created memorial id
@@ -28,3 +31,9 @@ class Memorial {
  	}
  	
  }
+
+ 
+ 
+ 
+ 
+ 

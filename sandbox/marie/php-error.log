@@ -7617,3 +7617,21 @@
 [26-Nov-2013 20:53:00 Europe/Berlin] PHP Notice:  Undefined index: TOTALFOUND in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Epilogue.php on line 69
 [26-Nov-2013 20:53:00 Europe/Berlin] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Memorial.php on line 26
 [26-Nov-2013 20:53:00 Europe/Berlin] PHP Fatal error:  Call to a member function foo() on a non-object in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Memorial.php on line 27
+[26-Nov-2013 23:06:03 Europe/Berlin] PHP Fatal error:  Call to undefined method mysqli::raw_query() in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Database.php on line 41
+[26-Nov-2013 23:07:17 Europe/Berlin] PHP Fatal error:  Call to undefined method mysqli::raw_query() in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Database.php on line 41
+[26-Nov-2013 23:08:03 Europe/Berlin] PHP Fatal error:  Call to undefined method mysqli::raw_query() in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Database.php on line 41
+[26-Nov-2013 23:14:09 Europe/Berlin] PHP Notice:  Undefined index: TOTALFOUND in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Epilogue.php on line 35
+[26-Nov-2013 23:14:09 Europe/Berlin] PHP Notice:  Undefined index: session_id in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Epilogue.php on line 50
+[26-Nov-2013 23:14:09 Europe/Berlin] PHP Notice:  Undefined index: TOTALFOUND in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Epilogue.php on line 35
+[26-Nov-2013 23:14:09 Europe/Berlin] PHP Notice:  Undefined index: session_id in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Epilogue.php on line 50
+[26-Nov-2013 23:14:09 Europe/Berlin] PHP Notice:  Undefined index: TOTALFOUND in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Epilogue.php on line 35
+[26-Nov-2013 23:14:09 Europe/Berlin] PHP Notice:  Undefined index: TOTALFOUND in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Epilogue.php on line 69
+[26-Nov-2013 23:14:10 Europe/Berlin] PHP Notice:  Undefined variable: whosphoto in /Users/sarahhuffman/working_epilogue/sandbox/marie/dbrunner.php on line 81
+[26-Nov-2013 23:14:11 Europe/Berlin] PHP Fatal error:  Uncaught GraphMethodException: No node specified
+  thrown in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/lib/fb/base_facebook.php on line 1254
+[26-Nov-2013 23:17:16 Europe/Berlin] PHP Notice:  Undefined index: TOTALFOUND in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Epilogue.php on line 35
+[26-Nov-2013 23:17:16 Europe/Berlin] PHP Notice:  Undefined index: session_id in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Epilogue.php on line 50
+[26-Nov-2013 23:17:16 Europe/Berlin] PHP Notice:  Undefined index: TOTALFOUND in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Epilogue.php on line 35
+[26-Nov-2013 23:17:16 Europe/Berlin] PHP Notice:  Undefined index: session_id in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Epilogue.php on line 50
+[26-Nov-2013 23:17:16 Europe/Berlin] PHP Notice:  Undefined index: TOTALFOUND in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Epilogue.php on line 35
+[26-Nov-2013 23:17:16 Europe/Berlin] PHP Notice:  Undefined index: TOTALFOUND in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Epilogue.php on line 69
