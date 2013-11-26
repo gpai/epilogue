@@ -47,10 +47,20 @@ echo "<br>";
 // Memorial class - has 1 method so far... it takes the user id and returns an array
 // the array looks like this Array ( [0] => Array ( [memorial_id] => 1 [epilogue_user_id] => 100005789522071 [deceased_name] => Grace Pai ) )
 //--------------------
-//$epilogue_user_id = "100005789522071";
-//$objMem = new Memorial();
+$epilogue_user_id = "100005789522071";
+$deceased_facebook_user_id = 1066380068; 
+$deceased_name = "Katherine Lowe";
+$death_date = "2013-10-22"; 
+$memorial_tagline = "She rocks";
+$objMem = new Memorial();
 //$var_duh = $objMem->listMemorialId($epilogue_user_id);
 //print_r(array_values($var_duh));
+$objMem->insertNewMemorial($epilogue_user_id, $deceased_facebook_user_id, $deceased_name, $death_date, $memorial_tagline);
+
+echo "------new memorial created?-???-----";
+
+
+
 echo "Photo class";
 // Photo Stuff - does nothing so far
 //$whosphoto = "688307710"; 
@@ -58,21 +68,43 @@ echo "Photo class";
 //$vote = 1;
 //$memorial_id = 1;
 //$objPhoto = new Photo($whosphoto);
-//$photo_vote = $objPhoto->getPhotoVote($photo_id, $memorial_id);
-echo "<br>";
+//$objPhoto->getPhotos($whosphoto);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//$objPhoto->sortPhotos ($array);
+echo "did it work??????";
+
+
+echo "<br>--";
 //$objPhoto->upPhotoVote($photo_id, $memorial_id, $vote);
 //$objPhoto->getPhotos($whosphoto);
-echo "<br>";
+echo "<br>--";
 
 
 echo "---run this to get/download deceased photos into the folder-----------<br>";
 //$photo_url = "https://scontent-b.xx.fbcdn.net/hphotos-prn2/s720x720/8667_10151501514847711_269651373_n.jpg";
 //$objPhoto->downloadDeceasedPhotos($photo_url);
-$deceased_facebook_user_id = "688307710";
-$objPhoto = new Photo($deceased_facebook_user_id);
-$objPhoto->deceasedPhotosFromFacebookToFolder($deceased_facebook_user_id);
+//$deceased_facebook_user_id = "688307710";
+//$objPhoto = new Photo($deceased_facebook_user_id);
+//$objPhoto->deceasedPhotosFromFacebookToFolder($deceased_facebook_user_id);
 
-echo "---- crossing fingers-----------";
+echo "--------------";
 
 
 
@@ -85,7 +117,7 @@ echo "FacebookFriends class";
 
 // --- in order to insert the friend list into our database
 //$objFF->insertFriendList($facebook_user_id, $facebook_user_name, $epilogue_user_id);
-echo "------what is the dealio";
+echo "------";
 
 //print_r($array_of_friends);
 
