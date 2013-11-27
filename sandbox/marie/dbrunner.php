@@ -85,7 +85,7 @@ $array_of = $objPhoto->getPhotoArray($whosphoto);
 //$objPhoto->getPhotos($whosphoto);
 // echo "<br>--";
 
-$objPhoto->insertFacebookPhotoInfo($array_of, 1);
+//$objPhoto->insertFacebookPhotoInfo($array_of, 1);
 
 
 //echo "---run this to get/download deceased photos into the folder-----------<br>";
@@ -93,11 +93,12 @@ $objPhoto->insertFacebookPhotoInfo($array_of, 1);
 //$objPhoto = new Photo($deceased_facebook_user_id);
 //$objPhoto->deceasedPhotosFromFacebookToFolder($whosphoto);
 
-//echo "<br>---- figure out how to paginate photos below ----<br>";
+echo "<br>---- figure out how to paginate photos below ----<br>";
 
-//$objPhoto->getNext($array_of);
+$objPhoto->getPhotoArray($whosphoto);
 
-//echo "---- did it work-----";
+
+echo "---- did it work-----";
 
 ?>
 <pre><?php print_r($array_of)?> </pre>

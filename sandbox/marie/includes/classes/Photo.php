@@ -12,14 +12,18 @@
                  // get array of first 25 from facebook                
               $fb = Registry::getInstance()->get("fb");  
               echo "<br>******************   **************<br>";
-              echo $user_id.'/photos?limit=25';
-              $call = $user_id.'/photos?limit=25'.$next_call;
-              var_dump($call);
+              //echo $user_id.'/photos?limit=25';
+              $call_for_photos = $user_id.'/photos?limit=25'.$next_call;
+              var_dump($call_for_photos);
               echo "<br>*****************   ***************<br>";
-              $user_profile = $fb->api($call);
+              $array_of = $fb->api($call_for_photos);
               
-              echo "<br>---------- getPhotoArray -----<br>";
-              return $user_profile;
+              //echo "<br>---------- getPhotoArray -----<br>";
+              if (!$array_of[paging]["next"]==NULL){
+              	$next_call = $this->getNext($array_of);	
+              	echo "next call --- $next_call";
+              	$this->getPhotoArray($user_id, $next_call);              	
+              }              
          }
 
 		public function getNext($array_of){
@@ -29,9 +33,10 @@
 				$parts = explode("&",$the_paging); 
 			//break the string up around the "?" character in $parts
 				$next_call = $parts['1']; 
-				echo $next_call;
-			}
-			else echo "----done--------!!!!!!!!";
+
+				return "&".$next_call;
+			} else return False;
+			
 		}
 		
 
@@ -56,7 +61,7 @@
                          if (is_array($value["tags"])){                        	
                           	if(sizeof(($value["tags"]["data"])) >= 1){
                           		$t = sizeof($value["tags"]["data"]);
-                          		  echo "<br>-----In this photo these people are tagged : <br>";
+                          		  //echo "<br>-----In this photo these people are tagged : <br>";
                                   foreach ($value["tags"]["data"] as $value1){
                                           $tagged_user_id = ($value1["id"]); 
                                           $tagged_user_name = ($value1["name"]); 
@@ -72,8 +77,8 @@
                           if (is_array($value["comments"])){
                           	if(sizeof(($value["comments"]["data"])) >= 1){
                           		$c = sizeof($value["comments"]["data"]);
-                          		echo "this is c $c";
-                          		  echo "<br>------In this photo these people mades comments : <br>";      	
+                          		//echo "this is c $c";
+                          		  //echo "<br>------In this photo these people mades comments : <br>";      	
                                   foreach ($value["comments"]["data"] as $value2){
                                           $comment_id = ($value2["id"]); 
                                           $comments_user_name = ($value2["from"]["name"]); 
@@ -91,7 +96,7 @@
                           if (is_array($value["likes"])){                         	
                           	if(sizeof(($value["likes"]["data"])) >= 1){
                           		 $l = sizeof($value["likes"]["data"]);
-                          		  echo "<br>-----These people liked this photo : <br>";
+                          		  //echo "<br>-----These people liked this photo : <br>";
                                   foreach ($value["likes"]["data"] as $value3){
                                           $likes_user_id = ($value3["id"]); 
                                           $likes_user_name = ($value3["name"]); 
@@ -106,29 +111,26 @@
                           if (is_array($value["shares"])){                        	
                           	if(sizeof(($value["shares"]["data"])) >= 1){
                           		$s = sizeof ($value["shares"]["data"]);
-  	                        	echo "<br>-----These people shared this photo : <br>";
+  	                        	//echo "<br>-----These people shared this photo : <br>";
                                 foreach ($value["shares"]["data"] as $value4){
                                           $shares_user_id = ($value4["id"]); 
                                           $shares_user_name = ($value4["name"]); 
                                           $query4 = "INSERT INTO  `Vixen_test`.`shares` (`memorial_id` ,`sharer_name` ,`sharer_fb_id` ,`shared_item_id`)VALUES (
 													'$memorial_id',  '$shares_user_name',  '$shares_user_id',  '$photo_id')";                
-                  						  echo "this is shares ---  Q4 --- $query4";
+                  						  //echo "this is shares ---  Q4 --- $query4";
                   						  $db->raw_query($query4); 
                   						  
                   						  
                                  }
                           	}
-                          } else echo "shares else";
+                          } 
                           
-                           $photo_file_name = $this->basenamePhotoFilename($photo_url);
+                          $photo_file_name = $this->basenamePhotoFilename($photo_url);
                           
-                          //$query5 = "INSERT INTO `Vixen_test`.`photo` (`photo_id` ,`url` ,`comment_id` ,`like_id` ,`share_id` ,`tag_id` ,`meaning_rank` ,`photo_date` ,`caption` ,`album_id` ,`album_name` ,`to_be_approved` ,`memorial_id` ,`vote` ,`photo_create_date` , 'photo_user_id')VALUES ( '$photo_id',  '$photo_file_name', NULL , NULL , NULL , NULL , NULL , NULL ,  '$caption', NULL , NULL ,  '0',  '$memorial_id',  '1',  '$photo_create_date',   '$fb_user_id_of_photo')";
-						  
 						  $test = "INSERT INTO `Vixen_test`.`photo` (`photo_id`, `url`, `comment_id`, `like_id`, `share_id`, `tag_id`, `meaning_rank`, `photo_date`, `caption`, `album_id`, `album_name`, `to_be_approved`, `memorial_id`, `vote`, `photo_create_date`, `photo_user_id`) VALUES ('$photo_id', '$photo_file_name', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0', '$memorial_id', '1', '$photo_create_date', '$fb_user_id_of_photo');";
-						  echo " this is new new new ------- $test";	
-  					  
+						 					  
 						  $db->raw_query($test); 
-                       echo "----- count these --!!--- ";
+                      
         		}
         }
   

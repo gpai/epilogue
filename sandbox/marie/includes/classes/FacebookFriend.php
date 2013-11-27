@@ -15,21 +15,21 @@ class FacebookFriend{
 			return $facebook_get_friends;
 	}
 
-	public function insertFriendsIntoDatabase($epilogue_user_id){
+	public function insertFriendsIntoDatabase($epilogue_user_id, $memorial_id){
 			$facebook_get_friends = getFriendsFromFacebook($epilogue_user_id);
 			foreach ($facebook_get_friends["friends"]["data"] as $value){
   				$facebook_user_id =  ($value["id"]);
   				$facebook_user_name = ($value["name"]);
 //  				echo "$facebook_user_id is the ID for $facebook_user_name<br>";
-  				insertFriendList($facebook_user_id, $facebook_user_name, $epilogue_user_id);
+  				insertFriendList($facebook_user_id, $facebook_user_name, $epilogue_user_id, $memorial_id);
   				}
 	}
 
-	public function insertFriendList($facebook_user_id, $facebook_user_name, $epilogue_user_id) {
-	// insert single friend into db table
+	public function insertFriendList($facebook_user_id, $facebook_user_name, $epilogue_user_id, $memorial_id) {
+	// insert single friend into db table of that memorial id
 	$db = Registry::getInstance()->get('db');
 	$insert_please = "INSERT INTO  `Vixen_test`.`user_friend_list` VALUES (
-'$epilogue_user_id',  '$facebook_user_id', '$facebook_user_name', 'N', 0, 0)";	
+'$epilogue_user_id',  '$facebook_user_id', '$facebook_user_name', 'N', 0, 0, '$memorial_id')";	
 	$db->raw_query($insert_please);
 	}
 	
@@ -37,8 +37,7 @@ class FacebookFriend{
 		// returns array of those who have $status of N,Y,A
 		// $status N = facebook friend but not invited, 
 		// $staus Y = invited OR $staus (A)ccepted invite to collaborate
-		$db = Registry::getInstance()->get('db');
-		
+		$db = Registry::getInstance()->get('db');		
 		
 		$query = 'SELECT epilogue_user_id, facebook_user_id, facebook_name, invited, deceased FROM user_friend_list WHERE invited = "'.$invited.'" AND memorial_id = '.$memorial_id;		
 		echo "$query";
