@@ -17,30 +17,35 @@ class Database {
 		$this->_sql_pass = $pass;
 		$this->_sql_host = $host;
 
-		$this->_sql = mysql_connect($this->_sql_host, $this->_sql_user, $this->_sql_pass);
-
-		mysql_select_db($this->_sql_db, $this->_sql);
+		$this->_sql = new mysqli($this->_sql_host, $this->_sql_user, $this->_sql_pass, $this->_sql_db);
 	}
 
 	public function raw_query($query) {
-		$this->_queries++;
-		return mysql_query($query, $this->_sql);
+		return $this->_sql->query($query);
 	}
 
 	public function query($query) {
-		return mysql_fetch_array($this->raw_query($query));
+		$rs = $this->fetchAll($query);
+		return $rs;
 	}
 	
 	public function fetchOne($query) {
-		return $this->query($query);
+		$rs = $this->raw_query($query);
+		$result = $rs->fetch_assoc();
+		$rs->close();
+		return $result;
+	
 	}
 	
 	public function fetchAll($query) {
-		$result = $this->raw_query($query);
+		$q = $this->raw_query($query);
 		$resultSet = array();
-		while ($row = mysql_fetch_assoc($result)){
-			$resultSet[] = $row;
-		}
+		
+		while($r = $q->fetch_assoc())
+    		$resultSet[] = $r;
+
+		$q->close();
+		
 		return $resultSet;
 	}
 
@@ -76,7 +81,7 @@ class Database {
 	}
 
 	function __destruct() {
-		mysql_close($this->_sql);
+// 		mysql_close($this->_sql);
 		/*
 			echo 'queries: '. $this->_queries;
 			echo 'execution time: '. number_format((microtime(true)-$_SERVER["REQUEST_TIME_FLOAT"]), 5) .'s';
@@ -85,4 +90,3 @@ class Database {
 
 }
 
-?>
