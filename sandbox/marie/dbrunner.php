@@ -71,18 +71,25 @@ echo "<br>-- PHOTO class below --<br>";
 // Photo Stuff - get array of photo info back from facebook and then do stuff with the array
 
 // -------------- stub data
-$whosphoto = "688307710"; 
+//$whosphoto = "688307710"; 
+$whosphoto = "1280040613"; //Nafiri's id
 //$photo_id = "0981";
 //$vote = 1;
-//$memorial_id = 1;
+$memorial_id = 1;
 
 
-$objPhoto = new Photo($whosphoto);
-$array_of = $objPhoto->getPhotoArray($whosphoto);
+
+$objPhoto = new Photo($whosphoto, $memorial_id);
+
+echo "<br>---- get ALL of Nafiri's publuc photos below ----<br>";
+$objPhoto->getPhotoArray($whosphoto);
+
+
+
 //$objPhoto->sortPhotos ($array);
 //echo "<br>--";
 //$objPhoto->upPhotoVote($photo_id, $memorial_id, $vote);
-//$objPhoto->getPhotos($whosphoto);
+
 // echo "<br>--";
 
 //$objPhoto->insertFacebookPhotoInfo($array_of, 1);
@@ -93,9 +100,7 @@ $array_of = $objPhoto->getPhotoArray($whosphoto);
 //$objPhoto = new Photo($deceased_facebook_user_id);
 //$objPhoto->deceasedPhotosFromFacebookToFolder($whosphoto);
 
-echo "<br>---- figure out how to paginate photos below ----<br>";
 
-$objPhoto->getPhotoArray($whosphoto);
 
 
 echo "---- did it work-----";

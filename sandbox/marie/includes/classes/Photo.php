@@ -6,17 +6,21 @@
  */
 
  class Photo{
- 
-                 
+
+    	function setMemorialParameter($memorial_id) {
+        	$this->memorial_id = $memorial_id;
+    	}         
+         
          public function getPhotoArray($user_id, $next_call=''){
                  // get array of first 25 from facebook                
               $fb = Registry::getInstance()->get("fb");  
-              echo "<br>******************   **************<br>";
+              echo "<br>****************** ??? **************<br>";
               //echo $user_id.'/photos?limit=25';
-              $call_for_photos = $user_id.'/photos?limit=25'.$next_call;
+              $call_for_photos = $user_id.'/photos?limit=100'.$next_call;
               var_dump($call_for_photos);
-              echo "<br>*****************   ***************<br>";
+              echo "<br>***************** ???  ***************<br>";
               $array_of = $fb->api($call_for_photos);
+              $this->insertFacebookPhotoInfo ($array_of, $this->memorial_id);
               
               //echo "<br>---------- getPhotoArray -----<br>";
               if (!$array_of[paging]["next"]==NULL){
@@ -42,7 +46,7 @@
 
  
         public function insertFacebookPhotoInfo ($arr_of_photos, $memorial_id){
-                // This function prints the facebook array into the lower level parts associated with the photo
+                // This function inserts the facebook photo array info into tables in the database tied to memorial id
                 $db = Registry::getInstance()->get('db'); 
                 $photo_id =  "";
                 $caption = "";
