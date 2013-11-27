@@ -1,4 +1,6 @@
-
+body{
+	margin:0;
+}
 .navbar-brand{
 	padding-top: 10px;
 	padding-bottom: 0;
@@ -55,4 +57,12 @@
 	width: 99%;
 	margin: 0 auto;
 	height: auto;
+}
+#save_button{
+	float: right;
+	margin-right: 5%;
+}
+#invitation{
+	width: 90%;
+	margin: 0 auto;
 }
