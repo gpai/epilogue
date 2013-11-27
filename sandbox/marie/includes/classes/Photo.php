@@ -7,22 +7,25 @@
 
  class Photo{
 
+		private $memorial_id; 
+
     	function setMemorialParameter($memorial_id) {
         	$this->memorial_id = $memorial_id;
-    	}         
+    	}    
          
          public function getPhotoArray($user_id, $next_call=''){
                  // get array of first 25 from facebook                
               $fb = Registry::getInstance()->get("fb");  
-              echo "<br>****************** ??? **************<br>";
+              echo "<br>****************** !!!! **************<br>";
               //echo $user_id.'/photos?limit=25';
               $call_for_photos = $user_id.'/photos?limit=100'.$next_call;
               var_dump($call_for_photos);
-              echo "<br>***************** ???  ***************<br>";
+              echo "<br>***************** !!!! ***************<br>";
               $array_of = $fb->api($call_for_photos);
-              $this->insertFacebookPhotoInfo ($array_of, $this->memorial_id);
+              $this->deceasedPhotosFromFacebookToFolder($array_of);
+              $this->insertFacebookPhotoInfo($array_of, $this->memorial_id);
               
-              //echo "<br>---------- getPhotoArray -----<br>";
+                //echo "<br>---------- getPhotoArray -----<br>";
               if (!$array_of[paging]["next"]==NULL){
               	$next_call = $this->getNext($array_of);	
               	echo "next call --- $next_call";
@@ -132,7 +135,6 @@
                           $photo_file_name = $this->basenamePhotoFilename($photo_url);
                           
 						  $test = "INSERT INTO `Vixen_test`.`photo` (`photo_id`, `url`, `comment_id`, `like_id`, `share_id`, `tag_id`, `meaning_rank`, `photo_date`, `caption`, `album_id`, `album_name`, `to_be_approved`, `memorial_id`, `vote`, `photo_create_date`, `photo_user_id`) VALUES ('$photo_id', '$photo_file_name', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0', '$memorial_id', '1', '$photo_create_date', '$fb_user_id_of_photo');";
-						 					  
 						  $db->raw_query($test); 
                       
         		}
@@ -181,9 +183,9 @@
 			return basename($url);
 		}
 
-        public function deceasedPhotosFromFacebookToFolder($deceased_facebook_user_id){
+        public function deceasedPhotosFromFacebookToFolder($array_of_photos){
         	// all the pieces to get all the deceased photos from facebook into the images folders
-        	$array_of_photos = $this->getDeceasedPhotos($deceased_facebook_user_id);
+        	//$array_of_photos = $this->getDeceasedPhotos($deceased_facebook_user_id);
         	foreach ($array_of_photos["data"] as $value){
 			     $photo_url = ($value["source"]);
 			     $this->downloadDeceasedPhotos($photo_url);
@@ -206,13 +208,16 @@
                 $db->raw_query($update_this);
                   echo "hey '$vote' was added to the vote count";
           }
+ 
+ 
+ 
   
-  	 	public function downloadPhoto($photo_url){
+//  	 	public function downloadPhoto($photo_url){
   	 		// at the moment this jsut displays the image... I need to make it download
-			echo " <img src=$photo_url>";
-			file_put_contents("/images/deceased", fopen("$photo_url", 'r'));
+//			echo " <img src=$photo_url>";
+//			file_put_contents("/images/deceased", fopen("$photo_url", 'r'));
 
-		}
+//		}
         
   
  }

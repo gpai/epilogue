@@ -79,4 +79,13 @@ class Login {
 		
 		return true;
 	}
+	
+//	public function insertFacebookLoginIntoDB($facebook_user_id, $token=NULL, $user_type){
+		// marie would like to get the following items :
+		//$facebook_user_id, $token=NULL (only if we need it later??), $user_type = "owner" or "invited" or "contributor"
+//        $query = "INSERT INTO  `Vixen_test`.`login` (`facebook_user_id` ,`user_type` ,`fb_token`)VALUES ( '$facebook_user_id',  '$user_type',  '$token')";                
+//       $db->raw_query($query);	
+//	}
+
 }
+	

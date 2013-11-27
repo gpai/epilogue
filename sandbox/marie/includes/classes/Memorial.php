@@ -17,6 +17,7 @@ class Memorial {
 		return $result;
  	}
  	
+ 	
 
 
  	public function insertNewMemorial($epilogue_user_id, $deceased_facebook_user_id, $deceased_name, $death_date, $memorial_tagline){
@@ -29,6 +30,8 @@ class Memorial {
  		return $mem_id;
 // 		return array($mem_id,$epilogue_user_id, $deceased_facebook_user_id, $deceased_name);
  	}
+ 	
+ 	
  	
  }
 

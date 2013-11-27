@@ -52,5 +52,15 @@ class FacebookFriend{
 		$update_this = "UPDATE `Vixen_test`.`user_friend_list` SET invited = '.$invited.' WHERE facebook_user_id = '$invite_this_friend' AND epilogue_user_id = '$epilogue_user_id' AND memorial_id = '$memorial_id'";
 		$db->raw_query($update_this);
 	}	
+	
+		public function sendInviteMessage(){
+			//https://developers.facebook.com/blog/post/494/
+			//https://developers.facebook.com/docs/opengraph/submission-process/
+		echo "this";
+	}
+	
+	
+	
+	
 }
 

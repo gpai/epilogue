@@ -41,6 +41,8 @@ require_once 'classes/Session.php';
  * PROPERTIES
  */
 
+
+
 $config = array();
 
 $config['session']['name'] = "epi";
@@ -51,8 +53,8 @@ $config['fb']['appId'] = '665113106856066';
 $config['fb']['secret'] = '2d230b0ad9a39b85f68d4aa235d8d8ee';
 $config['fb']['fileUpload'] = false; // optional
 $config['fb']['scope'] = "read_stream, friends_likes, user_status";
-$config['fb']['redirectLogin'] = "http://duidesign.com/j/login.php"; //"http://duidesign.com/j/login.php";
-$config['fb']['redirectLogout'] = "http://duidesign.com/j/logout.php"; //"http://duidesign.com/j/login.php";
+$config['fb']['redirectLogin'] = "http://localhost:8888/sandbox/marie/login.php"; // "this needs to point to right file login file location";
+$config['fb']['redirectLogout'] = "http://localhost:8888/sandbox/marie/login.php"; //"this needs to point to the right logout file location";
 $config['fb']['cookie'] = true; // optional
 
 $config['db']['user'] = 'Vixen_VixGrace'; 
