@@ -1,19 +1,16 @@
 body{
 	padding:0;
 }
-
 hr{
 	margin: 0;
 	width: 90%;
 	margin:0 auto;	
 }
-
 img{
 	max-width:100%;
 	height:auto;
 	margin: 0 auto;
 }
-
 .jumbotron{
 	margin: 0;
 	width: 100%;
@@ -22,7 +19,6 @@ img{
 	padding: 0% 3% 2% 3%;
 	overflow: hidden;
 }
-
 #info_picture{
 	display:inline-block;
 	float: left;
@@ -30,29 +26,16 @@ img{
 	height: auto;
 	padding-top: 2%;
 }
-
 #info_content{
 	display:inline-block;
 	width:auto;
-	padding-top:2%;
+	padding-top:5%;
 	padding-left: 5%;
 }
-
 #coverPicture{
-	margin: 0 auto;	
-	
+	text-align: center;
 }
-.section{
-	min-width: 45%;
-	min-height: 55%;
-	border: 1px solid #000000;
-	display: inline-block;	
-}
-#sections{
-	max-width: 50%;
-}
-#story{
+.sections{
 	display: inline-block;
-	max-width: 50%;
-	border: 1px solid #000000;
+	width: 50%;
 }
