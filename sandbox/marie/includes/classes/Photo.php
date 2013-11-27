@@ -7,86 +7,131 @@
 
  class Photo{
  
-        public function length(){
-                return sizeof($this->_photo_array);
-                        
-        }
-
                  
-         public function getPhotos($user_id, $next_call=''){
+         public function getPhotoArray($user_id, $next_call=''){
                  // get array of first 25 from facebook                
               $fb = Registry::getInstance()->get("fb");  
-              echo "<br>********************************<br>";
-              echo $user_id.'/photos?limit=100';
-              $call = $user_id.'/photos?limit=100'.$next_call;
+              echo "<br>******************   **************<br>";
+              echo $user_id.'/photos?limit=25';
+              $call = $user_id.'/photos?limit=25'.$next_call;
               var_dump($call);
-              echo "<br>********************************<br>";
+              echo "<br>*****************   ***************<br>";
               $user_profile = $fb->api($call);
-              echo "<br>---------- below this line --?????----<br>";
               
-              print_r($user_profile);
-
+              echo "<br>---------- getPhotoArray -----<br>";
+              return $user_profile;
          }
-    
- 
-        public function sortPhotos ($arr_of_photos){
-                // This function prints the facebook array into the lower level parts associated with the photo
-                foreach ($arr_of_photos["data"] as $value){
-                		
-                         $photo_id =  ($value["id"]);
-                          $caption = ($value["name"]);
-                          $photo_url = ($value["source"]);
 
-                          if (is_array($value["tags"])){
-                          	if(sizeof(($value["tags"]["data"])) > 1){
-                          		  echo "<br>-In this photo these people are tagged : <br>";
+		public function getNext($array_of){
+			// filters the array from facebook and returns the pagination string for the next call or '' if there are no more
+			if (!$array_of[paging]["next"]==NULL){
+				$the_paging = $array_of[paging]["next"];	
+				$parts = explode("&",$the_paging); 
+			//break the string up around the "?" character in $parts
+				$next_call = $parts['1']; 
+				echo $next_call;
+			}
+			else echo "----done--------!!!!!!!!";
+		}
+		
+
+ 
+        public function insertFacebookPhotoInfo ($arr_of_photos, $memorial_id){
+                // This function prints the facebook array into the lower level parts associated with the photo
+                $db = Registry::getInstance()->get('db'); 
+                $photo_id =  "";
+                $caption = "";
+                $photo_url ="";
+                $photo_create_date = "";
+                $fb_user_id_of_photo = "";
+                
+                foreach ($arr_of_photos["data"] as $value){
+          		
+                         $photo_id =  ($value["id"]);
+                         if (isset( $value["name"] )){ $caption = ($value["name"]);}
+                         $photo_url = ($value["source"]);
+                         if (isset( $value["created_time"])){$photo_create_date = ($value["created_time"]);}
+                         $fb_user_id_of_photo = ($value["from"]["id"]);
+
+                         if (is_array($value["tags"])){                        	
+                          	if(sizeof(($value["tags"]["data"])) >= 1){
+                          		$t = sizeof($value["tags"]["data"]);
+                          		  echo "<br>-----In this photo these people are tagged : <br>";
                                   foreach ($value["tags"]["data"] as $value1){
                                           $tagged_user_id = ($value1["id"]); 
                                           $tagged_user_name = ($value1["name"]); 
-                                          echo "$tagged_user_name has $tagged_user_id<br>";                                  
+//                                          echo "$tagged_user_name has $tagged_user_id<br>"; 
+                                          $query1 = "INSERT INTO  `Vixen_test`.`tags` (`memorial_id` ,`tagged_name` ,`tagged_fb_id` ,`tagged_item_id`)VALUES (
+													'$memorial_id',  '$tagged_user_name',  '$tagged_user_id',  '$photo_id')";                
+                  						  //echo "this is q1 $query1";
+                  						  $db->raw_query($query1);				
                                   }                          		
                           	}
-
                           }
                           
                           if (is_array($value["comments"])){
-                          	if(sizeof(($value["comments"]["data"])) > 1){
-                          		  echo "<br>-In this photo these people mades comments : <br>";      	
+                          	if(sizeof(($value["comments"]["data"])) >= 1){
+                          		$c = sizeof($value["comments"]["data"]);
+                          		echo "this is c $c";
+                          		  echo "<br>------In this photo these people mades comments : <br>";      	
                                   foreach ($value["comments"]["data"] as $value2){
                                           $comment_id = ($value2["id"]); 
                                           $comments_user_name = ($value2["from"]["name"]); 
                                           $comments_user_id = ($value2["from"]["id"]); 
                                           $comments_user_comment = ($value2["message"]); 
-                                          echo "Comment ID : $comment_id Commented : $comments_user_comment <br>";                                           		"By : $comments_user_name ID :  $comments_user_id<br>";                                   }
+                                                                                                    
+                                          $query2 = "INSERT INTO  `Vixen_test`.`comments` (`comment_id` ,`comment` ,`comment_type` ,`commenter_fb_id` ,`commenter_name` ,`memorial_id` ,`commented_item_id`)VALUES (
+													NULL ,  '$comments_user_comment',  'photo',  '$comments_user_id',  '$comments_user_name',  '$memorial_id',  '$photo_id')";                
+                  						  //echo "this is Q2 -- $query2";
+                  						  $db->raw_query($query2);
+  								}
                           	}
                           }
 
-                          if (is_array($value["likes"])){
-                          	if(sizeof(($value["likes"]["data"])) > 1){
-                          		  echo "<br>-These people liked this photo : <br>";
+                          if (is_array($value["likes"])){                         	
+                          	if(sizeof(($value["likes"]["data"])) >= 1){
+                          		 $l = sizeof($value["likes"]["data"]);
+                          		  echo "<br>-----These people liked this photo : <br>";
                                   foreach ($value["likes"]["data"] as $value3){
                                           $likes_user_id = ($value3["id"]); 
                                           $likes_user_name = ($value3["name"]); 
-                                          echo "$likes_user_name has $likes_user_id<br>";  
+                                          $query3 = "INSERT INTO  `Vixen_test`.`likes` (`memorial_id` ,`like_name` ,`like_fb_id` ,`liked_item_id`)VALUES (
+													'$memorial_id',  '$likes_user_name',  '$likes_user_id',  '$photo_id')";                
+                  						  //echo "this is Q3 $query3";
+                  						  $db->raw_query($query3); 
                                   }                                
                             }
                           }
                           
-                          if (is_array($value["shares"])){
-                          	if(sizeof(($value["shares"]["data"])) > 1){
-  	                        		  echo "<br>-These people shared this photo : <br>";
-                                  foreach ($value["shares"]["data"] as $value4){
+                          if (is_array($value["shares"])){                        	
+                          	if(sizeof(($value["shares"]["data"])) >= 1){
+                          		$s = sizeof ($value["shares"]["data"]);
+  	                        	echo "<br>-----These people shared this photo : <br>";
+                                foreach ($value["shares"]["data"] as $value4){
                                           $shares_user_id = ($value4["id"]); 
                                           $shares_user_name = ($value4["name"]); 
-                                          echo "$shares_user_name has $shares_user_id<br>";                                  
-                                  }
+                                          $query4 = "INSERT INTO  `Vixen_test`.`shares` (`memorial_id` ,`sharer_name` ,`sharer_fb_id` ,`shared_item_id`)VALUES (
+													'$memorial_id',  '$shares_user_name',  '$shares_user_id',  '$photo_id')";                
+                  						  echo "this is shares ---  Q4 --- $query4";
+                  						  $db->raw_query($query4); 
+                  						  
+                  						  
+                                 }
                           	}
-                          }
-                          echo "*********** The photo id : $photo_id <br>";
-                          echo "*********** The caption $caption <br>";
-                          echo "*********** The url $photo_url <br>";
-                } 
+                          } else echo "shares else";
+                          
+                           $photo_file_name = $this->basenamePhotoFilename($photo_url);
+                          
+                          //$query5 = "INSERT INTO `Vixen_test`.`photo` (`photo_id` ,`url` ,`comment_id` ,`like_id` ,`share_id` ,`tag_id` ,`meaning_rank` ,`photo_date` ,`caption` ,`album_id` ,`album_name` ,`to_be_approved` ,`memorial_id` ,`vote` ,`photo_create_date` , 'photo_user_id')VALUES ( '$photo_id',  '$photo_file_name', NULL , NULL , NULL , NULL , NULL , NULL ,  '$caption', NULL , NULL ,  '0',  '$memorial_id',  '1',  '$photo_create_date',   '$fb_user_id_of_photo')";
+						  
+						  $test = "INSERT INTO `Vixen_test`.`photo` (`photo_id`, `url`, `comment_id`, `like_id`, `share_id`, `tag_id`, `meaning_rank`, `photo_date`, `caption`, `album_id`, `album_name`, `to_be_approved`, `memorial_id`, `vote`, `photo_create_date`, `photo_user_id`) VALUES ('$photo_id', '$photo_file_name', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0', '$memorial_id', '1', '$photo_create_date', '$fb_user_id_of_photo');";
+						  echo " this is new new new ------- $test";	
+  					  
+						  $db->raw_query($test); 
+                       echo "----- count these --!!--- ";
+        		}
         }
+  
 
         public function insertDeceasedPhotos ($arr_of_sorted_photos, $memorial_id){
                 // okay so this one need the sort above to return that data
@@ -121,11 +166,16 @@
 			return "/Users/sarahhuffman/working_epilogue/sandbox/marie/images/deceased/".basename($url);
 		}
 
+ 		public function basenamePhotoFilename($url){
+ 			// strips out the $url (http: and ?) to just the file name & extension to use as a reference
+			if (strpos($url,'?') !== false){
+				$parts = explode("?",$url); 
+				$url = $parts['0']; 
+			}
+			return basename($url);
+		}
 
         public function deceasedPhotosFromFacebookToFolder($deceased_facebook_user_id){
-        	echo "pretty please-----<br>";
-
-        	
         	// all the pieces to get all the deceased photos from facebook into the images folders
         	$array_of_photos = $this->getDeceasedPhotos($deceased_facebook_user_id);
         	foreach ($array_of_photos["data"] as $value){
@@ -134,20 +184,7 @@
         	}	
         } 
               
-        function displayPhotos($arr_of_photos, $indent='') {
-            if ($arr_of_photos) {
-                foreach ($arr_of_photos as $value) {
-                    if (is_array($value)) {
-                        $this->displayPhotos($value, $indent . '--');
-                    } 
-                            else {
-                                echo "the array looks like  $indent $value <br>";
-                            }
-                     }
-            }
-        }
-
-
+   
           public function getPhotoVote($photo_id, $memorial_id){
                   // display the current vote for a photo_id
                   $db = Registry::getInstance()->get('db');        
@@ -155,7 +192,8 @@
                   $current_vote = $db->raw_query($query);
                   echo "this is the current vote '$current_vote'";
           }
-                    public function upPhotoVote($photo_id, $memorial_id, $vote){
+          
+          public function upPhotoVote($photo_id, $memorial_id, $vote){
                   // upvote or downvote a photo to include in the memorial
                   $db = Registry::getInstance()->get('db');        
                 $update_this = "UPDATE `Vixen_test`.`photo` SET vote = '$status' WHERE facebook_user_id = '$invite_this_friend' AND memorial_id = '$memorial_id'";

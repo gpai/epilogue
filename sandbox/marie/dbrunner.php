@@ -78,36 +78,40 @@ $whosphoto = "688307710";
 
 
 $objPhoto = new Photo($whosphoto);
-$array_of = $objPhoto->getPhotos($whosphoto);
+$array_of = $objPhoto->getPhotoArray($whosphoto);
 //$objPhoto->sortPhotos ($array);
 //echo "<br>--";
 //$objPhoto->upPhotoVote($photo_id, $memorial_id, $vote);
 //$objPhoto->getPhotos($whosphoto);
 // echo "<br>--";
 
+$objPhoto->insertFacebookPhotoInfo($array_of, 1);
+
 
 //echo "---run this to get/download deceased photos into the folder-----------<br>";
 
 //$objPhoto = new Photo($deceased_facebook_user_id);
-//$objPhoto->deceasedPhotosFromFacebookToFolder($deceased_facebook_user_id);
+//$objPhoto->deceasedPhotosFromFacebookToFolder($whosphoto);
 
-echo "<br>---- figure out how to paginate photos below ----";
+//echo "<br>---- figure out how to paginate photos below ----<br>";
 
-var_dump($array_of);
+//$objPhoto->getNext($array_of);
 
+//echo "---- did it work-----";
 
+?>
+<pre><?php print_r($array_of)?> </pre>
 
+<?php
 
-
-
-
-
-
-echo "-- Photo class done-----------";
-
+echo "-- Photo class done-----------<br>";
 
 
-echo "-- FacebookFriends class --";
+
+
+
+
+echo "-- FacebookFriends class --<br>";
 // FacebookFriends class
 //$facebook_user_id = "12345678";
 //$facebook_user_name = "Mr. Whiskers";
@@ -116,7 +120,7 @@ echo "-- FacebookFriends class --";
 
 // --- in order to insert the friend list into our database
 //$objFF->insertFriendList($facebook_user_id, $facebook_user_name, $epilogue_user_id);
-echo "------";
+echo "--FF class done ----<br>";
 
 //print_r($array_of_friends);
 
