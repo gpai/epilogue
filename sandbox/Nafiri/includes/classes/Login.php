@@ -80,4 +80,3 @@ class Login {
 		return true;
 	}
 }
-?>

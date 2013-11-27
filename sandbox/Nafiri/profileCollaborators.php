@@ -1,72 +1,41 @@
 <?php
 require_once "includes/config.php";
+require_once "includes/classes/FacebookFriend.php";
+require_once "includes/classes/Registry.php";
+require_once "includes/classes/Database.php";
+require_once "includes/classes/Epilogue.php";
+require_once "includes/classes/Favorite.php";
+require_once "includes/classes/Login.php";
+require_once "includes/classes/Memorial.php";
+require_once "includes/classes/Photo.php";
+require_once "includes/classes/Session.php";
+require_once "includes/classes/User.php";
+require_once "includes/classes/Video.php";
+require_once "profile.php";
 
-//Need to get a list of friends from Marie
-$friends=array(
-	88=>array('name'=>"Ash"),
-	15=>array('name'=>"Misty")
-);
-
-var_dump($friends);
-//$friends = array("Misty","Brock");
-
-
-//Need to get a list of collaborators on the project
-$collab=array(
-	15=>array('name'=>"Misty"),
-	90=>array('name'=>"Brock")
-);
-var_dump($collab);
-//$collab=array("Ash","Misty");
-
-
-
-//list of whether or not friends are already collaborators.
-foreach($friends as $fid => $fname)
+//Need to get a list of friends from Marie of people not yet collaborating on this memorial
+$activeCollaborators ="";
+$nonCollaborators = "";
+foreach($friendsList[$memorial_id]===1)
 {
-	foreach($collab as $cid=> $cname)
+	if($friendsList[$invited]!=="A")
 	{
-		if($fid!==$cid & $fname!==$cname)
-		{
-			echo $fid;
-			echo $cid;
-			echo "not the same, ";
-			
-		}
-		else
-		{
-			echo $fid;
-			echo $cid;
-			echo "same, ";
-			
-		}
+		//Let their name be displayed when user is typing in friend's name to invite
+	}
+	else {
+		//Leave it out of the list that the user sees
 	}
 }
-
-// for($i=0;$i<count($friends);++$i)
-// {
-// 	for($n=0;$n<count($collab);++$n)
-// 	{
-// 		if($friends[$i]!==$collab[$n])
-// 		{
-// 			echo "hi";
-// 			//include in the list of people that can be invited
-// 		}
-// 		else
-// 		{
-// 			echo"ho";
-// 			//do not include in list.
-// 		}
-// 	}
-// }
-
 //sends Facebook invitation.
 
 //Collaborators page will be edited with the new collaborator added onto the list.
 
+print_r($activeCollaborators);
+
 //If the person says no to the invitation, have Grace remove that memorial from their invitation list.
 
+print_r($nonCollaborators);
 
-//var_dump($friends);
+
 include "profileCollaborators.phtml";
 ?> 

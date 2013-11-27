@@ -93,7 +93,7 @@
                           
                           if (is_array($value["shares"])){
                           	if(sizeof(($value["shares"]["data"])) > 1){
-                          		  echo "<br>-These people shared this photo : <br>";
+  	                        		  echo "<br>-These people shared this photo : <br>";
                                   foreach ($value["shares"]["data"] as $value){
                                           $shares_user_id = ($value["id"]); 
                                           $shares_user_name = ($value["name"]); 
@@ -106,49 +106,60 @@
                           echo "*********** The url $photo_url <br>";
                 } 
         }
+     
         public function insertDeceasedPhotos ($arr_of_sorted_photos, $memorial_id){
                 // okay so this one need the sort above to return that data
                 // this one needs to stick it in the photo table with the associated memorial id
                 echo " The array of sorted photos will be added to $memorial_id<br>";
         }
- 
-         
-//         function sortPhotoArray($arr_of_photos){
-//            $output = null;
-//            if (is_array($arrayIn)){
-//                foreach ($arrayIn as $key=>$val){
-//                    if (is_array($val)){
-//                       $output->{$key} = arrayFilter($val);
-//                    } 
-//                    else {
-//                        $output->{$key} = $this->sanitize($val);
-//                    }
-//                }
-//            } 
-//            else {
-//                $output->{$key} = $this->sanitize($val);
-//            }
-//    return $output;
-//        }
-
-
-//        function sanitize($val)
-//        {
-                
-    //insert your preferred data filter here
-//            return addslashes('filtered: '.$val);
-//        }
-
-
          
          public function getDeceasedPhotos($deceased_facebook_user_id){
-                 // get all the deceased's photos from facebook - one time dealio?
-                 $fb = Registry::getInstance()->get("fb");        
-              $deceased_user_photo  = $fb->api($deceased_facebook_user_id .'/photos');
+         	// get all the deceased's photos from facebook - one time dealio?
+            	$fb = Registry::getInstance()->get("fb");        
+              	$deceased_user_photo  = $fb->api($deceased_facebook_user_id .'/photos');
                  print "Get photos for this guy --> $deceased_facebook_user_id";
                  return $deceased_user_photo;
-         }                
+         }
+         
+//		function getPhotoURL ($arr_of_photo_data_from_facebook){
+//         	// this takes in the returned facebook array for a photo with all the goodies and returns just the source URL
+//                foreach ($arr_of_photos["data"] as $value){
+//			     $photo_url = ($value["source"]);
+			      			     
+//                }
+//         }
 
+        public function downloadDeceasedPhotos ($url_to_download){
+        	// take the $url and save it to the images/deceased folder
+        	$url = $url_to_download;
+			$img = $this->basenamePhotoUrl($url);
+			echo "<br> url = $url and the destination file name is $img <br>";
+			file_put_contents($img, file_get_contents($url));
+		}
+
+		
+ 		public function basenamePhotoUrl($url){
+ 			// strips out the $url to just the file name & extension and tacks it on to the destination folder
+			$parts = explode("?",$url); 
+			//break the string up around the "?" character in $mystring 
+			$url = $parts['0']; 
+			//grab the first part 
+			return "C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\Images\piclib".basename($url);
+		}
+
+
+        public function deceasedPhotosFromFacebookToFolder($deceased_facebook_user_id){
+        	echo "pretty please-----<br>";
+
+        	
+        	// all the pieces to get all the deceased photos from facebook into the images folders
+        	$array_of_photos = $this->getDeceasedPhotos($deceased_facebook_user_id);
+        	foreach ($array_of_photos["data"] as $value){
+			     $photo_url = ($value["source"]);
+			     $this->downloadDeceasedPhotos($photo_url);
+        	}	
+        } 
+              
         function displayPhotos($arr_of_photos, $indent='') {
             if ($arr_of_photos) {
                 foreach ($arr_of_photos as $value) {
@@ -192,4 +203,3 @@
  
  
  
-?>
