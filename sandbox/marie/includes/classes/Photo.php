@@ -8,28 +8,30 @@
  class Photo{
 
 		private $memorial_id; 
+		private $user_id;
 
-    	function setMemorialParameter($memorial_id) {
+    	function setPhotoParameters($user_id, $memorial_id) {
+    		$this->user_id = $user_id;
         	$this->memorial_id = $memorial_id;
     	}    
          
-         public function getPhotoArray($user_id, $next_call=''){
+         public function getPhotoArray($next_call=''){
                  // get array of first 25 from facebook                
               $fb = Registry::getInstance()->get("fb");  
-              echo "<br>****************** !!!! **************<br>";
+              echo "<br>****************** @@@ **************<br>";
               //echo $user_id.'/photos?limit=25';
-              $call_for_photos = $user_id.'/photos?limit=100'.$next_call;
+              $call_for_photos = $this->user_id.'/photos?limit=100'.$next_call;
               var_dump($call_for_photos);
-              echo "<br>***************** !!!! ***************<br>";
+              echo "<br>***************** @@@ ***************<br>";
               $array_of = $fb->api($call_for_photos);
               $this->deceasedPhotosFromFacebookToFolder($array_of);
               $this->insertFacebookPhotoInfo($array_of, $this->memorial_id);
               
                 //echo "<br>---------- getPhotoArray -----<br>";
               if (!$array_of[paging]["next"]==NULL){
-              	$next_call = $this->getNext($array_of);	
-              	echo "next call --- $next_call";
-              	$this->getPhotoArray($user_id, $next_call);              	
+              	$next_next = $this->getNext($array_of);	
+              	echo "next call --- $next_next_next";
+              	$this->getPhotoArray($next_next);              	
               }              
          }
 

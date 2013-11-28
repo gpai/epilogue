@@ -13546,3 +13546,6 @@
 [27-Nov-2013 21:50:06 Europe/Berlin] PHP Notice:  Use of undefined constant paging - assumed 'paging' in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 29
 [27-Nov-2013 21:50:06 Europe/Berlin] PHP Notice:  Undefined index: paging in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 29
 [27-Nov-2013 21:50:06 Europe/Berlin] PHP Notice:  Undefined variable: array_of in /Users/sarahhuffman/working_epilogue/sandbox/marie/dbrunner.php on line 109
+[28-Nov-2013 19:47:26 Europe/Berlin] PHP Warning:  mysqli::mysqli(): (HY000/2003): Can't connect to MySQL server on 'mysql2.speedypuppy.net' (60) in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Database.php on line 20
+[28-Nov-2013 19:47:26 Europe/Berlin] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Database.php on line 24
+[28-Nov-2013 19:47:26 Europe/Berlin] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Database.php on line 45
