@@ -1,6 +1,7 @@
 <?php
 /*
- * Created on Nov 16, 2013 To change the template for this generated file go to Window - Preferences - PHPeclipse - PHP - Code Templates
+ * Created on Nov 16, 2013 
+ * This class handles the 'creation' of a new memorial id
  */
 
 class Memorial {
