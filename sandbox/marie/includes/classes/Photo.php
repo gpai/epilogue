@@ -203,7 +203,7 @@
           
           public function upPhotoVote($photo_id, $memorial_id, $vote){
                   // upvote or downvote a photo to include in the memorial
-                  $db = Registry::getInstance()->get('db');        
+                $db = Registry::getInstance()->get('db');        
                 $update_this = "UPDATE `Vixen_test`.`photo` SET vote = '$status' WHERE facebook_user_id = '$invite_this_friend' AND memorial_id = '$memorial_id'";
                 $db->raw_query($update_this);
                   echo "hey '$vote' was added to the vote count";
