@@ -5089,3 +5089,1497 @@ Stack trace:
 [27-Nov-2013 00:23:05 UTC] Invalid or no certificate authority found, using bundled information
 [27-Nov-2013 00:23:05 UTC] PHP Fatal error:  Uncaught OAuthException: A user access token is required to request this resource.
   thrown in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\lib\fb\base_facebook.php on line 1254
+[27-Nov-2013 00:27:10 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 00:27:10 UTC] PHP Stack trace:
+[27-Nov-2013 00:27:10 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\editProfilePhoto.php:0
+[27-Nov-2013 00:27:10 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\editProfilePhoto.php:2
+[27-Nov-2013 00:27:10 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 00:27:10 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: Premature end of data (mysqlnd_wireprotocol.c:553) in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[27-Nov-2013 00:27:10 UTC] PHP Stack trace:
+[27-Nov-2013 00:27:10 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\editProfilePhoto.php:0
+[27-Nov-2013 00:27:10 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\editProfilePhoto.php:2
+[27-Nov-2013 00:27:10 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[27-Nov-2013 00:27:10 UTC] PHP   4. mysqli->mysqli() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[27-Nov-2013 00:27:10 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: OK packet 1 bytes shorter than expected in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[27-Nov-2013 00:27:10 UTC] PHP Stack trace:
+[27-Nov-2013 00:27:10 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\editProfilePhoto.php:0
+[27-Nov-2013 00:27:10 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\editProfilePhoto.php:2
+[27-Nov-2013 00:27:10 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[27-Nov-2013 00:27:10 UTC] PHP   4. mysqli->mysqli() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[27-Nov-2013 00:27:10 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2000): mysqlnd cannot connect to MySQL 4.1+ using the old insecure authentication. Please use an administration tool to reset your password with the command SET PASSWORD = PASSWORD('your_existing_password'). This will store a new, and more secure, hash value in mysql.user. If this user is used in other scripts executed by PHP 5.2 or earlier you might need to remove the old-passwords flag from your my.cnf file in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[27-Nov-2013 00:27:10 UTC] PHP Stack trace:
+[27-Nov-2013 00:27:10 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\editProfilePhoto.php:0
+[27-Nov-2013 00:27:10 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\editProfilePhoto.php:2
+[27-Nov-2013 00:27:10 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[27-Nov-2013 00:27:10 UTC] PHP   4. mysqli->mysqli() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[27-Nov-2013 00:27:10 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 00:27:11 UTC] PHP Fatal error:  Uncaught OAuthException: A user access token is required to request this resource.
+  thrown in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\lib\fb\base_facebook.php on line 1254
+[27-Nov-2013 00:37:39 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 00:37:39 UTC] PHP Stack trace:
+[27-Nov-2013 00:37:39 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 00:37:39 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 00:37:39 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 00:37:39 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: Premature end of data (mysqlnd_wireprotocol.c:553) in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[27-Nov-2013 00:37:39 UTC] PHP Stack trace:
+[27-Nov-2013 00:37:39 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 00:37:39 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 00:37:39 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[27-Nov-2013 00:37:39 UTC] PHP   4. mysqli->mysqli() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[27-Nov-2013 00:37:39 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: OK packet 1 bytes shorter than expected in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[27-Nov-2013 00:37:39 UTC] PHP Stack trace:
+[27-Nov-2013 00:37:39 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 00:37:39 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 00:37:39 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[27-Nov-2013 00:37:39 UTC] PHP   4. mysqli->mysqli() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[27-Nov-2013 00:37:39 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2000): mysqlnd cannot connect to MySQL 4.1+ using the old insecure authentication. Please use an administration tool to reset your password with the command SET PASSWORD = PASSWORD('your_existing_password'). This will store a new, and more secure, hash value in mysql.user. If this user is used in other scripts executed by PHP 5.2 or earlier you might need to remove the old-passwords flag from your my.cnf file in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[27-Nov-2013 00:37:39 UTC] PHP Stack trace:
+[27-Nov-2013 00:37:39 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 00:37:39 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 00:37:39 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[27-Nov-2013 00:37:39 UTC] PHP   4. mysqli->mysqli() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[27-Nov-2013 00:38:27 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 00:38:27 UTC] PHP Stack trace:
+[27-Nov-2013 00:38:27 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 00:38:27 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 00:38:27 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 00:38:27 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: Premature end of data (mysqlnd_wireprotocol.c:553) in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[27-Nov-2013 00:38:27 UTC] PHP Stack trace:
+[27-Nov-2013 00:38:27 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 00:38:27 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 00:38:27 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[27-Nov-2013 00:38:27 UTC] PHP   4. mysqli->mysqli() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[27-Nov-2013 00:38:27 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: OK packet 1 bytes shorter than expected in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[27-Nov-2013 00:38:27 UTC] PHP Stack trace:
+[27-Nov-2013 00:38:27 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 00:38:27 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 00:38:27 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[27-Nov-2013 00:38:27 UTC] PHP   4. mysqli->mysqli() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[27-Nov-2013 00:38:27 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2000): mysqlnd cannot connect to MySQL 4.1+ using the old insecure authentication. Please use an administration tool to reset your password with the command SET PASSWORD = PASSWORD('your_existing_password'). This will store a new, and more secure, hash value in mysql.user. If this user is used in other scripts executed by PHP 5.2 or earlier you might need to remove the old-passwords flag from your my.cnf file in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[27-Nov-2013 00:38:27 UTC] PHP Stack trace:
+[27-Nov-2013 00:38:27 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 00:38:27 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 00:38:27 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[27-Nov-2013 00:38:27 UTC] PHP   4. mysqli->mysqli() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[27-Nov-2013 00:39:48 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 00:39:48 UTC] PHP Stack trace:
+[27-Nov-2013 00:39:48 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 00:39:48 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 00:39:48 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 00:39:48 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: Premature end of data (mysqlnd_wireprotocol.c:553) in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[27-Nov-2013 00:39:48 UTC] PHP Stack trace:
+[27-Nov-2013 00:39:48 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 00:39:48 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 00:39:48 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[27-Nov-2013 00:39:48 UTC] PHP   4. mysqli->mysqli() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[27-Nov-2013 00:39:48 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: OK packet 1 bytes shorter than expected in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[27-Nov-2013 00:39:48 UTC] PHP Stack trace:
+[27-Nov-2013 00:39:48 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 00:39:48 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 00:39:48 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[27-Nov-2013 00:39:48 UTC] PHP   4. mysqli->mysqli() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[27-Nov-2013 00:39:48 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2000): mysqlnd cannot connect to MySQL 4.1+ using the old insecure authentication. Please use an administration tool to reset your password with the command SET PASSWORD = PASSWORD('your_existing_password'). This will store a new, and more secure, hash value in mysql.user. If this user is used in other scripts executed by PHP 5.2 or earlier you might need to remove the old-passwords flag from your my.cnf file in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[27-Nov-2013 00:39:48 UTC] PHP Stack trace:
+[27-Nov-2013 00:39:48 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 00:39:48 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 00:39:48 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[27-Nov-2013 00:39:48 UTC] PHP   4. mysqli->mysqli() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[27-Nov-2013 00:46:29 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 00:46:29 UTC] PHP Stack trace:
+[27-Nov-2013 00:46:29 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 00:46:29 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 00:46:29 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 00:46:29 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: Premature end of data (mysqlnd_wireprotocol.c:553) in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[27-Nov-2013 00:46:29 UTC] PHP Stack trace:
+[27-Nov-2013 00:46:29 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 00:46:29 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 00:46:29 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[27-Nov-2013 00:46:29 UTC] PHP   4. mysqli->mysqli() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[27-Nov-2013 00:46:29 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: OK packet 1 bytes shorter than expected in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[27-Nov-2013 00:46:29 UTC] PHP Stack trace:
+[27-Nov-2013 00:46:29 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 00:46:29 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 00:46:29 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[27-Nov-2013 00:46:29 UTC] PHP   4. mysqli->mysqli() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[27-Nov-2013 00:46:29 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2000): mysqlnd cannot connect to MySQL 4.1+ using the old insecure authentication. Please use an administration tool to reset your password with the command SET PASSWORD = PASSWORD('your_existing_password'). This will store a new, and more secure, hash value in mysql.user. If this user is used in other scripts executed by PHP 5.2 or earlier you might need to remove the old-passwords flag from your my.cnf file in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[27-Nov-2013 00:46:29 UTC] PHP Stack trace:
+[27-Nov-2013 00:46:29 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 00:46:29 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 00:46:29 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[27-Nov-2013 00:46:29 UTC] PHP   4. mysqli->mysqli() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[27-Nov-2013 00:56:47 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 00:56:47 UTC] PHP Stack trace:
+[27-Nov-2013 00:56:47 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 00:56:47 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 00:56:47 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 00:56:47 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: Premature end of data (mysqlnd_wireprotocol.c:553) in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[27-Nov-2013 00:56:47 UTC] PHP Stack trace:
+[27-Nov-2013 00:56:47 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 00:56:47 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 00:56:47 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[27-Nov-2013 00:56:47 UTC] PHP   4. mysqli->mysqli() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[27-Nov-2013 00:56:47 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: OK packet 1 bytes shorter than expected in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[27-Nov-2013 00:56:47 UTC] PHP Stack trace:
+[27-Nov-2013 00:56:47 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 00:56:47 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 00:56:47 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[27-Nov-2013 00:56:47 UTC] PHP   4. mysqli->mysqli() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[27-Nov-2013 00:56:47 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2000): mysqlnd cannot connect to MySQL 4.1+ using the old insecure authentication. Please use an administration tool to reset your password with the command SET PASSWORD = PASSWORD('your_existing_password'). This will store a new, and more secure, hash value in mysql.user. If this user is used in other scripts executed by PHP 5.2 or earlier you might need to remove the old-passwords flag from your my.cnf file in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[27-Nov-2013 00:56:47 UTC] PHP Stack trace:
+[27-Nov-2013 00:56:47 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 00:56:47 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 00:56:47 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[27-Nov-2013 00:56:47 UTC] PHP   4. mysqli->mysqli() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[27-Nov-2013 00:56:47 UTC] PHP Fatal error:  Call to undefined method mysqli::raw_query() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 41
+[27-Nov-2013 00:56:47 UTC] PHP Stack trace:
+[27-Nov-2013 00:56:47 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 00:56:47 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:24
+[27-Nov-2013 00:56:47 UTC] PHP   3. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php:45
+[27-Nov-2013 00:57:15 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 00:57:15 UTC] PHP Stack trace:
+[27-Nov-2013 00:57:15 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 00:57:15 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 00:57:15 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 00:57:15 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: Premature end of data (mysqlnd_wireprotocol.c:553) in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[27-Nov-2013 00:57:15 UTC] PHP Stack trace:
+[27-Nov-2013 00:57:15 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 00:57:15 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 00:57:15 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[27-Nov-2013 00:57:15 UTC] PHP   4. mysqli->mysqli() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[27-Nov-2013 00:57:15 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: OK packet 1 bytes shorter than expected in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[27-Nov-2013 00:57:15 UTC] PHP Stack trace:
+[27-Nov-2013 00:57:15 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 00:57:15 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 00:57:15 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[27-Nov-2013 00:57:15 UTC] PHP   4. mysqli->mysqli() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[27-Nov-2013 00:57:15 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2000): mysqlnd cannot connect to MySQL 4.1+ using the old insecure authentication. Please use an administration tool to reset your password with the command SET PASSWORD = PASSWORD('your_existing_password'). This will store a new, and more secure, hash value in mysql.user. If this user is used in other scripts executed by PHP 5.2 or earlier you might need to remove the old-passwords flag from your my.cnf file in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[27-Nov-2013 00:57:15 UTC] PHP Stack trace:
+[27-Nov-2013 00:57:15 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 00:57:15 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 00:57:15 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[27-Nov-2013 00:57:15 UTC] PHP   4. mysqli->mysqli() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[27-Nov-2013 00:57:15 UTC] PHP Fatal error:  Call to undefined method mysqli::raw_query() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 41
+[27-Nov-2013 00:57:15 UTC] PHP Stack trace:
+[27-Nov-2013 00:57:15 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 00:57:15 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:24
+[27-Nov-2013 00:57:15 UTC] PHP   3. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php:45
+[27-Nov-2013 00:57:24 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 00:57:24 UTC] PHP Stack trace:
+[27-Nov-2013 00:57:24 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 00:57:24 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 00:57:24 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 00:57:24 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: Premature end of data (mysqlnd_wireprotocol.c:553) in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[27-Nov-2013 00:57:24 UTC] PHP Stack trace:
+[27-Nov-2013 00:57:24 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 00:57:24 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 00:57:24 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[27-Nov-2013 00:57:24 UTC] PHP   4. mysqli->mysqli() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[27-Nov-2013 00:57:24 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: OK packet 1 bytes shorter than expected in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[27-Nov-2013 00:57:24 UTC] PHP Stack trace:
+[27-Nov-2013 00:57:24 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 00:57:24 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 00:57:24 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[27-Nov-2013 00:57:24 UTC] PHP   4. mysqli->mysqli() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[27-Nov-2013 00:57:24 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2000): mysqlnd cannot connect to MySQL 4.1+ using the old insecure authentication. Please use an administration tool to reset your password with the command SET PASSWORD = PASSWORD('your_existing_password'). This will store a new, and more secure, hash value in mysql.user. If this user is used in other scripts executed by PHP 5.2 or earlier you might need to remove the old-passwords flag from your my.cnf file in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[27-Nov-2013 00:57:24 UTC] PHP Stack trace:
+[27-Nov-2013 00:57:24 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 00:57:24 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 00:57:24 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[27-Nov-2013 00:57:24 UTC] PHP   4. mysqli->mysqli() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[27-Nov-2013 00:57:27 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 00:57:27 UTC] PHP Stack trace:
+[27-Nov-2013 00:57:27 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 00:57:27 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 00:57:27 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 00:57:27 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: Premature end of data (mysqlnd_wireprotocol.c:553) in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[27-Nov-2013 00:57:27 UTC] PHP Stack trace:
+[27-Nov-2013 00:57:27 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 00:57:27 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 00:57:27 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[27-Nov-2013 00:57:27 UTC] PHP   4. mysqli->mysqli() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[27-Nov-2013 00:57:27 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: OK packet 1 bytes shorter than expected in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[27-Nov-2013 00:57:27 UTC] PHP Stack trace:
+[27-Nov-2013 00:57:27 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 00:57:27 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 00:57:27 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[27-Nov-2013 00:57:27 UTC] PHP   4. mysqli->mysqli() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[27-Nov-2013 00:57:27 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2000): mysqlnd cannot connect to MySQL 4.1+ using the old insecure authentication. Please use an administration tool to reset your password with the command SET PASSWORD = PASSWORD('your_existing_password'). This will store a new, and more secure, hash value in mysql.user. If this user is used in other scripts executed by PHP 5.2 or earlier you might need to remove the old-passwords flag from your my.cnf file in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[27-Nov-2013 00:57:27 UTC] PHP Stack trace:
+[27-Nov-2013 00:57:27 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 00:57:27 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 00:57:27 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[27-Nov-2013 00:57:27 UTC] PHP   4. mysqli->mysqli() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[27-Nov-2013 00:57:27 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 00:57:28 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 00:57:28 UTC] PHP Fatal error:  Call to undefined method mysqli::raw_query() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 41
+[27-Nov-2013 00:57:28 UTC] PHP Stack trace:
+[27-Nov-2013 00:57:28 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 00:57:28 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 00:57:28 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 00:57:28 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 00:57:28 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 00:57:28 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[27-Nov-2013 00:57:28 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[27-Nov-2013 00:58:03 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 00:58:03 UTC] PHP Stack trace:
+[27-Nov-2013 00:58:03 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 00:58:03 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 00:58:03 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 00:58:03 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: Premature end of data (mysqlnd_wireprotocol.c:553) in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[27-Nov-2013 00:58:03 UTC] PHP Stack trace:
+[27-Nov-2013 00:58:03 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 00:58:03 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 00:58:03 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[27-Nov-2013 00:58:03 UTC] PHP   4. mysqli->mysqli() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[27-Nov-2013 00:58:03 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: OK packet 1 bytes shorter than expected in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[27-Nov-2013 00:58:03 UTC] PHP Stack trace:
+[27-Nov-2013 00:58:03 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 00:58:03 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 00:58:03 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[27-Nov-2013 00:58:03 UTC] PHP   4. mysqli->mysqli() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[27-Nov-2013 00:58:03 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2000): mysqlnd cannot connect to MySQL 4.1+ using the old insecure authentication. Please use an administration tool to reset your password with the command SET PASSWORD = PASSWORD('your_existing_password'). This will store a new, and more secure, hash value in mysql.user. If this user is used in other scripts executed by PHP 5.2 or earlier you might need to remove the old-passwords flag from your my.cnf file in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 20
+[27-Nov-2013 00:58:03 UTC] PHP Stack trace:
+[27-Nov-2013 00:58:03 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 00:58:03 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 00:58:03 UTC] PHP   3. Database->__construct() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:78
+[27-Nov-2013 00:58:03 UTC] PHP   4. mysqli->mysqli() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:20
+[27-Nov-2013 00:58:03 UTC] CSRF state token does not match one provided.
+[27-Nov-2013 00:58:03 UTC] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 24
+[27-Nov-2013 00:58:03 UTC] PHP Stack trace:
+[27-Nov-2013 00:58:03 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 00:58:03 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 00:58:03 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 00:58:03 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 00:58:03 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 00:58:03 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[27-Nov-2013 00:58:03 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[27-Nov-2013 00:58:03 UTC] PHP   8. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[27-Nov-2013 00:58:03 UTC] PHP   9. mysqli->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[27-Nov-2013 00:58:03 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 44
+[27-Nov-2013 00:58:03 UTC] PHP Stack trace:
+[27-Nov-2013 00:58:03 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 00:58:03 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 00:58:03 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 00:58:03 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 00:58:03 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 00:58:03 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[27-Nov-2013 00:58:03 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[27-Nov-2013 18:14:22 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 18:14:22 UTC] PHP Stack trace:
+[27-Nov-2013 18:14:22 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 18:14:22 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 18:14:22 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 18:14:55 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 18:14:55 UTC] PHP Stack trace:
+[27-Nov-2013 18:14:55 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 18:14:55 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 18:14:55 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 18:14:56 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 18:14:57 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 18:14:57 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 18:14:57 UTC] PHP Stack trace:
+[27-Nov-2013 18:14:57 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 18:14:57 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 18:14:57 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 18:14:57 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 18:14:57 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 18:14:57 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 18:14:57 UTC] PHP Stack trace:
+[27-Nov-2013 18:14:57 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 18:14:57 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 18:14:57 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 18:14:57 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 19:54:35 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 19:54:35 UTC] PHP Stack trace:
+[27-Nov-2013 19:54:35 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 19:54:35 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:2
+[27-Nov-2013 19:54:35 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 19:54:35 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 19:54:35 UTC] PHP Stack trace:
+[27-Nov-2013 19:54:35 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 19:54:35 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:2
+[27-Nov-2013 19:54:35 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 19:54:35 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 19:54:35 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 19:54:35 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 19:54:35 UTC] PHP Stack trace:
+[27-Nov-2013 19:54:35 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 19:54:35 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:2
+[27-Nov-2013 19:54:35 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 19:54:35 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 19:54:42 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 19:54:42 UTC] PHP Stack trace:
+[27-Nov-2013 19:54:42 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 19:54:42 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 19:54:42 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 19:54:42 UTC] CSRF state token does not match one provided.
+[27-Nov-2013 19:54:42 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 19:54:42 UTC] PHP Stack trace:
+[27-Nov-2013 19:54:42 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 19:54:42 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 19:54:42 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 19:54:42 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 19:54:42 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 19:54:42 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 19:54:42 UTC] PHP Stack trace:
+[27-Nov-2013 19:54:42 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 19:54:42 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 19:54:42 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 19:54:42 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 19:54:44 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 19:54:44 UTC] PHP Stack trace:
+[27-Nov-2013 19:54:44 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\invitations.php:0
+[27-Nov-2013 19:54:44 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\invitations.php:2
+[27-Nov-2013 19:54:44 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 19:54:44 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 19:54:44 UTC] PHP Stack trace:
+[27-Nov-2013 19:54:44 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\invitations.php:0
+[27-Nov-2013 19:54:44 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\invitations.php:2
+[27-Nov-2013 19:54:44 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 19:54:44 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 19:54:44 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 19:54:44 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 19:54:44 UTC] PHP Stack trace:
+[27-Nov-2013 19:54:44 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\invitations.php:0
+[27-Nov-2013 19:54:44 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\invitations.php:2
+[27-Nov-2013 19:54:44 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 19:54:44 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 19:54:47 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 19:54:47 UTC] PHP Stack trace:
+[27-Nov-2013 19:54:47 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 19:54:47 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 19:54:47 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 19:54:47 UTC] CSRF state token does not match one provided.
+[27-Nov-2013 19:54:47 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 19:54:47 UTC] PHP Stack trace:
+[27-Nov-2013 19:54:47 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 19:54:47 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 19:54:47 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 19:54:47 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 19:54:47 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 19:54:47 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 19:54:47 UTC] PHP Stack trace:
+[27-Nov-2013 19:54:47 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 19:54:47 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 19:54:47 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 19:54:47 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 19:54:49 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 19:54:49 UTC] PHP Stack trace:
+[27-Nov-2013 19:54:49 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\pastMemorials.php:0
+[27-Nov-2013 19:54:49 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\pastMemorials.php:2
+[27-Nov-2013 19:54:49 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 19:54:49 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 19:54:49 UTC] PHP Stack trace:
+[27-Nov-2013 19:54:49 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\pastMemorials.php:0
+[27-Nov-2013 19:54:49 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\pastMemorials.php:2
+[27-Nov-2013 19:54:49 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 19:54:49 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 19:54:49 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 19:54:49 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 19:54:49 UTC] PHP Stack trace:
+[27-Nov-2013 19:54:49 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\pastMemorials.php:0
+[27-Nov-2013 19:54:49 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\pastMemorials.php:2
+[27-Nov-2013 19:54:49 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 19:54:49 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 19:54:53 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 19:54:53 UTC] PHP Stack trace:
+[27-Nov-2013 19:54:53 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 19:54:53 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 19:54:53 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 19:54:53 UTC] CSRF state token does not match one provided.
+[27-Nov-2013 19:54:53 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 19:54:53 UTC] PHP Stack trace:
+[27-Nov-2013 19:54:53 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 19:54:53 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 19:54:53 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 19:54:53 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 19:54:53 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 19:54:53 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 19:54:53 UTC] PHP Stack trace:
+[27-Nov-2013 19:54:53 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 19:54:53 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 19:54:53 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 19:54:53 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:26:27 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 20:26:27 UTC] PHP Stack trace:
+[27-Nov-2013 20:26:27 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\editProfilePhoto.php:0
+[27-Nov-2013 20:26:27 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\editProfilePhoto.php:2
+[27-Nov-2013 20:26:27 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 20:26:27 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 20:26:27 UTC] PHP Fatal error:  Uncaught OAuthException: A user access token is required to request this resource.
+  thrown in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\lib\fb\base_facebook.php on line 1254
+[27-Nov-2013 20:38:06 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 20:38:06 UTC] PHP Stack trace:
+[27-Nov-2013 20:38:06 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:38:06 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:38:06 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 20:38:06 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 20:38:06 UTC] PHP Stack trace:
+[27-Nov-2013 20:38:06 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:38:06 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:38:06 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:38:06 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:38:06 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 20:38:06 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 20:38:06 UTC] PHP Stack trace:
+[27-Nov-2013 20:38:06 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:38:06 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:38:06 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:38:06 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:38:06 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 20:38:06 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 20:39:05 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 20:39:05 UTC] PHP Stack trace:
+[27-Nov-2013 20:39:05 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:39:05 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:39:05 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 20:39:05 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 20:39:05 UTC] PHP Stack trace:
+[27-Nov-2013 20:39:05 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:39:05 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:39:05 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:39:05 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:39:05 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 20:39:05 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 20:39:05 UTC] PHP Stack trace:
+[27-Nov-2013 20:39:05 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:39:05 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:39:05 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:39:05 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:39:05 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 20:39:05 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 20:39:13 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 20:39:13 UTC] PHP Stack trace:
+[27-Nov-2013 20:39:13 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:39:13 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:39:13 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 20:39:13 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 20:39:13 UTC] PHP Stack trace:
+[27-Nov-2013 20:39:13 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:39:13 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:39:13 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:39:13 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:39:13 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 20:39:13 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 20:39:13 UTC] PHP Stack trace:
+[27-Nov-2013 20:39:13 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:39:13 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:39:13 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:39:13 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:39:13 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 20:39:13 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 20:39:20 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 20:39:20 UTC] PHP Stack trace:
+[27-Nov-2013 20:39:20 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:39:20 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:39:20 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 20:39:20 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 20:39:20 UTC] PHP Stack trace:
+[27-Nov-2013 20:39:20 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:39:20 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:39:20 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:39:20 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:39:20 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 20:39:20 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 20:39:20 UTC] PHP Stack trace:
+[27-Nov-2013 20:39:20 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:39:20 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:39:20 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:39:20 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:39:20 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 20:39:20 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 20:41:10 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 20:41:10 UTC] PHP Stack trace:
+[27-Nov-2013 20:41:10 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:41:10 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:41:10 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 20:41:10 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 20:41:10 UTC] PHP Stack trace:
+[27-Nov-2013 20:41:10 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:41:10 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:41:10 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:41:10 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:41:10 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 20:41:10 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 20:41:10 UTC] PHP Stack trace:
+[27-Nov-2013 20:41:10 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:41:10 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:41:10 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:41:10 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:41:10 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 20:41:11 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 20:41:11 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 20:41:11 UTC] PHP Stack trace:
+[27-Nov-2013 20:41:11 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:41:11 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:41:11 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 20:41:11 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 20:41:11 UTC] PHP Stack trace:
+[27-Nov-2013 20:41:11 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:41:11 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:41:11 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:41:11 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:41:11 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 20:41:11 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 20:41:11 UTC] PHP Stack trace:
+[27-Nov-2013 20:41:11 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:41:11 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:41:11 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:41:11 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:41:11 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 20:41:12 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 20:41:12 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 20:41:12 UTC] PHP Stack trace:
+[27-Nov-2013 20:41:12 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:41:12 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:41:12 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 20:41:12 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 20:41:12 UTC] PHP Stack trace:
+[27-Nov-2013 20:41:12 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:41:12 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:41:12 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:41:12 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:41:12 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 20:41:12 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 20:41:12 UTC] PHP Stack trace:
+[27-Nov-2013 20:41:12 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:41:12 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:41:12 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:41:12 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:41:12 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 20:41:12 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 20:41:12 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 20:41:12 UTC] PHP Stack trace:
+[27-Nov-2013 20:41:12 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:41:12 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:41:12 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 20:41:12 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 20:41:12 UTC] PHP Stack trace:
+[27-Nov-2013 20:41:12 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:41:12 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:41:12 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:41:12 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:41:12 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 20:41:12 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 20:41:12 UTC] PHP Stack trace:
+[27-Nov-2013 20:41:12 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:41:12 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:41:12 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:41:12 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:41:13 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 20:41:13 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 20:41:22 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 20:41:22 UTC] PHP Stack trace:
+[27-Nov-2013 20:41:22 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:41:22 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:41:22 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 20:41:22 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 20:41:22 UTC] PHP Stack trace:
+[27-Nov-2013 20:41:22 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:41:22 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:41:22 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:41:22 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:41:22 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 20:41:22 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 20:41:22 UTC] PHP Stack trace:
+[27-Nov-2013 20:41:22 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:41:22 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:41:22 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:41:22 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:41:22 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 20:41:22 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 20:41:30 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 20:41:30 UTC] PHP Stack trace:
+[27-Nov-2013 20:41:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:41:30 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:41:30 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 20:41:30 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 20:41:30 UTC] PHP Stack trace:
+[27-Nov-2013 20:41:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:41:30 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:41:30 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:41:30 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:41:30 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 20:41:30 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 20:41:30 UTC] PHP Stack trace:
+[27-Nov-2013 20:41:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:41:30 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:41:30 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:41:30 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:41:30 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 20:41:30 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 20:41:46 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 20:41:46 UTC] PHP Stack trace:
+[27-Nov-2013 20:41:46 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:41:46 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:41:46 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 20:41:46 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 20:41:46 UTC] PHP Stack trace:
+[27-Nov-2013 20:41:46 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:41:46 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:41:46 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:41:46 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:41:46 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 20:41:47 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 20:41:47 UTC] PHP Stack trace:
+[27-Nov-2013 20:41:47 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:41:47 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:41:47 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:41:47 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:41:47 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 20:41:47 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 20:43:50 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 20:43:50 UTC] PHP Stack trace:
+[27-Nov-2013 20:43:50 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 20:43:50 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 20:43:50 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 20:44:15 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 20:44:15 UTC] PHP Stack trace:
+[27-Nov-2013 20:44:15 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 20:44:15 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 20:44:15 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 20:44:15 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 20:44:15 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 20:44:15 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 20:44:15 UTC] PHP Stack trace:
+[27-Nov-2013 20:44:15 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 20:44:15 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 20:44:15 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:44:15 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:44:15 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 20:44:15 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 20:44:15 UTC] PHP Stack trace:
+[27-Nov-2013 20:44:15 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 20:44:15 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 20:44:15 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:44:15 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:46:16 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 20:46:16 UTC] PHP Stack trace:
+[27-Nov-2013 20:46:16 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 20:46:16 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 20:46:16 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 20:46:16 UTC] CSRF state token does not match one provided.
+[27-Nov-2013 20:46:16 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 20:46:16 UTC] PHP Stack trace:
+[27-Nov-2013 20:46:16 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 20:46:16 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 20:46:16 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:46:16 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:46:16 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 20:46:16 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 20:46:16 UTC] PHP Stack trace:
+[27-Nov-2013 20:46:16 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 20:46:16 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 20:46:16 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:46:16 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:54:56 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 20:54:56 UTC] PHP Stack trace:
+[27-Nov-2013 20:54:56 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 20:54:56 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 20:54:56 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 20:54:56 UTC] CSRF state token does not match one provided.
+[27-Nov-2013 20:54:56 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 20:54:56 UTC] PHP Stack trace:
+[27-Nov-2013 20:54:56 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 20:54:56 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 20:54:56 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:54:56 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:54:56 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 20:54:56 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 20:54:56 UTC] PHP Stack trace:
+[27-Nov-2013 20:54:56 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 20:54:56 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 20:54:56 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:54:56 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:55:10 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 20:55:10 UTC] PHP Stack trace:
+[27-Nov-2013 20:55:10 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 20:55:10 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:2
+[27-Nov-2013 20:55:10 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 20:55:10 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 20:55:10 UTC] PHP Stack trace:
+[27-Nov-2013 20:55:10 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 20:55:10 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:2
+[27-Nov-2013 20:55:10 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:55:10 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:55:10 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 20:55:10 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 20:55:10 UTC] PHP Stack trace:
+[27-Nov-2013 20:55:10 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 20:55:10 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:2
+[27-Nov-2013 20:55:10 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:55:10 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:55:16 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 20:55:16 UTC] PHP Stack trace:
+[27-Nov-2013 20:55:16 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createCategories.php:0
+[27-Nov-2013 20:55:16 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createCategories.php:2
+[27-Nov-2013 20:55:16 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 20:55:16 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 20:55:16 UTC] PHP Stack trace:
+[27-Nov-2013 20:55:16 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createCategories.php:0
+[27-Nov-2013 20:55:16 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createCategories.php:2
+[27-Nov-2013 20:55:16 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:55:16 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:55:16 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 20:55:16 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 20:55:16 UTC] PHP Stack trace:
+[27-Nov-2013 20:55:16 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createCategories.php:0
+[27-Nov-2013 20:55:16 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createCategories.php:2
+[27-Nov-2013 20:55:16 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:55:16 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:55:27 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 20:55:27 UTC] PHP Stack trace:
+[27-Nov-2013 20:55:27 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\memorial.php:0
+[27-Nov-2013 20:55:27 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\memorial.php:2
+[27-Nov-2013 20:55:27 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 20:55:28 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 20:55:28 UTC] PHP Stack trace:
+[27-Nov-2013 20:55:28 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\memorial.php:0
+[27-Nov-2013 20:55:28 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\memorial.php:2
+[27-Nov-2013 20:55:28 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:55:28 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:55:28 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 20:55:28 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 20:55:28 UTC] PHP Stack trace:
+[27-Nov-2013 20:55:28 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\memorial.php:0
+[27-Nov-2013 20:55:28 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\memorial.php:2
+[27-Nov-2013 20:55:28 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:55:28 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:55:56 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 20:55:56 UTC] PHP Stack trace:
+[27-Nov-2013 20:55:56 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\editProfilePhoto.php:0
+[27-Nov-2013 20:55:56 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\editProfilePhoto.php:2
+[27-Nov-2013 20:55:56 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 20:55:56 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 20:55:56 UTC] PHP Stack trace:
+[27-Nov-2013 20:55:56 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\editProfilePhoto.php:0
+[27-Nov-2013 20:55:56 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\editProfilePhoto.php:2
+[27-Nov-2013 20:55:56 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:55:56 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:55:56 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 20:55:56 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 20:55:56 UTC] PHP Stack trace:
+[27-Nov-2013 20:55:56 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\editProfilePhoto.php:0
+[27-Nov-2013 20:55:56 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\editProfilePhoto.php:2
+[27-Nov-2013 20:55:56 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 20:55:56 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 20:55:56 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 20:55:57 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 20:55:57 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 21:13:42 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 21:13:42 UTC] PHP Stack trace:
+[27-Nov-2013 21:13:42 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 21:13:42 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 21:13:42 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 21:13:42 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 21:13:42 UTC] PHP Stack trace:
+[27-Nov-2013 21:13:42 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 21:13:42 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 21:13:42 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 21:13:42 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 21:13:42 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 21:13:42 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 21:13:42 UTC] PHP Stack trace:
+[27-Nov-2013 21:13:42 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 21:13:42 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 21:13:42 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 21:13:42 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 21:13:42 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 21:13:42 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 21:13:56 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 21:13:56 UTC] PHP Stack trace:
+[27-Nov-2013 21:13:56 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 21:13:56 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 21:13:56 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 21:13:56 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 21:13:56 UTC] PHP Stack trace:
+[27-Nov-2013 21:13:56 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 21:13:56 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 21:13:56 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 21:13:56 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 21:13:56 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 21:13:56 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 21:13:56 UTC] PHP Stack trace:
+[27-Nov-2013 21:13:56 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 21:13:56 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 21:13:56 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 21:13:56 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 21:13:56 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 21:13:56 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 21:13:56 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 21:13:56 UTC] PHP Stack trace:
+[27-Nov-2013 21:13:56 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 21:13:56 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 21:13:56 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 21:13:56 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 21:13:56 UTC] PHP Stack trace:
+[27-Nov-2013 21:13:56 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 21:13:56 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 21:13:56 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 21:13:56 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 21:13:56 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 21:13:56 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 21:13:56 UTC] PHP Stack trace:
+[27-Nov-2013 21:13:56 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 21:13:56 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 21:13:56 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 21:13:56 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 21:13:57 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 21:13:57 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 21:13:57 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 21:13:57 UTC] PHP Stack trace:
+[27-Nov-2013 21:13:57 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 21:13:57 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 21:13:57 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 21:13:57 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 21:13:57 UTC] PHP Stack trace:
+[27-Nov-2013 21:13:57 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 21:13:57 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 21:13:57 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 21:13:57 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 21:13:57 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 21:13:57 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 21:13:57 UTC] PHP Stack trace:
+[27-Nov-2013 21:13:57 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 21:13:57 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 21:13:57 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 21:13:57 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 21:13:57 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 21:13:57 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 21:13:58 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 21:13:58 UTC] PHP Stack trace:
+[27-Nov-2013 21:13:58 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 21:13:58 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 21:13:58 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 21:13:58 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 21:13:58 UTC] PHP Stack trace:
+[27-Nov-2013 21:13:58 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 21:13:58 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 21:13:58 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 21:13:58 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 21:13:58 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 21:13:58 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 21:13:58 UTC] PHP Stack trace:
+[27-Nov-2013 21:13:58 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 21:13:58 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 21:13:58 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 21:13:58 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 21:13:58 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 21:13:58 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 21:14:24 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 21:14:24 UTC] PHP Stack trace:
+[27-Nov-2013 21:14:24 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 21:14:24 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 21:14:24 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 21:14:24 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 35
+[27-Nov-2013 21:14:24 UTC] PHP Stack trace:
+[27-Nov-2013 21:14:24 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 21:14:24 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 21:14:24 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 21:14:24 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 21:14:24 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 21:14:24 UTC] PHP Notice:  Undefined index: TOTALFOUND in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 69
+[27-Nov-2013 21:14:24 UTC] PHP Stack trace:
+[27-Nov-2013 21:14:24 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 21:14:24 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 21:14:24 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 21:14:24 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 21:14:24 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 21:14:24 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 21:15:38 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 21:15:38 UTC] PHP Stack trace:
+[27-Nov-2013 21:15:38 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 21:15:38 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 21:15:38 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 21:17:07 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 21:17:07 UTC] PHP Stack trace:
+[27-Nov-2013 21:17:07 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 21:17:07 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 21:17:07 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 21:17:07 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 21:17:07 UTC] Invalid or no certificate authority found, using bundled information
+[27-Nov-2013 21:17:08 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 44
+[27-Nov-2013 21:17:08 UTC] PHP Stack trace:
+[27-Nov-2013 21:17:08 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 21:17:08 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 21:17:08 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 21:17:08 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 21:17:08 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 21:17:08 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[27-Nov-2013 21:17:08 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[27-Nov-2013 21:20:12 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 21:20:12 UTC] PHP Stack trace:
+[27-Nov-2013 21:20:12 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 21:20:12 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 21:20:12 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 21:20:12 UTC] CSRF state token does not match one provided.
+[27-Nov-2013 21:20:12 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 44
+[27-Nov-2013 21:20:12 UTC] PHP Stack trace:
+[27-Nov-2013 21:20:12 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 21:20:12 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 21:20:12 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 21:20:12 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 21:20:12 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 21:20:12 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[27-Nov-2013 21:20:12 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[27-Nov-2013 21:20:14 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 21:20:14 UTC] PHP Stack trace:
+[27-Nov-2013 21:20:14 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 21:20:14 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 21:20:14 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 21:20:14 UTC] CSRF state token does not match one provided.
+[27-Nov-2013 21:20:14 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 44
+[27-Nov-2013 21:20:14 UTC] PHP Stack trace:
+[27-Nov-2013 21:20:14 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 21:20:14 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 21:20:14 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 21:20:14 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 21:20:14 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 21:20:14 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[27-Nov-2013 21:20:14 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[27-Nov-2013 21:20:28 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 21:20:28 UTC] PHP Stack trace:
+[27-Nov-2013 21:20:28 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 21:20:28 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 21:20:28 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 21:20:28 UTC] CSRF state token does not match one provided.
+[27-Nov-2013 21:20:28 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 44
+[27-Nov-2013 21:20:28 UTC] PHP Stack trace:
+[27-Nov-2013 21:20:28 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 21:20:28 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 21:20:28 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 21:20:28 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 21:20:28 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 21:20:28 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[27-Nov-2013 21:20:28 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[27-Nov-2013 21:28:07 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 21:28:07 UTC] PHP Stack trace:
+[27-Nov-2013 21:28:07 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 21:28:07 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 21:28:07 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 21:28:07 UTC] CSRF state token does not match one provided.
+[27-Nov-2013 21:28:07 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 44
+[27-Nov-2013 21:28:07 UTC] PHP Stack trace:
+[27-Nov-2013 21:28:07 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 21:28:07 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 21:28:07 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 21:28:07 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 21:28:07 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 21:28:07 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[27-Nov-2013 21:28:07 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[27-Nov-2013 21:29:05 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 21:29:05 UTC] PHP Stack trace:
+[27-Nov-2013 21:29:05 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 21:29:05 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 21:29:05 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 21:29:05 UTC] CSRF state token does not match one provided.
+[27-Nov-2013 21:29:05 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 44
+[27-Nov-2013 21:29:05 UTC] PHP Stack trace:
+[27-Nov-2013 21:29:05 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 21:29:05 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 21:29:05 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 21:29:05 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 21:29:05 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 21:29:05 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[27-Nov-2013 21:29:05 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[27-Nov-2013 21:29:41 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 21:29:41 UTC] PHP Stack trace:
+[27-Nov-2013 21:29:41 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 21:29:41 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 21:29:41 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 21:29:41 UTC] CSRF state token does not match one provided.
+[27-Nov-2013 21:29:41 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 44
+[27-Nov-2013 21:29:41 UTC] PHP Stack trace:
+[27-Nov-2013 21:29:41 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 21:29:41 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 21:29:41 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 21:29:41 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 21:29:41 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 21:29:41 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[27-Nov-2013 21:29:41 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[27-Nov-2013 21:29:42 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 21:29:42 UTC] PHP Stack trace:
+[27-Nov-2013 21:29:42 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 21:29:42 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 21:29:42 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 21:29:42 UTC] CSRF state token does not match one provided.
+[27-Nov-2013 21:29:42 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 44
+[27-Nov-2013 21:29:42 UTC] PHP Stack trace:
+[27-Nov-2013 21:29:42 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 21:29:42 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 21:29:42 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 21:29:42 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 21:29:42 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 21:29:42 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[27-Nov-2013 21:29:42 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[27-Nov-2013 21:30:07 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 21:30:07 UTC] PHP Stack trace:
+[27-Nov-2013 21:30:07 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 21:30:07 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 21:30:07 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 21:30:07 UTC] CSRF state token does not match one provided.
+[27-Nov-2013 21:30:07 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 44
+[27-Nov-2013 21:30:07 UTC] PHP Stack trace:
+[27-Nov-2013 21:30:07 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 21:30:07 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 21:30:07 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 21:30:07 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 21:30:07 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 21:30:07 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[27-Nov-2013 21:30:07 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[27-Nov-2013 21:30:14 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 21:30:14 UTC] PHP Stack trace:
+[27-Nov-2013 21:30:14 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 21:30:14 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 21:30:14 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 21:30:15 UTC] CSRF state token does not match one provided.
+[27-Nov-2013 21:30:15 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 44
+[27-Nov-2013 21:30:15 UTC] PHP Stack trace:
+[27-Nov-2013 21:30:15 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 21:30:15 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 21:30:15 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 21:30:15 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 21:30:15 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 21:30:15 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[27-Nov-2013 21:30:15 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[27-Nov-2013 21:34:44 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 21:34:44 UTC] PHP Stack trace:
+[27-Nov-2013 21:34:44 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 21:34:44 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 21:34:44 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 21:34:44 UTC] CSRF state token does not match one provided.
+[27-Nov-2013 21:34:44 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 44
+[27-Nov-2013 21:34:44 UTC] PHP Stack trace:
+[27-Nov-2013 21:34:44 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 21:34:44 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 21:34:44 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 21:34:44 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 21:34:44 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 21:34:44 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[27-Nov-2013 21:34:44 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[27-Nov-2013 21:35:16 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 21:35:16 UTC] PHP Stack trace:
+[27-Nov-2013 21:35:16 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 21:35:16 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 21:35:16 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 21:35:16 UTC] CSRF state token does not match one provided.
+[27-Nov-2013 21:35:16 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 44
+[27-Nov-2013 21:35:16 UTC] PHP Stack trace:
+[27-Nov-2013 21:35:16 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 21:35:16 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 21:35:16 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 21:35:16 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 21:35:16 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 21:35:16 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[27-Nov-2013 21:35:16 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[27-Nov-2013 21:49:08 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 21:49:08 UTC] PHP Stack trace:
+[27-Nov-2013 21:49:08 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 21:49:08 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 21:49:08 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 21:49:08 UTC] CSRF state token does not match one provided.
+[27-Nov-2013 21:49:08 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 44
+[27-Nov-2013 21:49:08 UTC] PHP Stack trace:
+[27-Nov-2013 21:49:08 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[27-Nov-2013 21:49:08 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[27-Nov-2013 21:49:08 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 21:49:08 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 21:49:08 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 21:49:08 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[27-Nov-2013 21:49:08 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[27-Nov-2013 21:56:44 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 21:56:44 UTC] PHP Stack trace:
+[27-Nov-2013 21:56:44 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\memorial.php:0
+[27-Nov-2013 21:56:44 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\memorial.php:2
+[27-Nov-2013 21:56:44 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 21:56:44 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 44
+[27-Nov-2013 21:56:44 UTC] PHP Stack trace:
+[27-Nov-2013 21:56:44 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\memorial.php:0
+[27-Nov-2013 21:56:44 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\memorial.php:2
+[27-Nov-2013 21:56:44 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 21:56:44 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 21:56:44 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 21:56:44 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[27-Nov-2013 21:56:44 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[27-Nov-2013 22:25:09 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 22:25:09 UTC] PHP Stack trace:
+[27-Nov-2013 22:25:09 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 22:25:09 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 22:25:09 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 22:25:09 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 44
+[27-Nov-2013 22:25:09 UTC] PHP Stack trace:
+[27-Nov-2013 22:25:09 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[27-Nov-2013 22:25:09 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[27-Nov-2013 22:25:09 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 22:25:09 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 22:25:09 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 22:25:09 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[27-Nov-2013 22:25:09 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[27-Nov-2013 22:25:16 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 22:25:16 UTC] PHP Stack trace:
+[27-Nov-2013 22:25:16 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:25:16 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:2
+[27-Nov-2013 22:25:16 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 22:25:16 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 44
+[27-Nov-2013 22:25:16 UTC] PHP Stack trace:
+[27-Nov-2013 22:25:16 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:25:16 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:2
+[27-Nov-2013 22:25:16 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 22:25:16 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 22:25:16 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 22:25:16 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[27-Nov-2013 22:25:16 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[27-Nov-2013 22:26:34 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 22:26:34 UTC] PHP Stack trace:
+[27-Nov-2013 22:26:34 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:26:34 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:2
+[27-Nov-2013 22:26:34 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 22:26:34 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 44
+[27-Nov-2013 22:26:34 UTC] PHP Stack trace:
+[27-Nov-2013 22:26:34 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:26:34 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:2
+[27-Nov-2013 22:26:34 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 22:26:34 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 22:26:34 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 22:26:34 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[27-Nov-2013 22:26:34 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[27-Nov-2013 22:27:23 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 22:27:23 UTC] PHP Stack trace:
+[27-Nov-2013 22:27:23 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:27:23 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:2
+[27-Nov-2013 22:27:23 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 22:27:23 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 44
+[27-Nov-2013 22:27:23 UTC] PHP Stack trace:
+[27-Nov-2013 22:27:23 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:27:23 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:2
+[27-Nov-2013 22:27:23 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 22:27:23 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 22:27:23 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 22:27:23 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[27-Nov-2013 22:27:23 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[27-Nov-2013 22:27:23 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 22:27:23 UTC] PHP Stack trace:
+[27-Nov-2013 22:27:23 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:27:23 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:2
+[27-Nov-2013 22:27:23 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 22:27:23 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 44
+[27-Nov-2013 22:27:23 UTC] PHP Stack trace:
+[27-Nov-2013 22:27:23 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:27:23 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:2
+[27-Nov-2013 22:27:23 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 22:27:23 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 22:27:23 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 22:27:23 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[27-Nov-2013 22:27:23 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[27-Nov-2013 22:27:28 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 22:27:28 UTC] PHP Stack trace:
+[27-Nov-2013 22:27:28 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:27:28 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:2
+[27-Nov-2013 22:27:28 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 22:27:28 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 44
+[27-Nov-2013 22:27:28 UTC] PHP Stack trace:
+[27-Nov-2013 22:27:28 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:27:28 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:2
+[27-Nov-2013 22:27:28 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 22:27:28 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 22:27:28 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 22:27:28 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[27-Nov-2013 22:27:28 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[27-Nov-2013 22:27:28 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 22:27:28 UTC] PHP Stack trace:
+[27-Nov-2013 22:27:28 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:27:28 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:2
+[27-Nov-2013 22:27:28 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 22:27:28 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 44
+[27-Nov-2013 22:27:28 UTC] PHP Stack trace:
+[27-Nov-2013 22:27:28 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:27:28 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:2
+[27-Nov-2013 22:27:28 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 22:27:28 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 22:27:28 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 22:27:28 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[27-Nov-2013 22:27:28 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[27-Nov-2013 22:27:28 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 22:27:28 UTC] PHP Stack trace:
+[27-Nov-2013 22:27:28 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:27:28 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:2
+[27-Nov-2013 22:27:28 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 22:27:28 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 44
+[27-Nov-2013 22:27:28 UTC] PHP Stack trace:
+[27-Nov-2013 22:27:28 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:27:28 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:2
+[27-Nov-2013 22:27:28 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 22:27:28 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 22:27:28 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 22:27:28 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[27-Nov-2013 22:27:28 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[27-Nov-2013 22:27:55 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 22:27:55 UTC] PHP Stack trace:
+[27-Nov-2013 22:27:55 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:27:55 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:2
+[27-Nov-2013 22:27:55 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 22:27:55 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 44
+[27-Nov-2013 22:27:55 UTC] PHP Stack trace:
+[27-Nov-2013 22:27:55 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:27:55 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:2
+[27-Nov-2013 22:27:55 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 22:27:55 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 22:27:55 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 22:27:55 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[27-Nov-2013 22:27:55 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[27-Nov-2013 22:29:05 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 22:29:05 UTC] PHP Stack trace:
+[27-Nov-2013 22:29:05 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:29:05 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:2
+[27-Nov-2013 22:29:05 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 22:29:05 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 44
+[27-Nov-2013 22:29:05 UTC] PHP Stack trace:
+[27-Nov-2013 22:29:05 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:29:05 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:2
+[27-Nov-2013 22:29:05 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 22:29:05 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 22:29:05 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 22:29:05 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[27-Nov-2013 22:29:05 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[27-Nov-2013 22:30:30 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 22:30:30 UTC] PHP Stack trace:
+[27-Nov-2013 22:30:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:30:30 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:3
+[27-Nov-2013 22:30:30 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 22:30:30 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 44
+[27-Nov-2013 22:30:30 UTC] PHP Stack trace:
+[27-Nov-2013 22:30:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:30:30 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:3
+[27-Nov-2013 22:30:30 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 22:30:30 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 22:30:30 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 22:30:30 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[27-Nov-2013 22:30:30 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[27-Nov-2013 22:31:11 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 22:31:11 UTC] PHP Stack trace:
+[27-Nov-2013 22:31:11 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:31:11 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:3
+[27-Nov-2013 22:31:11 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 22:31:11 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 44
+[27-Nov-2013 22:31:11 UTC] PHP Stack trace:
+[27-Nov-2013 22:31:11 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:31:11 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:3
+[27-Nov-2013 22:31:11 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 22:31:11 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 22:31:11 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 22:31:11 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[27-Nov-2013 22:31:11 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[27-Nov-2013 22:31:37 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 22:31:37 UTC] PHP Stack trace:
+[27-Nov-2013 22:31:37 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:31:37 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:3
+[27-Nov-2013 22:31:37 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 22:31:37 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 44
+[27-Nov-2013 22:31:37 UTC] PHP Stack trace:
+[27-Nov-2013 22:31:37 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:31:37 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:3
+[27-Nov-2013 22:31:37 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 22:31:37 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 22:31:37 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 22:31:37 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[27-Nov-2013 22:31:37 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[27-Nov-2013 22:32:33 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 22:32:33 UTC] PHP Stack trace:
+[27-Nov-2013 22:32:33 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:32:33 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:3
+[27-Nov-2013 22:32:33 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 22:32:33 UTC] PHP Fatal error:  Class 'Database' not found in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 78
+[27-Nov-2013 22:32:33 UTC] PHP Stack trace:
+[27-Nov-2013 22:32:33 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:32:33 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:3
+[27-Nov-2013 22:33:01 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 22:33:01 UTC] PHP Stack trace:
+[27-Nov-2013 22:33:01 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:33:01 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:3
+[27-Nov-2013 22:33:01 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 22:33:01 UTC] PHP Notice:  Undefined variable: database in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 79
+[27-Nov-2013 22:33:01 UTC] PHP Stack trace:
+[27-Nov-2013 22:33:01 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:33:01 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:3
+[27-Nov-2013 22:33:01 UTC] PHP Fatal error:  Call to a member function query() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php on line 34
+[27-Nov-2013 22:33:01 UTC] PHP Stack trace:
+[27-Nov-2013 22:33:01 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:33:01 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:3
+[27-Nov-2013 22:33:01 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[27-Nov-2013 22:33:01 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[27-Nov-2013 22:33:01 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[27-Nov-2013 22:33:42 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 22:33:42 UTC] PHP Stack trace:
+[27-Nov-2013 22:33:42 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:33:42 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:3
+[27-Nov-2013 22:33:42 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 22:33:42 UTC] PHP Notice:  Undefined variable: database in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 88
+[27-Nov-2013 22:33:42 UTC] PHP Stack trace:
+[27-Nov-2013 22:33:42 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:33:42 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:3
+[27-Nov-2013 22:33:42 UTC] PHP Fatal error:  Function name must be a string in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php on line 30
+[27-Nov-2013 22:33:42 UTC] PHP Stack trace:
+[27-Nov-2013 22:33:42 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:38:16 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 22:38:16 UTC] PHP Stack trace:
+[27-Nov-2013 22:38:16 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:38:16 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:3
+[27-Nov-2013 22:38:16 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 22:38:16 UTC] PHP Notice:  Undefined variable: database in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 88
+[27-Nov-2013 22:38:16 UTC] PHP Stack trace:
+[27-Nov-2013 22:38:16 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:38:16 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:3
+[27-Nov-2013 22:38:16 UTC] PHP Notice:  Undefined index: name in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php on line 30
+[27-Nov-2013 22:38:16 UTC] PHP Stack trace:
+[27-Nov-2013 22:38:16 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:38:16 UTC] PHP Notice:  Undefined index: date in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php on line 31
+[27-Nov-2013 22:38:16 UTC] PHP Stack trace:
+[27-Nov-2013 22:38:16 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:38:16 UTC] PHP Notice:  Undefined index: y/n in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php on line 32
+[27-Nov-2013 22:38:16 UTC] PHP Stack trace:
+[27-Nov-2013 22:38:16 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:38:16 UTC] PHP Notice:  Undefined index: title in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php on line 33
+[27-Nov-2013 22:38:16 UTC] PHP Stack trace:
+[27-Nov-2013 22:38:16 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:38:16 UTC] PHP Warning:  include(createDeadInfo.phtml) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php on line 35
+[27-Nov-2013 22:38:16 UTC] PHP Stack trace:
+[27-Nov-2013 22:38:16 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:38:16 UTC] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'createDeadInfo.phtml' for inclusion (include_path='.;C:\php\pear') in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php on line 35
+[27-Nov-2013 22:38:16 UTC] PHP Stack trace:
+[27-Nov-2013 22:38:16 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:43:07 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 22:43:07 UTC] PHP Stack trace:
+[27-Nov-2013 22:43:07 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:43:07 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:3
+[27-Nov-2013 22:43:07 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 22:43:07 UTC] PHP Notice:  Undefined variable: database in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 88
+[27-Nov-2013 22:43:07 UTC] PHP Stack trace:
+[27-Nov-2013 22:43:07 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:43:07 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:3
+[27-Nov-2013 22:43:07 UTC] PHP Warning:  include(createDeadInfo.phtml) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php on line 35
+[27-Nov-2013 22:43:07 UTC] PHP Stack trace:
+[27-Nov-2013 22:43:07 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:43:07 UTC] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'createDeadInfo.phtml' for inclusion (include_path='.;C:\php\pear') in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php on line 35
+[27-Nov-2013 22:43:07 UTC] PHP Stack trace:
+[27-Nov-2013 22:43:07 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:50:40 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 22:50:40 UTC] PHP Stack trace:
+[27-Nov-2013 22:50:40 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:50:40 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:3
+[27-Nov-2013 22:50:40 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 22:50:40 UTC] PHP Notice:  Undefined variable: database in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 88
+[27-Nov-2013 22:50:40 UTC] PHP Stack trace:
+[27-Nov-2013 22:50:40 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:50:40 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:3
+[27-Nov-2013 22:50:40 UTC] PHP Notice:  Undefined variable: user in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php on line 41
+[27-Nov-2013 22:50:40 UTC] PHP Stack trace:
+[27-Nov-2013 22:50:40 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:50:40 UTC] PHP Fatal error:  Cannot use object of type Login as array in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php on line 41
+[27-Nov-2013 22:50:40 UTC] PHP Stack trace:
+[27-Nov-2013 22:50:40 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:52:54 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[27-Nov-2013 22:52:54 UTC] PHP Stack trace:
+[27-Nov-2013 22:52:54 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:52:54 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:3
+[27-Nov-2013 22:52:54 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[27-Nov-2013 22:52:54 UTC] PHP Notice:  Undefined variable: database in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 88
+[27-Nov-2013 22:52:54 UTC] PHP Stack trace:
+[27-Nov-2013 22:52:54 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:52:54 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:3
+[27-Nov-2013 22:52:54 UTC] PHP Notice:  Undefined variable: deceased_facebook_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php on line 43
+[27-Nov-2013 22:52:54 UTC] PHP Stack trace:
+[27-Nov-2013 22:52:54 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:52:54 UTC] PHP Fatal error:  Call to a member function raw_query() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Memorial.php on line 26
+[27-Nov-2013 22:52:54 UTC] PHP Stack trace:
+[27-Nov-2013 22:52:54 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:0
+[27-Nov-2013 22:52:54 UTC] PHP   2. Memorial->insertNewMemorial() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\createDeadInfo.php:43
+[29-Nov-2013 04:55:27 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[29-Nov-2013 04:55:27 UTC] PHP Stack trace:
+[29-Nov-2013 04:55:27 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 04:55:27 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[29-Nov-2013 04:55:27 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[29-Nov-2013 04:55:27 UTC] CSRF state token does not match one provided.
+[29-Nov-2013 04:55:27 UTC] PHP Notice:  Undefined variable: user in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 22
+[29-Nov-2013 04:55:27 UTC] PHP Stack trace:
+[29-Nov-2013 04:55:27 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 04:55:27 UTC] PHP Fatal error:  Cannot use object of type Login as array in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 22
+[29-Nov-2013 04:55:27 UTC] PHP Stack trace:
+[29-Nov-2013 04:55:27 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:18:48 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[29-Nov-2013 23:18:48 UTC] PHP Stack trace:
+[29-Nov-2013 23:18:48 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[29-Nov-2013 23:18:48 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[29-Nov-2013 23:18:48 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[29-Nov-2013 23:18:55 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[29-Nov-2013 23:18:55 UTC] PHP Stack trace:
+[29-Nov-2013 23:18:55 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:18:55 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[29-Nov-2013 23:18:55 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[29-Nov-2013 23:18:55 UTC] PHP Notice:  Undefined variable: user in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 22
+[29-Nov-2013 23:18:55 UTC] PHP Stack trace:
+[29-Nov-2013 23:18:55 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:18:55 UTC] PHP Fatal error:  Cannot use object of type Login as array in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 22
+[29-Nov-2013 23:18:55 UTC] PHP Stack trace:
+[29-Nov-2013 23:18:55 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:19:23 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[29-Nov-2013 23:19:23 UTC] PHP Stack trace:
+[29-Nov-2013 23:19:23 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:19:23 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[29-Nov-2013 23:19:23 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[29-Nov-2013 23:19:23 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 23
+[29-Nov-2013 23:19:23 UTC] PHP Stack trace:
+[29-Nov-2013 23:19:23 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:19:23 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:19:23 UTC] PHP Stack trace:
+[29-Nov-2013 23:19:23 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:19:23 UTC] PHP Notice:  Undefined variable: deceased_facebook_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:19:23 UTC] PHP Stack trace:
+[29-Nov-2013 23:19:23 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:19:23 UTC] PHP Notice:  Undefined variable: deceased_name in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:19:23 UTC] PHP Stack trace:
+[29-Nov-2013 23:19:23 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:19:23 UTC] PHP Notice:  Undefined variable: death_date in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:19:23 UTC] PHP Stack trace:
+[29-Nov-2013 23:19:23 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:19:23 UTC] PHP Notice:  Undefined variable: memorial_tagline in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:19:23 UTC] PHP Stack trace:
+[29-Nov-2013 23:19:23 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:19:24 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 28
+[29-Nov-2013 23:19:24 UTC] PHP Stack trace:
+[29-Nov-2013 23:19:24 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:19:24 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 44
+[29-Nov-2013 23:19:24 UTC] PHP Stack trace:
+[29-Nov-2013 23:19:24 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:19:24 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:28
+[29-Nov-2013 23:19:24 UTC] PHP   3. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php:45
+[29-Nov-2013 23:19:25 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[29-Nov-2013 23:19:25 UTC] PHP Stack trace:
+[29-Nov-2013 23:19:25 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:19:25 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[29-Nov-2013 23:19:25 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[29-Nov-2013 23:19:25 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 23
+[29-Nov-2013 23:19:25 UTC] PHP Stack trace:
+[29-Nov-2013 23:19:25 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:19:25 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:19:25 UTC] PHP Stack trace:
+[29-Nov-2013 23:19:25 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:19:25 UTC] PHP Notice:  Undefined variable: deceased_facebook_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:19:25 UTC] PHP Stack trace:
+[29-Nov-2013 23:19:25 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:19:25 UTC] PHP Notice:  Undefined variable: deceased_name in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:19:25 UTC] PHP Stack trace:
+[29-Nov-2013 23:19:25 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:19:25 UTC] PHP Notice:  Undefined variable: death_date in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:19:25 UTC] PHP Stack trace:
+[29-Nov-2013 23:19:25 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:19:25 UTC] PHP Notice:  Undefined variable: memorial_tagline in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:19:25 UTC] PHP Stack trace:
+[29-Nov-2013 23:19:25 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:19:25 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 28
+[29-Nov-2013 23:19:25 UTC] PHP Stack trace:
+[29-Nov-2013 23:19:25 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:19:25 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 44
+[29-Nov-2013 23:19:25 UTC] PHP Stack trace:
+[29-Nov-2013 23:19:25 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:19:25 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:28
+[29-Nov-2013 23:19:25 UTC] PHP   3. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php:45

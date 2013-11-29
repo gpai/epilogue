@@ -20,9 +20,9 @@ require_once "includes/classes/Video.php";
 
 
 //Needs a list of collaborators based on the memorial id. (get list from Marie)
-
+$login = new Login();
 $facebookFriends = new FacebookFriend();
-$epilogue_user_id = "100005789522071";
+$epilogue_user_id = $login[$user];
 //Y=sent invitation, N=did not send invitation, A=accepted invitation
 $invited = "A";
 $memorial_id="1";

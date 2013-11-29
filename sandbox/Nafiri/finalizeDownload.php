@@ -13,5 +13,6 @@ require_once "includes/classes/Session.php";
 require_once "includes/classes/User.php";
 require_once "includes/classes/Video.php";
 
+//Get compiled package or use a function from Marie to get the data then I make the package
 include "finalizeDownload.phtml";
 ?>

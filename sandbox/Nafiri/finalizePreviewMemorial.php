@@ -12,5 +12,6 @@ require_once "includes/classes/Session.php";
 require_once "includes/classes/User.php";
 require_once "includes/classes/Video.php";
 
+//This should link to the page that will take them to the memorial.php but without all the edit buttons available.
 include "finalizePreviewMemorial.phtml";
 ?>
