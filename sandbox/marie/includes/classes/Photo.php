@@ -3,6 +3,7 @@
  * Created on Nov 16, 2013
  *
  * KISS it baby. Let's get the photo party started
+ * http://www.w3schools.com/php/php_file_upload.asp
  */
 
  class Photo{
@@ -18,16 +19,15 @@
          public function getPhotoArray($next_call=''){
                  // get array of first 25 from facebook                
               $fb = Registry::getInstance()->get("fb");  
-              echo "<br>****************** @@@ **************<br>";
-              //echo $user_id.'/photos?limit=25';
+              echo "<br>****************** !!!! **************<br>";
+               //echo $user_id.'/photos?limit=25';
               $call_for_photos = $this->user_id.'/photos?limit=100'.$next_call;
               var_dump($call_for_photos);
-              echo "<br>***************** @@@ ***************<br>";
+              echo "<br>***************** !!!! ***************<br>";
               $array_of = $fb->api($call_for_photos);
-              $this->deceasedPhotosFromFacebookToFolder($array_of);
-              $this->insertFacebookPhotoInfo($array_of, $this->memorial_id);
-              
-                //echo "<br>---------- getPhotoArray -----<br>";
+//              $this->deceasedPhotosFromFacebookToFolder($array_of);
+//              $this->insertFacebookPhotoInfo($array_of, $this->memorial_id);
+               //echo "<br>---------- getPhotoArray -----<br>";
               if (!$array_of[paging]["next"]==NULL){
               	$next_next = $this->getNext($array_of);	
               	echo "next call --- $next_next_next";

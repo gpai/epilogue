@@ -4,16 +4,23 @@
 //include 'get_memorial_id.php';
 ob_start();
 session_start(); 
-echo "----- start here run the classes and config ------------<br>";
+echo "----- start here run the classes and config  -----------<br>";
+
 //Registry::getInstance()->set("config", $config);
 require_once ('includes/classes/Database.php');
+echo "----- the classes failed here ? ------------<br>";
 require_once ('includes/classes/FacebookFriend.php');
 require_once ('includes/classes/Memorial.php');
+echo "----- the classes failed here  Mem? ------------<br>";
 require_once ('includes/classes/Photo.php');
+
+
 //require_once ('includes/classes/Post.php');
 //require_once ('includes/classes/Favorite.php');
 require_once ('includes/classes/Login.php');
+echo "----- the classes failed here Log? ------------<br>";
 include 'includes/config.php';
+
 echo "----- the classes look good ------------<br>";
 // The following are a series of calls for anything I will ever do. Comptuers are fast, it can just do all of them. kthxbai.
 
@@ -77,11 +84,13 @@ $whosphoto = "1280040613"; //Nafiri's id
 //$vote = 1;
 $memorial_id = 1;
 
-$objPhoto = new Photo($whosphoto, $memorial_id);
+//$objPhoto = new Photo($whosphoto, $memorial_id);
 
 echo "<br>---- download ALL of Nafiri's public photos into my image folder ----<br>";
-$objPhoto->getPhotoArray();
+//$objPhoto->getPhotoArray();
 //$objPhoto->deceasedPhotosFromFacebookToFolder($whosphoto);
+
+
 
 
 //$objPhoto->sortPhotos ($array);

@@ -36,6 +36,8 @@ require_once "classes/Login.php";
 require_once 'classes/Session.php';
 // require_once "classes/class.lists.php";
 
+echo "config file --------";
+
 
 /**
  * PROPERTIES
@@ -62,7 +64,7 @@ $config['db']['password'] = 'cutie';
 $config['db']['schema'] = 'Vixen_test';
 $config['db']['host'] = 'mysql2.speedypuppy.net';
 
-
+echo "config file 2 -     -------";
 /**
  * BOOTSTRAP CONNECTIONS
  */
@@ -72,12 +74,17 @@ $facebook = new Facebook($config['fb']);
 
 // Connect to the database
 $database = new Database($config['db']['user'], $config['db']['password'], $config['db']['schema'], $config['db']['host']);
+echo "config file 2.1---- ????????----";
 $epilogue = new Epilogue($database, $facebook);
+echo "config file 2.2--------";
 $epilogue->fbCheck();
 
 /**
  * Registry -- store everything here.
  */
+
+
+echo "config file 3 --------";
 
 Registry::getInstance()->set("config", $config);
 Registry::getInstance()->set("fb", $facebook);

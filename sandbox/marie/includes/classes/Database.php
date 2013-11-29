@@ -21,7 +21,7 @@ class Database {
 	}
 
 	public function raw_query($query) {
-		return $this->_sql->query($query);
+		return $this->query($query);
 	}
 
 	public function query($query) {
