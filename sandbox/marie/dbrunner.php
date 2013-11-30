@@ -3,7 +3,7 @@
 // This is a list of the files I need to include to make things work.
 //include 'get_memorial_id.php';
 ob_start();
-session_start(); 
+//session_start(); 
 
 
 echo "----- start here run the classes and config  -------<br>";

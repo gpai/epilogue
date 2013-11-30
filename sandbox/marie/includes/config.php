@@ -56,7 +56,7 @@ $config['fb']['secret'] = '2d230b0ad9a39b85f68d4aa235d8d8ee';
 $config['fb']['fileUpload'] = false; // optional
 $config['fb']['scope'] = "read_stream, friends_likes, user_status";
 $config['fb']['redirectLogin'] = "http://localhost:8888/sandbox/marie/login.php"; // "this needs to point to right file login file location";
-$config['fb']['redirectLogout'] = "http://localhost:8888/sandbox/marie/login.php"; //"this needs to point to the right logout file location";
+$config['fb']['redirectLogout'] = "http://localhost:8888/sandbox/marie/logout.php"; //"this needs to point to the right logout file location";
 $config['fb']['cookie'] = true; // optional
 
 $config['db']['user'] = 'Vixen_VixGrace'; 
