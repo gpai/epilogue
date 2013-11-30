@@ -60,6 +60,9 @@ $config['db']['password'] = 'cutie';
 $config['db']['schema'] = 'Vixen_test';
 $config['db']['host'] = 'mysql2.speedypuppy.net';
 
+// Store config in the registry
+Registry::getInstance()->set("config", $config);
+
 
 /**
  * BOOTSTRAP CONNECTIONS
@@ -67,6 +70,8 @@ $config['db']['host'] = 'mysql2.speedypuppy.net';
 
 // Initialize Facebook
 $facebook = new Facebook($config['fb']);
+Registry::getInstance()->set("fb", $facebook);
+
 
 // Initialize Session
 session_name($config['session']['name']);
@@ -75,16 +80,11 @@ session_start();
 
 // Connect to the database
 $database = new Database($config['db']['user'], $config['db']['password'], $config['db']['schema'], $config['db']['host']);
+Registry::getInstance()->set("db", $database);
+
 $epilogue = new Epilogue($database, $facebook);
 $epilogue->fbCheck();
 
-/**
- * Registry -- store everything here.
- */
-
-Registry::getInstance()->set("config", $config);
-Registry::getInstance()->set("fb", $facebook);
-Registry::getInstance()->set("db", $database);
 
 // Login check, and User init
 // if ($epilogue->isLoggedIn()) {

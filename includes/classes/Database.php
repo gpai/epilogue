@@ -7,7 +7,7 @@ class Database {
 	private $_sql_pass = '';
 	private $_sql_host = '';
 
-	private $_sql = '';
+	private $connection = '';
 	
 	private $_queries = 0;
 
@@ -17,28 +17,52 @@ class Database {
 		$this->_sql_pass = $pass;
 		$this->_sql_host = $host;
 
-		$this->_sql = new mysqli($this->_sql_host, $this->_sql_user, $this->_sql_pass, $this->_sql_db);
-	}
-
-	public function raw_query($query) {
-		return $this->_sql->query($query);
-	}
-
-	public function query($query) {
-		$rs = $this->fetchAll($query);
-		return $rs;
+		$this->connection = new mysqli($this->_sql_host, $this->_sql_user, $this->_sql_pass, $this->_sql_db);
 	}
 	
-	public function fetchOne($query) {
-		$rs = $this->raw_query($query);
+	/**
+	 * Quazi-depricated. Baldwin used this, but we have changed libraries, so we are going to kind of make it go away.
+	 * Some bugs might show up because of this, but we will find them!
+	 * 
+	 * @param String $sql
+	 * @throws Exception
+	 * @return multitype:unknown
+	 */
+	public function raw_query($sql) {
+		return $this->query($sql);
+	}
+
+	public function query($sql) {
+		$res = mysqli_query($this->connection, $sql); 
+		if (!$res) { 
+			throw new Exception(mysqli_error($this->connection).". Full query: [$sql]"); 
+		};
+		return $res;
+	}
+	
+	public function fetchOne($sql) {
+		$res = mysqli_query($this->connection, $sql); 
+		if (!$res) { 
+			var_dump($res);
+			die();
+			throw new Exception(mysqli_error($this->connection).". Full query: [$sql]"); 
+		};
+		$rs = $this->query($sql);
 		$result = $rs->fetch_assoc();
 		$rs->close();
 		return $result;
 	
 	}
-	
+ 	
 	public function fetchAll($query) {
-		$q = $this->raw_query($query);
+		$res = mysqli_query($this->connection, $sql); 
+		if (!$res) { 
+			var_dump($res);
+			die();
+			throw new Exception(mysqli_error($this->connection).". Full query: [$sql]"); 
+		};
+		
+		$q = $this->raw_query($sql);
 		$resultSet = array();
 
 		
@@ -57,7 +81,7 @@ class Database {
 		##	made for the current user first.
 		##
 		global $config;
-		$result = $this->query("SELECT COUNT( * ) AS TOTALFOUND FROM ".$config['session']['dbtable']." WHERE `user_id` = '". $id ."' LIMIT 1");
+		$result = $this->fetchOne("SELECT COUNT( * ) AS TOTALFOUND FROM ".$config['session']['dbtable']." WHERE `user_id` = '". $id ."' LIMIT 1");
 
 		
 		if ($result['TOTALFOUND'] > 0) {
@@ -77,8 +101,12 @@ class Database {
 		
 	}
 
+	/**
+	 * Runs SQL to delete user_id from SESSION table
+	 * @return boolean
+	 */
 	public function query_session_destroy() {
-		return $this->raw_query("DELETE FROM `epi_sessions` WHERE `user_id` = '". $_SESSION['epi_id'] ."'");
+		return $this->query("DELETE FROM `epi_sessions` WHERE `user_id` = '". $_SESSION['epi_id'] ."'");
 	}
 
 	function __destruct() {
