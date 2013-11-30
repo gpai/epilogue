@@ -43,8 +43,6 @@ class Database {
 	public function fetchOne($sql) {
 		$res = mysqli_query($this->connection, $sql); 
 		if (!$res) { 
-			var_dump($res);
-			die();
 			throw new Exception(mysqli_error($this->connection).". Full query: [$sql]"); 
 		};
 		$rs = $this->query($sql);
@@ -57,8 +55,6 @@ class Database {
 	public function fetchAll($query) {
 		$res = mysqli_query($this->connection, $sql); 
 		if (!$res) { 
-			var_dump($res);
-			die();
 			throw new Exception(mysqli_error($this->connection).". Full query: [$sql]"); 
 		};
 		
