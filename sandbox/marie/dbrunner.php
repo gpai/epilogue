@@ -89,14 +89,14 @@ echo "<br>-- PHOTO class below --<br>";
 
 // -------------- stub data
 //$whosphoto = "688307710"; 
-$whosphoto = "1280040613"; //Nafiri's id
+//$whosphoto = "1280040613"; //Nafiri's id
 //$photo_id = "0981";
 //$vote = 1;
-$memorial_id = 1;
+//$memorial_id = 1;
 
 //$objPhoto = new Photo($whosphoto, $memorial_id);
 
-echo "<br>---- download ALL of Nafiri's public photos into my image folder ----<br>";
+//echo "<br>---- download ALL of Nafiri's public photos into my image folder ----<br>";
 //$objPhoto->getPhotoArray();
 //$objPhoto->deceasedPhotosFromFacebookToFolder($whosphoto);
 
@@ -120,7 +120,7 @@ echo "<br>---- download ALL of Nafiri's public photos into my image folder ----<
 
 
 
-echo "---- did it work-----";
+//echo "---- did it work-----";
 
 
 //<pre><?php //print_r($array_of)? > </pre>
@@ -160,12 +160,12 @@ echo "-- FacebookFriends class --<br>";
 //$objFF->updateInviteStatus($epilogue_user_id, $invite_this_friend, $invite, $memorial_id);
 //echo "--- <br>";
 
-echo "-- FacebookFriends class done --";
+echo "-- FacebookFriends class done --<br>";
 
 
 
 
-echo "---- Vote class start ---";
+echo "---- Vote class start ---<br>";
 
 //$m_id = "1";
 //$item = 123;
@@ -174,7 +174,7 @@ echo "---- Vote class start ---";
 //$objVote->upVote($m_id, $item);
 
 
-echo "---- Vote class end ----";
+echo "---- Vote class end ----<br>";
 
 
 ?>
