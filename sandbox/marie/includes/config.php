@@ -63,17 +63,20 @@ $config['db']['user'] = 'Vixen_VixGrace';
 $config['db']['password'] = 'cutie';
 $config['db']['schema'] = 'Vixen_test';
 $config['db']['host'] = 'mysql2.speedypuppy.net';
-
+Registry::getInstance()->set("config", $config);
 echo "config file 2 -     -------";
 /**
  * BOOTSTRAP CONNECTIONS
  */
-
+ 
 // Initialize Facebook
 $facebook = new Facebook($config['fb']);
+Registry::getInstance()->set("fb", $facebook);
 
 // Connect to the database
 $database = new Database($config['db']['user'], $config['db']['password'], $config['db']['schema'], $config['db']['host']);
+Registry::getInstance()->set("db", $database);
+
 echo "config file 2.1---- ????????----";
 $epilogue = new Epilogue($database, $facebook);
 echo "config file 2.2--------";
@@ -86,9 +89,6 @@ $epilogue->fbCheck();
 
 echo "config file 3 --------";
 
-Registry::getInstance()->set("config", $config);
-Registry::getInstance()->set("fb", $facebook);
-Registry::getInstance()->set("db", $database);
 
 // Login check, and User init
 // if ($epilogue->isLoggedIn()) {

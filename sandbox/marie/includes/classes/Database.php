@@ -29,9 +29,9 @@ class Database {
 
 	public function query($query) {
 		$res = mysqli_query($this->query, $query);
-//		if (!$res) {
-//			throw new Exception(mysqli_error($this->query).". Full query: [$query]"); 
-//			}
+		if (!$res) {
+			throw new Exception(mysqli_error($this->query).". Full query: [$query]"); 
+			}
 		
 		$rs = $this->fetchAll($query);
 		return $rs;
@@ -51,7 +51,10 @@ class Database {
 	}
  	
 	public function fetchAll($query) {
-		$res = mysqli_query($this->_sql->query, $query); if (!$res) { throw new Exception(mysqli_error($this->query).". Full query: [$query]"); };
+		$res = mysqli_query($this->_sql->query, $query); 
+		if (!$res) { 
+			throw new Exception(mysqli_error($this->query).". Full query: [$query]"); 
+			}
 		
 		$q = $this->raw_query($query);
 		$resultSet = array();
