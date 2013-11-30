@@ -52,7 +52,7 @@ class Database {
 	
 	}
  	
-	public function fetchAll($query) {
+	public function fetchAll($sql) {
 		$res = mysqli_query($this->connection, $sql); 
 		if (!$res) { 
 			throw new Exception(mysqli_error($this->connection).". Full query: [$sql]"); 
