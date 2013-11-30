@@ -19,25 +19,34 @@ class Database {
 
 		$this->_sql = new mysqli($this->_sql_host, $this->_sql_user, $this->_sql_pass, $this->_sql_db);
 	}
+	
 
 	public function raw_query($query) {
+		$res = mysqli_query($this->query, $query); if (!$res) { throw new Exception(mysqli_error($this->cquery).". Full query: [$query]"); };
+		
 		return $this->query($query);
 	}
 
 	public function query($query) {
+		$res = mysqli_query($this->query, $query); if (!$res) { throw new Exception(mysqli_error($this->query).". Full query: [$query]"); };
+		
 		$rs = $this->fetchAll($query);
 		return $rs;
 	}
 	
 	public function fetchOne($query) {
+		$res = mysqli_query($this->query, $query); if (!$res) { throw new Exception(mysqli_error($this->query).". Full query: [$query]"); };
+
 		$rs = $this->raw_query($query);
 		$result = $rs->fetch_assoc();
 		$rs->close();
 		return $result;
 	
 	}
-	
+ 	
 	public function fetchAll($query) {
+		$res = mysqli_query($this->query, $query); if (!$res) { throw new Exception(mysqli_error($this->query).". Full query: [$query]"); };
+		
 		$q = $this->raw_query($query);
 		$resultSet = array();
 

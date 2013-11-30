@@ -1,1 +1,10 @@
 I want the variable to check whether the user has any current memorials or not. 
+
+----------------------------------------------------------
+public $variable = NULL;
+
+$objMem = new Memorial();
+$variable = $objMem->listMemorialId($epilogue_user_id);
+
+2013-11-29 -M
+----------------------------------------------------------

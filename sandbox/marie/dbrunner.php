@@ -4,15 +4,25 @@
 //include 'get_memorial_id.php';
 ob_start();
 session_start(); 
-echo "----- start here run the classes and config  -----------<br>";
+
+
+echo "----- start here run the classes and config  -------<br>";
 
 //Registry::getInstance()->set("config", $config);
 require_once ('includes/classes/Database.php');
+//$db = Registry::getInstance()->get('db'); 
+//$q = "SELECT COUNT(*) AS TOTALFOUND FROM user WHERE fb_id = '711840292' LIMIT 1";
+//echo "$q";
+//$db->raw_query($q);
+
+
+
 echo "----- the classes failed here ? ------------<br>";
 require_once ('includes/classes/FacebookFriend.php');
 require_once ('includes/classes/Memorial.php');
 echo "----- the classes failed here  Mem? ------------<br>";
 require_once ('includes/classes/Photo.php');
+require_once ('includes/classes/Vote.php');
 
 
 //require_once ('includes/classes/Post.php');
@@ -112,10 +122,10 @@ echo "<br>---- download ALL of Nafiri's public photos into my image folder ----<
 
 echo "---- did it work-----";
 
-?>
-<pre><?php print_r($array_of)?> </pre>
 
-<?php
+//<pre><?php //print_r($array_of)? > </pre>
+
+
 
 echo "-- Photo class done-----------<br>";
 
@@ -150,6 +160,21 @@ echo "-- FacebookFriends class --<br>";
 //$objFF->updateInviteStatus($epilogue_user_id, $invite_this_friend, $invite, $memorial_id);
 //echo "--- <br>";
 
-echo "-- FacebookFriends class done --"
+echo "-- FacebookFriends class done --";
+
+
+
+
+echo "---- Vote class start ---";
+
+//$m_id = "1";
+//$item = 123;
+
+//$objVote = new Vote();
+//$objVote->upVote($m_id, $item);
+
+
+echo "---- Vote class end ----";
+
 
 ?>

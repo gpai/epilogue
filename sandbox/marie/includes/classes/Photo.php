@@ -25,8 +25,8 @@
               var_dump($call_for_photos);
               echo "<br>***************** !!!! ***************<br>";
               $array_of = $fb->api($call_for_photos);
-//              $this->deceasedPhotosFromFacebookToFolder($array_of);
-//              $this->insertFacebookPhotoInfo($array_of, $this->memorial_id);
+              $this->deceasedPhotosFromFacebookToFolder($array_of);
+              $this->insertFacebookPhotoInfo($array_of, $this->memorial_id);
                //echo "<br>---------- getPhotoArray -----<br>";
               if (!$array_of[paging]["next"]==NULL){
               	$next_next = $this->getNext($array_of);	
@@ -143,28 +143,24 @@
         }
   
 
-        public function insertDeceasedPhotos ($arr_of_sorted_photos, $memorial_id){
-                // okay so this one need the sort above to return that data
-                // this one needs to stick it in the photo table with the associated memorial id
-                echo " The array of sorted photos will be added to $memorial_id<br>";
-        }
+
          
-         public function getDeceasedPhotos($deceased_facebook_user_id){
+ //        public function getDeceasedPhotos($deceased_facebook_user_id){
          	// get all the deceased's photos from facebook - one time dealio?
-            	$fb = Registry::getInstance()->get("fb");        
-              	$deceased_user_photo  = $fb->api($deceased_facebook_user_id .'/photos');
-                 print "Get photos for this guy --> $deceased_facebook_user_id";
-                 return $deceased_user_photo;
-         }
+//            	$fb = Registry::getInstance()->get("fb");        
+//              	$deceased_user_photo  = $fb->api($deceased_facebook_user_id .'/photos');
+//                 print "Get photos for this guy --> $deceased_facebook_user_id";
+//                 return $deceased_user_photo;
+//         }
          
 
-        public function downloadDeceasedPhotos ($url_to_download){
+//        public function downloadDeceasedPhotos ($url_to_download){
         	// take the $url and save it to the images/deceased folder
-        	$url = $url_to_download;
-			$img = $this->basenamePhotoUrl($url);
-			echo "<br> url = $url and the destination file name is $img <br>";
-			file_put_contents($img, file_get_contents($url));
-		}
+//        	$url = $url_to_download;
+//			$img = $this->basenamePhotoUrl($url);
+//			echo "<br> url = $url and the destination file name is $img <br>";
+//			file_put_contents($img, file_get_contents($url));
+//		}
 
 		
  		public function basenamePhotoUrl($url){
@@ -206,7 +202,12 @@
 
 //		}
         
-  
+
+
+	function __destruct() {
+
+	}
+
  }
  
  

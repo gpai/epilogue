@@ -84,22 +84,6 @@
  
                          
 
-         public function getPostVote($post_id, $memorial_id){
-                  // display the current vote for a photo_id
-                  $db = Registry::getInstance()->get('db');        
-                  $query = 'SELECT vote, memorial_id FROM post WHERE post_id = "$post_id" AND memorial_id = "$memorial_id"';                
-                  $current_vote = $db->raw_query($query);
-                  echo "this is the current vote '$current_vote'";
-          }
-                    public function upPostVote($post_id, $memorial_id, $vote){
-                  // upvote or downvote to include in the memorial
-                  $db = Registry::getInstance()->get('db');        
-//                $update_this = "UPDATE `Vixen_test`.`post` SET vote = '$vote' WHERE memorial_id = '$memorial_id'";
-//                $db->raw_query($update_this);
-                echo "hey '$vote' was added to the vote count";
-          }
-                                  
-
         
   
  }

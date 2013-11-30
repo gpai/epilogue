@@ -24,14 +24,24 @@ class Vote{
           }
           
           public function upVote($memorial_id, $item_id){
-                  // upvote or downvote a photo to include in the memorial
+                  // upvote an item 
                 $db = Registry::getInstance()->get('db'); 
                 $vote = $this->getVote($memorial_id, $item_id);
-                $upvote = ++$vote;
-                $update_this = "UPDATE `Vixen_test`.`vote` SET vote = '$upvote' WHERE item_id = '$item_id' AND memorial_id = '$memorial_id'";
+                ++$vote;
+                $update_this = "UPDATE `Vixen_test`.`vote` SET vote = '$vote' WHERE item_id = '$item_id' AND memorial_id = '$memorial_id'";
                 $db->raw_query($update_this);
                  echo "hey '$vote' was added to the vote count";
           }
+ 
+          public function downVote($memorial_id, $item_id){
+                  //  downvote an item
+                $db = Registry::getInstance()->get('db'); 
+                $vote = $this->getVote($memorial_id, $item_id);
+                --$vote;
+                $update_this = "UPDATE `Vixen_test`.`vote` SET vote = '$vote' WHERE item_id = '$item_id' AND memorial_id = '$memorial_id'";
+                $db->raw_query($update_this);
+                 echo "hey '$vote' was removed from the vote count";
+          } 
  
  
 } 

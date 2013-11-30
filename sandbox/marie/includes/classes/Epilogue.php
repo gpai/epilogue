@@ -21,6 +21,11 @@ class Epilogue {
 
 	public $id = '';
 
+
+
+
+
+
 	function __construct($sql, $facebook) {
 		$this->_sql = $sql;
 		$this->_facebook = $facebook;
@@ -136,7 +141,9 @@ class Epilogue {
 		return;
 	} 
 
-	/* Trustees */
+	/* Trustees  - Hi Jed, I don't think this section is being used 2013-11-19 - M'*/
+	
+	 
 
 	public function saveTrustee($user, $id_1, $id_2) {
 		# Assume User is Logged in, $user -> User Object
@@ -156,7 +163,7 @@ class Epilogue {
 		return array('id' => $q[$which], 'name' => $call->name);
 	}
 
-	/* Messages */
+	/* Messages Hi again, I think one i*/
 	public function saveMessage($user, $recepient, $message) {
 		# Assume User is Logged in, $user -> User Object
 		$this->_sql->raw_query('INSERT INTO epi_messages VALUES (NULL, '. $user->_id .',  '. $recepient .',  "'. htmlentities($message) .'") ');

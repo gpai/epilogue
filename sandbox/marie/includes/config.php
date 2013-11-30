@@ -95,4 +95,3 @@ Registry::getInstance()->set("db", $database);
 // 	$user = new User($sql, $facebook, $epilogue->id);
 // }
 
-?>
