@@ -13992,3 +13992,16 @@ Stack trace:
 #4 /Users/sarahhuffman/working_epilogue/sandbox/marie/dbrunner.php(32): include('/Users/sarahhuf...')
 #5 {main}
   thrown in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Database.php on line 33
+[30-Nov-2013 23:59:03 Europe/Berlin] PHP Notice:  Undefined property: Database::$query in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Database.php on line 31
+[30-Nov-2013 23:59:03 Europe/Berlin] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Database.php on line 31
+[30-Nov-2013 23:59:03 Europe/Berlin] PHP Notice:  Undefined property: Database::$query in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Database.php on line 33
+[30-Nov-2013 23:59:03 Europe/Berlin] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Database.php on line 33
+[30-Nov-2013 23:59:03 Europe/Berlin] PHP Fatal error:  Uncaught exception 'Exception' with message '. Full query: [SELECT COUNT(*) AS TOTALFOUND FROM user WHERE fb_id = '100005789522071' LIMIT 1]' in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Database.php:33
+Stack trace:
+#0 /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Epilogue.php(39): Database->query('SELECT COUNT(*)...')
+#1 /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Epilogue.php(70): Epilogue->hasAccount('100005789522071')
+#2 /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Epilogue.php(63): Epilogue->login('100005789522071')
+#3 /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/config.php(83): Epilogue->fbCheck()
+#4 /Users/sarahhuffman/working_epilogue/sandbox/marie/dbrunner.php(32): include('/Users/sarahhuf...')
+#5 {main}
+  thrown in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Database.php on line 33

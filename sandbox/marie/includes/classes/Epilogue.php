@@ -36,13 +36,16 @@ class Epilogue {
 	}
 
 	public function hasAccount($fbId) {
-			$check = $this->_sql->query("SELECT COUNT(*) AS TOTALFOUND FROM user WHERE fb_id = '". $fbId ."' LIMIT 1");
+		$db = Registry::getInstance()->get("db");
+		$check = $db->fetchOne("SELECT COUNT(*) AS TOTALFOUND FROM user WHERE fb_id = '". $fbId ."' LIMIT 1");
+		if (!is_array($check) || !isset($check['TOTALFOUND']))
+				throw new Exception("Was excpecting an array with a value for TOTALFOUND.");
 			return ($check['TOTALFOUND']);
 	}
 
 	private function makeAccount($fbId) {
-		$this->_sql->raw_query("INSERT INTO user (id, fb_id, added) VALUES (NULL, ". $fbId .", ". time() .")");
-		$this->_sql->raw_query("INSERT INTO fbtoken (id, fb_id, fb_token, added) VALUES (NULL, ". $fbId .", '". $this->_token ."', ". time() .")");
+		Registry::getInstance()->get("db")->query("INSERT INTO user (id, fb_id, added) VALUES (NULL, ". $fbId .", ". time() .")");
+		Registry::getInstance()->get("db")->query("INSERT INTO fbtoken (id, fb_id, fb_token, added) VALUES (NULL, ". $fbId .", '". $this->_token ."', ". time() .")");
 	}
 
 	public function isLoggedIn() {
@@ -51,7 +54,7 @@ class Epilogue {
 				$this->makeAccount($this->_id);
 			}
 			// Check session id with database.
-			$result = $this->_sql->query("SELECT * FROM session WHERE user_id='". $_SESSION['epi_id'] ."' LIMIT 1");
+			$result = Registry::getInstance()->get("db")->fetchOne("SELECT * FROM session WHERE user_id='". $_SESSION['epi_id'] ."' LIMIT 1");
 			return (session_id() == $result['session_id']);
 		} else {
 			return false; // No Session with user.
@@ -70,9 +73,9 @@ class Epilogue {
 			if (!$this->hasAccount($this->_id)) { // make account!
 				$this->makeAccount($this->_id);
 			}
-			$check = $this->_sql->query("SELECT COUNT(*) AS TOTALFOUND FROM user WHERE fb_id = '". $fbId ."' LIMIT 1");
+			$check = Registry::getInstance()->get("db")->fetchOne("SELECT COUNT(*) AS TOTALFOUND FROM user WHERE fb_id = '". $fbId ."' LIMIT 1");
 			if ($check['TOTALFOUND'] > 0) {
-				$info = $this->_sql->query("SELECT * FROM user WHERE fb_id = '". $fbId ."' LIMIT 1");
+				$info = Registry::getInstance()->get("db")->fetchOne("SELECT * FROM user WHERE fb_id = '". $fbId ."' LIMIT 1");
 				$this->sessionBuild($info['id']);
 				return true;
 			}else{
@@ -99,13 +102,13 @@ class Epilogue {
 				Check if the user has the same IP and Browser
 			*/
 			
-			$result = $this->_sql->query("SELECT COUNT(*) AS TOTALFOUND, user_id FROM session WHERE (ip = '". $_SERVER['REMOTE_ADDR'] ."' AND user_agent = '". $_SERVER['HTTP_USER_AGENT'] ."' AND login_key = '". $_COOKIE['epi_loginkey'] ."') LIMIT 1");
+			$result = Registry::getInstance()->get("db")->fetchOne("SELECT COUNT(*) AS TOTALFOUND, user_id FROM session WHERE (ip = '". $_SERVER['REMOTE_ADDR'] ."' AND user_agent = '". $_SERVER['HTTP_USER_AGENT'] ."' AND login_key = '". $_COOKIE['epi_loginkey'] ."') LIMIT 1");
 			if ($result['TOTALFOUND'] > 0) {
 				$this->sessionBuild($result['user_id']);
 			}
 		}else{
 			/* Refresh the session */
-			$result = $this->_sql->query("SELECT *, COUNT(*) AS TOTALFOUND FROM user_sessions WHERE login_key = '". $_COOKIE['epi_loginkey'] ."'  LIMIT 1");
+			$result = Registry::getInstance()->get("db")->fetchOne("SELECT *, COUNT(*) AS TOTALFOUND FROM user_sessions WHERE login_key = '". $_COOKIE['epi_loginkey'] ."'  LIMIT 1");
 			if ($result['TOTALFOUND'] > 0) {
 				$this->sessionBuild($result['user_id']);
 			}
@@ -115,7 +118,7 @@ class Epilogue {
 			setcookie("epi_id", $_SESSION['epi_id'], 0, "/");
 			setcookie("session", session_id(), 0, "/");	
 			setcookie("epi_loginkey", $_SESSION['epi_loginkey'], time()+60*60*24*365*10, "/");
-			$this->_sql->raw_query("UPDATE session SET last_action = '". time() ."' WHERE login_key = '". $_SESSION['epi_loginkey'] ."' LIMIT 1");
+			Registry::getInstance()->get("db")->query("UPDATE session SET last_action = '". time() ."' WHERE login_key = '". $_SESSION['epi_loginkey'] ."' LIMIT 1");
 
 		}
 	}
@@ -174,4 +177,3 @@ class Epilogue {
 
 	}
 }
-
