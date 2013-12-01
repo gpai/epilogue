@@ -14005,3 +14005,126 @@ Stack trace:
 #4 /Users/sarahhuffman/working_epilogue/sandbox/marie/dbrunner.php(32): include('/Users/sarahhuf...')
 #5 {main}
   thrown in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Database.php on line 33
+[01-Dec-2013 00:32:07 Europe/Berlin] PHP Fatal error:  Uncaught GraphMethodException: No node specified
+  thrown in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/lib/fb/base_facebook.php on line 1254
+[01-Dec-2013 00:34:08 Europe/Berlin] PHP Fatal error:  Uncaught GraphMethodException: No node specified
+  thrown in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/lib/fb/base_facebook.php on line 1254
+[01-Dec-2013 00:41:39 Europe/Berlin] PHP Fatal error:  Uncaught GraphMethodException: No node specified
+  thrown in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/lib/fb/base_facebook.php on line 1254
+[01-Dec-2013 00:43:21 Europe/Berlin] PHP Fatal error:  Uncaught GraphMethodException: No node specified
+  thrown in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/lib/fb/base_facebook.php on line 1254
+[01-Dec-2013 00:45:10 Europe/Berlin] PHP Fatal error:  Uncaught GraphMethodException: No node specified
+  thrown in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/lib/fb/base_facebook.php on line 1254
+[01-Dec-2013 00:47:20 Europe/Berlin] PHP Fatal error:  Call to undefined method Photo::downloadDeceasedPhotos() in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 193
+[01-Dec-2013 00:49:01 Europe/Berlin] PHP Fatal error:  Call to undefined method Photo::downloadDeceasedPhotos() in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 193
+[01-Dec-2013 00:49:16 Europe/Berlin] PHP Fatal error:  Call to undefined method Photo::downloadDeceasedPhotos() in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 193
+[01-Dec-2013 00:49:21 Europe/Berlin] PHP Fatal error:  Call to undefined method Photo::downloadDeceasedPhotos() in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 193
+[01-Dec-2013 00:49:34 Europe/Berlin] PHP Fatal error:  Call to undefined method Photo::downloadDeceasedPhotos() in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 193
+[01-Dec-2013 00:49:39 Europe/Berlin] PHP Fatal error:  Call to undefined method Photo::downloadDeceasedPhotos() in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 193
+[01-Dec-2013 00:50:02 Europe/Berlin] PHP Fatal error:  Call to undefined method Photo::downloadDeceasedPhotos() in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 204
+[01-Dec-2013 00:51:07 Europe/Berlin] PHP Fatal error:  Call to undefined method Photo::downloadDeceasedPhotos() in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 193
+[01-Dec-2013 00:53:29 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 00:53:29 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 00:53:29 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 109
+[01-Dec-2013 00:53:29 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 124
+[01-Dec-2013 00:53:29 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 00:53:29 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 00:53:29 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 109
+[01-Dec-2013 00:53:29 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 124
+[01-Dec-2013 00:53:29 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 00:53:29 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 124
+[01-Dec-2013 00:53:29 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 00:53:29 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 00:53:30 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 124
+[01-Dec-2013 00:53:30 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 00:53:30 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 00:53:30 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 124
+[01-Dec-2013 00:53:30 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 00:53:30 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 109
+[01-Dec-2013 00:53:30 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 124
+[01-Dec-2013 00:53:30 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 00:53:30 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 00:53:30 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 124
+[01-Dec-2013 00:53:30 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 00:53:30 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 00:53:30 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 124
+[01-Dec-2013 00:53:30 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 00:53:30 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 00:53:30 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 124
+[01-Dec-2013 00:53:30 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 00:53:30 Europe/Berlin] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 're both doing well!  Great pics!',  'photo',  '100000558860213',  'Vicky DeGuzma' at line 2. Full query: [INSERT INTO  `Vixen_test`.`comments` (`comment_id` ,`comment` ,`comment_type` ,`commenter_fb_id` ,`commenter_name` ,`memorial_id` ,`commented_item_id`)VALUES (
+													NULL ,  'Miss you two! Hope you're both doing well!  Great pics!',  'photo',  '100000558860213',  'Vicky DeGuzman Smith',  '',  '217737341716239')]' in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Database.php:38
+Stack trace:
+#0 /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Database.php(32): Database->query('INSERT INTO  `V...')
+#1 /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php(104): Database->raw_query('INSERT INTO  `V...')
+#2 /Users/sarahhuffman/working_epilogue/sandbox/marie/includ in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Database.php on line 38
+[01-Dec-2013 01:03:02 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 01:03:02 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 01:03:02 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 109
+[01-Dec-2013 01:03:02 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 124
+[01-Dec-2013 01:03:02 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 01:03:02 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 01:03:02 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 109
+[01-Dec-2013 01:03:02 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 124
+[01-Dec-2013 01:03:02 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 01:03:02 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 124
+[01-Dec-2013 01:03:02 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 01:03:02 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 01:03:02 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 124
+[01-Dec-2013 01:03:02 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 01:03:02 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 01:03:02 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 124
+[01-Dec-2013 01:03:02 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 01:03:02 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 109
+[01-Dec-2013 01:03:02 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 124
+[01-Dec-2013 01:03:02 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 01:03:02 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 01:03:02 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 124
+[01-Dec-2013 01:03:02 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 01:03:02 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 01:03:02 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 124
+[01-Dec-2013 01:03:02 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 01:03:02 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 01:03:02 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 124
+[01-Dec-2013 01:03:02 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 01:03:02 Europe/Berlin] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 're both doing well!  Great pics!',  'photo',  '100000558860213',  'Vicky DeGuzma' at line 2. Full query: [INSERT INTO  `Vixen_test`.`comments` (`comment` ,`comment_type` ,`commenter_fb_id` ,`commenter_name` ,`memorial_id` ,`commented_item_id`)VALUES (
+													'Miss you two! Hope you're both doing well!  Great pics!',  'photo',  '100000558860213',  'Vicky DeGuzman Smith',  '',  '217737341716239')]' in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Database.php:38
+Stack trace:
+#0 /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Database.php(32): Database->query('INSERT INTO  `V...')
+#1 /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php(104): Database->raw_query('INSERT INTO  `V...')
+#2 /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php(3 in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Database.php on line 38
+[01-Dec-2013 01:08:55 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 01:08:55 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 01:08:55 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 109
+[01-Dec-2013 01:08:55 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 124
+[01-Dec-2013 01:08:55 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 01:08:55 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 01:08:55 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 109
+[01-Dec-2013 01:08:55 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 124
+[01-Dec-2013 01:08:55 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 01:08:55 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 124
+[01-Dec-2013 01:08:55 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 01:08:55 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 01:08:55 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 124
+[01-Dec-2013 01:08:55 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 01:08:55 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 01:08:55 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 124
+[01-Dec-2013 01:08:55 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 01:08:55 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 109
+[01-Dec-2013 01:08:55 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 124
+[01-Dec-2013 01:08:55 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 01:08:55 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 01:08:55 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 124
+[01-Dec-2013 01:08:55 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 01:08:55 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 01:08:55 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 124
+[01-Dec-2013 01:08:55 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 01:08:55 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 01:08:55 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 124
+[01-Dec-2013 01:08:55 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 01:08:55 Europe/Berlin] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 're both doing well!  Great pics!',  'photo',  '100000558860213',  'Vicky DeGuzma' at line 2. Full query: [INSERT INTO  `Vixen_test`.`comments` (`comment` ,`comment_type` ,`commenter_fb_id` ,`commenter_name` ,`memorial_id` ,`commented_item_id`)VALUES (
+													'Miss you two! Hope you're both doing well!  Great pics!',  'photo',  '100000558860213',  'Vicky DeGuzman Smith',  '',  '217737341716239')]' in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Database.php:38
+Stack trace:
+#0 /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Database.php(32): Database->query('INSERT INTO  `V...')
+#1 /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php(104): Database->raw_query('INSERT INTO  `V...')
+#2 /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php(3 in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Database.php on line 38

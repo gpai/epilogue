@@ -1,12 +1,14 @@
 <?php
 
+phpinfo(); 
+
 // This is a list of the files I need to include to make things work.
 //include 'get_memorial_id.php';
 ob_start();
-//session_start(); 
+session_start(); 
 
 
-echo "----- start here run the classes and config  -------<br>";
+echo "----- start here run the classes and config & -------<br>";
 
 //Registry::getInstance()->set("config", $config);
 require_once ('includes/classes/Database.php');
@@ -23,8 +25,7 @@ require_once ('includes/classes/Memorial.php');
 echo "----- the classes failed here  Mem? ------------<br>";
 require_once ('includes/classes/Photo.php');
 require_once ('includes/classes/Vote.php');
-
-
+require_once ('includes/classes/Epilogue.php');
 //require_once ('includes/classes/Post.php');
 //require_once ('includes/classes/Favorite.php');
 require_once ('includes/classes/Login.php');
@@ -84,20 +85,20 @@ echo "<br>--Memorial class done -----<br>";
 
 
 
-echo "<br>-- PHOTO class below --<br>";
+echo "<br>-- PHOTO class below -!!-<br>";
 // Photo Stuff - get array of photo info back from facebook and then do stuff with the array
 
 // -------------- stub data
 //$whosphoto = "688307710"; 
-//$whosphoto = "1280040613"; //Nafiri's id
+$whosphoto = "1280040613"; //Nafiri's id
 //$photo_id = "0981";
 //$vote = 1;
-//$memorial_id = 1;
+$memorial_id = 1;
 
-//$objPhoto = new Photo($whosphoto, $memorial_id);
+$objPhoto = new Photo($whosphoto, $memorial_id);
 
 //echo "<br>---- download ALL of Nafiri's public photos into my image folder ----<br>";
-//$objPhoto->getPhotoArray();
+$objPhoto->getPhotoArray($whosphoto);
 //$objPhoto->deceasedPhotosFromFacebookToFolder($whosphoto);
 
 

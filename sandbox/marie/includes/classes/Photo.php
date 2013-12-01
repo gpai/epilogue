@@ -16,22 +16,26 @@
         	$this->memorial_id = $memorial_id;
     	}    
          
-         public function getPhotoArray($next_call=''){
+         public function getPhotoArray($test,$next_call=''){
                  // get array of first 25 from facebook                
               $fb = Registry::getInstance()->get("fb");  
               echo "<br>****************** !!!! **************<br>";
                //echo $user_id.'/photos?limit=25';
-              $call_for_photos = $this->user_id.'/photos?limit=100'.$next_call;
-              var_dump($call_for_photos);
-              echo "<br>***************** !!!! ***************<br>";
+ //             $call_for_photos = $this->user_id.'/photos?limit=50'.$next_call;
+              $call_for_photos = $test.'/photos?limit=50'.$next_call;
+              echo $call_for_photos;
+    
+              echo "<br>***************** ?????  ***************<br>";
               $array_of = $fb->api($call_for_photos);
+             
+              echo "--- next line <br>";
               $this->deceasedPhotosFromFacebookToFolder($array_of);
               $this->insertFacebookPhotoInfo($array_of, $this->memorial_id);
                //echo "<br>---------- getPhotoArray -----<br>";
               if (!$array_of[paging]["next"]==NULL){
               	$next_next = $this->getNext($array_of);	
-              	echo "next call --- $next_next_next";
-              	$this->getPhotoArray($next_next);              	
+              	echo "next call --- $next_next";
+              	$this->getPhotoArray($test,$next_next);              	
               }              
          }
 
@@ -94,8 +98,8 @@
                                           $comments_user_id = ($value2["from"]["id"]); 
                                           $comments_user_comment = ($value2["message"]); 
                                                                                                     
-                                          $query2 = "INSERT INTO  `Vixen_test`.`comments` (`comment_id` ,`comment` ,`comment_type` ,`commenter_fb_id` ,`commenter_name` ,`memorial_id` ,`commented_item_id`)VALUES (
-													NULL ,  '$comments_user_comment',  'photo',  '$comments_user_id',  '$comments_user_name',  '$memorial_id',  '$photo_id')";                
+                                          $query2 = "INSERT INTO  `Vixen_test`.`comments` (`comment` ,`comment_type` ,`commenter_fb_id` ,`commenter_name` ,`memorial_id` ,`commented_item_id`)VALUES (
+													'$comments_user_comment',  'photo',  '$comments_user_id',  '$comments_user_name',  '$memorial_id',  '$photo_id')";                
                   						  //echo "this is Q2 -- $query2";
                   						  $db->raw_query($query2);
   								}
@@ -154,13 +158,13 @@
 //         }
          
 
-//        public function downloadDeceasedPhotos ($url_to_download){
+        public function downloadDeceasedPhotos ($url_to_download){
         	// take the $url and save it to the images/deceased folder
-//        	$url = $url_to_download;
-//			$img = $this->basenamePhotoUrl($url);
+        	$url = $url_to_download;
+			$img = $this->basenamePhotoUrl($url);
 //			echo "<br> url = $url and the destination file name is $img <br>";
-//			file_put_contents($img, file_get_contents($url));
-//		}
+			file_put_contents($img, file_get_contents($url));
+		}
 
 		
  		public function basenamePhotoUrl($url){
