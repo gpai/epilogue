@@ -18,6 +18,12 @@ class Database {
 		$this->_sql_host = $host;
 
 		$this->connection = new mysqli($this->_sql_host, $this->_sql_user, $this->_sql_pass, $this->_sql_db);
+		
+		/* check connection */
+		if ($this->connection->connect_errno) {
+			printf("Connect failed: %s\n", $this->connection->connect_error);
+			exit();
+		}
 	}
 	
 	/**
@@ -35,7 +41,7 @@ class Database {
 	public function query($sql) {
 		$res = mysqli_query($this->connection, $sql); 
 		if (!$res) { 
-			throw new Exception(mysqli_error($this->connection).". Full query: [$sql]"); 
+			throw new Exception(mysqli_error($this->connection)." -- Full query: [$sql]"); 
 		};
 		return $res;
 	}
@@ -43,7 +49,7 @@ class Database {
 	public function fetchOne($sql) {
 		$res = mysqli_query($this->connection, $sql); 
 		if (!$res) { 
-			throw new Exception(mysqli_error($this->connection).". Full query: [$sql]"); 
+			throw new Exception(mysqli_error($this->connection)." -- Full query: [$sql]"); 
 		};
 		$rs = $this->query($sql);
 		$result = $rs->fetch_assoc();
@@ -55,7 +61,7 @@ class Database {
 	public function fetchAll($sql) {
 		$res = mysqli_query($this->connection, $sql); 
 		if (!$res) { 
-			throw new Exception(mysqli_error($this->connection).". Full query: [$sql]"); 
+			throw new Exception(mysqli_error($this->connection)." -- Full query: [$sql]"); 
 		};
 		
 		$q = $this->raw_query($sql);
@@ -76,12 +82,12 @@ class Database {
 		## 	users may be added... we must check for sessions
 		##	made for the current user first.
 		##
-		global $config;
+		$config = Registry::getInstance()->get("config");
 		$result = $this->fetchOne("SELECT COUNT( * ) AS TOTALFOUND FROM ".$config['session']['dbtable']." WHERE `user_id` = '". $id ."' LIMIT 1");
 
 		
 		if ($result['TOTALFOUND'] > 0) {
-			$this->raw_query("DELETE FROM `epi_sessions` WHERE `user_id` = '". $id ."'");
+			$this->raw_query("DELETE FROM ".$config['session']['dbtable']." WHERE `user_id` = '". $id ."'");
 		}
 		$this->raw_query("INSERT INTO  ".$config['session']['dbtable']." (
 					`last_activity` ,
@@ -102,7 +108,8 @@ class Database {
 	 * @return boolean
 	 */
 	public function query_session_destroy() {
-		return $this->query("DELETE FROM `epi_sessions` WHERE `user_id` = '". $_SESSION['epi_id'] ."'");
+		$config = Registry::getInstance()->get("config");
+		return $this->query("DELETE FROM ".$config['session']['dbtable']." WHERE `user_id` = '". $_SESSION['epi_id'] ."'");
 	}
 
 	function __destruct() {

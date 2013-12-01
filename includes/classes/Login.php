@@ -3,7 +3,7 @@
 class Login {
 	
 	public static function isLoggedIn() {
-		global $facebook;
+		$facebook = Registry::getInstance()->get("fb");
 		
 		// First check to see if they are logged in
 		$user = $facebook->getUser();
@@ -18,7 +18,8 @@ class Login {
 
 	
 	public static function getLoginUrl() {
-		global $facebook, $config;
+		$config = Registry::getInstance()->get("config");
+		$facebook = Registry::getInstance()->get("fb");
 		
 		$params = array(
 				'scope' => $config['fb']['scope'],
@@ -31,9 +32,9 @@ class Login {
 	
 	public static function logout() {
 		if (self::isLoggedIn()) {
-			
-			var_dump(Session::destroy());
-			return "foo";
+// 			Registry::getInstance()->get("fb")->setSession(null);
+			Session::destroy();
+			return true;
 		}else{
 			return true;
 		}
@@ -41,7 +42,8 @@ class Login {
 	}
 	
 	public static function getLogoutUrl() {
-		global $facebook, $config;
+		$config = Registry::getInstance()->get("config");
+		$facebook = Registry::getInstance()->get("fb");
 		
 		$params = array(
 				'scope' => $config['fb']['scope'],
@@ -53,7 +55,8 @@ class Login {
 	}
 	
 	public static function getFacebookStatusUrl() {
-		global $facebook, $config;
+		$config = Registry::getInstance()->get("config");
+		$facebook = Registry::getInstance()->get("fb");
 		
 		$params = array(
 				'scope' => $config['fb']['scope'],
@@ -65,7 +68,8 @@ class Login {
 	}
 	
 	public static function checkFacebookPermissions() {
-		global $facebook, $config;
+		$config = Registry::getInstance()->get("config");
+		$facebook = Registry::getInstance()->get("fb");
 		
 		$permissions = $facebook->api("/me/permissions");
 		$configPerms = explode(", ", $config['fb']['scope']);
