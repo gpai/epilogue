@@ -39,8 +39,8 @@ class Epilogue {
 		$db = Registry::getInstance()->get("db");
 		$check = $db->fetchOne("SELECT COUNT(*) AS TOTALFOUND FROM user WHERE fb_id = '". $fbId ."' LIMIT 1");
 		if (!is_array($check) || !isset($check['TOTALFOUND']))
-				throw new Exception("Was excpecting an array with a value for TOTALFOUND.");
-			return ($check['TOTALFOUND']);
+			throw new Exception("Was excpecting an array with a value for TOTALFOUND.");
+		return ($check['TOTALFOUND']);
 	}
 
 	private function makeAccount($fbId) {
