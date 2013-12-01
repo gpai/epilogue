@@ -14128,3 +14128,933 @@ Stack trace:
 #0 /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Database.php(32): Database->query('INSERT INTO  `V...')
 #1 /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php(104): Database->raw_query('INSERT INTO  `V...')
 #2 /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php(3 in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Database.php on line 38
+[01-Dec-2013 16:26:09 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 16:26:09 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 16:26:09 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 110
+[01-Dec-2013 16:26:09 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 125
+[01-Dec-2013 16:26:09 Europe/Berlin] PHP Notice:  Undefined variable: mysqli in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 143
+[01-Dec-2013 16:26:09 Europe/Berlin] PHP Fatal error:  Call to a member function real_escape_string() on a non-object in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 143
+[01-Dec-2013 16:26:26 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 16:26:26 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 16:26:26 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 110
+[01-Dec-2013 16:26:26 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 125
+[01-Dec-2013 16:26:26 Europe/Berlin] PHP Notice:  Undefined variable: mysqli in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 143
+[01-Dec-2013 16:26:26 Europe/Berlin] PHP Fatal error:  Call to a member function real_escape_string() on a non-object in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 143
+[01-Dec-2013 16:26:52 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 16:26:52 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 16:26:52 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 110
+[01-Dec-2013 16:26:52 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 125
+[01-Dec-2013 16:26:52 Europe/Berlin] PHP Notice:  Undefined variable: mysqli in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 143
+[01-Dec-2013 16:26:52 Europe/Berlin] PHP Fatal error:  Call to a member function real_escape_string() on a non-object in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 143
+[01-Dec-2013 16:27:37 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 16:27:37 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 16:27:37 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 110
+[01-Dec-2013 16:27:37 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 125
+[01-Dec-2013 16:27:37 Europe/Berlin] PHP Notice:  Undefined variable: mysqli in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 143
+[01-Dec-2013 16:27:37 Europe/Berlin] PHP Fatal error:  Call to a member function real_escape_string() on a non-object in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 143
+[01-Dec-2013 16:34:30 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 16:34:31 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 16:34:31 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 110
+[01-Dec-2013 16:34:31 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 125
+[01-Dec-2013 16:34:31 Europe/Berlin] PHP Fatal error:  Call to undefined method Database::real_escape_string() in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 143
+[01-Dec-2013 16:39:46 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 16:39:46 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 16:39:46 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 110
+[01-Dec-2013 16:39:46 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 125
+[01-Dec-2013 16:39:46 Europe/Berlin] PHP Fatal error:  Call to undefined method Photo::real_escape_string() in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 143
+[01-Dec-2013 17:37:22 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:22 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:22 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:22 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:22 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:22 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:22 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:22 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:22 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:22 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:22 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:22 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:22 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:22 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:22 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:22 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:23 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:24 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:25 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:25 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:25 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:25 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:25 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:25 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:25 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:25 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:25 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:25 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:25 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:25 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:25 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:25 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:25 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:25 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:25 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Use of undefined constant paging - assumed 'paging' in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 35
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Use of undefined constant paging - assumed 'paging' in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 44
+[01-Dec-2013 17:37:26 Europe/Berlin] PHP Notice:  Use of undefined constant paging - assumed 'paging' in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 45
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:43 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:44 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:45 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:45 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:45 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:45 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:45 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:45 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:45 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:45 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:45 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:45 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:45 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:45 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:45 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:45 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:45 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:45 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:45 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:45 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:45 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:45 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:45 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:45 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:45 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:45 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:45 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:45 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:45 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:45 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:46 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:47 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:48 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Notice:  Use of undefined constant paging - assumed 'paging' in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 35
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Notice:  Use of undefined constant paging - assumed 'paging' in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 44
+[01-Dec-2013 17:37:49 Europe/Berlin] PHP Notice:  Use of undefined constant paging - assumed 'paging' in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 45
+[01-Dec-2013 17:38:03 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:03 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:03 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:03 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:03 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:03 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:03 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:03 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:03 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:03 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:03 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:03 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:03 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:03 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:03 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:03 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:03 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:03 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:03 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:03 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:03 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:03 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:04 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: id in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 79
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: id in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 79
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:05 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:06 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:07 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:08 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:09 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:09 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 100
+[01-Dec-2013 17:38:09 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:09 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:09 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:09 Europe/Berlin] PHP Notice:  Use of undefined constant paging - assumed 'paging' in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 35
+[01-Dec-2013 17:38:09 Europe/Berlin] PHP Notice:  Use of undefined constant paging - assumed 'paging' in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 44
+[01-Dec-2013 17:38:09 Europe/Berlin] PHP Notice:  Use of undefined constant paging - assumed 'paging' in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 45
+[01-Dec-2013 17:38:12 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:12 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:12 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:12 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:12 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:12 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:12 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:12 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:12 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:12 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:12 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:12 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:12 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:12 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:12 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:12 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:12 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:12 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:12 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:12 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:12 Europe/Berlin] PHP Notice:  Undefined index: tags in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 74
+[01-Dec-2013 17:38:12 Europe/Berlin] PHP Notice:  Undefined index: comments in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 90
+[01-Dec-2013 17:38:12 Europe/Berlin] PHP Notice:  Undefined index: likes in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 111
+[01-Dec-2013 17:38:12 Europe/Berlin] PHP Notice:  Undefined index: shares in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 126
+[01-Dec-2013 17:38:12 Europe/Berlin] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 144
+[01-Dec-2013 17:38:12 Europe/Berlin] PHP Notice:  Use of undefined constant paging - assumed 'paging' in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 35
+[01-Dec-2013 17:38:12 Europe/Berlin] PHP Notice:  Use of undefined constant paging - assumed 'paging' in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 44
+[01-Dec-2013 17:38:12 Europe/Berlin] PHP Notice:  Use of undefined constant paging - assumed 'paging' in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 45
+[01-Dec-2013 17:38:13 Europe/Berlin] PHP Notice:  Use of undefined constant paging - assumed 'paging' in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 35
+[01-Dec-2013 17:38:13 Europe/Berlin] PHP Notice:  Undefined index: paging in /Users/sarahhuffman/working_epilogue/sandbox/marie/includes/classes/Photo.php on line 35

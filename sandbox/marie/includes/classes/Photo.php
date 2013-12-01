@@ -29,7 +29,7 @@
               $array_of = $fb->api($call_for_photos);
              
               echo "--- next line <br>";
-              $this->deceasedPhotosFromFacebookToFolder($array_of);
+//              $this->deceasedPhotosFromFacebookToFolder($array_of);
               $this->insertFacebookPhotoInfo($array_of, $this->memorial_id);
                //echo "<br>---------- getPhotoArray -----<br>";
               if (!$array_of[paging]["next"]==NULL){
@@ -97,9 +97,11 @@
                                           $comments_user_name = ($value2["from"]["name"]); 
                                           $comments_user_id = ($value2["from"]["id"]); 
                                           $comments_user_comment = ($value2["message"]); 
+                                          $the_comment = mysqli_real_escape_string($db, $comments_user_comment);
+                                          //$the_comment = $this->real_escape_string($comments_user_comment);
                                                                                                     
                                           $query2 = "INSERT INTO  `Vixen_test`.`comments` (`comment` ,`comment_type` ,`commenter_fb_id` ,`commenter_name` ,`memorial_id` ,`commented_item_id`)VALUES (
-													'$comments_user_comment',  'photo',  '$comments_user_id',  '$comments_user_name',  '$memorial_id',  '$photo_id')";                
+													'$the_comment',  'photo',  '$comments_user_id',  '$comments_user_name',  '$memorial_id',  '$photo_id')";                
                   						  //echo "this is Q2 -- $query2";
                   						  $db->raw_query($query2);
   								}
@@ -139,8 +141,10 @@
                           } 
                           
                           $photo_file_name = $this->basenamePhotoFilename($photo_url);
-                          
-						  $test = "INSERT INTO `Vixen_test`.`photo` (`photo_id`, `url`, `comment_id`, `like_id`, `share_id`, `tag_id`, `meaning_rank`, `photo_date`, `caption`, `album_id`, `album_name`, `to_be_approved`, `memorial_id`, `vote`, `photo_create_date`, `photo_user_id`) VALUES ('$photo_id', '$photo_file_name', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0', '$memorial_id', '1', '$photo_create_date', '$fb_user_id_of_photo');";
+                          $the_caption = $city = mysqli_real_escape_string($db, $caption); //$this->real_escape_string($caption);
+						  $total_meaning = $t+$l+$c+$s;
+						  $test = "INSERT INTO `Vixen_test`.`photo` (`photo_id`, `url`, `comment_id`, `like_id`, `share_id`, `tag_id`, `meaning_rank`, `photo_date`, `caption`, `album_id`, `album_name`, `to_be_approved`, `memorial_id`, `vote`, `photo_create_date`, `photo_user_id`) VALUES (" .
+						  		"'$photo_id', '$photo_file_name', NULL, NULL, NULL, NULL, $total_meaning, NULL, '$the_caption', NULL, NULL, '0', '$memorial_id', '1', '$photo_create_date', '$fb_user_id_of_photo');";
 						  $db->raw_query($test); 
                       
         		}
