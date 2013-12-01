@@ -3,7 +3,7 @@
 class Login {
 	
 	public static function isLoggedIn() {
-		global $facebook;
+		$facebook = Registry::getInstance()->get("fb");
 		
 		// First check to see if they are logged in
 		$user = $facebook->getUser();
@@ -15,6 +15,7 @@ class Login {
 		return self::checkFacebookPermissions();
 		
 	}
+
 	
 	public static function getLoginUrl() {
 		global $facebook, $config;
@@ -30,9 +31,9 @@ class Login {
 	
 	public static function logout() {
 		if (self::isLoggedIn()) {
-			
-			var_dump(Session::destroy());
-			return "foo";
+// 			Registry::getInstance()->get("fb")->setSession(null);
+			Session::destroy();
+			return true;
 		}else{
 			return true;
 		}
