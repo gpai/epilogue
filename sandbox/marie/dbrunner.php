@@ -84,7 +84,7 @@ echo "-- MEMORIAL class code ran below --<br>";
 echo "<br>--Memorial class done -----<br>";
 
 
-echo "<br>-- PHOTO class below -!!-<br>";
+echo "<br>-- PHOTO class below ------<br>";
 // Photo Stuff - get array of photo info back from facebook and then do stuff with the array
 
 // -------------- stub data
@@ -92,12 +92,12 @@ echo "<br>-- PHOTO class below -!!-<br>";
 $whosphoto = "1280040613"; //Nafiri's id
 //$photo_id = "0981";
 //$vote = 1;
-$memorial_id = 1;
+$memorial_id = "1";
 
 $objPhoto = new Photo($whosphoto, $memorial_id);
 
 //echo "<br>---- download ALL of Nafiri's public photos into my image folder ----<br>";
-$objPhoto->getPhotoArray($whosphoto);
+$objPhoto->getPhotoArray($whosphoto, $memorial_id);
 
 
 // echo "<br>--";

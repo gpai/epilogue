@@ -11,31 +11,35 @@
 		private $memorial_id; 
 		private $user_id;
 
+
     	function setPhotoParameters($user_id, $memorial_id) {
     		$this->user_id = $user_id;
         	$this->memorial_id = $memorial_id;
     	}    
          
-         public function getPhotoArray($test,$next_call=''){
+         public function getPhotoArray($test,$memorial_id, $next_call=''){
+
+				
                  // get array of first 25 from facebook                
               $fb = Registry::getInstance()->get("fb");  
-              echo "<br>****************** !!!! **************<br>";
+              echo "<br>****************   ???  ****************<br>";
                //echo $user_id.'/photos?limit=25';
  //             $call_for_photos = $this->user_id.'/photos?limit=50'.$next_call;
               $call_for_photos = $test.'/photos?limit=50'.$next_call;
               echo $call_for_photos;
-    
-              echo "<br>***************** ?????  ***************<br>";
+              echo "------- what is the memorial id";
+              var_dump($memorial_id);
+              echo "<br>**************************************<br>";
               $array_of = $fb->api($call_for_photos);
              
               echo "--- next line <br>";
 //              $this->deceasedPhotosFromFacebookToFolder($array_of);
-              $this->insertFacebookPhotoInfo($array_of, $this->memorial_id);
+              $this->insertFacebookPhotoInfo($array_of, $memorial_id);
                //echo "<br>---------- getPhotoArray -----<br>";
               if (!$array_of[paging]["next"]==NULL){
               	$next_next = $this->getNext($array_of);	
               	echo "next call --- $next_next";
-              	$this->getPhotoArray($test,$next_next);              	
+              	$this->getPhotoArray($test,$memorial_id,$next_next);              	
               }              
          }
 
@@ -62,6 +66,12 @@
                 $photo_url ="";
                 $photo_create_date = "";
                 $fb_user_id_of_photo = "";
+ 
+          		$c = NULL;
+				$t = NULL;
+				$l = NULL;		
+				$s = NULL;
+				
                 
                 foreach ($arr_of_photos["data"] as $value){
           		
@@ -139,19 +149,26 @@
                                  }
                           	}
                           } 
-                          
+ 
                           $photo_file_name = $this->basenamePhotoFilename($photo_url);
-                          $the_caption = $city = mysqli_real_escape_string($db, $caption); //$this->real_escape_string($caption);
+                          if (isset($caption)){
+                          	$the_caption = mysqli_real_escape_string($db, $caption); //$this->real_escape_string($caption);                          	
+                          }
+
 						  $total_meaning = $t+$l+$c+$s;
+						  
 						  $test = "INSERT INTO `Vixen_test`.`photo` (`photo_id`, `url`, `comment_id`, `like_id`, `share_id`, `tag_id`, `meaning_rank`, `photo_date`, `caption`, `album_id`, `album_name`, `to_be_approved`, `memorial_id`, `vote`, `photo_create_date`, `photo_user_id`) VALUES (" .
-						  		"'$photo_id', '$photo_file_name', NULL, NULL, NULL, NULL, $total_meaning, NULL, '$the_caption', NULL, NULL, '0', '$memorial_id', '1', '$photo_create_date', '$fb_user_id_of_photo');";
+						  		"'$photo_id', '$photo_file_name', '$c', '$l', '$s', '$t', $total_meaning, NULL, '$the_caption', NULL, NULL, '0', '$memorial_id', '1', '$photo_create_date', '$fb_user_id_of_photo');";
+
+							//echo "what is this-----???----<br>";
+							//echo "memorial id : <br>";
+							//var_dump($memorial_id);
+							//var_dump($test);	
 						  $db->raw_query($test); 
                       
         		}
         }
-  
-
-
+ 
          
  //        public function getDeceasedPhotos($deceased_facebook_user_id){
          	// get all the deceased's photos from facebook - one time dealio?
