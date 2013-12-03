@@ -12,7 +12,7 @@ require_once "includes/classes/Photo.php";
 require_once "includes/classes/Session.php";
 require_once "includes/classes/User.php";
 require_once "includes/classes/Video.php";
-echo "classes finish line";
+//echo "classes finish line";
 //Needs friends list from Marie
 
 //User decides on the friend and save the deceased's FB_id and possible other information.
@@ -20,7 +20,7 @@ echo "classes finish line";
 //User decides whether or not they want collaborators.
 //If yes on collaboration, users will select their friends names from their friend's list.
 //When "Continue" is clicked, all information not yet stored in the DB will be stored. (possibly as one packet)
-echo "save new one";
+//echo "save new one";
 $login = new Login();
 //name of the deceased
 // echo $_GET["name"].":name of the deceased";
