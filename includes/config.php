@@ -51,8 +51,8 @@ $config['fb']['appId'] = '665113106856066';
 $config['fb']['secret'] = '2d230b0ad9a39b85f68d4aa235d8d8ee';
 $config['fb']['fileUpload'] = false; // optional
 $config['fb']['scope'] = "read_stream, friends_likes, user_status";
-$config['fb']['redirectLogin'] = ""; // example: "http://localhost/YOUR-SANDBOX/login.php"
-$config['fb']['redirectLogout'] = ""; //example: "http://localhost/YOUR-SANDBOX/logout.php"
+$config['fb']['redirectLogin'] = "http://localhost/epilogue/profile.php"; // example: "http://localhost/YOUR-SANDBOX/login.php"
+$config['fb']['redirectLogout'] = "http://localhost/epilogue/index.php"; //example: "http://localhost/YOUR-SANDBOX/logout.php"
 $config['fb']['cookie'] = true; // optional
 
 if ($config['fb']['redirectLogin'] == "" || $config['fb']['redirectLogout'] == "")

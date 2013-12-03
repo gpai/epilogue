@@ -23,16 +23,16 @@ $epilogue_user_id = "100005789522071";
 echo $epilogue_user_id;
 //Y=sent invitation, N=did not send invitation, A=accepted invitation
 $invited = "Y";
-$memorial_id= $memorial->insertNewMemorial($epilogue_user_id, $deceased_facebook_user_id, $deceased_name, $death_date, $memorial_tagline);
+//$memorial_id= $memorial->insertNewMemorial($epilogue_user_id, $deceased_facebook_user_id, $deceased_name, $death_date, $memorial_tagline);
 
-$friendsList= $facebookFriends->getCollaborators($epilogue_user_id, $invited, $memorial_id);
+//$friendsList= $facebookFriends->getCollaborators($epilogue_user_id, $invited, $memorial_id);
 //var_dump($friendsList);
 
 //Have Marie give me a function to add a new memorial id/space for user. When "Create New" is clicked.
   //to create a new memorial Marie needs: epilogue_user_id, decesed_facebook_user_id, deseased_name
 //Will get list of memorials from DB/Marie
-$memorial = new Memorial();
-$memorialList=$memorial->listMemorialId($epilogue_user_id);
+//$memorial = new Memorial();
+//$memorialList=$memorial->listMemorialId($epilogue_user_id);
 //the call above gives back the memorial id, the deceased name as a string, and epilogue user id. This will be for every memorial that the user has.
 // Replace with call to Marie's code that gives you an array of memorials.
 
@@ -42,6 +42,6 @@ $memorialList=$memorial->listMemorialId($epilogue_user_id);
 
 
 // Load the template
-include "profile.phtml";
+include "pages/profile.phtml";
 
 ?>

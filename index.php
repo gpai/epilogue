@@ -27,7 +27,7 @@ require_once "includes/classes/Video.php";
     
     //Marie obtains their public Facebook information after logging in.
     
-include "index.phtml";
+include "pages/index.phtml";
    
 ?>
 
