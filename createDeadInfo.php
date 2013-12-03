@@ -39,5 +39,5 @@ $deceased_facebook_uer_id = "123";
 $memorialId=$memorialInfo->insertNewMemorial($epilogue_user_id, $deceased_facebook_user_id, $deceasedName, $dateOfDeath, $tagline);
 echo $memorialId;
 
-include "createDeadInfo.phtml";
+include "create_info.phtml";
 ?>
