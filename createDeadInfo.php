@@ -36,7 +36,7 @@ $login = new Login();
 $memorialInfo = new Memorial();
 $epilogue_user_id = "100005789522071";
 $deceased_facebook_uer_id = "123";
-//$memorialId=$memorialInfo->insertNewMemorial($epilogue_user_id, $deceased_facebook_user_id, $deceasedName, $dateOfDeath, $tagline);
+$memorialId=$memorialInfo->insertNewMemorial($epilogue_user_id, $deceased_facebook_user_id, $deceasedName, $dateOfDeath, $tagline);
 //echo $memorialId;
 
 include "pages/create_info.phtml";
