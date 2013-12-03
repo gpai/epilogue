@@ -6583,3 +6583,645 @@ Stack trace:
 [29-Nov-2013 23:19:25 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
 [29-Nov-2013 23:19:25 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:28
 [29-Nov-2013 23:19:25 UTC] PHP   3. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php:45
+[29-Nov-2013 23:31:48 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[29-Nov-2013 23:31:48 UTC] PHP Stack trace:
+[29-Nov-2013 23:31:48 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:31:48 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[29-Nov-2013 23:31:48 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[29-Nov-2013 23:31:48 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 23
+[29-Nov-2013 23:31:48 UTC] PHP Stack trace:
+[29-Nov-2013 23:31:48 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:31:48 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:31:48 UTC] PHP Stack trace:
+[29-Nov-2013 23:31:48 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:31:48 UTC] PHP Notice:  Undefined variable: deceased_facebook_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:31:48 UTC] PHP Stack trace:
+[29-Nov-2013 23:31:48 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:31:48 UTC] PHP Notice:  Undefined variable: deceased_name in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:31:48 UTC] PHP Stack trace:
+[29-Nov-2013 23:31:48 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:31:48 UTC] PHP Notice:  Undefined variable: death_date in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:31:48 UTC] PHP Stack trace:
+[29-Nov-2013 23:31:48 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:31:48 UTC] PHP Notice:  Undefined variable: memorial_tagline in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:31:48 UTC] PHP Stack trace:
+[29-Nov-2013 23:31:48 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:31:48 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 28
+[29-Nov-2013 23:31:48 UTC] PHP Stack trace:
+[29-Nov-2013 23:31:48 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:31:48 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 45
+[29-Nov-2013 23:31:48 UTC] PHP Stack trace:
+[29-Nov-2013 23:31:48 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:31:48 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:28
+[29-Nov-2013 23:31:48 UTC] PHP   3. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php:45
+[29-Nov-2013 23:32:43 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[29-Nov-2013 23:32:43 UTC] PHP Stack trace:
+[29-Nov-2013 23:32:43 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:32:43 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[29-Nov-2013 23:32:43 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[29-Nov-2013 23:32:43 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 23
+[29-Nov-2013 23:32:43 UTC] PHP Stack trace:
+[29-Nov-2013 23:32:43 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:32:43 UTC] PHP Fatal error:  Call to undefined method Memorial::insertNewMemorial() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:32:43 UTC] PHP Stack trace:
+[29-Nov-2013 23:32:43 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:32:47 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[29-Nov-2013 23:32:47 UTC] PHP Stack trace:
+[29-Nov-2013 23:32:47 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:32:47 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[29-Nov-2013 23:32:47 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[29-Nov-2013 23:32:47 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 23
+[29-Nov-2013 23:32:47 UTC] PHP Stack trace:
+[29-Nov-2013 23:32:47 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:32:47 UTC] PHP Fatal error:  Call to undefined method Memorial::insertNewMemorial() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:32:47 UTC] PHP Stack trace:
+[29-Nov-2013 23:32:47 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:38:21 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[29-Nov-2013 23:38:21 UTC] PHP Stack trace:
+[29-Nov-2013 23:38:21 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:38:21 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[29-Nov-2013 23:38:21 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[29-Nov-2013 23:38:21 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 23
+[29-Nov-2013 23:38:21 UTC] PHP Stack trace:
+[29-Nov-2013 23:38:21 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:38:21 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:38:21 UTC] PHP Stack trace:
+[29-Nov-2013 23:38:21 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:38:21 UTC] PHP Notice:  Undefined variable: deceased_facebook_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:38:21 UTC] PHP Stack trace:
+[29-Nov-2013 23:38:21 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:38:21 UTC] PHP Notice:  Undefined variable: deceased_name in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:38:21 UTC] PHP Stack trace:
+[29-Nov-2013 23:38:21 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:38:21 UTC] PHP Notice:  Undefined variable: death_date in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:38:21 UTC] PHP Stack trace:
+[29-Nov-2013 23:38:21 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:38:21 UTC] PHP Notice:  Undefined variable: memorial_tagline in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:38:21 UTC] PHP Stack trace:
+[29-Nov-2013 23:38:21 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:38:21 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 28
+[29-Nov-2013 23:38:21 UTC] PHP Stack trace:
+[29-Nov-2013 23:38:21 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:38:21 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 45
+[29-Nov-2013 23:38:21 UTC] PHP Stack trace:
+[29-Nov-2013 23:38:21 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:38:21 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:28
+[29-Nov-2013 23:38:21 UTC] PHP   3. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php:45
+[29-Nov-2013 23:40:04 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[29-Nov-2013 23:40:04 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:04 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:04 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[29-Nov-2013 23:40:04 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[29-Nov-2013 23:40:04 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 23
+[29-Nov-2013 23:40:04 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:04 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:04 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:40:04 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:04 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:04 UTC] PHP Notice:  Undefined variable: deceased_facebook_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:40:04 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:04 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:04 UTC] PHP Notice:  Undefined variable: deceased_name in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:40:04 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:04 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:04 UTC] PHP Notice:  Undefined variable: death_date in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:40:04 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:04 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:04 UTC] PHP Notice:  Undefined variable: memorial_tagline in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:40:04 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:04 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:04 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 28
+[29-Nov-2013 23:40:04 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:04 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:04 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 45
+[29-Nov-2013 23:40:04 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:04 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:04 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:28
+[29-Nov-2013 23:40:04 UTC] PHP   3. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php:45
+[29-Nov-2013 23:40:16 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[29-Nov-2013 23:40:16 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:16 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:16 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[29-Nov-2013 23:40:16 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[29-Nov-2013 23:40:16 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 23
+[29-Nov-2013 23:40:16 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:16 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:16 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:40:16 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:16 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:16 UTC] PHP Notice:  Undefined variable: deceased_facebook_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:40:16 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:16 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:16 UTC] PHP Notice:  Undefined variable: deceased_name in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:40:16 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:16 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:16 UTC] PHP Notice:  Undefined variable: death_date in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:40:16 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:16 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:16 UTC] PHP Notice:  Undefined variable: memorial_tagline in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:40:16 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:16 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:16 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 28
+[29-Nov-2013 23:40:16 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:16 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:16 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 45
+[29-Nov-2013 23:40:16 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:16 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:16 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:28
+[29-Nov-2013 23:40:16 UTC] PHP   3. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php:45
+[29-Nov-2013 23:40:18 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[29-Nov-2013 23:40:18 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:18 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:18 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[29-Nov-2013 23:40:18 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[29-Nov-2013 23:40:18 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 23
+[29-Nov-2013 23:40:18 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:18 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:18 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:40:18 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:18 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:18 UTC] PHP Notice:  Undefined variable: deceased_facebook_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:40:18 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:18 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:18 UTC] PHP Notice:  Undefined variable: deceased_name in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:40:18 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:18 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:18 UTC] PHP Notice:  Undefined variable: death_date in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:40:18 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:18 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:18 UTC] PHP Notice:  Undefined variable: memorial_tagline in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:40:18 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:18 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:18 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 28
+[29-Nov-2013 23:40:18 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:18 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:18 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 45
+[29-Nov-2013 23:40:18 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:18 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:18 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:28
+[29-Nov-2013 23:40:18 UTC] PHP   3. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php:45
+[29-Nov-2013 23:40:26 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[29-Nov-2013 23:40:26 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:26 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:26 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[29-Nov-2013 23:40:26 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[29-Nov-2013 23:40:30 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 23
+[29-Nov-2013 23:40:30 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:30 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:40:30 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:30 UTC] PHP Notice:  Undefined variable: deceased_facebook_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:40:30 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:30 UTC] PHP Notice:  Undefined variable: deceased_name in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:40:30 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:30 UTC] PHP Notice:  Undefined variable: death_date in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:40:30 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:30 UTC] PHP Notice:  Undefined variable: memorial_tagline in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:40:30 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:30 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 28
+[29-Nov-2013 23:40:30 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:30 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 45
+[29-Nov-2013 23:40:30 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:30 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:28
+[29-Nov-2013 23:40:30 UTC] PHP   3. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php:45
+[29-Nov-2013 23:40:30 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[29-Nov-2013 23:40:30 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:30 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[29-Nov-2013 23:40:30 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[29-Nov-2013 23:40:30 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 23
+[29-Nov-2013 23:40:30 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:30 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:40:30 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:30 UTC] PHP Notice:  Undefined variable: deceased_facebook_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:40:30 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:30 UTC] PHP Notice:  Undefined variable: deceased_name in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:40:30 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:30 UTC] PHP Notice:  Undefined variable: death_date in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:40:30 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:30 UTC] PHP Notice:  Undefined variable: memorial_tagline in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:40:30 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:30 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 28
+[29-Nov-2013 23:40:30 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:30 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 45
+[29-Nov-2013 23:40:30 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:30 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:28
+[29-Nov-2013 23:40:30 UTC] PHP   3. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php:45
+[29-Nov-2013 23:40:30 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[29-Nov-2013 23:40:30 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:30 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[29-Nov-2013 23:40:30 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[29-Nov-2013 23:40:30 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 23
+[29-Nov-2013 23:40:30 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:30 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:40:30 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:30 UTC] PHP Notice:  Undefined variable: deceased_facebook_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:40:30 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:30 UTC] PHP Notice:  Undefined variable: deceased_name in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:40:30 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:30 UTC] PHP Notice:  Undefined variable: death_date in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:40:30 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:30 UTC] PHP Notice:  Undefined variable: memorial_tagline in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:40:30 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:30 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 28
+[29-Nov-2013 23:40:30 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:30 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 45
+[29-Nov-2013 23:40:30 UTC] PHP Stack trace:
+[29-Nov-2013 23:40:30 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:40:30 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:28
+[29-Nov-2013 23:40:30 UTC] PHP   3. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php:45
+[29-Nov-2013 23:42:36 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[29-Nov-2013 23:42:36 UTC] PHP Stack trace:
+[29-Nov-2013 23:42:36 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:42:36 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[29-Nov-2013 23:42:36 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[29-Nov-2013 23:42:36 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 23
+[29-Nov-2013 23:42:36 UTC] PHP Stack trace:
+[29-Nov-2013 23:42:36 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:42:36 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:42:36 UTC] PHP Stack trace:
+[29-Nov-2013 23:42:36 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:42:36 UTC] PHP Notice:  Undefined variable: deceased_facebook_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:42:36 UTC] PHP Stack trace:
+[29-Nov-2013 23:42:36 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:42:36 UTC] PHP Notice:  Undefined variable: deceased_name in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:42:36 UTC] PHP Stack trace:
+[29-Nov-2013 23:42:36 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:42:36 UTC] PHP Notice:  Undefined variable: death_date in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:42:36 UTC] PHP Stack trace:
+[29-Nov-2013 23:42:36 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:42:36 UTC] PHP Notice:  Undefined variable: memorial_tagline in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:42:36 UTC] PHP Stack trace:
+[29-Nov-2013 23:42:36 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:42:36 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 28
+[29-Nov-2013 23:42:36 UTC] PHP Stack trace:
+[29-Nov-2013 23:42:36 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:42:36 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 45
+[29-Nov-2013 23:42:36 UTC] PHP Stack trace:
+[29-Nov-2013 23:42:36 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:42:36 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:28
+[29-Nov-2013 23:42:36 UTC] PHP   3. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php:45
+[29-Nov-2013 23:42:38 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[29-Nov-2013 23:42:38 UTC] PHP Stack trace:
+[29-Nov-2013 23:42:38 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:42:38 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[29-Nov-2013 23:42:38 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[29-Nov-2013 23:42:38 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 23
+[29-Nov-2013 23:42:38 UTC] PHP Stack trace:
+[29-Nov-2013 23:42:38 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:42:38 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:42:38 UTC] PHP Stack trace:
+[29-Nov-2013 23:42:38 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:42:38 UTC] PHP Notice:  Undefined variable: deceased_facebook_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:42:38 UTC] PHP Stack trace:
+[29-Nov-2013 23:42:38 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:42:38 UTC] PHP Notice:  Undefined variable: deceased_name in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:42:38 UTC] PHP Stack trace:
+[29-Nov-2013 23:42:38 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:42:38 UTC] PHP Notice:  Undefined variable: death_date in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:42:38 UTC] PHP Stack trace:
+[29-Nov-2013 23:42:38 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:42:38 UTC] PHP Notice:  Undefined variable: memorial_tagline in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:42:38 UTC] PHP Stack trace:
+[29-Nov-2013 23:42:38 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:42:38 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 28
+[29-Nov-2013 23:42:38 UTC] PHP Stack trace:
+[29-Nov-2013 23:42:38 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:42:38 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 45
+[29-Nov-2013 23:42:38 UTC] PHP Stack trace:
+[29-Nov-2013 23:42:38 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:42:38 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:28
+[29-Nov-2013 23:42:38 UTC] PHP   3. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php:45
+[29-Nov-2013 23:42:39 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[29-Nov-2013 23:42:39 UTC] PHP Stack trace:
+[29-Nov-2013 23:42:39 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:42:39 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[29-Nov-2013 23:42:39 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[29-Nov-2013 23:42:39 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 23
+[29-Nov-2013 23:42:39 UTC] PHP Stack trace:
+[29-Nov-2013 23:42:39 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:42:39 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:42:39 UTC] PHP Stack trace:
+[29-Nov-2013 23:42:39 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:42:39 UTC] PHP Notice:  Undefined variable: deceased_facebook_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:42:39 UTC] PHP Stack trace:
+[29-Nov-2013 23:42:39 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:42:39 UTC] PHP Notice:  Undefined variable: deceased_name in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:42:39 UTC] PHP Stack trace:
+[29-Nov-2013 23:42:39 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:42:39 UTC] PHP Notice:  Undefined variable: death_date in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:42:39 UTC] PHP Stack trace:
+[29-Nov-2013 23:42:39 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:42:39 UTC] PHP Notice:  Undefined variable: memorial_tagline in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:42:39 UTC] PHP Stack trace:
+[29-Nov-2013 23:42:39 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:42:39 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 28
+[29-Nov-2013 23:42:39 UTC] PHP Stack trace:
+[29-Nov-2013 23:42:39 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:42:39 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 45
+[29-Nov-2013 23:42:39 UTC] PHP Stack trace:
+[29-Nov-2013 23:42:39 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:42:39 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:28
+[29-Nov-2013 23:42:39 UTC] PHP   3. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php:45
+[29-Nov-2013 23:42:52 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[29-Nov-2013 23:42:52 UTC] PHP Stack trace:
+[29-Nov-2013 23:42:52 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:42:52 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[29-Nov-2013 23:42:52 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[29-Nov-2013 23:42:55 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 23
+[29-Nov-2013 23:42:55 UTC] PHP Stack trace:
+[29-Nov-2013 23:42:55 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:42:55 UTC] PHP Fatal error:  Call to undefined method Memorial::insertNewMemorial() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:42:55 UTC] PHP Stack trace:
+[29-Nov-2013 23:42:55 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:53:05 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[29-Nov-2013 23:53:05 UTC] PHP Stack trace:
+[29-Nov-2013 23:53:05 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:53:05 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[29-Nov-2013 23:53:05 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[29-Nov-2013 23:53:05 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 23
+[29-Nov-2013 23:53:05 UTC] PHP Stack trace:
+[29-Nov-2013 23:53:05 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:53:05 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:53:05 UTC] PHP Stack trace:
+[29-Nov-2013 23:53:05 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:53:05 UTC] PHP Notice:  Undefined variable: deceased_facebook_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:53:05 UTC] PHP Stack trace:
+[29-Nov-2013 23:53:05 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:53:05 UTC] PHP Notice:  Undefined variable: deceased_name in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:53:05 UTC] PHP Stack trace:
+[29-Nov-2013 23:53:05 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:53:05 UTC] PHP Notice:  Undefined variable: death_date in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:53:05 UTC] PHP Stack trace:
+[29-Nov-2013 23:53:05 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:53:05 UTC] PHP Notice:  Undefined variable: memorial_tagline in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[29-Nov-2013 23:53:05 UTC] PHP Stack trace:
+[29-Nov-2013 23:53:05 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:53:05 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 28
+[29-Nov-2013 23:53:05 UTC] PHP Stack trace:
+[29-Nov-2013 23:53:05 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:53:06 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 45
+[29-Nov-2013 23:53:06 UTC] PHP Stack trace:
+[29-Nov-2013 23:53:06 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[29-Nov-2013 23:53:06 UTC] PHP   2. FacebookFriend->getCollaborators() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:28
+[29-Nov-2013 23:53:06 UTC] PHP   3. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\FacebookFriend.php:45
+[30-Nov-2013 00:03:04 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[30-Nov-2013 00:03:04 UTC] PHP Stack trace:
+[30-Nov-2013 00:03:04 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[30-Nov-2013 00:03:04 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[30-Nov-2013 00:03:04 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[30-Nov-2013 00:03:04 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 23
+[30-Nov-2013 00:03:04 UTC] PHP Stack trace:
+[30-Nov-2013 00:03:04 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[30-Nov-2013 00:03:04 UTC] PHP Notice:  Undefined variable: epilogue_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[30-Nov-2013 00:03:04 UTC] PHP Stack trace:
+[30-Nov-2013 00:03:04 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[30-Nov-2013 00:03:04 UTC] PHP Notice:  Undefined variable: deceased_facebook_user_id in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[30-Nov-2013 00:03:04 UTC] PHP Stack trace:
+[30-Nov-2013 00:03:04 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[30-Nov-2013 00:03:04 UTC] PHP Notice:  Undefined variable: deceased_name in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[30-Nov-2013 00:03:04 UTC] PHP Stack trace:
+[30-Nov-2013 00:03:04 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[30-Nov-2013 00:03:04 UTC] PHP Notice:  Undefined variable: death_date in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[30-Nov-2013 00:03:04 UTC] PHP Stack trace:
+[30-Nov-2013 00:03:04 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[30-Nov-2013 00:03:04 UTC] PHP Notice:  Undefined variable: memorial_tagline in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php on line 26
+[30-Nov-2013 00:03:04 UTC] PHP Stack trace:
+[30-Nov-2013 00:03:04 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[30-Nov-2013 00:03:04 UTC] PHP Fatal error:  Maximum function nesting level of '100' reached, aborting! in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 24
+[30-Nov-2013 00:03:04 UTC] PHP Stack trace:
+[30-Nov-2013 00:03:04 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[30-Nov-2013 00:03:04 UTC] PHP   2. Memorial->insertNewMemorial() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:26
+[30-Nov-2013 00:03:04 UTC] PHP   3. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Memorial.php:28
+[30-Nov-2013 00:03:04 UTC] PHP   4. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP   5. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP   6. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP   7. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP   8. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP   9. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP  10. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP  11. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP  12. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP  13. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP  14. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP  15. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP  16. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP  17. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP  18. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP  19. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP  20. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP  21. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP  22. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP  23. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP  24. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP  25. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP  26. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP  27. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP  28. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP  29. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP  30. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP  31. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP  32. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP  33. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP  34. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP  35. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP  36. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP  37. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP  38. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP  39. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP  40. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP  41. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP  42. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP  43. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP  44. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP  45. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP  46. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP  47. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP  48. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP  49. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP  50. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP  51. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP  52. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP  53. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP  54. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP  55. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP  56. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP  57. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP  58. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP  59. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP  60. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP  61. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP  62. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP  63. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP  64. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP  65. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP  66. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP  67. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP  68. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP  69. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP  70. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP  71. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP  72. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP  73. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP  74. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP  75. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP  76. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP  77. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP  78. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP  79. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP  80. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP  81. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP  82. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP  83. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP  84. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP  85. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP  86. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP  87. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP  88. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP  89. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP  90. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP  91. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP  92. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP  93. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP  94. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP  95. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP  96. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[30-Nov-2013 00:03:04 UTC] PHP  97. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[30-Nov-2013 00:03:04 UTC] PHP  98. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[30-Nov-2013 00:03:04 UTC] PHP  99. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:09 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[01-Dec-2013 00:32:09 UTC] PHP Stack trace:
+[01-Dec-2013 00:32:09 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:0
+[01-Dec-2013 00:32:09 UTC] PHP   2. require_once() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\index.php:4
+[01-Dec-2013 00:32:09 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[01-Dec-2013 00:32:12 UTC] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php on line 75
+[01-Dec-2013 00:32:12 UTC] PHP Stack trace:
+[01-Dec-2013 00:32:12 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[01-Dec-2013 00:32:12 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[01-Dec-2013 00:32:12 UTC] PHP   3. session_start() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:75
+[01-Dec-2013 00:32:13 UTC] Invalid or no certificate authority found, using bundled information
+[01-Dec-2013 00:32:13 UTC] Invalid or no certificate authority found, using bundled information
+[01-Dec-2013 00:32:13 UTC] PHP Fatal error:  Maximum function nesting level of '100' reached, aborting! in C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php on line 28
+[01-Dec-2013 00:32:13 UTC] PHP Stack trace:
+[01-Dec-2013 00:32:13 UTC] PHP   1. {main}() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:0
+[01-Dec-2013 00:32:13 UTC] PHP   2. require() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\profile.php:3
+[01-Dec-2013 00:32:13 UTC] PHP   3. Epilogue->fbCheck() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\config.php:80
+[01-Dec-2013 00:32:13 UTC] PHP   4. Epilogue->login() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:58
+[01-Dec-2013 00:32:13 UTC] PHP   5. Epilogue->hasAccount() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:65
+[01-Dec-2013 00:32:13 UTC] PHP   6. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Epilogue.php:34
+[01-Dec-2013 00:32:13 UTC] PHP   7. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:13 UTC] PHP   8. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:13 UTC] PHP   9. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[01-Dec-2013 00:32:13 UTC] PHP  10. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:13 UTC] PHP  11. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:13 UTC] PHP  12. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[01-Dec-2013 00:32:13 UTC] PHP  13. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:13 UTC] PHP  14. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:13 UTC] PHP  15. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[01-Dec-2013 00:32:13 UTC] PHP  16. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:13 UTC] PHP  17. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:13 UTC] PHP  18. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[01-Dec-2013 00:32:13 UTC] PHP  19. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:13 UTC] PHP  20. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:13 UTC] PHP  21. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[01-Dec-2013 00:32:13 UTC] PHP  22. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:13 UTC] PHP  23. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:13 UTC] PHP  24. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[01-Dec-2013 00:32:13 UTC] PHP  25. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:13 UTC] PHP  26. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:13 UTC] PHP  27. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[01-Dec-2013 00:32:13 UTC] PHP  28. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:13 UTC] PHP  29. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:13 UTC] PHP  30. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[01-Dec-2013 00:32:13 UTC] PHP  31. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:13 UTC] PHP  32. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:13 UTC] PHP  33. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[01-Dec-2013 00:32:13 UTC] PHP  34. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:13 UTC] PHP  35. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:13 UTC] PHP  36. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[01-Dec-2013 00:32:13 UTC] PHP  37. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:13 UTC] PHP  38. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:13 UTC] PHP  39. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[01-Dec-2013 00:32:13 UTC] PHP  40. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:13 UTC] PHP  41. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:13 UTC] PHP  42. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[01-Dec-2013 00:32:13 UTC] PHP  43. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:13 UTC] PHP  44. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:13 UTC] PHP  45. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[01-Dec-2013 00:32:13 UTC] PHP  46. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:13 UTC] PHP  47. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:13 UTC] PHP  48. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[01-Dec-2013 00:32:13 UTC] PHP  49. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:13 UTC] PHP  50. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:13 UTC] PHP  51. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[01-Dec-2013 00:32:13 UTC] PHP  52. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:13 UTC] PHP  53. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:13 UTC] PHP  54. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[01-Dec-2013 00:32:13 UTC] PHP  55. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:13 UTC] PHP  56. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:13 UTC] PHP  57. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[01-Dec-2013 00:32:13 UTC] PHP  58. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:13 UTC] PHP  59. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:13 UTC] PHP  60. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[01-Dec-2013 00:32:13 UTC] PHP  61. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:13 UTC] PHP  62. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:13 UTC] PHP  63. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[01-Dec-2013 00:32:13 UTC] PHP  64. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:13 UTC] PHP  65. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:13 UTC] PHP  66. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[01-Dec-2013 00:32:13 UTC] PHP  67. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:13 UTC] PHP  68. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:13 UTC] PHP  69. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[01-Dec-2013 00:32:13 UTC] PHP  70. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:13 UTC] PHP  71. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:13 UTC] PHP  72. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[01-Dec-2013 00:32:13 UTC] PHP  73. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:13 UTC] PHP  74. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:13 UTC] PHP  75. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[01-Dec-2013 00:32:14 UTC] PHP  76. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:14 UTC] PHP  77. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:14 UTC] PHP  78. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[01-Dec-2013 00:32:14 UTC] PHP  79. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:14 UTC] PHP  80. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:14 UTC] PHP  81. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[01-Dec-2013 00:32:14 UTC] PHP  82. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:14 UTC] PHP  83. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:14 UTC] PHP  84. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[01-Dec-2013 00:32:14 UTC] PHP  85. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:14 UTC] PHP  86. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:14 UTC] PHP  87. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[01-Dec-2013 00:32:14 UTC] PHP  88. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:14 UTC] PHP  89. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:14 UTC] PHP  90. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[01-Dec-2013 00:32:14 UTC] PHP  91. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:14 UTC] PHP  92. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:14 UTC] PHP  93. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[01-Dec-2013 00:32:14 UTC] PHP  94. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:14 UTC] PHP  95. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:14 UTC] PHP  96. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24
+[01-Dec-2013 00:32:14 UTC] PHP  97. Database->fetchAll() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:28
+[01-Dec-2013 00:32:14 UTC] PHP  98. Database->raw_query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:41
+[01-Dec-2013 00:32:14 UTC] PHP  99. Database->query() C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\includes\classes\Database.php:24

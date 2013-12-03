@@ -7,32 +7,51 @@
 
  class Photo{
  
+         private $_photo_array = array();
+         
+        public function addItem($obj, $key = null){
+                if ($key){
+                        if(isset($this->_photo_array[$key])){
+                                throw new KeyInUseException("Key\"$key\" already exists");
+                                }         else {$this->_photo_array[$key] = $obj;                                
+                                        }
+                        }        
+                        else {$this->_photo_array[] = $obj;
+                        }                
+        }
+        
+        public function keys(){
+                return array_keys($this->_photo_array);        
+        }
+        
+        public function exists($key){
+                return (isset($this->_photo_array[$key]));
+        }
+        
+        public function removeItem($key){
+                
+        }
+        
         public function length(){
                 return sizeof($this->_photo_array);
                         
         }
 
-                 
-         public function getPhotos($user_id, $next_call=''){
-                 // get array of first 25 from facebook                
-              $fb = Registry::getInstance()->get("fb");  
-              echo "<br>********************************<br>";
-              echo $user_id.'/photos?limit=100';
-              $call = $user_id.'/photos?limit=100'.$next_call;
-              var_dump($call);
-              echo "<br>********************************<br>";
-              $user_profile = $fb->api($call);
-              echo "<br>---------- below this line --?????----<br>";
-              
-              print_r($user_profile);
 
+//        public function __construct($whosphoto){
+//                $this->whosphoto = $whosphoto;
+//         }
+                 
+         public function getPhotos($user_id){
+                 // get array of first 25 from facebook                
+                 $fb = Registry::getInstance()->get("fb");        
+              $user_profile = $fb->api($user_id .'/photos');
+                 return $user_profile;
          }
-    
- 
+
         public function sortPhotos ($arr_of_photos){
                 // This function prints the facebook array into the lower level parts associated with the photo
                 foreach ($arr_of_photos["data"] as $value){
-                		
                          $photo_id =  ($value["id"]);
                           $caption = ($value["name"]);
                           $photo_url = ($value["source"]);
@@ -40,9 +59,9 @@
                           if (is_array($value["tags"])){
                           	if(sizeof(($value["tags"]["data"])) > 1){
                           		  echo "<br>-In this photo these people are tagged : <br>";
-                                  foreach ($value["tags"]["data"] as $value1){
-                                          $tagged_user_id = ($value1["id"]); 
-                                          $tagged_user_name = ($value1["name"]); 
+                                  foreach ($value["tags"]["data"] as $value){
+                                          $tagged_user_id = ($value["id"]); 
+                                          $tagged_user_name = ($value["name"]); 
                                           echo "$tagged_user_name has $tagged_user_id<br>";                                  
                                   }                          		
                           	}
@@ -52,11 +71,11 @@
                           if (is_array($value["comments"])){
                           	if(sizeof(($value["comments"]["data"])) > 1){
                           		  echo "<br>-In this photo these people mades comments : <br>";      	
-                                  foreach ($value["comments"]["data"] as $value2){
-                                          $comment_id = ($value2["id"]); 
-                                          $comments_user_name = ($value2["from"]["name"]); 
-                                          $comments_user_id = ($value2["from"]["id"]); 
-                                          $comments_user_comment = ($value2["message"]); 
+                                  foreach ($value["comments"]["data"] as $value){
+                                          $comment_id = ($value["id"]); 
+                                          $comments_user_name = ($value["from"]["name"]); 
+                                          $comments_user_id = ($value["from"]["id"]); 
+                                          $comments_user_comment = ($value["message"]); 
                                           echo "Comment ID : $comment_id Commented : $comments_user_comment <br>";                                           		"By : $comments_user_name ID :  $comments_user_id<br>";                                   }
                           	}
                           }
@@ -64,9 +83,9 @@
                           if (is_array($value["likes"])){
                           	if(sizeof(($value["likes"]["data"])) > 1){
                           		  echo "<br>-These people liked this photo : <br>";
-                                  foreach ($value["likes"]["data"] as $value3){
-                                          $likes_user_id = ($value3["id"]); 
-                                          $likes_user_name = ($value3["name"]); 
+                                  foreach ($value["likes"]["data"] as $value){
+                                          $likes_user_id = ($value["id"]); 
+                                          $likes_user_name = ($value["name"]); 
                                           echo "$likes_user_name has $likes_user_id<br>";  
                                   }                                
                             }
@@ -75,9 +94,9 @@
                           if (is_array($value["shares"])){
                           	if(sizeof(($value["shares"]["data"])) > 1){
   	                        		  echo "<br>-These people shared this photo : <br>";
-                                  foreach ($value["shares"]["data"] as $value4){
-                                          $shares_user_id = ($value4["id"]); 
-                                          $shares_user_name = ($value4["name"]); 
+                                  foreach ($value["shares"]["data"] as $value){
+                                          $shares_user_id = ($value["id"]); 
+                                          $shares_user_name = ($value["name"]); 
                                           echo "$shares_user_name has $shares_user_id<br>";                                  
                                   }
                           	}
@@ -87,53 +106,64 @@
                           echo "*********** The url $photo_url <br>";
                 } 
         }
-
+     
         public function insertDeceasedPhotos ($arr_of_sorted_photos, $memorial_id){
                 // okay so this one need the sort above to return that data
                 // this one needs to stick it in the photo table with the associated memorial id
                 echo " The array of sorted photos will be added to $memorial_id<br>";
         }
          
-         public function getDeceasedPhotos($deceased_facebook_user_id){
-         	// get all the deceased's photos from facebook - one time dealio?
-            	$fb = Registry::getInstance()->get("fb");        
-              	$deceased_user_photo  = $fb->api($deceased_facebook_user_id .'/photos');
-                 print "Get photos for this guy --> $deceased_facebook_user_id";
-                 return $deceased_user_photo;
-         }
-         
-
         public function downloadDeceasedPhotos ($url_to_download){
         	// take the $url and save it to the images/deceased folder
         	$url = $url_to_download;
 			$img = $this->basenamePhotoUrl($url);
-			echo "<br> url = $url and the destination file name is $img <br>";
+//			$img = "/Users/sarahhuffman/epilogue/sandbox/marie/images/deceased/8667_10151501514847711_269651373_n.jpg";
+			echo "url = $url and img = $img wawa";			
 			file_put_contents($img, file_get_contents($url));
-		}
+			echo "<br>---photo may be downloaded-!!???????????!!--<br>";
+        }
 
-		
- 		public function basenamePhotoUrl($url){
+ 		function basenamePhotoUrl($url){
  			// strips out the $url to just the file name & extension and tacks it on to the destination folder
-			$parts = explode("?",$url); 
-			//break the string up around the "?" character in $parts
-			$url = $parts['0']; 
-			//grab the first part 
-			return "C:\Users\Nafiri\Documents\GitHub\epilogue\sandbox\Nafiri\Images\piclib".basename($url);
+			return "/Users/sarahhuffman/epilogue/sandbox/marie/images/deceased/".basename($url);
 		}
+         
+//         function sortPhotoArray($arr_of_photos){
+//            $output = null;
+//            if (is_array($arrayIn)){
+//                foreach ($arrayIn as $key=>$val){
+//                    if (is_array($val)){
+//                       $output->{$key} = arrayFilter($val);
+//                    } 
+//                    else {
+//                        $output->{$key} = $this->sanitize($val);
+//                    }
+//                }
+//            } 
+//            else {
+//                $output->{$key} = $this->sanitize($val);
+//            }
+//    return $output;
+//        }
 
 
-        public function deceasedPhotosFromFacebookToFolder($deceased_facebook_user_id){
-        	echo "pretty please-----<br>";
+//        function sanitize($val)
+//        {
+                
+    //insert your preferred data filter here
+//            return addslashes('filtered: '.$val);
+//        }
 
-        	
-        	// all the pieces to get all the deceased photos from facebook into the images folders
-        	$array_of_photos = $this->getDeceasedPhotos($deceased_facebook_user_id);
-        	foreach ($array_of_photos["data"] as $value){
-			     $photo_url = ($value["source"]);
-			     $this->downloadDeceasedPhotos($photo_url);
-        	}	
-        } 
-              
+
+         
+         public function getDeceasedPhotos($deceased_facebook_user_id){
+                 // get all the deceased's photos from facebook - one time dealio?
+                 $fb = Registry::getInstance()->get("fb");        
+              $deceased_user_photo  = $fb->api($deceased_facebook_user_id .'/photos');
+                 print "Get photos for this guy --> $deceased_facebook_user_id";
+                 return $deceased_user_photo;
+         }                
+
         function displayPhotos($arr_of_photos, $indent='') {
             if ($arr_of_photos) {
                 foreach ($arr_of_photos as $value) {

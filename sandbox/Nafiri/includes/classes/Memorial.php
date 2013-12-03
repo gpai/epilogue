@@ -1,6 +1,7 @@
 <?php
 /*
- * Created on Nov 16, 2013 To change the template for this generated file go to Window - Preferences - PHPeclipse - PHP - Code Templates
+ * Created on Nov 16, 2013 
+ * This class handles the 'creation' of a new memorial id
  */
 
 class Memorial {
@@ -17,6 +18,7 @@ class Memorial {
 		return $result;
  	}
  	
+ 	
 
 
  	public function insertNewMemorial($epilogue_user_id, $deceased_facebook_user_id, $deceased_name, $death_date, $memorial_tagline){
@@ -27,13 +29,15 @@ class Memorial {
  		$get_new_id = "SELECT MAX(memorial_id) FROM memorial_id";		
  		$mem_id = $db->fetchAll($get_new_id); 
  		return $mem_id;
-// 		return array($mem_id,$epilogue_user_id, $deceased_facebook_user_id, $deceased_name);
+		return array($mem_id,$epilogue_user_id, $deceased_facebook_user_id, $deceased_name);
  	}
+ 	
+ 	
  	
  }
 
  
  
- 
+ ?>
  
  

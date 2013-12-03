@@ -13,6 +13,7 @@ require_once "includes/classes/Session.php";
 require_once "includes/classes/User.php";
 require_once "includes/classes/Video.php";
 
+echo "hi";
 
 //Getting a list of friends (not just collaborators but their actual friends list)
 $facebookFriends = new FacebookFriend();

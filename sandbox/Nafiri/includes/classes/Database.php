@@ -21,7 +21,7 @@ class Database {
 	}
 
 	public function raw_query($query) {
-		return $this->_sql->query($query);
+		return $this->query($query);
 	}
 
 	public function query($query) {
@@ -40,6 +40,7 @@ class Database {
 	public function fetchAll($query) {
 		$q = $this->raw_query($query);
 		$resultSet = array();
+
 		
 		while($r = $q->fetch_assoc())
     		$resultSet[] = $r;
