@@ -16,10 +16,11 @@ require_once "includes/classes/Video.php";
 
 //Getting a list of friends (not just collaborators but their actual friends list)
 $facebookFriends = new FacebookFriend();
+$users = new User();
 $memorial = new Memorial();
 $login = new Login();
-$epilogue_user_id = "100005789522071";
-//$epilogue_user_id = $login[$user];
+$epilogue_user_id = $users->_id;
+//$epilogue_user_id = "100005789522071";
 echo $epilogue_user_id;
 //Y=sent invitation, N=did not send invitation, A=accepted invitation
 $invited = "Y";
