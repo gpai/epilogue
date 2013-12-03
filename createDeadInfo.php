@@ -23,10 +23,10 @@ echo "classes finish line";
 echo "save new one";
 $login = new Login();
 //name of the deceased
-echo $_GET["name"].":name of the deceased";
-echo $_GET["date"].":date of death";
-echo $_GET["y/n"].":yes or no on collabs";
-echo $_GET["title"].":tagline of the deceased";
+// echo $_GET["name"].":name of the deceased";
+// echo $_GET["date"].":date of death";
+// echo $_GET["y/n"].":yes or no on collabs";
+// echo $_GET["title"].":tagline of the deceased";
 
 $deceasedName= $_GET["name"];
 $dateOfDeath= $_GET["date"];
