@@ -6,32 +6,36 @@
  */
 
 
- class newPhoto{
+ class newPost{
 
-		private $memorial_id; 
+//		private $memorial_id; 
 
-    	function setMemorialParameter($memorial_id) {
-        	$this->memorial_id = $memorial_id;
-    	}    
+//    	function setMemorialParameter($memorial_id) {
+//        	$this->memorial_id = $memorial_id;
+//    	}    
          
          public function getPostArray($user_id, $next_call=''){
                  // get array of first 25 from facebook                
               $fb = Registry::getInstance()->get("fb");  
-              echo "<br>****************** !!!! **************<br>";
-              //echo $user_id.'/photos?limit=25';
-              $call_for_photos = $user_id.'/photos?limit=100'.$next_call;
-              var_dump($call_for_photos);
-              echo "<br>***************** !!!! ***************<br>";
-              $array_of = $fb->api($call_for_photos);
-              $this->deceasedPhotosFromFacebookToFolder($array_of);
-              $this->insertFacebookPhotoInfo($array_of, $this->memorial_id);
+              echo "<br>******************* ????? ******************<br>";
+              //echo $user_id.'/posts?limit=25';
+              $call_for = $user_id.'/posts?limit=100'.$next_call;
+              echo "call for : $call_for";
+              echo "<br>**************** *** *********************<br>";
+              $array_of = $fb->api($call_for);
+              //print_r($array_of, TRUE);
+              //var_dump($array_of);                             
+?><pre><?php print_r($array_of)?> </pre><?php
+//              $this->insertFacebookPostInfo($array_of, $this->memorial_id);
               
-                //echo "<br>---------- getPhotoArray -----<br>";
-              if (!$array_of[paging]["next"]==NULL){
-              	$next_call = $this->getNext($array_of);	
-              	echo "next call --- $next_call";
-              	$this->getPhotoArray($user_id, $next_call);              	
-              }              
+                //echo "<br>---------- getPostArray -----<br>";
+ //             if (!$array_of[paging]["next"]==NULL){
+
+//              	$next_call = $this->getNext($array_of);	
+//              	echo "next call --- $next_call";
+//              	$this->getPostArray($user_id, $next_call);
+              	            	
+//              }              
          }
 
 		public function getNext($array_of){

@@ -12,13 +12,6 @@ echo "----- start here run the classes and config & -------<br>";
 
 //Registry::getInstance()->set("config", $config);
 require_once ('includes/classes/Database.php');
-//$db = Registry::getInstance()->get('db'); 
-//$q = "SELECT COUNT(*) AS TOTALFOUND FROM user WHERE fb_id = '711840292' LIMIT 1";
-//echo "$q";
-//$db->raw_query($q);
-
-
-
 echo "----- the classes failed here ? ------------<br>";
 require_once ('includes/classes/FacebookFriend.php');
 require_once ('includes/classes/Memorial.php');
@@ -26,7 +19,7 @@ echo "----- the classes failed here  Mem? ------------<br>";
 require_once ('includes/classes/Photo.php');
 require_once ('includes/classes/Vote.php');
 require_once ('includes/classes/Epilogue.php');
-//require_once ('includes/classes/Post.php');
+require_once ('includes/classes/NewPost.php');
 //require_once ('includes/classes/Favorite.php');
 require_once ('includes/classes/Login.php');
 echo "----- the classes failed here Log? ------------<br>";
@@ -94,26 +87,21 @@ $whosphoto = "1280040613"; //Nafiri's id
 //$vote = 1;
 $memorial_id = "1";
 
-$objPhoto = new Photo($whosphoto, $memorial_id);
+//$objPhoto = new Photo($whosphoto, $memorial_id);
 
 //echo "<br>---- download ALL of Nafiri's public photos into my image folder ----<br>";
-$objPhoto->getPhotoArray($whosphoto, $memorial_id);
-
-
+//$objPhoto->getPhotoArray($whosphoto, $memorial_id);
 // echo "<br>--";
-
 //$objPhoto->insertFacebookPhotoInfo($array_of, 1);
-
-
 //echo "---run this to get/download deceased photos into the folder-----------<br>";
-
 //$objPhoto = new Photo($deceased_facebook_user_id);
 //$objPhoto->deceasedPhotosFromFacebookToFolder($whosphoto);
-
-
-
-
 //echo "---- did it work-----";
+
+echo "-----newPost class----- <br>";
+$objPhoto = new newPost($whosphoto, $memorial_id);
+$objPhoto->getPostArray($whosphoto, $memorial_id);
+
 
 
 //<pre><?php //print_r($array_of)? > </pre>
