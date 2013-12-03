@@ -19,7 +19,7 @@ echo "----- the classes failed here  Mem? ------------<br>";
 require_once ('includes/classes/Photo.php');
 require_once ('includes/classes/Vote.php');
 require_once ('includes/classes/Epilogue.php');
-require_once ('includes/classes/NewPost.php');
+require_once ('includes/classes/newPost.php');
 //require_once ('includes/classes/Favorite.php');
 require_once ('includes/classes/Login.php');
 echo "----- the classes failed here Log? ------------<br>";
@@ -77,12 +77,12 @@ echo "-- MEMORIAL class code ran below --<br>";
 echo "<br>--Memorial class done -----<br>";
 
 
-echo "<br>-- PHOTO class below ------<br>";
+echo "<br>-- PHOTO class below --!!----<br>";
 // Photo Stuff - get array of photo info back from facebook and then do stuff with the array
 
 // -------------- stub data
-//$whosphoto = "688307710"; 
-$whosphoto = "1280040613"; //Nafiri's id
+$whosphoto = "688307710"; //Grace's ID
+//$whosphoto = "1280040613"; //Nafiri's id
 //$photo_id = "0981";
 //$vote = 1;
 $memorial_id = "1";

@@ -3,6 +3,7 @@
  * Created on Nov 27, 2013
  *
  * Copy of the Phot class to modify for the  Post class 
+ * ?><pre><?php print_r($array_of)?> </pre><?php
  */
 
 
@@ -10,30 +11,32 @@
 
 //		private $memorial_id; 
 
-//    	function setMemorialParameter($memorial_id) {
-//        	$this->memorial_id = $memorial_id;
-//    	}    
-         
-         public function getPostArray($user_id, $next_call=''){
+  //  	function setMemorialParameter($memorial_id) {
+    //    	$this->memorial_id = $memorial_id;
+    	//}    
+        
+         public function getPostArray($user_id, $memorial_id, $next_call=''){
                  // get array of first 25 from facebook                
               $fb = Registry::getInstance()->get("fb");  
-              echo "<br>******************* ????? ******************<br>";
-              //echo $user_id.'/posts?limit=25';
-              $call_for = $user_id.'/posts?limit=100'.$next_call;
-              echo "call for : $call_for";
-              echo "<br>**************** *** *********************<br>";
+//              echo "<br>****************  ????  *********************<br>";
+
+
+
+              $call_for = $user_id.'/statuses?limit=100'.$next_call;
+ //             echo "call for : $call_for";
+ //             echo "<br>**************** *** *********************<br>";
               $array_of = $fb->api($call_for);
               //print_r($array_of, TRUE);
               //var_dump($array_of);                             
-?><pre><?php print_r($array_of)?> </pre><?php
-//              $this->insertFacebookPostInfo($array_of, $this->memorial_id);
+
+              $this->insertFacebookStatusUpdateInfo ($array_of, $memorial_id);
               
                 //echo "<br>---------- getPostArray -----<br>";
  //             if (!$array_of[paging]["next"]==NULL){
 
 //              	$next_call = $this->getNext($array_of);	
 //              	echo "next call --- $next_call";
-//              	$this->getPostArray($user_id, $next_call);
+//              	$this->getPostArray($user_id,$memorial_id, $next_call);
               	            	
 //              }              
          }
@@ -53,22 +56,26 @@
 		
 
  
-        public function insertFacebookPhotoInfo ($arr_of_photos, $memorial_id){
+        public function insertFacebookStatusUpdateInfo ($array_of, $memorial_id){
                 // This function inserts the facebook photo array info into tables in the database tied to memorial id
                 $db = Registry::getInstance()->get('db'); 
-                $photo_id =  "";
-                $caption = "";
-                $photo_url ="";
-                $photo_create_date = "";
-                $fb_user_id_of_photo = "";
+                $status_id =  "";
+                $status_update = "";
+                $status_updated_time = "";
                 
-                foreach ($arr_of_photos["data"] as $value){
+
+                $c = NULL;
+				$t = NULL;
+				$l = NULL;		
+				$s = NULL;
+                
+                foreach ($array_of["data"] as $value){
           		
-                         $photo_id =  ($value["id"]);
-                         if (isset( $value["name"] )){ $caption = ($value["name"]);}
-                         $photo_url = ($value["source"]);
-                         if (isset( $value["created_time"])){$photo_create_date = ($value["created_time"]);}
-                         $fb_user_id_of_photo = ($value["from"]["id"]);
+                         $status_id =  ($value["id"]);
+                         //if (isset( $value["name"] )){ $caption = ($value["name"]);}
+                         $status_update = ($value["message"]);
+                         //if (isset( $value["created_time"])){$photo_create_date = ($value["created_time"]);}
+                         
 
                          if (is_array($value["tags"])){                        	
                           	if(sizeof(($value["tags"]["data"])) >= 1){
@@ -79,7 +86,7 @@
                                           $tagged_user_name = ($value1["name"]); 
 //                                          echo "$tagged_user_name has $tagged_user_id<br>"; 
                                           $query1 = "INSERT INTO  `Vixen_test`.`tags` (`memorial_id` ,`tagged_name` ,`tagged_fb_id` ,`tagged_item_id`)VALUES (
-													'$memorial_id',  '$tagged_user_name',  '$tagged_user_id',  '$photo_id')";                
+													'$memorial_id',  '$tagged_user_name',  '$tagged_user_id',  '$status_id')";                
                   						  //echo "this is q1 $query1";
                   						  $db->raw_query($query1);				
                                   }                          		
@@ -95,10 +102,16 @@
                                           $comment_id = ($value2["id"]); 
                                           $comments_user_name = ($value2["from"]["name"]); 
                                           $comments_user_id = ($value2["from"]["id"]); 
-                                          $comments_user_comment = ($value2["message"]); 
+                                          $comments_user_comment = ($value2["message"]);
+                                          $time_of_comment = ($value2["created_time"]); 
+                                        echo "the loooong comment $comments_user_comment";        
+                                          $the_comment = mysqli_real_escape_string($db, $comments_user_comment); //$this->real_escape_string($caption);                          	
+      									 if (sizeof($the_comment) <1){
+      									 	$the_comment = "comment failed to come through";
+      									 }
                                                                                                     
-                                          $query2 = "INSERT INTO  `Vixen_test`.`comments` (`comment_id` ,`comment` ,`comment_type` ,`commenter_fb_id` ,`commenter_name` ,`memorial_id` ,`commented_item_id`)VALUES (
-													NULL ,  '$comments_user_comment',  'photo',  '$comments_user_id',  '$comments_user_name',  '$memorial_id',  '$photo_id')";                
+                                          $query2 = "INSERT INTO  `Vixen_test`.`comments` (`comment_id` ,`comment` ,`comment_type` ,`commenter_fb_id` ,`commenter_name` ,`memorial_id` ,`commented_item_id`,`time_of_comment`)VALUES (
+													NULL ,  '$the_comment',  'post',  '$comments_user_id',  '$comments_user_name',  '$memorial_id',  '$status_id', '$time_of_comment')";                
                   						  //echo "this is Q2 -- $query2";
                   						  $db->raw_query($query2);
   								}
@@ -113,7 +126,7 @@
                                           $likes_user_id = ($value3["id"]); 
                                           $likes_user_name = ($value3["name"]); 
                                           $query3 = "INSERT INTO  `Vixen_test`.`likes` (`memorial_id` ,`like_name` ,`like_fb_id` ,`liked_item_id`)VALUES (
-													'$memorial_id',  '$likes_user_name',  '$likes_user_id',  '$photo_id')";                
+													'$memorial_id',  '$likes_user_name',  '$likes_user_id',  '$status_id')";                
                   						  //echo "this is Q3 $query3";
                   						  $db->raw_query($query3); 
                                   }                                
@@ -128,7 +141,7 @@
                                           $shares_user_id = ($value4["id"]); 
                                           $shares_user_name = ($value4["name"]); 
                                           $query4 = "INSERT INTO  `Vixen_test`.`shares` (`memorial_id` ,`sharer_name` ,`sharer_fb_id` ,`shared_item_id`)VALUES (
-													'$memorial_id',  '$shares_user_name',  '$shares_user_id',  '$photo_id')";                
+													'$memorial_id',  '$shares_user_name',  '$shares_user_id',  '$status_id')";                
                   						  //echo "this is shares ---  Q4 --- $query4";
                   						  $db->raw_query($query4); 
                   						  
@@ -136,10 +149,12 @@
                                  }
                           	}
                           } 
-                          
-                          $photo_file_name = $this->basenamePhotoFilename($photo_url);
-                          
-						  $test = "INSERT INTO `Vixen_test`.`photo` (`photo_id`, `url`, `comment_id`, `like_id`, `share_id`, `tag_id`, `meaning_rank`, `photo_date`, `caption`, `album_id`, `album_name`, `to_be_approved`, `memorial_id`, `vote`, `photo_create_date`, `photo_user_id`) VALUES ('$photo_id', '$photo_file_name', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0', '$memorial_id', '1', '$photo_create_date', '$fb_user_id_of_photo');";
+                         
+						  $total_meaning = $t+$l+$c+$s;
+                     	  $the_status_update = mysqli_real_escape_string($db, $status_update); //$this->real_escape_string($caption);                          	
+                               
+						  $test = "INSERT INTO `Vixen_test`.`post` (`post_id`, `post`, `comment_id`, `like_id`, `share_id`, `tag_id`, `meaning_rank`, `to_be_approved`, `memorial_id`, `vote`, `post_create_date`) VALUES (" .
+						  		"'$status_id', '$the_status_update', '$c', '$l', '$s', '$t', '$total_meaning', '0', '$memorial_id', '1', '$status_updated_time');";
 						  $db->raw_query($test); 
                       
         		}
