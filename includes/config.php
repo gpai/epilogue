@@ -67,20 +67,18 @@ $config['db']['host'] = 'mysql2.speedypuppy.net';
 // Store config in the registry
 Registry::getInstance()->set("config", $config);
 
-
 /**
  * BOOTSTRAP CONNECTIONS
  */
-
-// Initialize Facebook
-$facebook = new Facebook($config['fb']);
-Registry::getInstance()->set("fb", $facebook);
-
 
 // Initialize Session
 session_name($config['session']['name']);
 session_set_cookie_params(0, '/', $config['session']['host']);
 session_start();
+
+// Initialize Facebook
+$facebook = new Facebook($config['fb']);
+Registry::getInstance()->set("fb", $facebook);
 
 // Connect to the database
 $database = new Database($config['db']['user'], $config['db']['password'], $config['db']['schema'], $config['db']['host']);
