@@ -36,8 +36,8 @@ $tagline= $_GET["title"];
 $memorialInfo = new Memorial();
 $epilogue_user_id = "100005789522071";
 $deceased_facebook_uer_id = "123";
-$memorialId=$memorialInfo->insertNewMemorial($epilogue_user_id, $deceased_facebook_user_id, $deceasedName, $dateOfDeath, $tagline);
-echo $memorialId;
+//$memorialId=$memorialInfo->insertNewMemorial($epilogue_user_id, $deceased_facebook_user_id, $deceasedName, $dateOfDeath, $tagline);
+//echo $memorialId;
 
-include "create_info.phtml";
+include "pages/create_info.phtml";
 ?>
